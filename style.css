@@ -68,7 +68,28 @@ footer {
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
-  gap: 10px; /* Space between buttons */
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px; /* Space between buttons */
+}
+
+.footer-btn {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  background-color: #0056b3;
 }
 
 /* Quiz container styling */
@@ -223,11 +244,13 @@ footer {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 20px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+
 }
 
 .modern-button:hover {
-  background-color: #0056b3;
+  background-color: #0261c7;
 }
 
 /* Big score text styling */
