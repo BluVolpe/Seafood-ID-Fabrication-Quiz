@@ -23,7 +23,7 @@ header {
   text-align: center;
   padding: 3px 0; /* Reduce vertical padding */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  font-size: 14px; /* Reduce font size */
+  font-size: 8px; /* Reduce font size */
 }
 
 /* Footer styling */
@@ -178,6 +178,20 @@ footer {
 .big-score {
   font-size: 36px;
   margin-top: 20px;
+}
+
+/* Explanation container styling */
+.explanation {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.explanation p {
+  margin: 5px 0;
 }
 
 /* Media queries for responsive design */
