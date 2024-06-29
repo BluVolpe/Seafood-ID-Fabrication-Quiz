@@ -1,0 +1,227 @@
+/* Overall body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0; /* Reduce vertical padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 14px; /* Reduce font size */
+}
+
+/* Footer styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+/* Quiz container styling */
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px; /* Adjust margin for smaller header */
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+/* Question container styling */
+#question-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Question text styling */
+#question {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Image styling within question */
+#question img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Choices container styling */
+#choices {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Individual choice button styling */
+#choices button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Correct answer button styling */
+#choices button.correct {
+  background-color: #28a745;
+}
+
+/* Wrong answer button styling */
+#choices button.wrong {
+  background-color: #dc3545;
+}
+
+/* Score container styling */
+#score-container {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Question tracker styling */
+#question-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Question counter styling */
+#question-counter {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Question tally container styling */
+#question-tally {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3px;
+}
+
+/* Individual tally item styling */
+#question-tally span {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #444;
+}
+
+/* Correct tally item styling */
+#question-tally span.correct {
+  background-color: #28a745;
+}
+
+/* Wrong tally item styling */
+#question-tally span.wrong {
+  background-color: #dc3545;
+}
+
+/* Timer styling */
+#timer {
+  font-size: 5px;
+  font-weight: bold;
+}
+
+/* Modern button styling */
+.modern-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+/* Modern button hover effect */
+.modern-button:hover {
+  background-color: #0056b3;
+}
+
+/* Big score text styling */
+.big-score {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #quiz-container {
+    margin-top: 30px; /* Adjust margin for smaller header */
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+
+  #question {
+    font-size: 20px;
+  }
+
+  #choices button {
+    font-size: 14px;
+    padding: 6px;
+    margin: 10px 0;
+  }
+
+  #timer {
+    font-size: 10px;
+  }
+
+  header,
+  footer {
+    padding: 3px 0; /* Reduce padding for header */
+  }
+
+  #question-tally span {
+    width: 8px;
+    height: 8px;
+  }
+
+  .modern-button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .big-score {
+    font-size: 30px;
+  }
+}
