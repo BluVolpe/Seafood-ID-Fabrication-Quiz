@@ -38,6 +38,12 @@ header {
   margin-right: auto;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu-button {
   background-color: #444;
   color: #fff;
@@ -246,11 +252,10 @@ footer {
   transition: background-color 0.3s ease;
   margin-top: 3px;
   margin-bottom: 3px;
-
 }
 
 .modern-button:hover {
-  background-color: #0261c7;
+  background-color: #0056b3;
 }
 
 /* Big score text styling */
