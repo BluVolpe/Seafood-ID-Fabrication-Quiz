@@ -3,20 +3,24 @@ let score = 0;
 let questionsAnswered = 0;
 let missedQuestions = [];
 let usedQuestions = [];
+let selectedQuiz = null;
 
 // Grabbing elements from the DOM
+const menuContainer = document.getElementById("menu-container");
 const quizContainer = document.getElementById("quiz-container");
 const questionElement = document.getElementById("question");
 const choicesElement = document.getElementById("choices");
 const scoreContainer = document.getElementById("score-container");
 const scoreElement = document.getElementById("score");
 const restartButton = document.getElementById("restart-button");
+const menuButton = document.getElementById("menu-button");
 const questionTracker = document.getElementById("question-tally");
 const questionCounter = document.getElementById("question-counter");
 const explanationsContainer = document.getElementById("explanations");
 
-// Adding event listener to the restart button to restart the quiz
+// Adding event listeners to the buttons
 restartButton.addEventListener("click", restartQuiz);
+menuButton.addEventListener("click", returnToMenu);
 
 // Function to shuffle the array of choices for randomness
 function shuffleArray(array) {
@@ -32,10 +36,10 @@ function displayQuestion() {
   let currentQuestion;
   
   do {
-    currentQuestionIndex = Math.floor(Math.random() * questions.length);
+    currentQuestionIndex = Math.floor(Math.random() * questions[selectedQuiz].length);
   } while (usedQuestions.includes(currentQuestionIndex));
   
-  currentQuestion = questions[currentQuestionIndex];
+  currentQuestion = questions[selectedQuiz][currentQuestionIndex];
   usedQuestions.push(currentQuestionIndex);
   
   questionElement.textContent = currentQuestion.question;
@@ -105,13 +109,14 @@ function updateTracker(isCorrect) {
   const span = document.createElement("span");
   span.classList.add(isCorrect ? "correct" : "wrong");
   questionTracker.appendChild(span);
-  questionCounter.textContent = `${questionsAnswered}/10`;
+  questionCounter.textContent = `${questionsAnswered + 1}/10`;
 }
 
 // Function to end the quiz
 function endQuiz() {
   quizContainer.style.display = "none";
   scoreContainer.style.display = "block";
+  restartButton.style.display = "inline-block"; // Show the retake quiz button
   const percentageScore = (score / 10) * 100;
   scoreElement.textContent = `${percentageScore}%`;
   displayExplanations(); // Display explanations for missed questions
@@ -142,12 +147,36 @@ function restartQuiz() {
   explanationsContainer.innerHTML = ""; // Clear explanations
   quizContainer.style.display = "block";
   scoreContainer.style.display = "none";
-  shuffleArray(questions);
+  restartButton.style.display = "none"; // Hide the retake quiz button
+  displayQuestion();
+}
+
+// Function to return to the main menu
+function returnToMenu() {
+  scoreContainer.style.display = "none";
+  menuContainer.style.display = "block";
+  currentQuestionIndex = 0;
+  score = 0;
+  questionsAnswered = 0;
+  missedQuestions = []; // Reset missed questions
+  usedQuestions = []; // Reset used questions
+  questionTracker.innerHTML = "";
+  questionCounter.textContent = `${questionsAnswered}/10`;
+  explanationsContainer.innerHTML = ""; // Clear explanations
+  quizContainer.style.display = "none";
+  restartButton.style.display = "none"; // Hide the retake quiz button
+}
+
+// Function to start the quiz
+function startQuiz(quiz) {
+  selectedQuiz = quiz;
+  menuContainer.style.display = "none";
+  quizContainer.style.display = "block";
+  shuffleArray(questions[selectedQuiz]);
   displayQuestion();
 }
 
 // Event listener to start the quiz when the DOM content is loaded
 document.addEventListener("DOMContentLoaded", () => {
-  shuffleArray(questions);
-  displayQuestion();
+  // Initial setup if needed
 });

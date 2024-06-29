@@ -23,7 +23,38 @@ header {
   text-align: center;
   padding: 3px 0; /* Reduce vertical padding */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  font-size: 8px; /* Reduce font size */
+  font-size: 8px; /* Adjust font size */
+}
+
+/* Menu container styling */
+#menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; /* Adjust for header */
+  width: 100%; /* Ensure full width */
+  max-width: 600px; /* Limit max width for larger screens */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; /* Add border-radius for modern look */
+}
+
+.menu-button:hover {
+  background-color: #555;
 }
 
 /* Footer styling */
@@ -32,11 +63,12 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #333;
-  color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 10px 0;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
 }
 
 /* Quiz container styling */
@@ -45,11 +77,13 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  margin-top: 30px; /* Adjust margin for smaller header */
+  margin-top: 50px; /* Adjust margin for smaller header */
   margin-bottom: 50px;
   width: 100%;
   max-width: 600px;
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Question container styling */
@@ -91,6 +125,12 @@ footer {
   font-size: 16px;
   width: 100%;
   box-sizing: border-box;
+  border-radius: 5px; /* Add border-radius for modern look */
+  transition: background-color 0.3s ease;
+}
+
+#choices button:hover {
+  background-color: #555;
 }
 
 /* Correct answer button styling */
@@ -106,9 +146,26 @@ footer {
 /* Score container styling */
 #score-container {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 60px; /* Adjust margin to prevent overlapping */
   width: 100%;
+  max-width: 600px;
   box-sizing: border-box;
+  padding-bottom: 70px; /* Ensure space for buttons */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Score section styling */
+#score-section {
+  margin-bottom: 20px; /* Ensure separation from explanations */
+}
+
+/* Explanation container styling */
+#explanations {
+  max-height: calc(100vh - 200px); /* Adjust based on header and footer height */
+  overflow-y: auto;
+  margin-top: 20px;
 }
 
 /* Question tracker styling */
@@ -169,7 +226,6 @@ footer {
   margin-top: 20px;
 }
 
-/* Modern button hover effect */
 .modern-button:hover {
   background-color: #0056b3;
 }
