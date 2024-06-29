@@ -7,6 +7,8 @@ This project is a comprehensive quiz designed to test knowledge in identifying a
 - **Dynamic Questions:** The quiz dynamically presents questions, including images of seafood cuts, and asks users to identify the cuts or answer related questions.
 - **Timer Functionality:** A timer is set for each quiz session, ensuring users complete the quiz within a specified time frame.
 - **Score Tracking:** The quiz tracks correct and incorrect answers, providing feedback at the end of the quiz.
+- **Explanations:** Explanations for each missed question are provided at the end of the quiz.
+- **Randomized Questions:** Ensures that questions are not repeated in a single quiz session.
 - **Responsive Design:** The quiz is designed to be responsive, ensuring a seamless experience on various devices, from desktops to mobile phones.
 
 ### Code Components
@@ -14,18 +16,21 @@ This project is a comprehensive quiz designed to test knowledge in identifying a
 1. **HTML Structure (`index.html`):**
    - **Header:** Displays the title of the quiz.
    - **Quiz Container:** Contains the question tracker, the question itself, and answer choices.
-   - **Score Container:** Displays the user's score after completing the quiz.
+   - **Score Container:** Displays the user's score after completing the quiz along with explanations for missed questions.
    - **Footer:** Displays the remaining time for the quiz.
 
 2. **CSS Styling (`style.css`):**
    - **Layout and Design:** Defines the layout, colors, and styles for the quiz, ensuring a clean and modern look.
    - **Responsive Adjustments:** Ensures the quiz adapts to different screen sizes and devices.
+   - **Header and Footer:** Reduced in size to take up less space on the screen.
 
 3. **JavaScript Functionality (`script.js`):**
    - **Question Handling:** Functions to shuffle questions, display the current question, and handle user answers.
    - **Timer Management:** Functions to start, update, and end the timer.
    - **Score Calculation:** Functions to calculate and display the user's score at the end of the quiz.
+   - **Explanations Display:** Functions to provide explanations for each missed question at the end of the quiz.
    - **Event Listeners:** Handles user interactions, such as selecting an answer or restarting the quiz.
+   - **Randomized Question Selection:** Ensures that questions are not repeated in a single quiz session.
 
 4. **Questions Database (`questions.js`):**
    - **Question Objects:** Contains the array of question objects with properties like the question text, image, choices, and the correct answer.
@@ -36,20 +41,19 @@ This project is a comprehensive quiz designed to test knowledge in identifying a
 2. **Answer Selection:** Users select an answer by clicking on one of the choices. The selected answer is then checked against the correct answer.
 3. **Feedback:** Immediate feedback is provided after each question. The question tracker updates to reflect the user's progress.
 4. **Timer:** The timer counts down from the set time (10 minutes) and displays the remaining time in the footer.
-5. **End of Quiz:** When all questions are answered or time runs out, the quiz ends, and the user's score is displayed in the score container.
+5. **End of Quiz:** When all questions are answered or time runs out, the quiz ends, and the user's score is displayed in the score container along with explanations for missed questions.
 6. **Restart Option:** Users can restart the quiz by clicking the "Take Quiz Again" button, which resets all variables and starts the quiz anew.
 
 ### How to Use
 
 1. **Starting the Quiz:** Open the `index.html` file in a web browser to start the quiz.
 2. **Answering Questions:** Click on the answer choices to select your answer. The quiz will automatically move to the next question after each selection.
-3. **Viewing Results:** After completing the quiz, view your score and see which questions were answered correctly or incorrectly.
+3. **Viewing Results:** After completing the quiz, view your score and see which questions were answered correctly or incorrectly. Explanations for missed questions will be provided.
 4. **Restarting the Quiz:** Click the "Take Quiz Again" button to restart the quiz and try again.
 
 ### Future Enhancements
 
 - **More Question Types:** Adding different types of questions, such as multiple-choice with images and text, to diversify the quiz experience.
-- **Enhanced Feedback:** Providing detailed explanations for each answer to help users learn from their mistakes.
 
 
 ### Conclusion
