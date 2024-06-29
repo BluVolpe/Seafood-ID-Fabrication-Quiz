@@ -1,8 +1,7 @@
 const questions = {
   introduction: [
     {
-      question:
-        "What are the key safety practices in a seafood fabrication room?",
+      question: "What are the key safety practices in a seafood fabrication room?",
       choice: [
         "Be alert, secure knives, and keep the worktable clean",
         "Use any knife available",
@@ -11,11 +10,10 @@ const questions = {
       ],
       answer: "Be alert, secure knives, and keep the worktable clean",
       explanation:
-        "Key safety practices include being alert to activities and others around you, securing knives, and keeping the worktable clean and organized.",
+        "Key safety practices include being aware of your surroundings, securing knives to prevent accidents, and keeping the worktable clean to maintain hygiene and organization.",
     },
     {
-      question:
-        "What is the role of the National Marine Fisheries Service (NMFS)?",
+      question: "What is the role of the National Marine Fisheries Service (NMFS)?",
       choice: [
         "Manages, conserves, and protects marine resources",
         "Regulates agricultural land",
@@ -24,7 +22,7 @@ const questions = {
       ],
       answer: "Manages, conserves, and protects marine resources",
       explanation:
-        "The NMFS is responsible for the stewardship of national marine resources, including the management, conservation, and protection of living marine resources within the U.S. Exclusive Economic Zone.",
+        "The NMFS is responsible for the stewardship of marine resources, focusing on their management, conservation, and protection within the U.S. Exclusive Economic Zone.",
     },
     {
       question: "What does the swim bladder in fish help with?",
@@ -36,14 +34,14 @@ const questions = {
       ],
       answer: "Maintaining buoyancy",
       explanation:
-        "The swim bladder allows fish to maintain a constant buoyancy, enabling them to navigate different water depths efficiently.",
+        "The swim bladder allows fish to regulate their buoyancy, enabling them to stay at different water depths without expending much energy.",
     },
     {
       question: "What is the correct storage temperature for live mollusks?",
       choice: ["35°- 40°F", "28°- 32°F", "39°- 45°F", "26°- 32°F"],
       answer: "35°- 40°F",
       explanation:
-        "Live mollusks should be stored at temperatures between 35° and 40°F to maintain their freshness.",
+        "Live mollusks should be stored at 35°-40°F to keep them alive and maintain their freshness until they are used.",
     },
     {
       question: "What does 'F.A.S.' stand for in seafood processing?",
@@ -55,7 +53,7 @@ const questions = {
       ],
       answer: "Frozen at Sea",
       explanation:
-        "F.A.S. indicates 'Frozen at Sea,' a method of preserving seafood immediately after catch to maintain freshness.",
+        "'Frozen at Sea' refers to the practice of freezing seafood immediately after it's caught to preserve its freshness and quality.",
     },
     {
       question: "What is the 'up and over' technique used for?",
@@ -67,7 +65,7 @@ const questions = {
       ],
       answer: "Hard boned fish with large rib cages",
       explanation:
-        "The 'up and over' technique is used for hard boned fish with large rib cages, such as those in the Cod and Bass family.",
+        "The 'up and over' technique is specifically designed for cutting hard boned fish with large rib cages, such as cod and bass, allowing for more precise and efficient filleting.",
     },
     {
       question: "What is the purpose of the myocommata in fish?",
@@ -79,7 +77,7 @@ const questions = {
       ],
       answer: "Connective tissue between muscle fibers",
       explanation:
-        "Myocommata (or myosepta) are the connective tissues between muscle fibers in fish.",
+        "Myocommata are the connective tissues that separate the muscle fibers in fish, helping to give fish its distinctive flaky texture when cooked.",
     },
     {
       question: "What is a pavé cut?",
@@ -91,18 +89,17 @@ const questions = {
       ],
       answer: "A tile or square cut, uniform thickness from a filet",
       explanation:
-        "A pavé is a tile or square cut with uniform thickness from a filet.",
+        "A pavé cut is a tile or square-shaped cut from a filet, ensuring uniform thickness and size for even cooking and attractive presentation.",
     },
     {
       question: "What is the proper way to handle whole fish and their filets?",
       choice: ["With two hands", "By the tail", "By the head", "With one hand"],
       answer: "With two hands",
       explanation:
-        "Fish should always be handled with two hands to prevent damage and maintain their integrity.",
+        "Handling fish with two hands ensures you maintain control and prevent damage to the delicate flesh, preserving the quality of the fish.",
     },
     {
-      question:
-        "What is the definition of 'in the round' in seafood purchasing?",
+      question: "What is the definition of 'in the round' in seafood purchasing?",
       choice: [
         "Fish sold just as it is caught",
         "Fish with internal organs removed",
@@ -111,11 +108,10 @@ const questions = {
       ],
       answer: "Fish sold just as it is caught",
       explanation:
-        "'In the round' refers to fish sold just as it is caught from the water, without any cleaning or alteration.",
+        "'In the round' means the fish is sold in its natural, whole state, just as it was when caught, without any processing or cleaning.",
     },
     {
-      question:
-        "What are the primary responsibilities of the National Oceanic and Atmospheric Administration (NOAA)?",
+      question: "What are the primary responsibilities of the National Oceanic and Atmospheric Administration (NOAA)?",
       choice: [
         "Conditions of the oceans, major waterways, and the atmosphere",
         "Agricultural land management",
@@ -124,7 +120,7 @@ const questions = {
       ],
       answer: "Conditions of the oceans, major waterways, and the atmosphere",
       explanation:
-        "NOAA focuses on the conditions of the oceans, major waterways, and the atmosphere, providing weather forecasts, storm warnings, and climate monitoring.",
+        "NOAA is tasked with monitoring and understanding the conditions of the oceans, major waterways, and the atmosphere, providing crucial data for weather forecasting and environmental protection.",
     },
     {
       question: "Why is 68% of seafood in the U.S. consumed in restaurants?",
@@ -136,7 +132,7 @@ const questions = {
       ],
       answer: "Expert preparation, variety and access, perceived complexity",
       explanation:
-        "Consumers prefer restaurant-prepared seafood due to expert preparation, perceived complexity of cooking at home, and the variety and access restaurants provide.",
+        "Restaurants offer expert preparation and a wide variety of seafood options, making it easier for consumers to enjoy seafood without the perceived complexity of cooking it at home.",
     },
     {
       question: "What are the proper storage techniques for round fish?",
@@ -148,21 +144,19 @@ const questions = {
       ],
       answer: "Place in a perforated pan, cover with flaked or crushed ice",
       explanation:
-        "Round fish should be placed in a perforated or draining pan, in a position to simulate swimming, and packed or covered with flaked or crushed ice.",
+        "Round fish should be stored in a perforated pan with flaked or crushed ice to keep them fresh and ensure proper drainage of melting ice.",
     },
     {
-      question:
-        "What is the purpose of the U.S. Exclusive Economic Zone (EEZ)?",
+      question: "What is the purpose of the U.S. Exclusive Economic Zone (EEZ)?",
       choice: [
         "Regulate fisheries and resource exploitation within 200 nautical miles of the coastline",
         "Provide a recreational fishing area",
         "Serve as a military training zone",
         "Reserve area for scientific research",
       ],
-      answer:
-        "Regulate fisheries and resource exploitation within 200 nautical miles of the coastline",
+      answer: "Regulate fisheries and resource exploitation within 200 nautical miles of the coastline",
       explanation:
-        "The EEZ of the United States extends up to 200 nautical miles from the coastline, where the U.S. has special rights to regulate fisheries, maritime activities, and resource exploitation.",
+        "The EEZ grants the U.S. special rights to manage and exploit marine resources within 200 nautical miles of its coastline, ensuring sustainable use and conservation.",
     },
     {
       question: "What is cryogenic freezing?",
@@ -172,21 +166,19 @@ const questions = {
         "Packing fish in ice",
         "Storing fish at room temperature",
       ],
-      answer:
-        "Exposure to super-cold air or a spray of liquid nitrogen or carbon dioxide",
+      answer: "Exposure to super-cold air or a spray of liquid nitrogen or carbon dioxide",
       explanation:
-        "Cryogenic freezing involves exposing products to super-cold air or a spray of liquid nitrogen or carbon dioxide, preserving seafood with a taste and texture more resembling fresh.",
+        "Cryogenic freezing uses super-cold air or liquid nitrogen to rapidly freeze seafood, preserving its texture and flavor as close to fresh as possible.",
     },
     {
       question: "What is the correct storage temperature for fin fish?",
       choice: ["28°- 32°F", "35°- 40°F", "39° - 45°F", "26° - 32°F"],
       answer: "28°- 32°F",
       explanation:
-        "Fin fish should be stored at deep chill temperatures between 28° and 32°F to maintain freshness.",
+        "Fin fish should be stored at temperatures between 28° and 32°F to slow bacterial growth and maintain optimal freshness.",
     },
     {
-      question:
-        "What is the significance of the 'straight' technique in seafood fabrication?",
+      question: "What is the significance of the 'straight' technique in seafood fabrication?",
       choice: [
         "Used for soft boned fish like salmon and trout",
         "Used for hard boned fish with large rib cages",
@@ -195,7 +187,7 @@ const questions = {
       ],
       answer: "Used for soft boned fish like salmon and trout",
       explanation:
-        "The 'straight' technique is used for soft boned fish, such as those in the salmon and trout family, making it easier to cut and prepare.",
+        "The 'straight' technique is tailored for soft boned fish like salmon and trout, making it easier to cut clean, even fillets.",
     },
     {
       question: "What does 'pan-dressed' mean in seafood purchasing?",
@@ -207,7 +199,7 @@ const questions = {
       ],
       answer: "A smaller fish prepared for cooking with the bones in",
       explanation:
-        "'Pan-dressed' refers to a smaller fish prepared for cooking with the bones in; the head and tail may be removed or left as per preference.",
+        "'Pan-dressed' refers to smaller fish that are cleaned and ready for cooking, typically with bones intact to retain flavor and moisture.",
     },
     {
       question: "What are the proper storage techniques for flat fish?",
@@ -219,7 +211,7 @@ const questions = {
       ],
       answer: "Place at a 45-60 degree angle, cover with flaked or crushed ice",
       explanation:
-        "Flat fish should be placed at a 45-60 degree angle to prevent water accumulation, with the pigmented side down, and packed or covered with flaked or crushed ice.",
+        "Flat fish should be stored at a slight angle with the pigmented side down and covered with ice to prevent water from accumulating and to keep them fresh.",
     },
     {
       question: "What is the purpose of myotomes in fish?",
@@ -231,7 +223,7 @@ const questions = {
       ],
       answer: "Muscle fibers in fish",
       explanation:
-        "Myotomes are muscle fibers in fish that are shorter and more tender than those in meat.",
+        "Myotomes are the muscle fibers in fish, contributing to the flaky texture that makes fish distinct from other meats.",
     },
     {
       question: "What does 'IQF' stand for in seafood processing?",
@@ -243,28 +235,26 @@ const questions = {
       ],
       answer: "Individually Quick Frozen",
       explanation:
-        "IQF stands for 'Individually Quick Frozen,' a common method of freezing fish to preserve freshness.",
+        "'Individually Quick Frozen' refers to the process of freezing each piece of seafood separately, preserving its texture and flavor.",
     },
     {
       question: "What are the ideal storage temperatures for live crustaceans?",
       choice: ["39° - 45°F", "35°- 40°F", "28°- 32°F", "26°- 32°F"],
       answer: "39° - 45°F",
       explanation:
-        "Live crustaceans should be stored at temperatures between 39° and 45°F to maintain their freshness.",
+        "Live crustaceans should be stored at 39° - 45°F to keep them alive and maintain their quality until they are cooked or processed.",
     },
     {
-      question:
-        "What is the function of the National Marine Fisheries Service (NMFS)?",
+      question: "What is the function of the National Marine Fisheries Service (NMFS)?",
       choice: [
         "Management, conservation, and protection of living marine resources",
         "Regulation of freshwater lakes",
         "Oversight of inland agriculture",
         "Air traffic control",
       ],
-      answer:
-        "Management, conservation, and protection of living marine resources",
+      answer: "Management, conservation, and protection of living marine resources",
       explanation:
-        "The NMFS is responsible for the stewardship of national marine resources, including the management, conservation, and protection of living marine resources within the U.S. Exclusive Economic Zone.",
+        "The NMFS is tasked with managing, conserving, and protecting marine resources to ensure sustainable fisheries and healthy ecosystems.",
     },
     {
       question: "What is a paupiette cut?",
@@ -276,7 +266,7 @@ const questions = {
       ],
       answer: "A small rolled filet",
       explanation:
-        "A paupiette is a small rolled filet, usually a quarter filet, often used in gourmet cooking.",
+        "A paupiette is a small rolled filet, often stuffed and tied, used in gourmet preparations for an elegant presentation.",
     },
     {
       question: "What does 'drawn' mean in seafood purchasing?",
@@ -288,11 +278,10 @@ const questions = {
       ],
       answer: "The fish has had its internal organs removed",
       explanation:
-        "'Drawn' refers to fish that has had its internal organs removed, but the rest of the fish remains intact.",
+        "'Drawn' fish have had their internal organs removed, but the head, tail, and scales remain intact.",
     },
     {
-      question:
-        "What is the primary focus of the National Oceanic and Atmospheric Administration (NOAA)?",
+      question: "What is the primary focus of the National Oceanic and Atmospheric Administration (NOAA)?",
       choice: [
         "Conditions of the oceans, major waterways, and the atmosphere",
         "Regulation of inland freshwater resources",
@@ -301,11 +290,10 @@ const questions = {
       ],
       answer: "Conditions of the oceans, major waterways, and the atmosphere",
       explanation:
-        "NOAA focuses on the conditions of the oceans, major waterways, and the atmosphere, providing weather forecasts, storm warnings, and climate monitoring.",
+        "NOAA's primary focus is on monitoring and predicting the conditions of the oceans, major waterways, and the atmosphere to support environmental stewardship and hazard management.",
     },
     {
-      question:
-        "What is the significance of ServSafe in a seafood fabrication room?",
+      question: "What is the significance of ServSafe in a seafood fabrication room?",
       choice: [
         "Maintaining sanitation at all times",
         "Regulating fishing seasons",
@@ -314,7 +302,7 @@ const questions = {
       ],
       answer: "Maintaining sanitation at all times",
       explanation:
-        "ServSafe is important in maintaining sanitation at all times in a seafood fabrication room, ensuring food safety and hygiene.",
+        "ServSafe standards are crucial in a seafood fabrication room for maintaining sanitation and preventing foodborne illnesses.",
     },
     {
       question: "What does 'dressed' mean in seafood purchasing?",
@@ -326,7 +314,7 @@ const questions = {
       ],
       answer: "The fish has had its internal organs, scales, and fins removed",
       explanation:
-        "'Dressed' refers to fish that has had its internal organs, scales, and fins removed, making it ready for further processing.",
+        "'Dressed' fish have had their internal organs, scales, and fins removed, making them ready for further culinary preparation.",
     },
     {
       question: "What are the proper storage techniques for live shellfish?",
@@ -338,7 +326,7 @@ const questions = {
       ],
       answer: "Store in a high moisture refrigerator in perforated pans",
       explanation:
-        "Live shellfish should be stored in a high moisture refrigerator in perforated pans to allow breathing, with wet towels or seaweed to cover.",
+        "Live shellfish should be stored in a high moisture refrigerator in perforated pans to allow proper air circulation and prevent suffocation.",
     },
     {
       question: "What is a goujon cut?",
@@ -350,14 +338,14 @@ const questions = {
       ],
       answer: "A 'minnow' size strip usually intended for coating and frying",
       explanation:
-        "A goujon is a 'minnow' size strip usually intended for coating and frying.",
+        "A goujon is a small, narrow strip of fish, often breaded and fried, typically served as an appetizer or snack.",
     },
     {
       question: "What is the proper storage temperature for caviar?",
       choice: ["28°- 32°F", "35°- 40°F", "39° - 45°F", "26° - 32°F"],
       answer: "28°- 32°F",
       explanation:
-        "Caviar should be stored at temperatures between 28° and 32°F to maintain its quality and freshness.",
+        "Caviar should be stored at 28°-32°F to maintain its delicate texture and flavor while preventing spoilage.",
     },
     {
       question: "What is a butterfly cut in seafood fabrication?",
@@ -369,7 +357,7 @@ const questions = {
       ],
       answer: "A pan-dressed fish with bones removed",
       explanation:
-        "A butterfly cut is a pan-dressed fish with the bones removed, making it easier to cook and serve.",
+        "A butterfly cut involves splitting the fish along the backbone and spreading it out flat, removing the bones, and making it easier to cook evenly.",
     },
     {
       question: "What is the 'blast freezing' method?",
@@ -381,7 +369,7 @@ const questions = {
       ],
       answer: "Very cold air (-25 to -40°F) circulated over a product",
       explanation:
-        "Blast freezing involves circulating very cold air (-25 to -40°F) over a product that has been placed in trays or on racks in an enclosed space.",
+        "Blast freezing circulates extremely cold air over seafood to quickly freeze it, locking in freshness and quality.",
     },
     {
       question: "What does 'portion cut' mean in seafood purchasing?",
@@ -393,7 +381,7 @@ const questions = {
       ],
       answer: "Specific sizes or shapes of fish cut for serving",
       explanation:
-        "'Portion cut' refers to specific sizes or shapes of fish, like tranches or steaks, cut for serving.",
+        "'Portion cut' refers to fish cut into specific serving sizes, such as steaks or fillets, for easy preparation and cooking.",
     },
     {
       question: "What is the function of myotomes in fish?",
@@ -405,7 +393,7 @@ const questions = {
       ],
       answer: "Muscle fibers in fish",
       explanation:
-        "Myotomes are muscle fibers in fish that are shorter and more tender than those in meat.",
+        "Myotomes are the muscle fibers in fish that are arranged in segments, contributing to the fish's flakiness when cooked.",
     },
     {
       question: "What is the primary role of the swim bladder in fish?",
@@ -417,7 +405,7 @@ const questions = {
       ],
       answer: "Maintain buoyancy",
       explanation:
-        "The swim bladder allows fish to maintain a constant buoyancy, enabling them to navigate different water depths efficiently.",
+        "The swim bladder allows fish to control their buoyancy, helping them stay at their desired depth without using much energy.",
     },
     {
       question: "What is a tranche cut in seafood fabrication?",
@@ -429,14 +417,14 @@ const questions = {
       ],
       answer: "45° bias slice from a filet",
       explanation:
-        "A tranche is a 45° bias slice from a filet, often used in gourmet cooking for presentation.",
+        "A tranche is a diagonal slice from a filet, often used for its attractive presentation and uniform cooking.",
     },
     {
       question: "What is the correct storage temperature for smoked fish?",
       choice: ["26° - 32°F", "35°- 40°F", "39° - 45°F", "28°- 32°F"],
       answer: "26° - 32°F",
       explanation:
-        "Smoked fish should be stored at temperatures between 26° and 32°F to maintain its quality and freshness.",
+        "Smoked fish should be stored at 26°-32°F to preserve its flavor and prevent spoilage.",
     },
     {
       question: "What is the proper way to handle fish to prevent damage?",
@@ -448,11 +436,10 @@ const questions = {
       ],
       answer: "Always hold whole fish and their filets with two hands",
       explanation:
-        "Fish is very delicate and needs to be handled carefully; always hold whole fish and their filets with two hands to prevent damage.",
+        "Fish should be handled with care using two hands to avoid damaging the delicate flesh and maintaining its quality.",
     },
     {
-      question:
-        "What is the significance of maintaining a clean worktable in seafood fabrication?",
+      question: "What is the significance of maintaining a clean worktable in seafood fabrication?",
       choice: [
         "Ensures safety and organization",
         "Prevents fish from drying out",
@@ -461,7 +448,7 @@ const questions = {
       ],
       answer: "Ensures safety and organization",
       explanation:
-        "Maintaining a clean and organized worktable ensures safety, organization, and efficiency in a seafood fabrication room.",
+        "A clean and organized worktable is essential for safety, preventing cross-contamination, and ensuring efficient workflow in seafood fabrication.",
     },
     {
       question: "What is a goujonette cut?",
@@ -473,11 +460,10 @@ const questions = {
       ],
       answer: "A 'cigarette' size strip used like a goujon",
       explanation:
-        "A goujonette is a 'cigarette' size strip used like a goujon, often for coating and frying.",
+        "A goujonette is a small, narrow strip of fish, often breaded and fried, typically served as an appetizer or snack.",
     },
     {
-      question:
-        "What is the role of the National Marine Fisheries Service (NMFS)?",
+      question: "What is the role of the National Marine Fisheries Service (NMFS)?",
       choice: [
         "Stewardship of national marine resources",
         "Regulation of inland agriculture",
@@ -486,7 +472,7 @@ const questions = {
       ],
       answer: "Stewardship of national marine resources",
       explanation:
-        "The NMFS is responsible for the stewardship of national marine resources, including the management, conservation, and protection of living marine resources within the U.S. Exclusive Economic Zone.",
+        "The NMFS is responsible for managing and conserving national marine resources, ensuring sustainable use and protection of marine ecosystems.",
     },
     {
       question: "What is the 'up and over' technique used for?",
@@ -498,7 +484,7 @@ const questions = {
       ],
       answer: "Hard boned fish with large rib cages",
       explanation:
-        "The 'up and over' technique is used for hard boned fish with large rib cages, such as those in the Cod and Bass family.",
+        "The 'up and over' technique is used to fillet hard boned fish with large rib cages, making it easier to separate the flesh from the bones.",
     },
     {
       question: "What is the purpose of the myocommata in fish?",
@@ -510,7 +496,7 @@ const questions = {
       ],
       answer: "Connective tissue between muscle fibers",
       explanation:
-        "Myocommata (or myosepta) are the connective tissues between muscle fibers in fish.",
+        "Myocommata are the connective tissues that separate the muscle fibers in fish, giving the fish its characteristic flaky texture when cooked.",
     },
     {
       question: "What does 'dressed' mean in seafood purchasing?",
@@ -522,7 +508,7 @@ const questions = {
       ],
       answer: "The fish has had its internal organs, scales, and fins removed",
       explanation:
-        "'Dressed' refers to fish that has had its internal organs, scales, and fins removed, making it ready for further processing.",
+        "'Dressed' fish have been cleaned by removing their internal organs, scales, and fins, making them ready for further culinary preparation.",
     },
     {
       question: "What is the purpose of myotomes in fish?",
@@ -534,7 +520,7 @@ const questions = {
       ],
       answer: "Muscle fibers in fish",
       explanation:
-        "Myotomes are muscle fibers in fish that are shorter and more tender than those in meat.",
+        "Myotomes are the muscle fibers in fish that are arranged in segments, contributing to the fish's distinctive flaky texture.",
     },
     {
       question: "What is a paupiette cut?",
@@ -546,7 +532,7 @@ const questions = {
       ],
       answer: "A small rolled filet",
       explanation:
-        "A paupiette is a small rolled filet, usually a quarter filet, often used in gourmet cooking.",
+        "A paupiette is a small rolled filet, often stuffed and tied, used in gourmet preparations for an elegant presentation.",
     },
     {
       question: "What is the function of the swim bladder in fish?",
@@ -558,7 +544,7 @@ const questions = {
       ],
       answer: "Maintain buoyancy",
       explanation:
-        "The swim bladder allows fish to maintain a constant buoyancy, enabling them to navigate different water depths efficiently.",
+        "The swim bladder helps fish maintain their buoyancy, allowing them to remain at their desired depth without expending much energy.",
     },
     {
       question: "What is cryogenic freezing?",
@@ -568,10 +554,9 @@ const questions = {
         "Packing fish in ice",
         "Storing fish at room temperature",
       ],
-      answer:
-        "Exposure to super-cold air or a spray of liquid nitrogen or carbon dioxide",
+      answer: "Exposure to super-cold air or a spray of liquid nitrogen or carbon dioxide",
       explanation:
-        "Cryogenic freezing involves exposing products to super-cold air or a spray of liquid nitrogen or carbon dioxide, preserving seafood with a taste and texture more resembling fresh.",
+        "Cryogenic freezing rapidly freezes seafood by exposing it to extremely cold air or liquid nitrogen, preserving its quality and texture.",
     },
     {
       question: "What does 'pan-dressed' mean in seafood purchasing?",
@@ -583,7 +568,7 @@ const questions = {
       ],
       answer: "A smaller fish prepared for cooking with the bones in",
       explanation:
-        "'Pan-dressed' refers to a smaller fish prepared for cooking with the bones in; the head and tail may be removed or left as per preference.",
+        "'Pan-dressed' fish are cleaned and ready for cooking, typically with bones intact to retain flavor and moisture.",
     },
     {
       question: "What is a goujon cut?",
@@ -595,7 +580,7 @@ const questions = {
       ],
       answer: "A 'minnow' size strip usually intended for coating and frying",
       explanation:
-        "A goujon is a 'minnow' size strip usually intended for coating and frying.",
+        "A goujon is a small, narrow strip of fish, often breaded and fried, typically served as an appetizer or snack.",
     },
     {
       question: "What is the 'blast freezing' method?",
@@ -607,7 +592,7 @@ const questions = {
       ],
       answer: "Very cold air (-25 to -40°F) circulated over a product",
       explanation:
-        "Blast freezing involves circulating very cold air (-25 to -40°F) over a product that has been placed in trays or on racks in an enclosed space.",
+        "Blast freezing circulates extremely cold air over seafood to quickly freeze it, locking in freshness and quality.",
     },
   ],
   flatCut: [
@@ -619,10 +604,8 @@ const questions = {
         "Elongated body, silver color, and sharp teeth",
         "Short, stout body, bright yellow, and striped pattern",
       ],
-      answer:
-        "Large, flat body, diamond shape, dark brown to greenish-black upper side, and white underbelly",
-      explanation:
-        "Atlantic Halibut is characterized by its large, flat body, diamond shape, dark brown to greenish-black upper side, and white underbelly, with a small mouth relative to its size.",
+      answer: "Large, flat body, diamond shape, dark brown to greenish-black upper side, and white underbelly",
+      explanation: "Atlantic Halibut is characterized by its large, flat, diamond-shaped body which provides an extensive surface area for camouflage. The dark brown to greenish-black upper side helps it blend with the ocean floor, while the white underbelly allows it to be less visible from below, aiding in its predatory and survival strategies.",
     },
     {
       question: "What is the activity level of Turbot fish?",
@@ -633,15 +616,13 @@ const questions = {
         "High activity level, surface dwellers",
       ],
       answer: "Low activity level, bottom-dwellers",
-      explanation:
-        "Turbot fish have a generally low activity level; they are bottom-dwellers.",
+      explanation: "Turbot fish are low-activity bottom-dwellers, which means they spend most of their time resting on the seafloor rather than swimming. This behavior is typical for flatfish, allowing them to conserve energy while waiting for prey.",
     },
     {
       question: "What is the recommended cutting method for Dover Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Dover Sole is a flat cut.",
+      explanation: "The recommended cutting method for Dover Sole is a flat cut, which is ideal for flatfish as it maximizes yield by following the natural contours of the fish, making it easier to separate the flesh from the bone.",
     },
     {
       question: "Where is Winter Flounder primarily found?",
@@ -651,14 +632,11 @@ const questions = {
         "Freshwater lakes and rivers in Europe",
         "Tropical coral reefs around the equator",
       ],
-      answer:
-        "Coastal waters and estuaries of the North Atlantic, from Labrador to Georgia",
-      explanation:
-        "Winter flounder are primarily found in the coastal waters and estuaries of the North Atlantic, from Labrador to Georgia.",
+      answer: "Coastal waters and estuaries of the North Atlantic, from Labrador to Georgia",
+      explanation: "Winter flounder are primarily found in the coastal waters and estuaries of the North Atlantic, from Labrador to Georgia. These environments provide the brackish water and bottom conditions that are ideal for their lifecycle, including feeding and spawning.",
     },
     {
-      question:
-        "What fishing techniques are typically used for Summer Flounder?",
+      question: "What fishing techniques are typically used for Summer Flounder?",
       choice: [
         "Bottom trawls, gillnets, and longlines",
         "Spear fishing and hand gathering",
@@ -666,8 +644,7 @@ const questions = {
         "Electrofishing and dredging",
       ],
       answer: "Bottom trawls, gillnets, and longlines",
-      explanation:
-        "Summer flounder are typically fished using bottom trawls, gillnets, and longlines, methods designed to target species that dwell near the sea floor.",
+      explanation: "Summer flounder are typically fished using bottom trawls, gillnets, and longlines. These methods are effective because Summer Flounder are demersal fish, meaning they live and feed on or near the bottom of the sea, making these techniques suitable for targeting them.",
     },
     {
       question: "What is the texture and flavor profile of Summer Flounder?",
@@ -678,8 +655,7 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation:
-        "Summer flounder has a mild, sweet flavor with a fine, flaky texture.",
+      explanation: "Summer flounder has a mild, sweet flavor with a fine, flaky texture, making it a versatile and desirable fish for culinary use. Its delicate taste and tender flesh are favored in many recipes, from simple pan-frying to elaborate dishes.",
     },
     {
       question: "What does 'Dover Sole' refer to?",
@@ -690,8 +666,7 @@ const questions = {
         "A shellfish species found in tropical waters",
       ],
       answer: "Two species of flatfish: Solea solea and Microstomus pacificus",
-      explanation:
-        "The term Dover Sole refers to two species of flatfish: Solea solea, found in Europe, and Microstomus pacificus, called 'Dover sole' along the Pacific coast of America.",
+      explanation: "The term Dover Sole refers to two species of flatfish: Solea solea, which is native to European waters and highly prized in European cuisine, and Microstomus pacificus, known as 'Dover sole' along the Pacific coast of America, valued for its delicate flavor and texture.",
     },
     {
       question: "What are the identifying characteristics of Witch Flounder?",
@@ -701,10 +676,8 @@ const questions = {
         "Elongated body, symmetrical eyes, silver color",
         "Short body, asymmetrical eyes on the left side, bright blue color",
       ],
-      answer:
-        "Small mouths, asymmetrical eyes on the right side, dark brown to grayish color on the eyed side",
-      explanation:
-        "Witch flounder, also known as grey sole, are characterized by their small mouths, asymmetrical eyes on the right side of their bodies, and a dark brown to grayish color on their eyed side with a lighter underside.",
+      answer: "Small mouths, asymmetrical eyes on the right side, dark brown to grayish color on the eyed side",
+      explanation: "Witch flounder, also known as grey sole, are characterized by their small mouths and asymmetrical eyes located on the right side of their bodies. The dark brown to grayish color on the eyed side provides camouflage against the seabed, while their lighter underside helps them blend with the light from above.",
     },
     {
       question: "Where is Rex Sole primarily found?",
@@ -714,10 +687,8 @@ const questions = {
         "Freshwater lakes in South America",
         "Tropical reefs in the Indian Ocean",
       ],
-      answer:
-        "Northern Pacific Ocean, ranging from the Bering Sea and Alaska down to the northern part of Baja California",
-      explanation:
-        "Rex Sole is primarily found in the northern Pacific Ocean, ranging from the Bering Sea and Alaska down to the northern part of Baja California, Mexico.",
+      answer: "Northern Pacific Ocean, ranging from the Bering Sea and Alaska down to the northern part of Baja California",
+      explanation: "Rex Sole is primarily found in the northern Pacific Ocean, ranging from the Bering Sea and Alaska down to the northern part of Baja California. This distribution covers a wide range of coastal environments where they thrive.",
     },
     {
       question: "What is the texture and flavor profile of Rex Sole?",
@@ -728,8 +699,7 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, delicate flavor with a fine, flaky texture",
-      explanation:
-        "Rex Sole has a mild, delicate flavor with a fine, flaky texture.",
+      explanation: "Rex Sole has a mild, delicate flavor with a fine, flaky texture, making it a popular choice for those who prefer a light and subtly flavored fish that is easy to prepare and versatile in recipes.",
     },
     {
       question: "What does the term 'Turbot' refer to?",
@@ -739,10 +709,8 @@ const questions = {
         "A common name for all types of shellfish",
         "A tropical fish species known for its vibrant colors",
       ],
-      answer:
-        "A large, flatfish prized for its firm, white flesh and mild flavor",
-      explanation:
-        "The term Turbot refers to a large, flatfish prized for its firm, white flesh and mild flavor, often featured in fine dining and versatile in cooking methods.",
+      answer: "A large, flatfish prized for its firm, white flesh and mild flavor",
+      explanation: "The term Turbot refers to a large, flatfish that is highly valued in gourmet cooking due to its firm, white flesh and mild flavor. Turbot's versatility and delicate texture make it a favorite among chefs for a variety of culinary applications.",
     },
     {
       question: "Where is Turbot primarily found?",
@@ -753,8 +721,7 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "Northeast Atlantic and the Mediterranean Sea",
-      explanation:
-        "Turbot fish are primarily found in the Northeast Atlantic and the Mediterranean Sea, particularly in coastal waters from Iceland to the Mediterranean.",
+      explanation: "Turbot fish are primarily found in the Northeast Atlantic and the Mediterranean Sea, particularly in coastal waters from Iceland to the Mediterranean. These areas provide the optimal habitat conditions for Turbot, including the appropriate temperature and bottom substrate.",
     },
     {
       question: "What is the fishing technique typically used for Turbot?",
@@ -765,22 +732,18 @@ const questions = {
         "Electrofishing and dredging",
       ],
       answer: "Bottom trawling and longlining",
-      explanation:
-        "Turbot are typically caught using bottom trawling and longlining techniques.",
+      explanation: "Turbot are typically caught using bottom trawling and longlining techniques. These methods are effective for catching bottom-dwelling species like Turbot, which live close to the sea floor.",
     },
     {
-      question:
-        "What are the identifying characteristics of Yellowtail Flounder?",
+      question: "What are the identifying characteristics of Yellowtail Flounder?",
       choice: [
         "Flat, continuous dorsal and anal fins; right-eyed, diamond-shaped",
         "Small, round body, bright colors, and spotted pattern",
         "Elongated body, silver color, and sharp teeth",
         "Short, stout body, bright yellow, and striped pattern",
       ],
-      answer:
-        "Flat, continuous dorsal and anal fins; right-eyed, diamond-shaped",
-      explanation:
-        "Yellowtail flounder are characterized by flat, continuous dorsal and anal fins; right-eyed, diamond-shaped.",
+      answer: "Flat, continuous dorsal and anal fins; right-eyed, diamond-shaped",
+      explanation: "Yellowtail flounder are characterized by their flat, diamond-shaped bodies, continuous dorsal and anal fins, and eyes located on the right side of their heads. These features are well-suited for their bottom-dwelling lifestyle, providing camouflage and aiding in their hunting strategy.",
     },
     {
       question: "Where is Yellowtail Flounder primarily found?",
@@ -790,26 +753,14 @@ const questions = {
         "Freshwater lakes in Europe",
         "Tropical coral reefs around the equator",
       ],
-      answer:
-        "North Atlantic Ocean, off the eastern coast of the United States and Canada",
-      explanation:
-        "Yellowtail flounder are primarily found in the North Atlantic Ocean, inhabiting the coastal waters off the eastern coast of the United States and Canada.",
+      answer: "North Atlantic Ocean, off the eastern coast of the United States and Canada",
+      explanation: "Yellowtail flounder are primarily found in the North Atlantic Ocean, inhabiting the coastal waters off the eastern coast of the United States and Canada. These regions offer the cold, nutrient-rich waters that support their diet and lifecycle.",
     },
     {
-      question:
-        "What is the recommended cutting method for Yellowtail Flounder?",
+      question: "What is the recommended cutting method for Yellowtail Flounder?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Yellowtail Flounder is a flat cut.",
-    },
-    {
-      question:
-        "What is the recommended cutting method for Yellowtail Flounder?",
-      choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
-      answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Yellowtail Flounder is a flat cut.",
+      explanation: "The recommended cutting method for Yellowtail Flounder is a flat cut, which allows for efficient and even filleting of this flatfish, maximizing the yield and maintaining the quality of the flesh.",
     },
     {
       question: "What are the identifying characteristics of Petrale Sole?",
@@ -819,10 +770,8 @@ const questions = {
         "Elongated body, silver color, and sharp teeth",
         "Short, stout body, bright yellow, and striped pattern",
       ],
-      answer:
-        "Oval-shaped body, smooth, brownish upper side with orange spots, and white underbelly",
-      explanation:
-        "Petrale Sole has an oval-shaped body with a smooth, brownish upper side featuring orange spots and a white underbelly.",
+      answer: "Oval-shaped body, smooth, brownish upper side with orange spots, and white underbelly",
+      explanation: "Petrale Sole is identified by its oval-shaped body, smooth brownish upper side with distinctive orange spots, and a white underbelly. These characteristics help it blend with the ocean floor, both as camouflage and as a means to ambush prey.",
     },
     {
       question: "Where is Petrale Sole primarily found?",
@@ -833,8 +782,7 @@ const questions = {
         "Tropical reefs in the Indian Ocean",
       ],
       answer: "Pacific Ocean, along the west coast of North America",
-      explanation:
-        "Petrale Sole is primarily found in the Pacific Ocean, along the west coast of North America.",
+      explanation: "Petrale Sole is primarily found in the Pacific Ocean, along the west coast of North America. This habitat provides the temperate waters and sandy or muddy bottoms that Petrale Sole prefer for feeding and spawning.",
     },
     {
       question: "What is the texture and flavor profile of Petrale Sole?",
@@ -845,8 +793,7 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, delicate flavor with a fine, flaky texture",
-      explanation:
-        "Petrale Sole has a mild, delicate flavor with a fine, flaky texture.",
+      explanation: "Petrale Sole has a mild, delicate flavor with a fine, flaky texture, making it a sought-after choice for its versatility in cooking and ability to complement a variety of dishes.",
     },
     {
       question: "What does the term 'Witch Flounder' refer to?",
@@ -856,10 +803,8 @@ const questions = {
         "A common name for all types of shellfish",
         "A tropical fish species known for its vibrant colors",
       ],
-      answer:
-        "A species of flatfish with a dark, mottled appearance and small eyes",
-      explanation:
-        "Witch Flounder is a species of flatfish characterized by its dark, mottled appearance and small eyes.",
+      answer: "A species of flatfish with a dark, mottled appearance and small eyes",
+      explanation: "Witch Flounder, also known as grey sole, refers to a species of flatfish characterized by its dark, mottled appearance and small eyes. These features provide effective camouflage on the ocean floor, helping it avoid predators and ambush prey.",
     },
     {
       question: "Where is Witch Flounder primarily found?",
@@ -869,14 +814,11 @@ const questions = {
         "Freshwater lakes in Asia",
         "Tropical reefs in the Caribbean Sea",
       ],
-      answer:
-        "North Atlantic Ocean, near the coastlines of Europe and North America",
-      explanation:
-        "Witch Flounder is primarily found in the North Atlantic Ocean, near the coastlines of Europe and North America.",
+      answer: "North Atlantic Ocean, near the coastlines of Europe and North America",
+      explanation: "Witch Flounder is primarily found in the North Atlantic Ocean, near the coastlines of Europe and North America. These waters provide the cold, shallow environments where Witch Flounder thrive.",
     },
     {
-      question:
-        "What fishing techniques are typically used for Witch Flounder?",
+      question: "What fishing techniques are typically used for Witch Flounder?",
       choice: [
         "Bottom trawling and gillnets",
         "Surface nets and traps",
@@ -884,8 +826,7 @@ const questions = {
         "Electrofishing and dredging",
       ],
       answer: "Bottom trawling and gillnets",
-      explanation:
-        "Witch Flounder are typically caught using bottom trawling and gillnets.",
+      explanation: "Witch Flounder are typically caught using bottom trawling and gillnets. These methods are suitable for capturing flatfish that dwell near the sea floor, ensuring a high yield and efficiency.",
     },
     {
       question: "What is the texture and flavor profile of Witch Flounder?",
@@ -896,12 +837,10 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation:
-        "Witch Flounder has a mild, sweet flavor with a fine, flaky texture.",
+      explanation: "Witch Flounder has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
-      question:
-        "What are the identifying characteristics of Arrowtooth Flounder?",
+      question: "What are the identifying characteristics of Arrowtooth Flounder?",
       choice: [
         "Large mouths, asymmetrical eyes, and a grayish-brown upper side",
         "Small mouths, symmetrical eyes, and a bright red upper side",
@@ -909,8 +848,7 @@ const questions = {
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
       answer: "Large mouths, asymmetrical eyes, and a grayish-brown upper side",
-      explanation:
-        "Arrowtooth Flounder have large mouths, asymmetrical eyes on the right side, and a grayish-brown upper side.",
+      explanation: "Arrowtooth Flounder have large mouths, asymmetrical eyes on the right side, and a grayish-brown upper side. These features are adapted for their predatory lifestyle, allowing them to effectively ambush prey on the ocean floor.",
     },
     {
       question: "Where is Arrowtooth Flounder primarily found?",
@@ -921,12 +859,10 @@ const questions = {
         "Tropical reefs in the Indian Ocean",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "Arrowtooth Flounder is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "Arrowtooth Flounder is primarily found in the North Pacific Ocean, ranging from Alaska to California. This range provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
-      question:
-        "What is the texture and flavor profile of Arrowtooth Flounder?",
+      question: "What is the texture and flavor profile of Arrowtooth Flounder?",
       choice: [
         "Mild flavor with a firm, flaky texture",
         "Strong, fishy flavor with a coarse texture",
@@ -934,16 +870,13 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild flavor with a firm, flaky texture",
-      explanation:
-        "Arrowtooth Flounder has a mild flavor with a firm, flaky texture.",
+      explanation: "Arrowtooth Flounder has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
     },
     {
-      question:
-        "What is the recommended cutting method for Arrowtooth Flounder?",
+      question: "What is the recommended cutting method for Arrowtooth Flounder?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Arrowtooth Flounder is a flat cut.",
+      explanation: "The recommended cutting method for Arrowtooth Flounder is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What does the term 'Starry Flounder' refer to?",
@@ -953,10 +886,8 @@ const questions = {
         "A common name for all types of shellfish",
         "A tropical fish species known for its vibrant colors",
       ],
-      answer:
-        "A species of flatfish with a distinctive star-shaped pattern on its upper side",
-      explanation:
-        "Starry Flounder is a species of flatfish characterized by its distinctive star-shaped pattern on its upper side.",
+      answer: "A species of flatfish with a distinctive star-shaped pattern on its upper side",
+      explanation: "Starry Flounder is a species of flatfish characterized by its distinctive star-shaped pattern on its upper side. This pattern provides effective camouflage and a unique identification marker for the species.",
     },
     {
       question: "Where is Starry Flounder primarily found?",
@@ -967,12 +898,10 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "Starry Flounder is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "Starry Flounder is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that are essential for their survival and reproduction.",
     },
     {
-      question:
-        "What fishing techniques are typically used for Starry Flounder?",
+      question: "What fishing techniques are typically used for Starry Flounder?",
       choice: [
         "Bottom trawling and gillnets",
         "Surface nets and traps",
@@ -980,8 +909,7 @@ const questions = {
         "Electrofishing and dredging",
       ],
       answer: "Bottom trawling and gillnets",
-      explanation:
-        "Starry Flounder are typically caught using bottom trawling and gillnets.",
+      explanation: "Starry Flounder are typically caught using bottom trawling and gillnets. These methods are effective for targeting flatfish that dwell near the sea floor, ensuring high efficiency and yield.",
     },
     {
       question: "What is the texture and flavor profile of Starry Flounder?",
@@ -992,8 +920,7 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation:
-        "Starry Flounder has a mild, sweet flavor with a fine, flaky texture.",
+      explanation: "Starry Flounder has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What does the term 'Yellowfin Sole' refer to?",
@@ -1003,10 +930,8 @@ const questions = {
         "A common name for all types of shellfish",
         "A tropical fish species known for its vibrant colors",
       ],
-      answer:
-        "A species of flatfish with yellow fins and a light brown upper side",
-      explanation:
-        "Yellowfin Sole is a species of flatfish characterized by its yellow fins and a light brown upper side.",
+      answer: "A species of flatfish with yellow fins and a light brown upper side",
+      explanation: "Yellowfin Sole is a species of flatfish characterized by its yellow fins and a light brown upper side. These features help it blend with the ocean floor and make it easily identifiable.",
     },
     {
       question: "Where is Yellowfin Sole primarily found?",
@@ -1017,8 +942,7 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "Yellowfin Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "Yellowfin Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and lifecycle.",
     },
     {
       question: "What is the texture and flavor profile of Yellowfin Sole?",
@@ -1029,15 +953,13 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild flavor with a firm, flaky texture",
-      explanation:
-        "Yellowfin Sole has a mild flavor with a firm, flaky texture.",
+      explanation: "Yellowfin Sole has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
     },
     {
       question: "What is the recommended cutting method for Yellowfin Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Yellowfin Sole is a flat cut.",
+      explanation: "The recommended cutting method for Yellowfin Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Flathead Sole?",
@@ -1047,10 +969,8 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer:
-        "Broad, flattened head, light brown upper side with dark spots, and white underbelly",
-      explanation:
-        "Flathead Sole has a broad, flattened head, light brown upper side with dark spots, and a white underbelly.",
+      answer: "Broad, flattened head, light brown upper side with dark spots, and white underbelly",
+      explanation: "Flathead Sole has a broad, flattened head, light brown upper side with dark spots, and a white underbelly. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is Flathead Sole primarily found?",
@@ -1061,8 +981,7 @@ const questions = {
         "Tropical reefs in the Indian Ocean",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "Flathead Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "Flathead Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of Flathead Sole?",
@@ -1073,15 +992,13 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild flavor with a firm, flaky texture",
-      explanation:
-        "Flathead Sole has a mild flavor with a firm, flaky texture.",
+      explanation: "Flathead Sole has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
     },
     {
       question: "What is the recommended cutting method for Flathead Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Flathead Sole is a flat cut.",
+      explanation: "The recommended cutting method for Flathead Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Butter Sole?",
@@ -1091,10 +1008,8 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer:
-        "Small mouths, asymmetrical eyes, and a light brown upper side with white underbelly",
-      explanation:
-        "Butter Sole has small mouths, asymmetrical eyes, and a light brown upper side with a white underbelly.",
+      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with white underbelly",
+      explanation: "Butter Sole has small mouths, asymmetrical eyes, and a light brown upper side with a white underbelly. These features help it blend with the ocean floor and aid in its feeding strategy.",
     },
     {
       question: "Where is Butter Sole primarily found?",
@@ -1105,8 +1020,7 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "Butter Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "Butter Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and lifecycle.",
     },
     {
       question: "What is the texture and flavor profile of Butter Sole?",
@@ -1117,15 +1031,13 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, delicate flavor with a fine, flaky texture",
-      explanation:
-        "Butter Sole has a mild, delicate flavor with a fine, flaky texture.",
+      explanation: "Butter Sole has a mild, delicate flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for Butter Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Butter Sole is a flat cut.",
+      explanation: "The recommended cutting method for Butter Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Rock Sole?",
@@ -1135,10 +1047,8 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer:
-        "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
-      explanation:
-        "Rock Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots.",
+      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
+      explanation: "Rock Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is Rock Sole primarily found?",
@@ -1149,8 +1059,7 @@ const questions = {
         "Tropical reefs in the Indian Ocean",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "Rock Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "Rock Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of Rock Sole?",
@@ -1161,15 +1070,13 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation:
-        "Rock Sole has a mild, sweet flavor with a fine, flaky texture.",
+      explanation: "Rock Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for Rock Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Rock Sole is a flat cut.",
+      explanation: "The recommended cutting method for Rock Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Sand Sole?",
@@ -1179,10 +1086,8 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer:
-        "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
-      explanation:
-        "Sand Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots.",
+      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
+      explanation: "Sand Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is Sand Sole primarily found?",
@@ -1193,8 +1098,7 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "Sand Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "Sand Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of Sand Sole?",
@@ -1205,15 +1109,13 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation:
-        "Sand Sole has a mild, sweet flavor with a fine, flaky texture.",
+      explanation: "Sand Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for Sand Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Sand Sole is a flat cut.",
+      explanation: "The recommended cutting method for Sand Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of English Sole?",
@@ -1223,10 +1125,8 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer:
-        "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
-      explanation:
-        "English Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots.",
+      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
+      explanation: "English Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is English Sole primarily found?",
@@ -1237,8 +1137,7 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "English Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "English Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of English Sole?",
@@ -1249,15 +1148,13 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation:
-        "English Sole has a mild, sweet flavor with a fine, flaky texture.",
+      explanation: "English Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for English Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for English Sole is a flat cut.",
+      explanation: "The recommended cutting method for English Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Curlfin Sole?",
@@ -1267,10 +1164,8 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer:
-        "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
-      explanation:
-        "Curlfin Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots.",
+      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
+      explanation: "Curlfin Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is Curlfin Sole primarily found?",
@@ -1281,8 +1176,7 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation:
-        "Curlfin Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California.",
+      explanation: "Curlfin Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of Curlfin Sole?",
@@ -1293,15 +1187,13 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation:
-        "Curlfin Sole has a mild, sweet flavor with a fine, flaky texture.",
+      explanation: "Curlfin Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for Curlfin Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation:
-        "The recommended cutting method for Curlfin Sole is a flat cut.",
+      explanation: "The recommended cutting method for Curlfin Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
   ],
   straightCut: [
