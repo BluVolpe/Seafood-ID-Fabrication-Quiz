@@ -1,6 +1,113 @@
 const questions = {
   introduction: [
     {
+    "question": "What are examples of market forms of fish?",
+    "choice": [
+      "Purchasing specs",
+      "Marketing Names",
+      "Cutting Techniques",
+      "Market forms"
+    ],
+    "answer": "Market forms",
+    "explanation": "Market forms of fish refer to the various ways fish are prepared and sold. Examples include 'drawn' (gutted with head on), 'in the round' (whole, ungutted), 'dressed' (gutted, scaled, and fins removed), 'H&G' (headed and gutted), 'fillets' (boneless slices of fish), and 'I.Q.F' (individually quick frozen). These forms cater to different consumer needs and culinary uses, ensuring convenience and versatility in cooking."
+  },
+  {
+    "question": "Which agency is responsible for U.S. fishing regulations?",
+    "choice": [
+      "USDC",
+      "NOAA",
+      "EEZ",
+      "USMC",
+      "NMFS"
+    ],
+    "answer": "NMFS",
+    "explanation": "The National Marine Fisheries Service (NMFS), part of NOAA, is responsible for the stewardship of the nation's ocean resources and their habitat. NMFS manages fisheries to promote sustainability, prevent overfishing, and protect marine ecosystems. This ensures the long-term health and productivity of marine environments and resources."
+  },
+  {
+    "question": "What are the common fins found on most fish?",
+    "choice": [
+      "Pelvic, anal, dorsal, adipose Caudal",
+      "Anal, caudal, pelvic, dorsal, pectoral",
+      "Dorsal, adipose, caudal, anal",
+      "None of the choices"
+    ],
+    "answer": "Anal, caudal, pelvic, dorsal, pectoral",
+    "explanation": "Most fish have five main types of fins: anal (located on the ventral side near the tail), caudal (tail fin), pelvic (paired fins on the ventral side), dorsal (on the back), and pectoral (paired fins on the sides). These fins aid in balance, steering, and propulsion, allowing the fish to maneuver efficiently in water."
+  },
+  {
+    "question": "What are the three main fabrication techniques in fish preparation?",
+    "choice": [
+      "Drawn, up, over, flat",
+      "Up and over, over and under, flat",
+      "Flat, straight, up and over"
+    ],
+    "answer": "Flat, straight, up and over",
+    "explanation": "The three main fabrication techniques in fish preparation are flat (fish is split down the middle, with bones and guts removed), straight (fish is cut into pieces with the bones left in), and up and over (fish is filleted with the bones removed). These techniques help in creating different cuts suitable for various cooking methods."
+  },
+  {
+    "question": "What percentage of fish is consumed in restaurants?",
+    "choice": [
+      "30",
+      "100",
+      "68",
+      "22",
+      "64"
+    ],
+    "answer": "68",
+    "explanation": "Approximately 68% of fish is eaten in restaurants. This high percentage reflects consumer preference for professionally prepared seafood dishes, the perceived complexity of cooking fish at home, and the popularity of seafood in dining out experiences."
+  },
+  {
+    "question": "What is the method of fishing where baited hooks are dragged behind a boat called?",
+    "choice": [
+      "Trolling",
+      "Handlining",
+      "Dredging",
+      "Trawling"
+    ],
+    "answer": "Trolling",
+    "explanation": "Trolling is a fishing method where one or more baited hooks or lures are dragged through the water behind a moving boat. This technique is commonly used for catching pelagic fish like salmon, tuna, and mackerel, as it covers a wide area and mimics the movement of prey."
+  },
+  {
+    "question": "What is the proper storage temperature for fin fish?",
+    "choice": [
+      "Less than 40",
+      "28-32",
+      "22-38",
+      "41-130"
+    ],
+    "answer": "28-32",
+    "explanation": "The proper storage temperature for fin fish is 28-32 degrees Fahrenheit. Keeping fish at this low temperature slows down bacterial growth and enzymatic activity, maintaining freshness and preventing spoilage until the fish is ready to be cooked or consumed."
+  },
+  {
+    "question": "What are the short muscle fibers in fin fish called?",
+    "choice": [
+      "Myoglobin",
+      "Myosepta",
+      "Myotomes",
+      "Myocommata"
+    ],
+    "answer": "Myotomes",
+    "explanation": "Myotomes are the short muscle fibers in fin fish, arranged in segmented blocks along the body. These fibers are separated by connective tissues called myosepta. Myotomes provide the fish with strength and flexibility, essential for swimming and maneuvering in water."
+  },
+  {
+    "question": "Does the EEZ, a range of 200 miles off the coast for fishing, stand for Extensive Environmental Zone?",
+    "choice": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "EEZ stands for Exclusive Economic Zone, not Extensive Environmental Zone. The EEZ extends up to 200 nautical miles from a country's coast, where it has special rights regarding the exploration and use of marine resources, including energy production from water and wind."
+  },
+  {
+    "question": "Is using a reputable supplier the best way to ensure safe seafood?",
+    "choice": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Using a reputable supplier is indeed the best way to ensure safe seafood. Reputable suppliers follow stringent safety and quality standards, ensuring that the seafood is sourced, handled, and stored properly to prevent contamination and spoilage."
+  },
+    {
       question: "What are the key safety practices in a seafood fabrication room?",
       choice: [
         "Be alert, secure knives, and keep the worktable clean",
