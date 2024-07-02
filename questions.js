@@ -5342,531 +5342,532 @@ const questions = {
   ],
   FishID: [
     {
-      "question": "What type of fish is shown in this image?",
-      "image": "Images/Acadian Red Perch.png",
-      "choice": [
-        "Albacore Tuna",
+      image: "Images/Acadian Red Perch.png",
+      answer: "Acadian Red Perch",
+      explanation: "The Acadian Red Perch is identifiable by its distinct red color and shape.",
+      choice: [
         "Acadian Red Perch",
-        "Atlantic Farm Raised Salmon",
-        "Black Sea Bass"
-      ],
-      "answer": "Acadian Red Perch",
-      "explanation": "The Acadian Red Perch is identifiable by its distinct red color and shape."
+        "Atlantic Redfish",
+        "Rosefish",
+        "Ocean Perch",
+        "Vermillion Snapper"
+      ]
     },
     {
-      "question": "What type of fish is this?",
-      "image": "Images/Albacore Tuna.png",
-      "choice": [
-        "Arctic Char",
-        "Cusk",
+      image: "Images/Albacore Tuna.png",
+      answer: "Albacore Tuna",
+      explanation: "Albacore Tuna is characterized by its streamlined body and dark blue upper side.",
+      choice: [
         "Albacore Tuna",
-        "Fluke"
-      ],
-      "answer": "Albacore Tuna",
-      "explanation": "Albacore Tuna is characterized by its streamlined body and dark blue upper side."
+        "Yellowfin Tuna",
+        "Bigeye Tuna",
+        "Bluefin Tuna",
+        "Skipjack Tuna"
+      ]
     },
     {
-      "question": "Identify the fish in this picture.",
-      "image": "Images/Arctic Char.png",
-      "choice": [
-        "Black Cod",
+      image: "Images/Arctic Char.png",
+      answer: "Arctic Char",
+      explanation: "Arctic Char can be identified by its light-colored spots and streamlined body.",
+      choice: [
+        "Arctic Char",
+        "Brook Trout",
+        "Lake Trout",
+        "Rainbow Trout",
+        "Dolly Varden"
+      ]
+    },
+    {
+      image: "Images/Atlantic Farm Raised Salmon.png",
+      answer: "Atlantic Farm Raised Salmon",
+      explanation: "Atlantic Farm Raised Salmon has a silver body with distinct spots and a streamlined shape.",
+      choice: [
         "Atlantic Farm Raised Salmon",
-        "Dover Sole",
-        "Arctic Char"
-      ],
-      "answer": "Arctic Char",
-      "explanation": "Arctic Char can be identified by its light-colored spots and streamlined body."
+        "Chinook Salmon",
+        "Coho Salmon",
+        "Sockeye Salmon",
+        "Pink Salmon"
+      ]
     },
     {
-      "question": "Which fish is shown here?",
-      "image": "Images/Atlantic Farm Raised Salmon.png",
-      "choice": [
-        "Black Sea Bass",
-        "Farm Raised Rainbow Trout",
-        "Atlantic Farm Raised Salmon",
-        "Fluke"
-      ],
-      "answer": "Atlantic Farm Raised Salmon",
-      "explanation": "Atlantic Farm Raised Salmon has a silver body with distinct spots and a streamlined shape."
-    },
-    {
-      "question": "What type of fish is depicted in this image?",
-      "image": "Images/Black Cod (Sablefish, Butterfish).png",
-      "choice": [
-        "Cusk",
+      image: "Images/Black Cod (Sablefish, Butterfish).png",
+      answer: "Black Cod (Sablefish, Butterfish)",
+      explanation: "Black Cod, also known as Sablefish or Butterfish, has a dark, sleek body.",
+      choice: [
         "Black Cod (Sablefish, Butterfish)",
-        "Dover Sole",
-        "Acadian Red Perch"
-      ],
-      "answer": "Black Cod (Sablefish, Butterfish)",
-      "explanation": "Black Cod, also known as Sablefish or Butterfish, has a dark, sleek body."
+        "Pacific Cod",
+        "Greenland Halibut",
+        "Arrowtooth Flounder",
+        "Atlantic Cod"
+      ]
     },
     {
-      "question": "Identify the fish in this picture.",
-      "image": "Images/Black Sea Bass.png",
-      "choice": [
+      image: "Images/Black Sea Bass.png",
+      answer: "Black Sea Bass",
+      explanation: "Black Sea Bass is known for its dark body and spiny dorsal fin.",
+      choice: [
         "Black Sea Bass",
-        "Atlantic Farm Raised Salmon",
-        "Albacore Tuna",
-        "Fluke"
-      ],
-      "answer": "Black Sea Bass",
-      "explanation": "Black Sea Bass is known for its dark body and spiny dorsal fin."
+        "Striped Bass",
+        "White Sea Bass",
+        "Bluefish",
+        "Tautog"
+      ]
     },
     {
-      "question": "What fish is shown here?",
-      "image": "Images/Cusk.png",
-      "choice": [
-        "Dover Sole",
-        "Arctic Char",
+      image: "Images/Cusk.png",
+      answer: "Cusk",
+      explanation: "Cusk can be identified by its elongated body and mottled coloring.",
+      choice: [
         "Cusk",
-        "Black Cod"
-      ],
-      "answer": "Cusk",
-      "explanation": "Cusk can be identified by its elongated body and mottled coloring."
+        "Lingcod",
+        "Burbot",
+        "Hake",
+        "Pollock"
+      ]
     },
     {
-      "question": "Which fish is depicted in this image?",
-      "image": "Images/Dover Sole.png",
-      "choice": [
-        "Farm Raised Rainbow Trout",
+      image: "Images/Dover Sole.png",
+      answer: "Dover Sole",
+      explanation: "Dover Sole is recognized by its flat body and small, curved mouth.",
+      choice: [
         "Dover Sole",
-        "Fluke",
-        "Arctic Char"
-      ],
-      "answer": "Dover Sole",
-      "explanation": "Dover Sole is recognized by its flat body and small, curved mouth."
+        "Lemon Sole",
+        "Petrale Sole",
+        "Rex Sole",
+        "Sand Sole"
+      ]
     },
     {
-      "question": "Identify the fish in the picture.",
-      "image": "Images/Farm Raised Rainbow Trout.png",
-      "choice": [
-        "Black Sea Bass",
+      image: "Images/Farm Raised Rainbow Trout.png",
+      answer: "Farm Raised Rainbow Trout",
+      explanation: "Farm Raised Rainbow Trout has a characteristic pink stripe along its sides.",
+      choice: [
         "Farm Raised Rainbow Trout",
-        "Albacore Tuna",
-        "Atlantic Farm Raised Salmon"
-      ],
-      "answer": "Farm Raised Rainbow Trout",
-      "explanation": "Farm Raised Rainbow Trout has a characteristic pink stripe along its sides."
+        "Steelhead Trout",
+        "Brook Trout",
+        "Cutthroat Trout",
+        "Golden Trout"
+      ]
     },
     {
-      "question": "What type of fish is this?",
-      "image": "Images/Fluke (Summer Flounder).png",
-      "choice": [
+      image: "Images/Fluke (Summer Flounder).png",
+      answer: "Fluke (Summer Flounder)",
+      explanation: "Fluke, also known as Summer Flounder, is a flatfish with both eyes on one side of its body.",
+      choice: [
         "Fluke (Summer Flounder)",
-        "Dover Sole",
-        "Acadian Red Perch",
-        "Cusk"
-      ],
-      "answer": "Fluke (Summer Flounder)",
-      "explanation": "Fluke, also known as Summer Flounder, is a flatfish with both eyes on one side of its body."
+        "Winter Flounder",
+        "Yellowtail Flounder",
+        "Pacific Sanddab",
+        "Starry Flounder"
+      ]
     },
     {
-      "question": "What type of fish is shown in this image?",
-      "image": "Images/Haddock.png",
-      "choice": [
-        "Hake",
+      image: "Images/Haddock.png",
+      answer: "Haddock",
+      explanation: "Haddock can be identified by its distinct black lateral line running along its side and a black 'thumbprint' mark above the pectoral fin.",
+      choice: [
         "Haddock",
-        "Halibut",
-        "Hybrid Striped Bass"
-      ],
-      "answer": "Haddock",
-      "explanation": "Haddock can be identified by its distinct black lateral line running along its side and a black 'thumbprint' mark above the pectoral fin."
+        "Atlantic Cod",
+        "Pollock",
+        "Whiting",
+        "Saithe"
+      ]
     },
     {
-      "question": "What type of fish is this?",
-      "image": "Images/Hake.png",
-      "choice": [
-        "Haddock",
-        "Halibut",
+      image: "Images/Hake.png",
+      answer: "Hake",
+      explanation: "Hake has a slender body, silvery sides, and a large head with a prominent lower jaw.",
+      choice: [
         "Hake",
-        "Hybrid Striped Bass"
-      ],
-      "answer": "Hake",
-      "explanation": "Hake has a slender body, silvery sides, and a large head with a prominent lower jaw."
+        "Pollock",
+        "Silver Hake",
+        "Whiting",
+        "Blue Whiting"
+      ]
     },
     {
-      "question": "Identify the fish in this picture.",
-      "image": "Images/Halibut (Atlantic and Pacific).png",
-      "choice": [
+      image: "Images/Halibut (Atlantic and Pacific).png",
+      answer: "Halibut",
+      explanation: "Halibut is a large, flat fish with both eyes on one side of its body and a white underside.",
+      choice: [
         "Halibut",
-        "Hake",
-        "Jonah Crab",
-        "Mahi Mahi"
-      ],
-      "answer": "Halibut",
-      "explanation": "Halibut is a large, flat fish with both eyes on one side of its body and a white underside."
+        "Turbot",
+        "Greenland Halibut",
+        "Arrowtooth Flounder",
+        "Starry Flounder"
+      ]
     },
     {
-      "question": "Which fish is shown here?",
-      "image": "Images/Hybrid Striped Bass (HSB).png",
-      "choice": [
-        "Hake",
+      image: "Images/Hybrid Striped Bass (HSB).png",
+      answer: "Hybrid Striped Bass",
+      explanation: "Hybrid Striped Bass has a distinctive pattern of broken stripes running along its sides.",
+      choice: [
         "Hybrid Striped Bass",
-        "Haddock",
-        "Lane Snapper"
-      ],
-      "answer": "Hybrid Striped Bass",
-      "explanation": "Hybrid Striped Bass has a distinctive pattern of broken stripes running along its sides."
+        "Striped Bass",
+        "White Bass",
+        "Black Sea Bass",
+        "Bluefish"
+      ]
     },
     {
-      "question": "What type of animal is depicted in this image?",
-      "image": "Images/Jonah Crab.png",
-      "choice": [
+      image: "Images/Jonah Crab.png",
+      answer: "Jonah Crab",
+      explanation: "Jonah Crab is recognizable by its robust body and large, powerful claws.",
+      choice: [
         "Jonah Crab",
+        "Dungeness Crab",
+        "Blue Crab",
+        "Stone Crab",
+        "Snow Crab"
+      ]
+    },
+    {
+      image: "Images/Lane Snapper.png",
+      answer: "Lane Snapper",
+      explanation: "Lane Snapper has a reddish body with a series of yellow stripes running from head to tail.",
+      choice: [
         "Lane Snapper",
+        "Red Snapper",
+        "Yellowtail Snapper",
+        "Mangrove Snapper",
+        "Mutton Snapper"
+      ]
+    },
+    {
+      image: "Images/Mahi Mahi (Dorado, Dolphin fish).png",
+      answer: "Mahi Mahi",
+      explanation: "Mahi Mahi, also known as Dorado or Dolphin fish, has a vibrant blue and green body with a long dorsal fin.",
+      choice: [
         "Mahi Mahi",
-        "Mediterranean Sea Bass"
-      ],
-      "answer": "Jonah Crab",
-      "explanation": "Jonah Crab is recognizable by its robust body and large, powerful claws."
-    },
-    {
-      "question": "Identify the fish in this picture.",
-      "image": "Images/Lane Snapper.png",
-      "choice": [
-        "Lane Snapper",
-        "Mahi Mahi",
-        "Monk Fish",
-        "Pacific King Salmon"
-      ],
-      "answer": "Lane Snapper",
-      "explanation": "Lane Snapper has a reddish body with a series of yellow stripes running from head to tail."
-    },
-    {
-      "question": "What fish is shown here?",
-      "image": "Images/Mahi Mahi (Dorado, Dolphin fish).png",
-      "choice": [
-        "Mahi Mahi",
-        "Mediterranean Sea Bass",
-        "Lane Snapper",
-        "Monk Fish"
-      ],
-      "answer": "Mahi Mahi",
-      "explanation": "Mahi Mahi, also known as Dorado or Dolphin fish, has a vibrant blue and green body with a long dorsal fin."
-    },
-    {
-      "question": "Which fish is depicted in this image?",
-      "image": "Images/Mediterranean Sea Bass (Loup de Mer, Bronzino).png",
-      "choice": [
-        "Mahi Mahi",
-        "Mediterranean Sea Bass",
-        "Lane Snapper",
-        "Hake"
-      ],
-      "answer": "Mediterranean Sea Bass",
-      "explanation": "Mediterranean Sea Bass, also known as Loup de Mer or Bronzino, has a sleek, silver body and is popular in Mediterranean cuisine."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "Images/Monk Fish.png",
-      "choice": [
-        "Monk Fish",
-        "Hake",
-        "Halibut",
-        "Jonah Crab"
-      ],
-      "answer": "Monk Fish",
-      "explanation": "Monk Fish, also known as Anglerfish, has a large, flat head and a wide mouth filled with sharp teeth."
-    },
-    {
-      "question": "What type of fish is this?",
-      "image": "Images/Pacific King Salmon.png",
-      "choice": [
-        "Lane Snapper",
-        "Halibut",
-        "Pacific King Salmon",
-        "Haddock"
-      ],
-      "answer": "Pacific King Salmon",
-      "explanation": "Pacific King Salmon, also known as Chinook, has a silver body with small black spots on its back and tail."
-    },
-    {
-      "question": "What type of fish is shown in this image?",
-      "image": "Images/Pollock.png",
-      "choice": [
-        "Pompano",
-        "Pollock",
-        "Porgy",
-        "Silk Snapper"
-      ],
-      "answer": "Pollock",
-      "explanation": "Pollock can be identified by its elongated body, a slightly forked tail, and a greenish-brown color with a silver underbelly."
-    },
-    {
-      "question": "What type of fish is this?",
-      "image": "Images/Pompano.png",
-      "choice": [
-        "Pollock",
-        "Pompano",
-        "Razor Clam",
-        "Red Grouper"
-      ],
-      "answer": "Pompano",
-      "explanation": "Pompano has a deep, laterally compressed body with a silver color and a slightly forked tail."
-    },
-    {
-      "question": "Identify the fish in this picture.",
-      "image": "Images/Porgy (Scup).png",
-      "choice": [
-        "Pompano",
-        "Porgy",
-        "Silk Snapper",
-        "Skate"
-      ],
-      "answer": "Porgy",
-      "explanation": "Porgy, also known as Scup, has a deep, laterally compressed body with a silver color and vertical stripes."
-    },
-    {
-      "question": "What type of shellfish is depicted in this image?",
-      "image": "Images/Razor Clams.png",
-      "choice": [
-        "Pompano",
-        "Razor Clam",
-        "Pollock",
-        "Red Grouper"
-      ],
-      "answer": "Razor Clam",
-      "explanation": "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores."
-    },
-    {
-      "question": "Identify the shellfish in this picture.",
-      "image": "Images/Razor Clams(2).png",
-      "choice": [
-        "Razor Clam",
-        "Silk Snapper",
-        "Porgy",
-        "Skate"
-      ],
-      "answer": "Razor Clam",
-      "explanation": "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores."
-    },
-    {
-      "question": "What type of fish is shown here?",
-      "image": "Images/Red Grouper.png",
-      "choice": [
-        "Porgy",
-        "Red Grouper",
-        "Pollock",
-        "Skate"
-      ],
-      "answer": "Red Grouper",
-      "explanation": "Red Grouper has a robust, elongated body with a reddish color and white spots."
-    },
-    {
-      "question": "Identify the fish in this picture.",
-      "image": "Images/Sardine.png",
-      "choice": [
-        "Sardine",
-        "Pollock",
-        "Red Grouper",
-        "Pompano"
-      ],
-      "answer": "Sardine",
-      "explanation": "Sardines are small, silvery fish with a single dorsal fin and are commonly found in large schools."
-    },
-    {
-      "question": "What type of fish is depicted in this image?",
-      "image": "Images/Sardine(2).png",
-      "choice": [
-        "Silk Snapper",
-        "Sardine",
-        "Skate",
-        "Pompano"
-      ],
-      "answer": "Sardine",
-      "explanation": "Sardines are small, silvery fish with a single dorsal fin and are commonly found in large schools."
-    },
-    {
-      "question": "What type of fish is this?",
-      "image": "Images/Silk Snapper.png",
-      "choice": [
-        "Sardine",
-        "Silk Snapper",
-        "Red Grouper",
-        "Skate"
-      ],
-      "answer": "Silk Snapper",
-      "explanation": "Silk Snapper has a bright red body with yellow hues and a distinct, elongated shape."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "Images/Skate.png",
-      "choice": [
-        "Pollock",
-        "Skate",
-        "Silk Snapper",
-        "Porgy"
-      ],
-      "answer": "Skate",
-      "explanation": "Skate is a flat, cartilaginous fish with a diamond-shaped body and wing-like pectoral fins."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "SwordFish.png",
-      "choice": [
-        "SwordFish",
-        "Tile Fish (Golden Bass)",
-        "Turbot",
-        "Vermillion Caribbean or Beeliner Snapper"
-      ],
-      "answer": "SwordFish",
-      "explanation": "Swordfish is characterized by an elongated, flat bill and a streamlined body with a dark brown to black back and lighter sides and belly."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "Tile Fish (Golden Bass).png",
-      "choice": [
-        "Tile Fish (Golden Bass)",
-        "Turbot",
-        "Wild Striped Bass",
-        "Spanish Mackerel"
-      ],
-      "answer": "Tile Fish (Golden Bass)",
-      "explanation": "Tile Fish, also known as Golden Bass, features a long, slender body with a bluish or greenish sheen and yellow or gold spots."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "Turbot(2).png",
-      "choice": [
-        "Turbot",
-        "Vermillion Caribbean or Beeliner Snapper",
-        "Steel Head Trout",
-        "Wild Striped Bass"
-      ],
-      "answer": "Turbot",
-      "explanation": "Turbot is a flatfish known for its diamond-shaped body, sandy to dark brown coloration with irregular dark spots, and eyes on the left side."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "Turbot.png",
-      "choice": [
-        "Turbot",
-        "SwordFish",
-        "Sturgeon",
-        "Spanish Mackerel"
-      ],
-      "answer": "Turbot",
-      "explanation": "Turbot is a flatfish known for its diamond-shaped body, sandy to dark brown coloration with irregular dark spots, and eyes on the left side."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "Vermillion Caribbean or Beeliner Snapper.png",
-      "choice": [
-        "Vermillion Caribbean or Beeliner Snapper",
-        "Turbot",
-        "SwordFish",
-        "Wild Striped Bass"
-      ],
-      "answer": "Vermillion Caribbean or Beeliner Snapper",
-      "explanation": "Vermillion Caribbean or Beeliner Snapper has a vibrant red to pinkish body with a streamlined shape and a forked tail."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "Wild Striped Bass (WSB).png",
-      "choice": [
-        "Wild Striped Bass",
-        "Tile Fish (Golden Bass)",
-        "Turbot",
-        "Spanish Mackerel"
-      ],
-      "answer": "Wild Striped Bass",
-      "explanation": "Wild Striped Bass has a sleek, silvery body with dark horizontal stripes running from the gills to the tail."
-    },
-    {
-      "question": "Identify the fish in the picture.",
-      "image": "Spanish Mackerel.png",
-      "choice": [
+        "Wahoo",
+        "King Mackerel",
         "Spanish Mackerel",
-        "SwordFish",
-        "Steel Head Trout",
-        "Sturgeon"
-      ],
-      "answer": "Spanish Mackerel",
-      "explanation": "Spanish Mackerel is known for its streamlined body, blue-green back, silver sides, and rows of yellow spots."
+        "Cobia"
+      ]
     },
     {
-      "question": "Identify the fish in the picture.",
-      "image": "Steel Head Trout.png",
-      "choice": [
-        "Steel Head Trout",
+      image: "Images/Mediterranean Sea Bass (Loup de Mer, Bronzino).png",
+      answer: "Mediterranean Sea Bass",
+      explanation: "Mediterranean Sea Bass, also known as Loup de Mer or Bronzino, has a sleek, silver body and is popular in Mediterranean cuisine.",
+      choice: [
+        "Mediterranean Sea Bass",
+        "European Sea Bass",
+        "White Sea Bass",
+        "Striped Bass",
+        "Black Sea Bass"
+      ]
+    },
+    {
+      image: "Images/Monk Fish.png",
+      answer: "Monk Fish",
+      explanation: "Monk Fish, also known as Anglerfish, has a large, flat head and a wide mouth filled with sharp teeth.",
+      choice: [
+        "Monk Fish",
+        "Goosefish",
+        "Anglerfish",
+        "Sea Raven",
+        "Wolf Fish"
+      ]
+    },
+    {
+      image: "Images/Pacific King Salmon.png",
+      answer: "Pacific King Salmon",
+      explanation: "Pacific King Salmon, also known as Chinook, has a silver body with small black spots on its back and tail.",
+      choice: [
+        "Pacific King Salmon",
+        "Sockeye Salmon",
+        "Coho Salmon",
+        "Chum Salmon",
+        "Pink Salmon"
+      ]
+    },
+    {
+      image: "Images/Pollock.png",
+      answer: "Pollock",
+      explanation: "Pollock can be identified by its elongated body, a slightly forked tail, and a greenish-brown color with a silver underbelly.",
+      choice: [
+        "Pollock",
+        "Haddock",
+        "Pacific Cod",
+        "Whiting",
+        "Saithe"
+      ]
+    },
+    {
+      image: "Images/Pompano.png",
+      answer: "Pompano",
+      explanation: "Pompano has a deep, laterally compressed body with a silver color and a slightly forked tail.",
+      choice: [
+        "Pompano",
+        "Jack Crevalle",
+        "Permit",
+        "Lookdown",
+        "Blue Runner"
+      ]
+    },
+    {
+      image: "Images/Porgy (Scup).png",
+      answer: "Porgy",
+      explanation: "Porgy, also known as Scup, has a deep, laterally compressed body with a silver color and vertical stripes.",
+      choice: [
+        "Porgy",
+        "Sheepshead",
+        "Black Sea Bass",
+        "Grunt",
+        "Snapper"
+      ]
+    },
+    {
+      image: "Images/Razor Clams.png",
+      answer: "Razor Clam",
+      explanation: "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores.",
+      choice: [
+        "Razor Clam",
+        "Pacific Razor Clam",
+        "Atlantic Razor Clam",
+        "Geoduck",
+        "Soft-shell Clam"
+      ]
+    },
+    {
+      image: "Images/Razor Clams(2).png",
+      answer: "Razor Clam",
+      explanation: "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores.",
+      choice: [
+        "Razor Clam",
+        "Pacific Razor Clam",
+        "Atlantic Razor Clam",
+        "Geoduck",
+        "Soft-shell Clam"
+      ]
+    },
+    {
+      image: "Images/Red Grouper.png",
+      answer: "Red Grouper",
+      explanation: "Red Grouper has a robust, elongated body with a reddish color and white spots.",
+      choice: [
+        "Red Grouper",
+        "Gag Grouper",
+        "Black Grouper",
+        "Scamp Grouper",
+        "Nassau Grouper"
+      ]
+    },
+    {
+      image: "Images/Sardine.png",
+      answer: "Sardine",
+      explanation: "Sardines are small, silvery fish with a single dorsal fin and are commonly found in large schools.",
+      choice: [
+        "Sardine",
+        "Anchovy",
+        "Herring",
+        "Pilchard",
+        "Sprat"
+      ]
+    },
+    {
+      image: "Images/Sardine(2).png",
+      answer: "Sardine",
+      explanation: "Sardines are small, silvery fish with a single dorsal fin and are commonly found in large schools.",
+      choice: [
+        "Sardine",
+        "Anchovy",
+        "Herring",
+        "Pilchard",
+        "Sprat"
+      ]
+    },
+    {
+      image: "Images/Silk Snapper.png",
+      answer: "Silk Snapper",
+      explanation: "Silk Snapper has a bright red body with yellow hues and a distinct, elongated shape.",
+      choice: [
+        "Silk Snapper",
+        "Red Snapper",
+        "Lane Snapper",
+        "Mutton Snapper",
+        "Yellowtail Snapper"
+      ]
+    },
+    {
+      image: "Images/Skate.png",
+      answer: "Skate",
+      explanation: "Skate is a flat, cartilaginous fish with a diamond-shaped body and wing-like pectoral fins.",
+      choice: [
+        "Skate",
+        "Ray",
+        "Sawfish",
+        "Shark",
+        "Stingray"
+      ]
+    },
+    {
+      image: "Images/SwordFish.png",
+      answer: "SwordFish",
+      explanation: "Swordfish is characterized by an elongated, flat bill and a streamlined body with a dark brown to black back and lighter sides and belly.",
+      choice: [
         "SwordFish",
+        "Marlin",
+        "Sailfish",
+        "Spearfish",
+        "Wahoo"
+      ]
+    },
+    {
+      image: "Images/Tile Fish (Golden Bass).png",
+      answer: "Tile Fish (Golden Bass)",
+      explanation: "Tile Fish, also known as Golden Bass, features a long, slender body with a bluish or greenish sheen and yellow or gold spots.",
+      choice: [
+        "Tile Fish (Golden Bass)",
+        "Blueline Tilefish",
+        "Goldblotch Grouper",
+        "Gag Grouper",
+        "Snowy Grouper"
+      ]
+    },
+    {
+      image: "Images/Turbot(2).png",
+      answer: "Turbot",
+      explanation: "Turbot is a flatfish known for its diamond-shaped body, sandy to dark brown coloration with irregular dark spots, and eyes on the left side.",
+      choice: [
+        "Turbot",
+        "Halibut",
+        "Brill",
+        "Sole",
+        "Flounder"
+      ]
+    },
+    {
+      image: "Images/Turbot.png",
+      answer: "Turbot",
+      explanation: "Turbot is a flatfish known for its diamond-shaped body, sandy to dark brown coloration with irregular dark spots, and eyes on the left side.",
+      choice: [
+        "Turbot",
+        "Halibut",
+        "Brill",
+        "Sole",
+        "Flounder"
+      ]
+    },
+    {
+      image: "Images/Vermillion Caribbean or Beeliner Snapper.png",
+      answer: "Vermillion Caribbean or Beeliner Snapper",
+      explanation: "Vermillion Caribbean or Beeliner Snapper has a vibrant red to pinkish body with a streamlined shape and a forked tail.",
+      choice: [
+        "Vermillion Caribbean or Beeliner Snapper",
+        "Red Snapper",
+        "Lane Snapper",
+        "Yellowtail Snapper",
+        "Silk Snapper"
+      ]
+    },
+    {
+      image: "Images/Wild Striped Bass (WSB).png",
+      answer: "Wild Striped Bass",
+      explanation: "Wild Striped Bass has a sleek, silvery body with dark horizontal stripes running from the gills to the tail.",
+      choice: [
+        "Wild Striped Bass",
+        "Hybrid Striped Bass",
+        "White Bass",
+        "Bluefish",
+        "Black Sea Bass"
+      ]
+    },
+    {
+      image: "Images/Spanish Mackerel.png",
+      answer: "Spanish Mackerel",
+      explanation: "Spanish Mackerel is known for its streamlined body, blue-green back, silver sides, and rows of yellow spots.",
+      choice: [
+        "Spanish Mackerel",
+        "King Mackerel",
+        "Cero Mackerel",
+        "Atlantic Mackerel",
+        "Bluefish"
+      ]
+    },
+    {
+      image: "Images/Steel Head Trout.png",
+      answer: "Steel Head Trout",
+      explanation: "Steel Head Trout has a sleek, streamlined body with a silver belly, a dark olive back, and a pinkish stripe running along its sides.",
+      choice: [
+        "Steel Head Trout",
+        "Rainbow Trout",
+        "Cutthroat Trout",
+        "Brook Trout",
+        "Dolly Varden"
+      ]
+    },
+    {
+      image: "Images/Sturgeon(2).png",
+      answer: "Sturgeon",
+      explanation: "Sturgeon is recognized by its long, cylindrical body, bony plates along its back, and a shark-like tail fin.",
+      choice: [
         "Sturgeon",
-        "Spanish Mackerel"
-      ],
-      "answer": "Steel Head Trout",
-      "explanation": "Steel Head Trout has a sleek, streamlined body with a silver belly, a dark olive back, and a pinkish stripe running along its sides."
+        "Paddlefish",
+        "Sturddlefish",
+        "Sterlet",
+        "Cuttlefish"
+      ]
     },
     {
-      "question": "Identify the fish in the picture.",
-      "image": "Sturgeon(2).png",
-      "choice": [
+      image: "Images/Sturgeon.png",
+      answer: "Sturgeon",
+      explanation: "Sturgeon is recognized by its long, cylindrical body, bony plates along its back, and a shark-like tail fin.",
+      choice: [
         "Sturgeon",
-        "SwordFish",
-        "Steel Head Trout",
-        "Spanish Mackerel"
-      ],
-      "answer": "Sturgeon",
-      "explanation": "Sturgeon is recognized by its long, cylindrical body, bony plates along its back, and a shark-like tail fin."
+        "Paddlefish",
+        "Sturddlefish",
+        "Sterlet",
+        "Cuttlefish"
+      ]
     },
     {
-      "question": "Identify the fish in the picture.",
-      "image": "Sturgeon.png",
-      "choice": [
-        "Sturgeon",
-        "SwordFish",
-        "Steel Head Trout",
-        "Spanish Mackerel"
-      ],
-      "answer": "Sturgeon",
-      "explanation": "Sturgeon is recognized by its long, cylindrical body, bony plates along its back, and a shark-like tail fin."
-    },{
-        "question": "Identify the fish in the picture.",
-        "image": "Images/Winter Flounder.png",
-        "choice": [
-            "Winter Flounder",
-            "Witch Flounder (Grey Sole)",
-            "Yellow Tail Flounder",
-            "Yellowfin Tuna"
-        ],
-        "answer": "Winter Flounder",
-        "explanation": "Winter Flounder is a flatfish known for its dark brown color and small, pointed head."
+      image: "Images/Winter Flounder.png",
+      answer: "Winter Flounder",
+      explanation: "Winter Flounder is a flatfish known for its dark brown color and small, pointed head.",
+      choice: [
+        "Winter Flounder",
+        "Summer Flounder",
+        "Yellowtail Flounder",
+        "Fourspot Flounder",
+        "Gulf Flounder"
+      ]
     },
     {
-        "question": "Identify the fish in the picture.",
-        "image": "Images/Witch Flounder (Grey Sole).png",
-        "choice": [
-            "Winter Flounder",
-            "Witch Flounder (Grey Sole)",
-            "Yellow Tail Flounder",
-            "Yellowfin Tuna"
-        ],
-        "answer": "Witch Flounder (Grey Sole)",
-        "explanation": "Witch Flounder, also known as Grey Sole, is a flatfish with a darker, greyish-brown body and a more oval shape compared to other flounders."
+      image: "Images/Witch Flounder (Grey Sole).png",
+      answer: "Witch Flounder (Grey Sole)",
+      explanation: "Witch Flounder, also known as Grey Sole, is a flatfish with a darker, greyish-brown body and a more oval shape compared to other flounders.",
+      choice: [
+        "Witch Flounder (Grey Sole)",
+        "Dover Sole",
+        "Lemon Sole",
+        "Rex Sole",
+        "Sand Sole"
+      ]
     },
     {
-        "question": "Identify the fish in the picture.",
-        "image": "Images/Yellow Tail Flounder.png",
-        "choice": [
-            "Winter Flounder",
-            "Witch Flounder (Grey Sole)",
-            "Yellow Tail Flounder",
-            "Yellowfin Tuna"
-        ],
-        "answer": "Yellow Tail Flounder",
-        "explanation": "Yellow Tail Flounder is a flatfish distinguished by its yellowish tail and lighter brown body."
+      image: "Images/Yellow Tail Flounder.png",
+      answer: "Yellow Tail Flounder",
+      explanation: "Yellow Tail Flounder is a flatfish distinguished by its yellowish tail and lighter brown body.",
+      choice: [
+        "Yellow Tail Flounder",
+        "Winter Flounder",
+        "Summer Flounder",
+        "Fourspot Flounder",
+        "Gulf Flounder"
+      ]
     },
     {
-        "question": "Identify the fish in the picture.",
-        "image": "Images/Yellowfin Tuna.png",
-        "choice": [
-            "Winter Flounder",
-            "Witch Flounder (Grey Sole)",
-            "Yellow Tail Flounder",
-            "Yellowfin Tuna"
-        ],
-        "answer": "Yellowfin Tuna",
-        "explanation": "Yellowfin Tuna is a large fish with a distinctively long, yellow dorsal fin and yellow stripe along its body."
+      image: "Images/Yellowfin Tuna.png",
+      answer: "Yellowfin Tuna",
+      explanation: "Yellowfin Tuna is a large fish with a distinctively long, yellow dorsal fin and yellow stripe along its body.",
+      choice: [
+        "Yellowfin Tuna",
+        "Bluefin Tuna",
+        "Bigeye Tuna",
+        "Albacore Tuna",
+        "Skipjack Tuna"
+      ]
     }
-  ],
+  ]
 };
