@@ -5378,7 +5378,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Atlantic Farm Raised Salmon.png",
+      image: "Images/Atlantic Salmon.png",
       answer: "Atlantic Salmon",
       explanation: "Atlantic Farm Raised Salmon has a silver body with distinct spots and a streamlined shape.",
       choice: [
@@ -5390,7 +5390,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Black Cod (Sablefish, Butterfish).png",
+      image: "Images/Black Cod.png",
       answer: "Black Cod",
       explanation: "Black Cod, also known as Sablefish or Butterfish, has a dark, sleek body.",
       choice: [
@@ -5438,7 +5438,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Farm Raised Rainbow Trout.png",
+      image: "Images/Rainbow Trout.png",
       answer: "Rainbow Trout",
       explanation: "Farm Raised Rainbow Trout has a characteristic pink stripe along its sides.",
       choice: [
@@ -5450,7 +5450,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Fluke (Summer Flounder).png",
+      image: "Images/Fluke.png",
       answer: "Fluke",
       explanation: "Fluke, also known as Summer Flounder, is a flatfish with both eyes on one side of its body.",
       choice: [
@@ -5486,7 +5486,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Halibut (Atlantic and Pacific).png",
+      image: "Images/Halibut.png",
       answer: "Halibut",
       explanation: "Halibut is a large, flat fish with both eyes on one side of its body and a white underside.",
       choice: [
@@ -5498,7 +5498,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Hybrid Striped Bass (HSB).png",
+      image: "Images/Hybrid Striped Bass.png",
       answer: "Hybrid Striped Bass",
       explanation: "Hybrid Striped Bass has a distinctive pattern of broken stripes running along its sides.",
       choice: [
@@ -5534,7 +5534,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Mahi Mahi (Dorado, Dolphin fish).png",
+      image: "Images/Mahi Mahi.png",
       answer: "Mahi Mahi",
       explanation: "Mahi Mahi, also known as Dorado or Dolphin fish, has a vibrant blue and green body with a long dorsal fin.",
       choice: [
@@ -5546,7 +5546,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Mediterranean Sea Bass (Loup de Mer, Bronzino).png",
+      image: "Images/Mediterranean Sea Bass.png",
       answer: "Mediterranean Sea Bass",
       explanation: "Mediterranean Sea Bass, also known as Loup de Mer or Bronzino, has a sleek, silver body and is popular in Mediterranean cuisine.",
       choice: [
@@ -5606,7 +5606,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Porgy (Scup).png",
+      image: "Images/Porgy.png",
       answer: "Porgy",
       explanation: "Porgy, also known as Scup, has a deep, laterally compressed body with a silver color and vertical stripes.",
       choice: [
@@ -5714,7 +5714,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Tile Fish (Golden Bass).png",
+      image: "Images/Tile Fish.png",
       answer: "Tile Fish",
       explanation: "Tile Fish, also known as Golden Bass, features a long, slender body with a bluish or greenish sheen and yellow or gold spots.",
       choice: [
@@ -5750,7 +5750,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Vermillion Caribbean or Beeliner Snapper.png",
+      image: "Images/Vermillion Caribbean.png",
       answer: "Vermillion Caribbean",
       explanation: "Vermillion Caribbean or Beeliner Snapper has a vibrant red to pinkish body with a streamlined shape and a forked tail.",
       choice: [
@@ -5762,7 +5762,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Wild Striped Bass (WSB).png",
+      image: "Images/Wild Striped Bass.png",
       answer: "Wild Striped Bass",
       explanation: "Wild Striped Bass has a sleek, silvery body with dark horizontal stripes running from the gills to the tail.",
       choice: [
@@ -5834,7 +5834,7 @@ const questions = {
       ]
     },
     {
-      image: "Images/Witch Flounder (Grey Sole).png",
+      image: "Images/Witch Flounder.png",
       answer: "Witch Flounder",
       explanation: "Witch Flounder, also known as Grey Sole, is a flatfish with a darker, greyish-brown body and a more oval shape compared to other flounders.",
       choice: [
