@@ -5860,25 +5860,25 @@ const questions = {
         "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores.",
       choice: [
         "Razor Clam",
-        "Pacific Razor Clam",
-        "Atlantic Razor Clam",
         "Geoduck",
         "Soft-shell Clam",
+        "Surf Clam",
+        "Cockle",
       ],
-    },
-    {
+},
+{
       image: "Images/Razor Clams(2).png",
       answer: "Razor Clam",
       explanation:
         "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores.",
       choice: [
         "Razor Clam",
-        "Pacific Razor Clam",
-        "Atlantic Razor Clam",
         "Geoduck",
         "Soft-shell Clam",
+        "Surf Clam",
+        "Cockle",
       ],
-    },
+},
     {
       image: "Images/Red Grouper.png",
       answer: "Red Grouper",
