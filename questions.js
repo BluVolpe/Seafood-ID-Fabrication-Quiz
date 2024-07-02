@@ -110,7 +110,7 @@ const questions = {
       },
     {
       question: "What is a major benefit of seafood compared to other animal products?",
-      choices: [
+      choice: [
         "Lower carbon footprint",
         "Higher protein content",
         "More vitamins",
@@ -121,7 +121,7 @@ const questions = {
     },
     {
       question: "Why is it critical for the seafood industry to reduce its carbon footprint?",
-      choices: [
+      choice: [
         "To increase profits",
         "To meet government regulations",
         "To sustain growing population and demand",
@@ -132,7 +132,7 @@ const questions = {
     },
     {
       question: "Which seafood products have the smallest carbon footprint?",
-      choices: [
+      choice: [
         "Crab, lobster, shrimp",
         "Farmed salmon, tuna, swordfish",
         "Sardines, anchovies, farmed mussels",
@@ -143,7 +143,7 @@ const questions = {
     },
     {
       question: "What are some considerations when choosing sustainable seafood?",
-      choices: [
+      choice: [
         "Price and taste",
         "Wild vs. farmed, habitat impacts, and wildlife impacts",
         "Availability and convenience",
@@ -154,7 +154,7 @@ const questions = {
     },
     {
       question: "How is seafood managed in the United States?",
-      choices: [
+      choice: [
         "Through voluntary guidelines",
         "Under a system of enforced environmentally responsible practices",
         "By individual states without federal oversight",
@@ -165,7 +165,7 @@ const questions = {
     },
     {
       question: "What is overfishing?",
-      choices: [
+      choice: [
         "Catching fish only in specific seasons",
         "Catching fish faster than they can reproduce",
         "Catching fish for recreational purposes",
@@ -176,7 +176,7 @@ const questions = {
     },
     {
       question: "What percentage of the global population relies on seafood as their main source of protein?",
-      choices: [
+      choice: [
         "10%",
         "25%",
         "40%",
@@ -187,7 +187,7 @@ const questions = {
     },
     {
       question: "Which country is the largest producer of wild capture and aquaculture?",
-      choices: [
+      choice: [
         "United States",
         "Norway",
         "China",
@@ -198,7 +198,7 @@ const questions = {
     },
     {
       question: "What is a significant environmental concern associated with aquaculture?",
-      choices: [
+      choice: [
         "Overfishing",
         "Coastal pollution",
         "Climate change",
@@ -209,7 +209,7 @@ const questions = {
     },
     {
       question: "How much of the U.S. seafood production by weight comes from marine aquaculture?",
-      choices: [
+      choice: [
         "7%",
         "25%",
         "50%",
@@ -220,7 +220,7 @@ const questions = {
     },
     {
       question: "Which three species are the top U.S. aquaculture products?",
-      choices: [
+      choice: [
         "Tilapia, catfish, shrimp",
         "Oysters, clams, salmon",
         "Trout, bass, perch",
@@ -231,7 +231,7 @@ const questions = {
     },
     {
       question: "What is 'Fishing down the food web'?",
-      choices: [
+      choice: [
         "Switching to smaller species as larger ones become scarce",
         "Fishing in deeper waters",
         "Using larger fishing nets",
@@ -242,7 +242,7 @@ const questions = {
     },
     {
       question: "What does NOAA Fisheries do?",
-      choices: [
+      choice: [
         "Enforces international fishing laws",
         "Manages U.S. fisheries under 10 national standards of sustainability",
         "Provides fishing licenses",
@@ -253,7 +253,7 @@ const questions = {
     },
     {
       question: "What is one of the 10 National Standards of Sustainability?",
-      choices: [
+      choice: [
         "Maximize profits",
         "Prevent overfishing",
         "Increase fishing quotas",
@@ -264,7 +264,7 @@ const questions = {
     },
     {
       question: "What is a way to minimize the environmental footprint of aquaculture?",
-      choices: [
+      choice: [
         "Increase fishing quotas",
         "Use multi-trophic aquaculture",
         "Move operations to coastal areas",
@@ -275,7 +275,7 @@ const questions = {
     },
     {
       question: "What has been the impact of certification on consumer purchases?",
-      choices: [
+      choice: [
         "Negligible",
         "Slight increase",
         "Significant impact",
@@ -286,7 +286,7 @@ const questions = {
     },
     {
       question: "What percentage of global aquaculture is certified?",
-      choices: [
+      choice: [
         "8%",
         "25%",
         "50%",
@@ -297,7 +297,7 @@ const questions = {
     },
     {
       question: "What is one of the recommendations for reducing the environmental impact of aquaculture?",
-      choices: [
+      choice: [
         "Increase the use of wild fish for feed",
         "Move operations offshore",
         "Use more chemical antibiotics",
@@ -308,7 +308,7 @@ const questions = {
     },
     {
       question: "What is the role of chefs in promoting sustainable seafood?",
-      choices: [
+      choice: [
         "They have no significant role",
         "They are ambassadors for sustainability",
         "They focus only on taste",
@@ -319,7 +319,7 @@ const questions = {
     },
     {
       question: "Which organization provides guidance for improving sustainability efforts in seafood?",
-      choices: [
+      choice: [
         "FDA",
         "Seafood Watch",
         "EPA",
@@ -330,7 +330,7 @@ const questions = {
     },
     {
       question: "How has the carbon footprint of farmed fish compared to land animals?",
-      choices: [
+      choice: [
         "Larger than land animals",
         "Smaller than most land animals",
         "Equal to land animals",
@@ -341,7 +341,7 @@ const questions = {
     },
     {
       question: "What has been the trend in global aquaculture production from 1990 to 2018?",
-      choices: [
+      choice: [
         "Decreased significantly",
         "Remained static",
         "Increased by 50%",
@@ -352,7 +352,7 @@ const questions = {
     },
     {
       question: "What percentage of global wild caught fish is used to produce feed for aquaculture?",
-      choices: [
+      choice: [
         "5%",
         "10%",
         "15%",
@@ -363,7 +363,7 @@ const questions = {
     },
     {
       question: "What is one significant challenge faced by the aquaculture industry?",
-      choices: [
+      choice: [
         "High consumer demand",
         "Lack of technology",
         "Negative image and environmental concerns",
@@ -374,7 +374,7 @@ const questions = {
     },
     {
       question: "What does 'overfishing' mean?",
-      choices: [
+      choice: [
         "Fishing in restricted areas",
         "Catching fish faster than they can reproduce",
         "Fishing only during certain seasons",
@@ -385,7 +385,7 @@ const questions = {
     },
     {
       question: "Which U.S. organization is responsible for managing sustainable fisheries?",
-      choices: [
+      choice: [
         "FDA",
         "EPA",
         "NOAA",
@@ -396,7 +396,7 @@ const questions = {
     },
     {
       question: "What is one of the main drivers of overfishing?",
-      choices: [
+      choice: [
         "Increased government subsidies",
         "Lack of technology",
         "Decreased consumer demand",
@@ -407,7 +407,7 @@ const questions = {
     },
     {
       question: "Which method can help reduce the environmental impact of aquaculture?",
-      choices: [
+      choice: [
         "Increasing use of antibiotics",
         "Using multi-trophic aquaculture",
         "Increasing production quotas",
@@ -418,7 +418,7 @@ const questions = {
     },
     {
       question: "What percentage of the U.S. seafood production is from marine aquaculture by weight?",
-      choices: [
+      choice: [
         "7%",
         "25%",
         "50%",
@@ -429,7 +429,7 @@ const questions = {
     },
     {
       question: "What has been the trend in U.S. aquaculture production since 2018?",
-      choices: [
+      choice: [
         "Decreased",
         "Remained the same",
         "Increased by 2%",
@@ -440,7 +440,7 @@ const questions = {
     },
     {
       question: "Which species accounts for the largest percentage of U.S. farmed fish production?",
-      choices: [
+      choice: [
         "Salmon",
         "Catfish",
         "Tilapia",
@@ -451,7 +451,7 @@ const questions = {
     },
     {
       question: "What is the main focus of the Global Seafood Alliance (GSA)?",
-      choices: [
+      choice: [
         "Promoting seafood consumption",
         "Improving seafood sustainability and practices",
         "Increasing seafood production quotas",
@@ -462,7 +462,7 @@ const questions = {
     },
     {
       question: "What is one of the benefits of multi-trophic aquaculture?",
-      choices: [
+      choice: [
         "Reduces the need for antibiotics",
         "Increases fish size",
         "Reduces waste through raising different species together",
@@ -473,7 +473,7 @@ const questions = {
     },
     {
       question: "What role do certifications play in the seafood industry?",
-      choices: [
+      choice: [
         "Increase production costs",
         "Ensure sustainable practices and improve marketability",
         "Limit seafood exports",
@@ -484,7 +484,7 @@ const questions = {
     },
     {
       question: "What is the impact of illegal, unreported, and unregulated (IUU) fishing?",
-      choices: [
+      choice: [
         "Increases seafood prices",
         "Generates over $36 billion in illegal profits annually",
         "Reduces fish populations",
@@ -495,7 +495,7 @@ const questions = {
     },
     {
       question: "What percentage of U.S. seafood is imported?",
-      choices: [
+      choice: [
         "50%",
         "60%",
         "75%",
@@ -506,7 +506,7 @@ const questions = {
     },
     {
       question: "What is the purpose of NOAA Fisheries' international fisheries agreements?",
-      choices: [
+      choice: [
         "To increase fishing quotas",
         "To manage and conserve international fisheries sustainably",
         "To reduce seafood prices",
@@ -517,7 +517,7 @@ const questions = {
     },
     {
       question: "What is the main environmental benefit of farmed fish?",
-      choices: [
+      choice: [
         "Requires no resources",
         "Has a smaller carbon footprint compared to land animals",
         "Has higher fat content",
@@ -528,7 +528,7 @@ const questions = {
     },
     {
       question: "Which factor contributes most to overfishing?",
-      choices: [
+      choice: [
         "Fishing technology advancements",
         "Seasonal fishing bans",
         "Low consumer demand",
@@ -539,7 +539,7 @@ const questions = {
     },
     {
       question: "Which practice can help make seafood more sustainable?",
-      choices: [
+      choice: [
         "Increasing chemical use",
         "Fishing without restrictions",
         "Preventing overfishing",
@@ -550,7 +550,7 @@ const questions = {
     },
     {
       question: "What percentage of the U.S. aquaculture value is based on mollusks?",
-      choices: [
+      choice: [
         "30%",
         "50%",
         "70%",
@@ -561,7 +561,7 @@ const questions = {
     },
     {
       question: "What is a significant challenge in certifying global aquaculture?",
-      choices: [
+      choice: [
         "Short supply chains",
         "Low production costs",
         "High transparency",
@@ -572,7 +572,7 @@ const questions = {
     },
     {
       question: "What is the primary goal of sustainable seafood practices?",
-      choices: [
+      choice: [
         "Maximize profits",
         "Ensure long-term health of fish populations and ecosystems",
         "Reduce consumer prices",
@@ -583,7 +583,7 @@ const questions = {
     },
     {
       question: "How can consumers contribute to seafood sustainability?",
-      choices: [
+      choice: [
         "Buying more imported seafood",
         "Ignoring seafood certifications",
         "Making informed choices about the source of their fish",
@@ -594,7 +594,7 @@ const questions = {
     },
     {
       question: "What is the impact of modern fishing gears on fish populations?",
-      choices: [
+      choice: [
         "No significant impact",
         "Helps to increase fish populations",
         "Allows for massive harvesting and overfishing",
@@ -605,7 +605,7 @@ const questions = {
     },
     {
       question: "What is one way to improve the sustainability of seafood?",
-      choices: [
+      choice: [
         "Increasing fish consumption",
         "Reducing bycatch",
         "Using more plastic packaging",
@@ -616,7 +616,7 @@ const questions = {
     },
     {
       question: "Which country accounts for the largest share of global aquaculture production?",
-      choices: [
+      choice: [
         "United States",
         "India",
         "China",
@@ -627,7 +627,7 @@ const questions = {
     },
     {
       question: "What is one recommendation from the World Economic Forum to minimize aquaculture's environmental footprint?",
-      choices: [
+      choice: [
         "Increase chemical use",
         "Move operations offshore",
         "Reduce renewable energy sources",
@@ -638,7 +638,7 @@ const questions = {
     },
     {
       question: "What is the predicted decline of wild fish stocks by 2050 if current fishing rates continue?",
-      choices: [
+      choice: [
         "10%",
         "25%",
         "50%",
@@ -1260,7 +1260,7 @@ const questions = {
   flatCut: [
     {
       question: "What are the common names for Dover Sole?",
-      choices: [
+      choice: [
         "California turbot, curlfin turbot",
         "Slime sole, shortfinned sole, slippery sole",
         "Lemon sole, common sole",
@@ -1271,7 +1271,7 @@ const questions = {
     },
     {
       question: "What is the maximum size of a Dover Sole?",
-      choices: [
+      choice: [
         "37 cm (15 inches)",
         "61 cm (24 inches)",
         "76 cm (30 inches)",
@@ -1282,7 +1282,7 @@ const questions = {
     },
     {
       question: "Which species of flatfish is known for having a strong anal spine and high, narrow ridge between its eyes?",
-      choices: [
+      choice: [
         "Pacific Halibut",
         "English Sole",
         "Dover Sole",
@@ -1293,7 +1293,7 @@ const questions = {
     },
     {
       question: "What type of habitat is typically associated with Pacific Halibut?",
-      choices: [
+      choice: [
         "Shallow coastal areas",
         "Deep muddy bottoms",
         "Soft bottoms from 4 to 291 fm",
@@ -1304,7 +1304,7 @@ const questions = {
     },
     {
       question: "Which flatfish species has eyes typically on the left side of its head and large scales appearing as bony knobs on the eyed side?",
-      choices: [
+      choice: [
         "Starry Flounder",
         "Rex Sole",
         "Pacific Sanddab",
@@ -1315,7 +1315,7 @@ const questions = {
     },
     {
       question: "What is the average size of an English Sole in commercial catch?",
-      choices: [
+      choice: [
         "1 pound",
         "3/4 pound",
         "1/2 pound",
@@ -1326,7 +1326,7 @@ const questions = {
     },
     {
       question: "Which flatfish species is commonly referred to as 'cigarette paper' due to its thin flesh?",
-      choices: [
+      choice: [
         "Pacific Halibut",
         "Flathead Sole",
         "Rex Sole",
@@ -1337,7 +1337,7 @@ const questions = {
     },
     {
       question: "What is the range of the English Sole?",
-      choices: [
+      choice: [
         "Bering Sea to San Quintin Bay, Baja California",
         "Bering Sea and Aleutian Islands to San Cristobal Bay, Baja California",
         "Alaska to Monterey, California",
@@ -1348,7 +1348,7 @@ const questions = {
     },
     {
       question: "Which flatfish is known for having a small head and pointed snout?",
-      choices: [
+      choice: [
         "Dover Sole",
         "English Sole",
         "Flathead Sole",
@@ -1359,7 +1359,7 @@ const questions = {
     },
     {
       question: "At what depth is Pacific Halibut commonly found during the summer?",
-      choices: [
+      choice: [
         "3 to 600 fm",
         "15 to 150 fm",
         "40 to 550 fm",
@@ -1370,7 +1370,7 @@ const questions = {
     },
     {
       question: "What are the primary physical characteristics of the Dover Sole?",
-      choices: [
+      choice: [
         "Large scales appearing as bony knobs, right-eyed",
         "Soft, flabby body with large amounts of slime, right-eyed",
         "Small head, pointed snout, left-eyed",
@@ -1381,7 +1381,7 @@ const questions = {
     },
     {
       question: "What distinguishes the English Sole from other flatfish in terms of its habitat?",
-      choices: [
+      choice: [
         "Found only in intertidal zones",
         "Commonly found on sand bottoms from 0 to 300 fm",
         "Prefers deep muddy bottoms",
@@ -1392,7 +1392,7 @@ const questions = {
     },
     {
       question: "Which flatfish species has a lateral line with a high arch over the pectoral fin?",
-      choices: [
+      choice: [
         "Rock Sole",
         "English Sole",
         "Pacific Sanddab",
@@ -1403,7 +1403,7 @@ const questions = {
     },
     {
       question: "What is the maximum size of a Pacific Halibut?",
-      choices: [
+      choice: [
         "76 cm (30 inches)",
         "105 cm (41 inches)",
         "267 cm (105 inches)",
@@ -1414,7 +1414,7 @@ const questions = {
     },
     {
       question: "Which species is known for its very soft flesh and high slime content?",
-      choices: [
+      choice: [
         "Flathead Sole",
         "Dover Sole",
         "English Sole",
@@ -1425,7 +1425,7 @@ const questions = {
     },
     {
       question: "What are the key identifying features of the Starry Flounder?",
-      choices: [
+      choice: [
         "Eyes on left side, large scales appearing as bony knobs",
         "Eyes on right side, smooth scales",
         "Thin flesh, small scales",
@@ -1436,7 +1436,7 @@ const questions = {
     },
     {
       question: "What is the average size of a commercially caught Flathead Sole?",
-      choices: [
+      choice: [
         "10 pounds",
         "3/4 pound",
         "1 pound",
@@ -1447,7 +1447,7 @@ const questions = {
     },
     {
       question: "What habitat range does the English Sole cover?",
-      choices: [
+      choice: [
         "Bering Sea to San Quintin Bay, Baja California",
         "Bering Sea and Aleutian Islands to San Cristobal Bay, Baja California",
         "Sea of Japan and Sea of Okhotsk north to Gulf of Anadyr",
@@ -1458,7 +1458,7 @@ const questions = {
     },
     {
       question: "Which flatfish species is identified by its high, narrow ridge between the eyes?",
-      choices: [
+      choice: [
         "Pacific Halibut",
         "Dover Sole",
         "Flathead Sole",
@@ -1469,7 +1469,7 @@ const questions = {
     },
     {
       question: "What is the typical depth range for the Rock Sole?",
-      choices: [
+      choice: [
         "0 to 575 fm",
         "5 to 750 fm",
         "55 to 135 fm",
@@ -1480,7 +1480,7 @@ const questions = {
     },
     {
       question: "Which flatfish is known for its diamond-shaped body and small head?",
-      choices: [
+      choice: [
         "Dover Sole",
         "English Sole",
         "Flathead Sole",
@@ -1491,7 +1491,7 @@ const questions = {
     },
     {
       question: "What is the maximum size of a Starry Flounder?",
-      choices: [
+      choice: [
         "76 cm (30 inches)",
         "61 cm (24 inches)",
         "91 cm (36 inches)",
@@ -1502,7 +1502,7 @@ const questions = {
     },
     {
       question: "Which species is identified by its very thin flesh, often referred to as 'cigarette paper'?",
-      choices: [
+      choice: [
         "Pacific Halibut",
         "Dover Sole",
         "Flathead Sole",
@@ -1513,7 +1513,7 @@ const questions = {
     },
     {
       question: "What are the distinguishing features of the Pacific Sanddab?",
-      choices: [
+      choice: [
         "Eyes on left side, thin flesh",
         "Lateral line with high arch, right-eyed",
         "Smooth scales, mottled with darker spots",
@@ -2628,7 +2628,7 @@ const questions = {
   upAndOver: [
     {
       question: "What type of fish is most commonly associated with ciguatera poisoning?",
-      choices: [
+      choice: [
         "Carnivorous predator reef fish",
         "Freshwater fish",
         "Deep-sea fish",
@@ -2639,7 +2639,7 @@ const questions = {
     },
     {
       question: "What are the primary symptoms of ciguatera poisoning?",
-      choices: [
+      choice: [
         "Gastrointestinal and neurological effects",
         "Cardiovascular issues",
         "Respiratory problems",
@@ -2650,7 +2650,7 @@ const questions = {
     },
     {
       question: "Which toxin is not destroyed by normal cooking methods?",
-      choices: [
+      choice: [
         "Ciguatoxin",
         "Histamine",
         "Saxitoxin",
@@ -2661,7 +2661,7 @@ const questions = {
     },
     {
       question: "What fish species are commonly associated with scombroid poisoning?",
-      choices: [
+      choice: [
         "Tunas and mackerels",
         "Salmon and trout",
         "Cod and haddock",
@@ -2672,7 +2672,7 @@ const questions = {
     },
     {
       question: "What causes the elevated levels of histamine in fish that lead to scombroid poisoning?",
-      choices: [
+      choice: [
         "Bacterial breakdown of muscle protein",
         "Viral infection",
         "Parasitic infestation",
@@ -2683,7 +2683,7 @@ const questions = {
     },
     {
       question: "What are the initial symptoms of scombroid poisoning?",
-      choices: [
+      choice: [
         "Facial flushing and sweating",
         "Skin rash",
         "Joint pain",
@@ -2694,7 +2694,7 @@ const questions = {
     },
     {
       question: "What marine toxin is responsible for Paralytic Shellfish Poisoning (PSP)?",
-      choices: [
+      choice: [
         "Saxitoxin",
         "Domoic acid",
         "Histamine",
@@ -2705,7 +2705,7 @@ const questions = {
     },
     {
       question: "What are the early symptoms of Paralytic Shellfish Poisoning (PSP)?",
-      choices: [
+      choice: [
         "Tingling of the lips and tongue",
         "Abdominal pain",
         "Skin rashes",
@@ -2716,7 +2716,7 @@ const questions = {
     },
     {
       question: "Which toxin is produced by marine algae and causes Diarrhetic Shellfish Poisoning (DSP)?",
-      choices: [
+      choice: [
         "Okadaic acid",
         "Saxitoxin",
         "Ciguatoxin",
@@ -2727,7 +2727,7 @@ const questions = {
     },
     {
       question: "What are the symptoms of Diarrhetic Shellfish Poisoning (DSP)?",
-      choices: [
+      choice: [
         "Nausea, diarrhea, vomiting, and abdominal pain",
         "Tingling of lips and tongue",
         "Skin rashes and itching",
@@ -2738,7 +2738,7 @@ const questions = {
     },
     {
       question: "What marine toxin is responsible for Amnesic Shellfish Poisoning (ASP)?",
-      choices: [
+      choice: [
         "Domoic acid",
         "Saxitoxin",
         "Ciguatoxin",
@@ -2749,7 +2749,7 @@ const questions = {
     },
     {
       question: "What are the symptoms of Amnesic Shellfish Poisoning (ASP)?",
-      choices: [
+      choice: [
         "Gastrointestinal problems and neurological symptoms",
         "Skin rashes and itching",
         "Muscle cramps and joint pain",
@@ -2760,7 +2760,7 @@ const questions = {
     },
     {
       question: "What virus is associated with seafood and can cause gastroenteritis?",
-      choices: [
+      choice: [
         "Norwalk Virus",
         "Hepatitis B",
         "HIV",
@@ -2771,7 +2771,7 @@ const questions = {
     },
     {
       question: "What are the typical symptoms of Norwalk Virus infection from seafood?",
-      choices: [
+      choice: [
         "Nausea, vomiting, diarrhea, and abdominal cramps",
         "Skin rashes and itching",
         "Muscle pain and stiffness",
@@ -2782,7 +2782,7 @@ const questions = {
     },
     {
       question: "What type of shellfish poisoning is caused by a toxin that affects the neurons in the brain, leading to memory loss and other neurological symptoms?",
-      choices: [
+      choice: [
         "Amnesic Shellfish Poisoning (ASP)",
         "Paralytic Shellfish Poisoning (PSP)",
         "Diarrhetic Shellfish Poisoning (DSP)",
@@ -2793,7 +2793,7 @@ const questions = {
     },
     {
       question: "What is the main cause of scombroid poisoning?",
-      choices: [
+      choice: [
         "Elevated levels of histamine in fish",
         "Bacterial contamination in shellfish",
         "Toxin accumulation in reef fish",
@@ -2804,7 +2804,7 @@ const questions = {
     },
     {
       question: "Which seafood toxin can cause symptoms that last from weeks to years, sometimes up to 20 years?",
-      choices: [
+      choice: [
         "Ciguatoxin",
         "Saxitoxin",
         "Domoic acid",
@@ -2815,7 +2815,7 @@ const questions = {
     },
     {
       question: "Which shellfish poisoning is caused by a toxin that can lead to paralysis and potentially death within hours?",
-      choices: [
+      choice: [
         "Paralytic Shellfish Poisoning (PSP)",
         "Diarrhetic Shellfish Poisoning (DSP)",
         "Amnesic Shellfish Poisoning (ASP)",
@@ -2826,7 +2826,7 @@ const questions = {
     },
     {
       question: "What measures can be taken to prevent scombroid poisoning?",
-      choices: [
+      choice: [
         "Properly storing and handling fish to avoid time/temperature abuse",
         "Cooking fish thoroughly",
         "Avoiding consumption of large predatory fish",
@@ -2837,7 +2837,7 @@ const questions = {
     },
     {
       question: "What are the common symptoms of Hepatitis A infection from contaminated shellfish?",
-      choices: [
+      choice: [
         "Weakness, fever, malaise, and jaundice",
         "Skin rashes and itching",
         "Muscle pain and joint stiffness",
@@ -2848,7 +2848,7 @@ const questions = {
     },
     {
       question: "Which virus associated with shellfish is known for being difficult to destroy by heat?",
-      choices: [
+      choice: [
         "Norwalk Virus",
         "Hepatitis A",
         "Influenza",
@@ -2859,7 +2859,7 @@ const questions = {
     },
     {
       question: "How soon after ingestion do symptoms of Diarrhetic Shellfish Poisoning (DSP) typically appear?",
-      choices: [
+      choice: [
         "30 minutes to 12 hours",
         "1 to 2 days",
         "12 to 72 hours",
@@ -2870,7 +2870,7 @@ const questions = {
     },
     {
       question: "What percentage of shellfish poisoning cases are due to Diarrhetic Shellfish Poisoning (DSP)?",
-      choices: [
+      choice: [
         "90 - 95%",
         "50 - 60%",
         "30 - 40%",
@@ -2881,7 +2881,7 @@ const questions = {
     },
     {
       question: "What is the typical duration of symptoms for scombroid poisoning?",
-      choices: [
+      choice: [
         "4 to 6 hours",
         "12 to 24 hours",
         "1 to 2 days",
@@ -2892,7 +2892,7 @@ const questions = {
     },
     {
       question: "What marine toxin is responsible for the neurological symptoms seen in Amnesic Shellfish Poisoning (ASP)?",
-      choices: [
+      choice: [
         "Domoic acid",
         "Saxitoxin",
         "Okadaic acid",
@@ -2903,7 +2903,7 @@ const questions = {
     },
     {
       question: "Which shellfish toxin can lead to cold allodynia, a burning sensation on contact with cold?",
-      choices: [
+      choice: [
         "Ciguatoxin",
         "Saxitoxin",
         "Domoic acid",
@@ -2914,7 +2914,7 @@ const questions = {
     },
     {
       question: "What is the primary cause of Amnesic Shellfish Poisoning (ASP)?",
-      choices: [
+      choice: [
         "Consumption of shellfish containing domoic acid",
         "Consumption of fish with high levels of histamine",
         "Bacterial contamination in shellfish",
@@ -2925,7 +2925,7 @@ const questions = {
     },
     {
       question: "How does domoic acid affect the brain in cases of Amnesic Shellfish Poisoning (ASP)?",
-      choices: [
+      choice: [
         "Activates receptors causing an influx of calcium",
         "Reduces blood flow to the brain",
         "Destroys neurons directly",
@@ -2936,7 +2936,7 @@ const questions = {
     },
     {
       question: "What is the common name for shellfish poisoning caused by the Norwalk Virus?",
-      choices: [
+      choice: [
         "Gastroenteritis",
         "Diarrhetic Shellfish Poisoning",
         "Amnesic Shellfish Poisoning",
@@ -2947,7 +2947,7 @@ const questions = {
     },
     {
       question: "Which type of shellfish poisoning is caused by the algae-associated toxin, Okadaic acid?",
-      choices: [
+      choice: [
         "Diarrhetic Shellfish Poisoning (DSP)",
         "Paralytic Shellfish Poisoning (PSP)",
         "Amnesic Shellfish Poisoning (ASP)",
