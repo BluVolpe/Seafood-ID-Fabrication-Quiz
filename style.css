@@ -191,7 +191,9 @@ footer {
 
 /* Explanation container styling */
 #explanations {
-  max-height: calc(100vh - 200px); /* Adjust based on header and footer height */
+  max-height: calc(
+    100vh - 200px
+  ); /* Adjust based on header and footer height */
   overflow-y: auto;
   margin-top: 20px;
 }

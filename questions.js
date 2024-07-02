@@ -1,115 +1,655 @@
 const questions = {
   introduction: [
-   {
-  "question": "Drawn, In the round, dressed, H&G, fillets and I.Q.F are an example of?",
-  "choice": [
-    "Purchasing specs",
-    "Marketing Names",
-    "Cutting Techniques",
-    "Market forms"
-  ],
-  "answer": "Market forms",
-  "explanation": "These terms describe the different market forms of fish, which refer to the ways fish are prepared and sold in the market. 'Drawn' means the fish is gutted, 'in the round' means it is whole and ungutted, 'dressed' means it is gutted, scaled, and often has the head, tail, and fins removed, 'H&G' stands for headed and gutted, 'fillets' are boneless pieces of fish, and 'I.Q.F' stands for individually quick frozen."
-},
-
-  {
-    "question": "Which agency is responsible for U.S. fishing regulations?",
-    "choice": [
-      "USDC",
-      "NOAA",
-      "EEZ",
-      "USMC",
-      "NMFS"
-    ],
-    "answer": "NMFS",
-    "explanation": "The National Marine Fisheries Service (NMFS), part of NOAA, is responsible for the stewardship of the nation's ocean resources and their habitat. NMFS manages fisheries to promote sustainability, prevent overfishing, and protect marine ecosystems. This ensures the long-term health and productivity of marine environments and resources."
-  },
-  {
-    "question": "What are the common fins found on most fish?",
-    "choice": [
-      "Pelvic, anal, dorsal, adipose Caudal",
-      "Anal, caudal, pelvic, dorsal, pectoral",
-      "Dorsal, adipose, caudal, anal",
-      "None of the choices"
-    ],
-    "answer": "Anal, caudal, pelvic, dorsal, pectoral",
-    "explanation": "Most fish have five main types of fins: anal (located on the ventral side near the tail), caudal (tail fin), pelvic (paired fins on the ventral side), dorsal (on the back), and pectoral (paired fins on the sides). These fins aid in balance, steering, and propulsion, allowing the fish to maneuver efficiently in water."
-  },
-  {
-    "question": "What are the three main fabrication techniques in fish preparation?",
-    "choice": [
-      "Drawn, up, over, flat",
-      "Up and over, over and under, flat",
-      "Flat, straight, up and over"
-    ],
-    "answer": "Flat, straight, up and over",
-    "explanation": "The three main fabrication techniques in fish preparation are flat (fish is split down the middle, with bones and guts removed), straight (fish is cut into pieces with the bones left in), and up and over (fish is filleted with the bones removed). These techniques help in creating different cuts suitable for various cooking methods."
-  },
-  {
-    "question": "What percentage of fish is consumed in restaurants?",
-    "choice": [
-      "30",
-      "100",
-      "68",
-      "22",
-      "64"
-    ],
-    "answer": "68",
-    "explanation": "Approximately 68% of fish is eaten in restaurants. This high percentage reflects consumer preference for professionally prepared seafood dishes, the perceived complexity of cooking fish at home, and the popularity of seafood in dining out experiences."
-  },
-  {
-    "question": "What is the method of fishing where baited hooks are dragged behind a boat called?",
-    "choice": [
-      "Trolling",
-      "Handlining",
-      "Dredging",
-      "Trawling"
-    ],
-    "answer": "Trolling",
-    "explanation": "Trolling is a fishing method where one or more baited hooks or lures are dragged through the water behind a moving boat. This technique is commonly used for catching pelagic fish like salmon, tuna, and mackerel, as it covers a wide area and mimics the movement of prey."
-  },
-  {
-    "question": "What is the proper storage temperature for fin fish?",
-    "choice": [
-      "Less than 40",
-      "28-32",
-      "22-38",
-      "41-130"
-    ],
-    "answer": "28-32",
-    "explanation": "The proper storage temperature for fin fish is 28-32 degrees Fahrenheit. Keeping fish at this low temperature slows down bacterial growth and enzymatic activity, maintaining freshness and preventing spoilage until the fish is ready to be cooked or consumed."
-  },
-  {
-    "question": "What are the short muscle fibers in fin fish called?",
-    "choice": [
-      "Myoglobin",
-      "Myosepta",
-      "Myotomes",
-      "Myocommata"
-    ],
-    "answer": "Myotomes",
-    "explanation": "Myotomes are the short muscle fibers in fin fish, arranged in segmented blocks along the body. These fibers are separated by connective tissues called myosepta. Myotomes provide the fish with strength and flexibility, essential for swimming and maneuvering in water."
-  },
-  {
-    "question": "Does the EEZ, a range of 200 miles off the coast for fishing, stand for Extensive Environmental Zone?",
-    "choice": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "EEZ stands for Exclusive Economic Zone, not Extensive Environmental Zone. The EEZ extends up to 200 nautical miles from a country's coast, where it has special rights regarding the exploration and use of marine resources, including energy production from water and wind."
-  },
-  {
-    "question": "Is using a reputable supplier the best way to ensure safe seafood?",
-    "choice": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Using a reputable supplier is indeed the best way to ensure safe seafood. Reputable suppliers follow stringent safety and quality standards, ensuring that the seafood is sourced, handled, and stored properly to prevent contamination and spoilage."
-  },
     {
-      question: "What are the key safety practices in a seafood fabrication room?",
+      "question": "Drawn, In the round, dressed, H&G, fillets and I.Q.F are an example of?",
+      "choice": [
+        "Purchasing specs",
+        "Marketing Names",
+        "Cutting Techniques",
+        "Market forms"
+      ],
+      "answer": "Market forms",
+      "explanation": "These terms describe the different market forms of fish, which refer to the ways fish are prepared and sold in the market. 'Drawn' means the fish is gutted, 'in the round' means it is whole and ungutted, 'dressed' means it is gutted, scaled, and often has the head, tail, and fins removed, 'H&G' stands for headed and gutted, 'fillets' are boneless pieces of fish, and 'I.Q.F' stands for individually quick frozen."
+    },
+    
+      {
+        "question": "Which agency is responsible for U.S. fishing regulations?",
+        "choice": [
+          "USDC",
+          "NOAA",
+          "EEZ",
+          "USMC",
+          "NMFS"
+        ],
+        "answer": "NMFS",
+        "explanation": "The National Marine Fisheries Service (NMFS), part of NOAA, is responsible for the stewardship of the nation's ocean resources and their habitat. NMFS manages fisheries to promote sustainability, prevent overfishing, and protect marine ecosystems. This ensures the long-term health and productivity of marine environments and resources."
+      },
+      {
+        "question": "What are the common fins found on most fish?",
+        "choice": [
+          "Pelvic, anal, dorsal, adipose Caudal",
+          "Anal, caudal, pelvic, dorsal, pectoral",
+          "Dorsal, adipose, caudal, anal",
+          "None of the choices"
+        ],
+        "answer": "Anal, caudal, pelvic, dorsal, pectoral",
+        "explanation": "Most fish have five main types of fins: anal (located on the ventral side near the tail), caudal (tail fin), pelvic (paired fins on the ventral side), dorsal (on the back), and pectoral (paired fins on the sides). These fins aid in balance, steering, and propulsion, allowing the fish to maneuver efficiently in water."
+      },
+      {
+        "question": "What are the three main fabrication techniques in fish preparation?",
+        "choice": [
+          "Drawn, up, over, flat",
+          "Up and over, over and under, flat",
+          "Flat, straight, up and over"
+        ],
+        "answer": "Flat, straight, up and over",
+        "explanation": "The three main fabrication techniques in fish preparation are flat (fish is split down the middle, with bones and guts removed), straight (fish is cut into pieces with the bones left in), and up and over (fish is filleted with the bones removed). These techniques help in creating different cuts suitable for various cooking methods."
+      },
+      {
+        "question": "What percentage of fish is consumed in restaurants?",
+        "choice": [
+          "30",
+          "100",
+          "68",
+          "22",
+          "64"
+        ],
+        "answer": "68",
+        "explanation": "Approximately 68% of fish is eaten in restaurants. This high percentage reflects consumer preference for professionally prepared seafood dishes, the perceived complexity of cooking fish at home, and the popularity of seafood in dining out experiences."
+      },
+      {
+        "question": "What is the method of fishing where baited hooks are dragged behind a boat called?",
+        "choice": [
+          "Trolling",
+          "Handlining",
+          "Dredging",
+          "Trawling"
+        ],
+        "answer": "Trolling",
+        "explanation": "Trolling is a fishing method where one or more baited hooks or lures are dragged through the water behind a moving boat. This technique is commonly used for catching pelagic fish like salmon, tuna, and mackerel, as it covers a wide area and mimics the movement of prey."
+      },
+      {
+        "question": "What is the proper storage temperature for fin fish?",
+        "choice": [
+          "Less than 40",
+          "28-32",
+          "22-38",
+          "41-130"
+        ],
+        "answer": "28-32",
+        "explanation": "The proper storage temperature for fin fish is 28-32 degrees Fahrenheit. Keeping fish at this low temperature slows down bacterial growth and enzymatic activity, maintaining freshness and preventing spoilage until the fish is ready to be cooked or consumed."
+      },
+      {
+        "question": "What are the short muscle fibers in fin fish called?",
+        "choice": [
+          "Myoglobin",
+          "Myosepta",
+          "Myotomes",
+          "Myocommata"
+        ],
+        "answer": "Myotomes",
+        "explanation": "Myotomes are the short muscle fibers in fin fish, arranged in segmented blocks along the body. These fibers are separated by connective tissues called myosepta. Myotomes provide the fish with strength and flexibility, essential for swimming and maneuvering in water."
+      },
+      {
+        "question": "Does the EEZ, a range of 200 miles off the coast for fishing, stand for Extensive Environmental Zone?",
+        "choice": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "EEZ stands for Exclusive Economic Zone, not Extensive Environmental Zone. The EEZ extends up to 200 nautical miles from a country's coast, where it has special rights regarding the exploration and use of marine resources, including energy production from water and wind."
+      },
+      {
+        "question": "Is using a reputable supplier the best way to ensure safe seafood?",
+        "choice": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Using a reputable supplier is indeed the best way to ensure safe seafood. Reputable suppliers follow stringent safety and quality standards, ensuring that the seafood is sourced, handled, and stored properly to prevent contamination and spoilage."
+      },
+    {
+      question: "What is a major benefit of seafood compared to other animal products?",
+      choices: [
+        "Lower carbon footprint",
+        "Higher protein content",
+        "More vitamins",
+        "Less fat"
+      ],
+      answer: "Lower carbon footprint",
+      explanation: "Seafood has a lower carbon footprint compared to other animal products, making it a more environmentally friendly option."
+    },
+    {
+      question: "Why is it critical for the seafood industry to reduce its carbon footprint?",
+      choices: [
+        "To increase profits",
+        "To meet government regulations",
+        "To sustain growing population and demand",
+        "To reduce transportation costs"
+      ],
+      answer: "To sustain growing population and demand",
+      explanation: "As the population and demand for seafood continue to grow, it is critical that the industry reduces its carbon footprint to remain sustainable."
+    },
+    {
+      question: "Which seafood products have the smallest carbon footprint?",
+      choices: [
+        "Crab, lobster, shrimp",
+        "Farmed salmon, tuna, swordfish",
+        "Sardines, anchovies, farmed mussels",
+        "Wild-caught salmon, trout, cod"
+      ],
+      answer: "Sardines, anchovies, farmed mussels",
+      explanation: "Sardines, anchovies, and farmed mussels have a smaller carbon footprint compared to other seafood products like crab, lobster, and shrimp."
+    },
+    {
+      question: "What are some considerations when choosing sustainable seafood?",
+      choices: [
+        "Price and taste",
+        "Wild vs. farmed, habitat impacts, and wildlife impacts",
+        "Availability and convenience",
+        "Packaging and branding"
+      ],
+      answer: "Wild vs. farmed, habitat impacts, and wildlife impacts",
+      explanation: "When choosing sustainable seafood, it's important to consider whether the seafood is wild or farmed, the impacts on habitats, and the effects on wildlife."
+    },
+    {
+      question: "How is seafood managed in the United States?",
+      choices: [
+        "Through voluntary guidelines",
+        "Under a system of enforced environmentally responsible practices",
+        "By individual states without federal oversight",
+        "Based on market demand"
+      ],
+      answer: "Under a system of enforced environmentally responsible practices",
+      explanation: "In the United States, both wild-caught and farmed fish and shellfish are managed under a system of enforced environmentally responsible practices to ensure sustainability."
+    },
+    {
+      question: "What is overfishing?",
+      choices: [
+        "Catching fish only in specific seasons",
+        "Catching fish faster than they can reproduce",
+        "Catching fish for recreational purposes",
+        "Catching fish in international waters"
+      ],
+      answer: "Catching fish faster than they can reproduce",
+      explanation: "Overfishing means catching fish faster than they can reproduce, which hinders their ability to maintain healthy population numbers."
+    },
+    {
+      question: "What percentage of the global population relies on seafood as their main source of protein?",
+      choices: [
+        "10%",
+        "25%",
+        "40%",
+        "50%"
+      ],
+      answer: "40%",
+      explanation: "3.3 billion people worldwide, or 40% of the global population, rely on seafood as their main source of protein."
+    },
+    {
+      question: "Which country is the largest producer of wild capture and aquaculture?",
+      choices: [
+        "United States",
+        "Norway",
+        "China",
+        "Japan"
+      ],
+      answer: "China",
+      explanation: "China is the largest producer, accounting for 15% of all wild capture and 57% of all aquaculture."
+    },
+    {
+      question: "What is a significant environmental concern associated with aquaculture?",
+      choices: [
+        "Overfishing",
+        "Coastal pollution",
+        "Climate change",
+        "Deforestation"
+      ],
+      answer: "Coastal pollution",
+      explanation: "One of the significant environmental concerns associated with aquaculture is coastal pollution, which affects habitats and delicate ecosystems."
+    },
+    {
+      question: "How much of the U.S. seafood production by weight comes from marine aquaculture?",
+      choices: [
+        "7%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      answer: "7%",
+      explanation: "Marine aquaculture accounts for only 7% of the U.S. seafood production by weight."
+    },
+    {
+      question: "Which three species are the top U.S. aquaculture products?",
+      choices: [
+        "Tilapia, catfish, shrimp",
+        "Oysters, clams, salmon",
+        "Trout, bass, perch",
+        "Crab, lobster, mussels"
+      ],
+      answer: "Oysters, clams, salmon",
+      explanation: "The top three U.S. aquaculture products are oysters, clams, and salmon."
+    },
+    {
+      question: "What is 'Fishing down the food web'?",
+      choices: [
+        "Switching to smaller species as larger ones become scarce",
+        "Fishing in deeper waters",
+        "Using larger fishing nets",
+        "Fishing in different seasons"
+      ],
+      answer: "Switching to smaller species as larger ones become scarce",
+      explanation: "'Fishing down the food web' refers to switching to smaller species as larger ones become scarce, which can disrupt marine ecosystems."
+    },
+    {
+      question: "What does NOAA Fisheries do?",
+      choices: [
+        "Enforces international fishing laws",
+        "Manages U.S. fisheries under 10 national standards of sustainability",
+        "Provides fishing licenses",
+        "Conducts commercial fishing"
+      ],
+      answer: "Manages U.S. fisheries under 10 national standards of sustainability",
+      explanation: "NOAA Fisheries manages U.S. fisheries under 10 national standards of sustainability, ensuring responsible practices and conservation."
+    },
+    {
+      question: "What is one of the 10 National Standards of Sustainability?",
+      choices: [
+        "Maximize profits",
+        "Prevent overfishing",
+        "Increase fishing quotas",
+        "Allow unrestricted fishing"
+      ],
+      answer: "Prevent overfishing",
+      explanation: "One of the 10 National Standards of Sustainability is to prevent overfishing to maintain healthy fish populations."
+    },
+    {
+      question: "What is a way to minimize the environmental footprint of aquaculture?",
+      choices: [
+        "Increase fishing quotas",
+        "Use multi-trophic aquaculture",
+        "Move operations to coastal areas",
+        "Increase use of chemical fertilizers"
+      ],
+      answer: "Use multi-trophic aquaculture",
+      explanation: "Using multi-trophic aquaculture, which involves raising different species together to reduce waste, is a way to minimize the environmental footprint."
+    },
+    {
+      question: "What has been the impact of certification on consumer purchases?",
+      choices: [
+        "Negligible",
+        "Slight increase",
+        "Significant impact",
+        "No impact"
+      ],
+      answer: "Significant impact",
+      explanation: "Certification has had a significant impact on consumer purchases, with 50% of consumers indicating that it influences their buying decisions."
+    },
+    {
+      question: "What percentage of global aquaculture is certified?",
+      choices: [
+        "8%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      answer: "8%",
+      explanation: "Only about 8% of global aquaculture is certified, highlighting the need for more widespread certification."
+    },
+    {
+      question: "What is one of the recommendations for reducing the environmental impact of aquaculture?",
+      choices: [
+        "Increase the use of wild fish for feed",
+        "Move operations offshore",
+        "Use more chemical antibiotics",
+        "Increase production quotas"
+      ],
+      answer: "Move operations offshore",
+      explanation: "Moving aquaculture operations offshore can help reduce the environmental impact on fragile coastal ecosystems."
+    },
+    {
+      question: "What is the role of chefs in promoting sustainable seafood?",
+      choices: [
+        "They have no significant role",
+        "They are ambassadors for sustainability",
+        "They focus only on taste",
+        "They increase seafood prices"
+      ],
+      answer: "They are ambassadors for sustainability",
+      explanation: "Chefs are ambassadors for sustainability, helping to promote sustainable seafood practices and under-utilized species."
+    },
+    {
+      question: "Which organization provides guidance for improving sustainability efforts in seafood?",
+      choices: [
+        "FDA",
+        "Seafood Watch",
+        "EPA",
+        "USDA"
+      ],
+      answer: "Seafood Watch",
+      explanation: "Seafood Watch provides guidance to operations looking to improve their sustainability efforts and make better informed choices."
+    },
+    {
+      question: "How has the carbon footprint of farmed fish compared to land animals?",
+      choices: [
+        "Larger than land animals",
+        "Smaller than most land animals",
+        "Equal to land animals",
+        "Varies by species"
+      ],
+      answer: "Smaller than most land animals",
+      explanation: "Farmed fish generally have a smaller carbon footprint than most land animals, making them a more environmentally friendly option."
+    },
+    {
+      question: "What has been the trend in global aquaculture production from 1990 to 2018?",
+      choices: [
+        "Decreased significantly",
+        "Remained static",
+        "Increased by 50%",
+        "Increased by 527%"
+      ],
+      answer: "Increased by 527%",
+      explanation: "Global aquaculture production has increased by 527% from 1990 to 2018, making it the fastest growing segment of the food industry."
+    },
+    {
+      question: "What percentage of global wild caught fish is used to produce feed for aquaculture?",
+      choices: [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      answer: "15%",
+      explanation: "About 15% of global wild caught fish is used to produce feed for aquaculture."
+    },
+    {
+      question: "What is one significant challenge faced by the aquaculture industry?",
+      choices: [
+        "High consumer demand",
+        "Lack of technology",
+        "Negative image and environmental concerns",
+        "Excessive government regulation"
+      ],
+      answer: "Negative image and environmental concerns",
+      explanation: "The aquaculture industry faces significant challenges including a negative image and environmental concerns such as coastal pollution and the use of chemicals."
+    },
+    {
+      question: "What does 'overfishing' mean?",
+      choices: [
+        "Fishing in restricted areas",
+        "Catching fish faster than they can reproduce",
+        "Fishing only during certain seasons",
+        "Catching all sizes of fish"
+      ],
+      answer: "Catching fish faster than they can reproduce",
+      explanation: "Overfishing means catching fish faster than they can reproduce, which hinders their ability to maintain healthy population numbers."
+    },
+    {
+      question: "Which U.S. organization is responsible for managing sustainable fisheries?",
+      choices: [
+        "FDA",
+        "EPA",
+        "NOAA",
+        "USDA"
+      ],
+      answer: "NOAA",
+      explanation: "NOAA Fisheries is responsible for managing U.S. fisheries under 10 national standards of sustainability."
+    },
+    {
+      question: "What is one of the main drivers of overfishing?",
+      choices: [
+        "Increased government subsidies",
+        "Lack of technology",
+        "Decreased consumer demand",
+        "Reduced fishing quotas"
+      ],
+      answer: "Increased government subsidies",
+      explanation: "Government subsidies that encourage fishing beyond sustainable levels are one of the main drivers of overfishing."
+    },
+    {
+      question: "Which method can help reduce the environmental impact of aquaculture?",
+      choices: [
+        "Increasing use of antibiotics",
+        "Using multi-trophic aquaculture",
+        "Increasing production quotas",
+        "Fishing in coastal areas"
+      ],
+      answer: "Using multi-trophic aquaculture",
+      explanation: "Using multi-trophic aquaculture, which involves raising different species together to reduce waste, can help reduce the environmental impact of aquaculture."
+    },
+    {
+      question: "What percentage of the U.S. seafood production is from marine aquaculture by weight?",
+      choices: [
+        "7%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      answer: "7%",
+      explanation: "Marine aquaculture accounts for only 7% of the U.S. seafood production by weight."
+    },
+    {
+      question: "What has been the trend in U.S. aquaculture production since 2018?",
+      choices: [
+        "Decreased",
+        "Remained the same",
+        "Increased by 2%",
+        "Increased by 10%"
+      ],
+      answer: "Increased by 2%",
+      explanation: "U.S. aquaculture production has increased by 2% since 2018."
+    },
+    {
+      question: "Which species accounts for the largest percentage of U.S. farmed fish production?",
+      choices: [
+        "Salmon",
+        "Catfish",
+        "Tilapia",
+        "Trout"
+      ],
+      answer: "Catfish",
+      explanation: "Catfish accounts for 46% of all U.S. farmed fish production."
+    },
+    {
+      question: "What is the main focus of the Global Seafood Alliance (GSA)?",
+      choices: [
+        "Promoting seafood consumption",
+        "Improving seafood sustainability and practices",
+        "Increasing seafood production quotas",
+        "Regulating seafood prices"
+      ],
+      answer: "Improving seafood sustainability and practices",
+      explanation: "The Global Seafood Alliance (GSA) focuses on improving seafood sustainability and practices."
+    },
+    {
+      question: "What is one of the benefits of multi-trophic aquaculture?",
+      choices: [
+        "Reduces the need for antibiotics",
+        "Increases fish size",
+        "Reduces waste through raising different species together",
+        "Increases market prices"
+      ],
+      answer: "Reduces waste through raising different species together",
+      explanation: "Multi-trophic aquaculture reduces waste by raising different species together, where one species' waste can serve as another species' food."
+    },
+    {
+      question: "What role do certifications play in the seafood industry?",
+      choices: [
+        "Increase production costs",
+        "Ensure sustainable practices and improve marketability",
+        "Limit seafood exports",
+        "Control fish size"
+      ],
+      answer: "Ensure sustainable practices and improve marketability",
+      explanation: "Certifications ensure sustainable practices and improve the marketability of seafood products by assuring consumers of responsible sourcing."
+    },
+    {
+      question: "What is the impact of illegal, unreported, and unregulated (IUU) fishing?",
+      choices: [
+        "Increases seafood prices",
+        "Generates over $36 billion in illegal profits annually",
+        "Reduces fish populations",
+        "Decreases demand for wild-caught fish"
+      ],
+      answer: "Generates over $36 billion in illegal profits annually",
+      explanation: "IUU fishing generates over $36 billion in illegal profits annually, contributing to overfishing and harming marine ecosystems."
+    },
+    {
+      question: "What percentage of U.S. seafood is imported?",
+      choices: [
+        "50%",
+        "60%",
+        "75%",
+        "91%"
+      ],
+      answer: "91%",
+      explanation: "The U.S. imports 91% of its seafood, indicating a heavy reliance on foreign sources."
+    },
+    {
+      question: "What is the purpose of NOAA Fisheries' international fisheries agreements?",
+      choices: [
+        "To increase fishing quotas",
+        "To manage and conserve international fisheries sustainably",
+        "To reduce seafood prices",
+        "To promote recreational fishing"
+      ],
+      answer: "To manage and conserve international fisheries sustainably",
+      explanation: "NOAA Fisheries supports international fisheries agreements to manage and conserve fisheries sustainably on a global scale."
+    },
+    {
+      question: "What is the main environmental benefit of farmed fish?",
+      choices: [
+        "Requires no resources",
+        "Has a smaller carbon footprint compared to land animals",
+        "Has higher fat content",
+        "Increases biodiversity"
+      ],
+      answer: "Has a smaller carbon footprint compared to land animals",
+      explanation: "Farmed fish generally have a smaller carbon footprint compared to land animals, making them more environmentally friendly."
+    },
+    {
+      question: "Which factor contributes most to overfishing?",
+      choices: [
+        "Fishing technology advancements",
+        "Seasonal fishing bans",
+        "Low consumer demand",
+        "Limited fishing areas"
+      ],
+      answer: "Fishing technology advancements",
+      explanation: "Advancements in fishing technology contribute most to overfishing by enabling massive amounts of fish to be caught quickly."
+    },
+    {
+      question: "Which practice can help make seafood more sustainable?",
+      choices: [
+        "Increasing chemical use",
+        "Fishing without restrictions",
+        "Preventing overfishing",
+        "Reducing fishery management"
+      ],
+      answer: "Preventing overfishing",
+      explanation: "Preventing overfishing is essential to making seafood more sustainable, ensuring fish populations can replenish and maintain healthy levels."
+    },
+    {
+      question: "What percentage of the U.S. aquaculture value is based on mollusks?",
+      choices: [
+        "30%",
+        "50%",
+        "70%",
+        "80%"
+      ],
+      answer: "80%",
+      explanation: "80% of the total U.S. aquaculture value is based on mollusks, indicating their economic importance."
+    },
+    {
+      question: "What is a significant challenge in certifying global aquaculture?",
+      choices: [
+        "Short supply chains",
+        "Low production costs",
+        "High transparency",
+        "Long and complex supply chains"
+      ],
+      answer: "Long and complex supply chains",
+      explanation: "Certifying global aquaculture is challenging due to long and complex supply chains, making it expensive and cumbersome."
+    },
+    {
+      question: "What is the primary goal of sustainable seafood practices?",
+      choices: [
+        "Maximize profits",
+        "Ensure long-term health of fish populations and ecosystems",
+        "Reduce consumer prices",
+        "Increase fishing quotas"
+      ],
+      answer: "Ensure long-term health of fish populations and ecosystems",
+      explanation: "The primary goal of sustainable seafood practices is to ensure the long-term health of fish populations and their ecosystems."
+    },
+    {
+      question: "How can consumers contribute to seafood sustainability?",
+      choices: [
+        "Buying more imported seafood",
+        "Ignoring seafood certifications",
+        "Making informed choices about the source of their fish",
+        "Preferring non-seafood diets"
+      ],
+      answer: "Making informed choices about the source of their fish",
+      explanation: "Consumers can contribute to seafood sustainability by making informed choices about the source of their fish, promoting responsible practices."
+    },
+    {
+      question: "What is the impact of modern fishing gears on fish populations?",
+      choices: [
+        "No significant impact",
+        "Helps to increase fish populations",
+        "Allows for massive harvesting and overfishing",
+        "Reduces fishing efficiency"
+      ],
+      answer: "Allows for massive harvesting and overfishing",
+      explanation: "Modern fishing gears allow for massive harvesting of fish, contributing significantly to overfishing and declining fish populations."
+    },
+    {
+      question: "What is one way to improve the sustainability of seafood?",
+      choices: [
+        "Increasing fish consumption",
+        "Reducing bycatch",
+        "Using more plastic packaging",
+        "Lowering fishing quotas"
+      ],
+      answer: "Reducing bycatch",
+      explanation: "Reducing bycatch, the unintentional capture of non-target species, is one way to improve the sustainability of seafood."
+    },
+    {
+      question: "Which country accounts for the largest share of global aquaculture production?",
+      choices: [
+        "United States",
+        "India",
+        "China",
+        "Brazil"
+      ],
+      answer: "China",
+      explanation: "China accounts for the largest share of global aquaculture production, significantly contributing to the industry's growth."
+    },
+    {
+      question: "What is one recommendation from the World Economic Forum to minimize aquaculture's environmental footprint?",
+      choices: [
+        "Increase chemical use",
+        "Move operations offshore",
+        "Reduce renewable energy sources",
+        "Focus on monoculture farming"
+      ],
+      answer: "Move operations offshore",
+      explanation: "The World Economic Forum recommends moving aquaculture operations offshore to minimize environmental impacts on coastal areas."
+    },
+    {
+      question: "What is the predicted decline of wild fish stocks by 2050 if current fishing rates continue?",
+      choices: [
+        "10%",
+        "25%",
+        "50%",
+        "90%"
+      ],
+      answer: "90%",
+      explanation: "If current fishing rates continue, scientists predict that wild fish stocks will decline by 90% by 2050."
+    },
+    {
+      question:
+        "What are the key safety practices in a seafood fabrication room?",
       choice: [
         "Be alert, secure knives, and keep the worktable clean",
         "Use any knife available",
@@ -121,7 +661,8 @@ const questions = {
         "Key safety practices include being aware of your surroundings, securing knives to prevent accidents, and keeping the worktable clean to maintain hygiene and organization.",
     },
     {
-      question: "What is the role of the National Marine Fisheries Service (NMFS)?",
+      question:
+        "What is the role of the National Marine Fisheries Service (NMFS)?",
       choice: [
         "Manages, conserves, and protects marine resources",
         "Regulates agricultural land",
@@ -207,7 +748,8 @@ const questions = {
         "Handling fish with two hands ensures you maintain control and prevent damage to the delicate flesh, preserving the quality of the fish.",
     },
     {
-      question: "What is the definition of 'in the round' in seafood purchasing?",
+      question:
+        "What is the definition of 'in the round' in seafood purchasing?",
       choice: [
         "Fish sold just as it is caught",
         "Fish with internal organs removed",
@@ -219,7 +761,8 @@ const questions = {
         "'In the round' means the fish is sold in its natural, whole state, just as it was when caught, without any processing or cleaning.",
     },
     {
-      question: "What are the primary responsibilities of the National Oceanic and Atmospheric Administration (NOAA)?",
+      question:
+        "What are the primary responsibilities of the National Oceanic and Atmospheric Administration (NOAA)?",
       choice: [
         "Conditions of the oceans, major waterways, and the atmosphere",
         "Agricultural land management",
@@ -255,14 +798,16 @@ const questions = {
         "Round fish should be stored in a perforated pan with flaked or crushed ice to keep them fresh and ensure proper drainage of melting ice.",
     },
     {
-      question: "What is the purpose of the U.S. Exclusive Economic Zone (EEZ)?",
+      question:
+        "What is the purpose of the U.S. Exclusive Economic Zone (EEZ)?",
       choice: [
         "Regulate fisheries and resource exploitation within 200 nautical miles of the coastline",
         "Provide a recreational fishing area",
         "Serve as a military training zone",
         "Reserve area for scientific research",
       ],
-      answer: "Regulate fisheries and resource exploitation within 200 nautical miles of the coastline",
+      answer:
+        "Regulate fisheries and resource exploitation within 200 nautical miles of the coastline",
       explanation:
         "The EEZ grants the U.S. special rights to manage and exploit marine resources within 200 nautical miles of its coastline, ensuring sustainable use and conservation.",
     },
@@ -274,7 +819,8 @@ const questions = {
         "Packing fish in ice",
         "Storing fish at room temperature",
       ],
-      answer: "Exposure to super-cold air or a spray of liquid nitrogen or carbon dioxide",
+      answer:
+        "Exposure to super-cold air or a spray of liquid nitrogen or carbon dioxide",
       explanation:
         "Cryogenic freezing uses super-cold air or liquid nitrogen to rapidly freeze seafood, preserving its texture and flavor as close to fresh as possible.",
     },
@@ -286,7 +832,8 @@ const questions = {
         "Fin fish should be stored at temperatures between 28° and 32°F to slow bacterial growth and maintain optimal freshness.",
     },
     {
-      question: "What is the significance of the 'straight' technique in seafood fabrication?",
+      question:
+        "What is the significance of the 'straight' technique in seafood fabrication?",
       choice: [
         "Used for soft boned fish like salmon and trout",
         "Used for hard boned fish with large rib cages",
@@ -353,14 +900,16 @@ const questions = {
         "Live crustaceans should be stored at 39° - 45°F to keep them alive and maintain their quality until they are cooked or processed.",
     },
     {
-      question: "What is the function of the National Marine Fisheries Service (NMFS)?",
+      question:
+        "What is the function of the National Marine Fisheries Service (NMFS)?",
       choice: [
         "Management, conservation, and protection of living marine resources",
         "Regulation of freshwater lakes",
         "Oversight of inland agriculture",
         "Air traffic control",
       ],
-      answer: "Management, conservation, and protection of living marine resources",
+      answer:
+        "Management, conservation, and protection of living marine resources",
       explanation:
         "The NMFS is tasked with managing, conserving, and protecting marine resources to ensure sustainable fisheries and healthy ecosystems.",
     },
@@ -389,7 +938,8 @@ const questions = {
         "'Drawn' fish have had their internal organs removed, but the head, tail, and scales remain intact.",
     },
     {
-      question: "What is the primary focus of the National Oceanic and Atmospheric Administration (NOAA)?",
+      question:
+        "What is the primary focus of the National Oceanic and Atmospheric Administration (NOAA)?",
       choice: [
         "Conditions of the oceans, major waterways, and the atmosphere",
         "Regulation of inland freshwater resources",
@@ -401,7 +951,8 @@ const questions = {
         "NOAA's primary focus is on monitoring and predicting the conditions of the oceans, major waterways, and the atmosphere to support environmental stewardship and hazard management.",
     },
     {
-      question: "What is the significance of ServSafe in a seafood fabrication room?",
+      question:
+        "What is the significance of ServSafe in a seafood fabrication room?",
       choice: [
         "Maintaining sanitation at all times",
         "Regulating fishing seasons",
@@ -547,7 +1098,8 @@ const questions = {
         "Fish should be handled with care using two hands to avoid damaging the delicate flesh and maintaining its quality.",
     },
     {
-      question: "What is the significance of maintaining a clean worktable in seafood fabrication?",
+      question:
+        "What is the significance of maintaining a clean worktable in seafood fabrication?",
       choice: [
         "Ensures safety and organization",
         "Prevents fish from drying out",
@@ -571,7 +1123,8 @@ const questions = {
         "A goujonette is a small, narrow strip of fish, often breaded and fried, typically served as an appetizer or snack.",
     },
     {
-      question: "What is the role of the National Marine Fisheries Service (NMFS)?",
+      question:
+        "What is the role of the National Marine Fisheries Service (NMFS)?",
       choice: [
         "Stewardship of national marine resources",
         "Regulation of inland agriculture",
@@ -662,7 +1215,8 @@ const questions = {
         "Packing fish in ice",
         "Storing fish at room temperature",
       ],
-      answer: "Exposure to super-cold air or a spray of liquid nitrogen or carbon dioxide",
+      answer:
+        "Exposure to super-cold air or a spray of liquid nitrogen or carbon dioxide",
       explanation:
         "Cryogenic freezing rapidly freezes seafood by exposing it to extremely cold air or liquid nitrogen, preserving its quality and texture.",
     },
@@ -705,6 +1259,270 @@ const questions = {
   ],
   flatCut: [
     {
+      question: "What are the common names for Dover Sole?",
+      choices: [
+        "California turbot, curlfin turbot",
+        "Slime sole, shortfinned sole, slippery sole",
+        "Lemon sole, common sole",
+        "Fringe sole, sanddab"
+      ],
+      answer: "Slime sole, shortfinned sole, slippery sole",
+      explanation: "Dover Sole is commonly known as slime sole, shortfinned sole, and slippery sole due to its soft, flabby body and large amounts of slime, which make it distinct among flatfish."
+    },
+    {
+      question: "What is the maximum size of a Dover Sole?",
+      choices: [
+        "37 cm (15 inches)",
+        "61 cm (24 inches)",
+        "76 cm (30 inches)",
+        "105 cm (41 inches)"
+      ],
+      answer: "76 cm (30 inches)",
+      explanation: "Dover Sole can grow up to 76 cm (30 inches) in length, making it a significant species in both commercial and recreational fisheries."
+    },
+    {
+      question: "Which species of flatfish is known for having a strong anal spine and high, narrow ridge between its eyes?",
+      choices: [
+        "Pacific Halibut",
+        "English Sole",
+        "Dover Sole",
+        "Flathead Sole"
+      ],
+      answer: "English Sole",
+      explanation: "The English Sole is characterized by a strong anal spine and a high, narrow ridge between its eyes, features that help in distinguishing it from other flatfish species."
+    },
+    {
+      question: "What type of habitat is typically associated with Pacific Halibut?",
+      choices: [
+        "Shallow coastal areas",
+        "Deep muddy bottoms",
+        "Soft bottoms from 4 to 291 fm",
+        "Silty or muddy bottoms from 0 to 575 fm"
+      ],
+      answer: "Deep muddy bottoms",
+      explanation: "Pacific Halibut is typically found on deep muddy bottoms. These environments provide abundant food and appropriate conditions for growth."
+    },
+    {
+      question: "Which flatfish species has eyes typically on the left side of its head and large scales appearing as bony knobs on the eyed side?",
+      choices: [
+        "Starry Flounder",
+        "Rex Sole",
+        "Pacific Sanddab",
+        "Rock Sole"
+      ],
+      answer: "Starry Flounder",
+      explanation: "Starry Flounder is unique with its eyes typically on the left side of its head and large scales appearing as bony knobs on the eyed side, making it easily identifiable."
+    },
+    {
+      question: "What is the average size of an English Sole in commercial catch?",
+      choices: [
+        "1 pound",
+        "3/4 pound",
+        "1/2 pound",
+        "1/4 pound"
+      ],
+      answer: "3/4 pound",
+      explanation: "The average size of an English Sole in commercial catch is about 3/4 pound, which is a standard size for this species in fisheries."
+    },
+    {
+      question: "Which flatfish species is commonly referred to as 'cigarette paper' due to its thin flesh?",
+      choices: [
+        "Pacific Halibut",
+        "Flathead Sole",
+        "Rex Sole",
+        "English Sole"
+      ],
+      answer: "Flathead Sole",
+      explanation: "Flathead Sole is often called 'cigarette paper' because of its very thin flesh, which sets it apart from other flatfish species."
+    },
+    {
+      question: "What is the range of the English Sole?",
+      choices: [
+        "Bering Sea to San Quintin Bay, Baja California",
+        "Bering Sea and Aleutian Islands to San Cristobal Bay, Baja California",
+        "Alaska to Monterey, California",
+        "Sea of Japan and Sea of Okhotsk north to Gulf of Anadyr"
+      ],
+      answer: "Bering Sea and Aleutian Islands to San Cristobal Bay, Baja California",
+      explanation: "The English Sole has a wide range from the Bering Sea and Aleutian Islands to San Cristobal Bay, Baja California, indicating its adaptability to different marine environments."
+    },
+    {
+      question: "Which flatfish is known for having a small head and pointed snout?",
+      choices: [
+        "Dover Sole",
+        "English Sole",
+        "Flathead Sole",
+        "Pacific Halibut"
+      ],
+      answer: "English Sole",
+      explanation: "The English Sole is easily identified by its small head and pointed snout, distinguishing it from other flatfish species."
+    },
+    {
+      question: "At what depth is Pacific Halibut commonly found during the summer?",
+      choices: [
+        "3 to 600 fm",
+        "15 to 150 fm",
+        "40 to 550 fm",
+        "0 to 300 fm"
+      ],
+      answer: "15 to 150 fm",
+      explanation: "During the summer, Pacific Halibut is commonly found at depths of 15 to 150 fm, where the conditions are favorable for their feeding and growth."
+    },
+    {
+      question: "What are the primary physical characteristics of the Dover Sole?",
+      choices: [
+        "Large scales appearing as bony knobs, right-eyed",
+        "Soft, flabby body with large amounts of slime, right-eyed",
+        "Small head, pointed snout, left-eyed",
+        "Thin flesh, eyes on left side"
+      ],
+      answer: "Soft, flabby body with large amounts of slime, right-eyed",
+      explanation: "Dover Sole is distinguished by its soft, flabby body with large amounts of slime and being right-eyed, making it easy to identify."
+    },
+    {
+      question: "What distinguishes the English Sole from other flatfish in terms of its habitat?",
+      choices: [
+        "Found only in intertidal zones",
+        "Commonly found on sand bottoms from 0 to 300 fm",
+        "Prefers deep muddy bottoms",
+        "Inhabits silty or muddy bottoms from 0 to 575 fm"
+      ],
+      answer: "Commonly found on sand bottoms from 0 to 300 fm",
+      explanation: "The English Sole is commonly found on sand bottoms from 0 to 300 fm, making this its preferred habitat."
+    },
+    {
+      question: "Which flatfish species has a lateral line with a high arch over the pectoral fin?",
+      choices: [
+        "Rock Sole",
+        "English Sole",
+        "Pacific Sanddab",
+        "Butter Sole"
+      ],
+      answer: "Rock Sole",
+      explanation: "The Rock Sole is identified by its lateral line with a high arch over the pectoral fin, a distinctive feature among flatfish."
+    },
+    {
+      question: "What is the maximum size of a Pacific Halibut?",
+      choices: [
+        "76 cm (30 inches)",
+        "105 cm (41 inches)",
+        "267 cm (105 inches)",
+        "152 cm (60 inches)"
+      ],
+      answer: "267 cm (105 inches)",
+      explanation: "Pacific Halibut can grow up to 267 cm (105 inches), making it one of the largest flatfish species, highly prized in commercial and sport fisheries."
+    },
+    {
+      question: "Which species is known for its very soft flesh and high slime content?",
+      choices: [
+        "Flathead Sole",
+        "Dover Sole",
+        "English Sole",
+        "Pacific Sanddab"
+      ],
+      answer: "Dover Sole",
+      explanation: "Dover Sole is recognized for its very soft flesh and high slime content, earning it the nickname 'slippery sole'."
+    },
+    {
+      question: "What are the key identifying features of the Starry Flounder?",
+      choices: [
+        "Eyes on left side, large scales appearing as bony knobs",
+        "Eyes on right side, smooth scales",
+        "Thin flesh, small scales",
+        "Diamond-shaped body, small head"
+      ],
+      answer: "Eyes on left side, large scales appearing as bony knobs",
+      explanation: "The Starry Flounder is unique with its eyes on the left side and large scales appearing as bony knobs on the eyed side, making it easily identifiable."
+    },
+    {
+      question: "What is the average size of a commercially caught Flathead Sole?",
+      choices: [
+        "10 pounds",
+        "3/4 pound",
+        "1 pound",
+        "22 inches"
+      ],
+      answer: "1 pound",
+      explanation: "The average size of a commercially caught Flathead Sole is about 1 pound, which is typical for this species."
+    },
+    {
+      question: "What habitat range does the English Sole cover?",
+      choices: [
+        "Bering Sea to San Quintin Bay, Baja California",
+        "Bering Sea and Aleutian Islands to San Cristobal Bay, Baja California",
+        "Sea of Japan and Sea of Okhotsk north to Gulf of Anadyr",
+        "Alaska to Monterey, California"
+      ],
+      answer: "Bering Sea and Aleutian Islands to San Cristobal Bay, Baja California",
+      explanation: "The English Sole ranges from the Bering Sea and Aleutian Islands to San Cristobal Bay, Baja California, indicating its adaptability to a wide range of marine environments."
+    },
+    {
+      question: "Which flatfish species is identified by its high, narrow ridge between the eyes?",
+      choices: [
+        "Pacific Halibut",
+        "Dover Sole",
+        "Flathead Sole",
+        "English Sole"
+      ],
+      answer: "English Sole",
+      explanation: "The English Sole has a high, narrow ridge between the eyes, a distinctive feature that sets it apart from other flatfish species."
+    },
+    {
+      question: "What is the typical depth range for the Rock Sole?",
+      choices: [
+        "0 to 575 fm",
+        "5 to 750 fm",
+        "55 to 135 fm",
+        "15 to 80 fm"
+      ],
+      answer: "55 to 135 fm",
+      explanation: "The Rock Sole is typically found at depths ranging from 55 to 135 fm, providing the appropriate habitat for feeding and breeding."
+    },
+    {
+      question: "Which flatfish is known for its diamond-shaped body and small head?",
+      choices: [
+        "Dover Sole",
+        "English Sole",
+        "Flathead Sole",
+        "Pacific Halibut"
+      ],
+      answer: "English Sole",
+      explanation: "The English Sole has a diamond-shaped body and a small head, which are key identifying features."
+    },
+    {
+      question: "What is the maximum size of a Starry Flounder?",
+      choices: [
+        "76 cm (30 inches)",
+        "61 cm (24 inches)",
+        "91 cm (36 inches)",
+        "55 cm (22 inches)"
+      ],
+      answer: "91 cm (36 inches)",
+      explanation: "Starry Flounder can grow up to 91 cm (36 inches), making it one of the larger flatfish species in its habitat range."
+    },
+    {
+      question: "Which species is identified by its very thin flesh, often referred to as 'cigarette paper'?",
+      choices: [
+        "Pacific Halibut",
+        "Dover Sole",
+        "Flathead Sole",
+        "English Sole"
+      ],
+      answer: "Flathead Sole",
+      explanation: "Flathead Sole is identified by its very thin flesh, often referred to as 'cigarette paper', which distinguishes it from other flatfish species."
+    },
+    {
+      question: "What are the distinguishing features of the Pacific Sanddab?",
+      choices: [
+        "Eyes on left side, thin flesh",
+        "Lateral line with high arch, right-eyed",
+        "Smooth scales, mottled with darker spots",
+        "Right-eyed, uniform brown color"
+      ],
+      answer: "Smooth scales, mottled with darker spots",
+      explanation: "Pacific Sanddab is distinguished by its smooth scales and being mottled with darker spots, making it easily identifiable among flatfish."
+    },
+    {
       question: "What are the identifying characteristics of Atlantic Halibut?",
       choice: [
         "Large, flat body, diamond shape, dark brown to greenish-black upper side, and white underbelly",
@@ -712,8 +1530,10 @@ const questions = {
         "Elongated body, silver color, and sharp teeth",
         "Short, stout body, bright yellow, and striped pattern",
       ],
-      answer: "Large, flat body, diamond shape, dark brown to greenish-black upper side, and white underbelly",
-      explanation: "Atlantic Halibut is characterized by its large, flat, diamond-shaped body which provides an extensive surface area for camouflage. The dark brown to greenish-black upper side helps it blend with the ocean floor, while the white underbelly allows it to be less visible from below, aiding in its predatory and survival strategies.",
+      answer:
+        "Large, flat body, diamond shape, dark brown to greenish-black upper side, and white underbelly",
+      explanation:
+        "Atlantic Halibut is characterized by its large, flat, diamond-shaped body which provides an extensive surface area for camouflage. The dark brown to greenish-black upper side helps it blend with the ocean floor, while the white underbelly allows it to be less visible from below, aiding in its predatory and survival strategies.",
     },
     {
       question: "What is the activity level of Turbot fish?",
@@ -724,13 +1544,15 @@ const questions = {
         "High activity level, surface dwellers",
       ],
       answer: "Low activity level, bottom-dwellers",
-      explanation: "Turbot fish are low-activity bottom-dwellers, which means they spend most of their time resting on the seafloor rather than swimming. This behavior is typical for flatfish, allowing them to conserve energy while waiting for prey.",
+      explanation:
+        "Turbot fish are low-activity bottom-dwellers, which means they spend most of their time resting on the seafloor rather than swimming. This behavior is typical for flatfish, allowing them to conserve energy while waiting for prey.",
     },
     {
       question: "What is the recommended cutting method for Dover Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Dover Sole is a flat cut, which is ideal for flatfish as it maximizes yield by following the natural contours of the fish, making it easier to separate the flesh from the bone.",
+      explanation:
+        "The recommended cutting method for Dover Sole is a flat cut, which is ideal for flatfish as it maximizes yield by following the natural contours of the fish, making it easier to separate the flesh from the bone.",
     },
     {
       question: "Where is Winter Flounder primarily found?",
@@ -740,11 +1562,14 @@ const questions = {
         "Freshwater lakes and rivers in Europe",
         "Tropical coral reefs around the equator",
       ],
-      answer: "Coastal waters and estuaries of the North Atlantic, from Labrador to Georgia",
-      explanation: "Winter flounder are primarily found in the coastal waters and estuaries of the North Atlantic, from Labrador to Georgia. These environments provide the brackish water and bottom conditions that are ideal for their lifecycle, including feeding and spawning.",
+      answer:
+        "Coastal waters and estuaries of the North Atlantic, from Labrador to Georgia",
+      explanation:
+        "Winter flounder are primarily found in the coastal waters and estuaries of the North Atlantic, from Labrador to Georgia. These environments provide the brackish water and bottom conditions that are ideal for their lifecycle, including feeding and spawning.",
     },
     {
-      question: "What fishing techniques are typically used for Summer Flounder?",
+      question:
+        "What fishing techniques are typically used for Summer Flounder?",
       choice: [
         "Bottom trawls, gillnets, and longlines",
         "Spear fishing and hand gathering",
@@ -752,7 +1577,8 @@ const questions = {
         "Electrofishing and dredging",
       ],
       answer: "Bottom trawls, gillnets, and longlines",
-      explanation: "Summer flounder are typically fished using bottom trawls, gillnets, and longlines. These methods are effective because Summer Flounder are demersal fish, meaning they live and feed on or near the bottom of the sea, making these techniques suitable for targeting them.",
+      explanation:
+        "Summer flounder are typically fished using bottom trawls, gillnets, and longlines. These methods are effective because Summer Flounder are demersal fish, meaning they live and feed on or near the bottom of the sea, making these techniques suitable for targeting them.",
     },
     {
       question: "What is the texture and flavor profile of Summer Flounder?",
@@ -763,7 +1589,8 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation: "Summer flounder has a mild, sweet flavor with a fine, flaky texture, making it a versatile and desirable fish for culinary use. Its delicate taste and tender flesh are favored in many recipes, from simple pan-frying to elaborate dishes.",
+      explanation:
+        "Summer flounder has a mild, sweet flavor with a fine, flaky texture, making it a versatile and desirable fish for culinary use. Its delicate taste and tender flesh are favored in many recipes, from simple pan-frying to elaborate dishes.",
     },
     {
       question: "What does 'Dover Sole' refer to?",
@@ -774,7 +1601,8 @@ const questions = {
         "A shellfish species found in tropical waters",
       ],
       answer: "Two species of flatfish: Solea solea and Microstomus pacificus",
-      explanation: "The term Dover Sole refers to two species of flatfish: Solea solea, which is native to European waters and highly prized in European cuisine, and Microstomus pacificus, known as 'Dover sole' along the Pacific coast of America, valued for its delicate flavor and texture.",
+      explanation:
+        "The term Dover Sole refers to two species of flatfish: Solea solea, which is native to European waters and highly prized in European cuisine, and Microstomus pacificus, known as 'Dover sole' along the Pacific coast of America, valued for its delicate flavor and texture.",
     },
     {
       question: "What are the identifying characteristics of Witch Flounder?",
@@ -784,8 +1612,10 @@ const questions = {
         "Elongated body, symmetrical eyes, silver color",
         "Short body, asymmetrical eyes on the left side, bright blue color",
       ],
-      answer: "Small mouths, asymmetrical eyes on the right side, dark brown to grayish color on the eyed side",
-      explanation: "Witch flounder, also known as grey sole, are characterized by their small mouths and asymmetrical eyes located on the right side of their bodies. The dark brown to grayish color on the eyed side provides camouflage against the seabed, while their lighter underside helps them blend with the light from above.",
+      answer:
+        "Small mouths, asymmetrical eyes on the right side, dark brown to grayish color on the eyed side",
+      explanation:
+        "Witch flounder, also known as grey sole, are characterized by their small mouths and asymmetrical eyes located on the right side of their bodies. The dark brown to grayish color on the eyed side provides camouflage against the seabed, while their lighter underside helps them blend with the light from above.",
     },
     {
       question: "Where is Rex Sole primarily found?",
@@ -795,8 +1625,10 @@ const questions = {
         "Freshwater lakes in South America",
         "Tropical reefs in the Indian Ocean",
       ],
-      answer: "Northern Pacific Ocean, ranging from the Bering Sea and Alaska down to the northern part of Baja California",
-      explanation: "Rex Sole is primarily found in the northern Pacific Ocean, ranging from the Bering Sea and Alaska down to the northern part of Baja California. This distribution covers a wide range of coastal environments where they thrive.",
+      answer:
+        "Northern Pacific Ocean, ranging from the Bering Sea and Alaska down to the northern part of Baja California",
+      explanation:
+        "Rex Sole is primarily found in the northern Pacific Ocean, ranging from the Bering Sea and Alaska down to the northern part of Baja California. This distribution covers a wide range of coastal environments where they thrive.",
     },
     {
       question: "What is the texture and flavor profile of Rex Sole?",
@@ -807,7 +1639,8 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, delicate flavor with a fine, flaky texture",
-      explanation: "Rex Sole has a mild, delicate flavor with a fine, flaky texture, making it a popular choice for those who prefer a light and subtly flavored fish that is easy to prepare and versatile in recipes.",
+      explanation:
+        "Rex Sole has a mild, delicate flavor with a fine, flaky texture, making it a popular choice for those who prefer a light and subtly flavored fish that is easy to prepare and versatile in recipes.",
     },
     {
       question: "What does the term 'Turbot' refer to?",
@@ -817,8 +1650,10 @@ const questions = {
         "A common name for all types of shellfish",
         "A tropical fish species known for its vibrant colors",
       ],
-      answer: "A large, flatfish prized for its firm, white flesh and mild flavor",
-      explanation: "The term Turbot refers to a large, flatfish that is highly valued in gourmet cooking due to its firm, white flesh and mild flavor. Turbot's versatility and delicate texture make it a favorite among chefs for a variety of culinary applications.",
+      answer:
+        "A large, flatfish prized for its firm, white flesh and mild flavor",
+      explanation:
+        "The term Turbot refers to a large, flatfish that is highly valued in gourmet cooking due to its firm, white flesh and mild flavor. Turbot's versatility and delicate texture make it a favorite among chefs for a variety of culinary applications.",
     },
     {
       question: "Where is Turbot primarily found?",
@@ -829,7 +1664,8 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "Northeast Atlantic and the Mediterranean Sea",
-      explanation: "Turbot fish are primarily found in the Northeast Atlantic and the Mediterranean Sea, particularly in coastal waters from Iceland to the Mediterranean. These areas provide the optimal habitat conditions for Turbot, including the appropriate temperature and bottom substrate.",
+      explanation:
+        "Turbot fish are primarily found in the Northeast Atlantic and the Mediterranean Sea, particularly in coastal waters from Iceland to the Mediterranean. These areas provide the optimal habitat conditions for Turbot, including the appropriate temperature and bottom substrate.",
     },
     {
       question: "What is the fishing technique typically used for Turbot?",
@@ -840,18 +1676,22 @@ const questions = {
         "Electrofishing and dredging",
       ],
       answer: "Bottom trawling and longlining",
-      explanation: "Turbot are typically caught using bottom trawling and longlining techniques. These methods are effective for catching bottom-dwelling species like Turbot, which live close to the sea floor.",
+      explanation:
+        "Turbot are typically caught using bottom trawling and longlining techniques. These methods are effective for catching bottom-dwelling species like Turbot, which live close to the sea floor.",
     },
     {
-      question: "What are the identifying characteristics of Yellowtail Flounder?",
+      question:
+        "What are the identifying characteristics of Yellowtail Flounder?",
       choice: [
         "Flat, continuous dorsal and anal fins; right-eyed, diamond-shaped",
         "Small, round body, bright colors, and spotted pattern",
         "Elongated body, silver color, and sharp teeth",
         "Short, stout body, bright yellow, and striped pattern",
       ],
-      answer: "Flat, continuous dorsal and anal fins; right-eyed, diamond-shaped",
-      explanation: "Yellowtail flounder are characterized by their flat, diamond-shaped bodies, continuous dorsal and anal fins, and eyes located on the right side of their heads. These features are well-suited for their bottom-dwelling lifestyle, providing camouflage and aiding in their hunting strategy.",
+      answer:
+        "Flat, continuous dorsal and anal fins; right-eyed, diamond-shaped",
+      explanation:
+        "Yellowtail flounder are characterized by their flat, diamond-shaped bodies, continuous dorsal and anal fins, and eyes located on the right side of their heads. These features are well-suited for their bottom-dwelling lifestyle, providing camouflage and aiding in their hunting strategy.",
     },
     {
       question: "Where is Yellowtail Flounder primarily found?",
@@ -861,14 +1701,18 @@ const questions = {
         "Freshwater lakes in Europe",
         "Tropical coral reefs around the equator",
       ],
-      answer: "North Atlantic Ocean, off the eastern coast of the United States and Canada",
-      explanation: "Yellowtail flounder are primarily found in the North Atlantic Ocean, inhabiting the coastal waters off the eastern coast of the United States and Canada. These regions offer the cold, nutrient-rich waters that support their diet and lifecycle.",
+      answer:
+        "North Atlantic Ocean, off the eastern coast of the United States and Canada",
+      explanation:
+        "Yellowtail flounder are primarily found in the North Atlantic Ocean, inhabiting the coastal waters off the eastern coast of the United States and Canada. These regions offer the cold, nutrient-rich waters that support their diet and lifecycle.",
     },
     {
-      question: "What is the recommended cutting method for Yellowtail Flounder?",
+      question:
+        "What is the recommended cutting method for Yellowtail Flounder?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Yellowtail Flounder is a flat cut, which allows for efficient and even filleting of this flatfish, maximizing the yield and maintaining the quality of the flesh.",
+      explanation:
+        "The recommended cutting method for Yellowtail Flounder is a flat cut, which allows for efficient and even filleting of this flatfish, maximizing the yield and maintaining the quality of the flesh.",
     },
     {
       question: "What are the identifying characteristics of Petrale Sole?",
@@ -878,8 +1722,10 @@ const questions = {
         "Elongated body, silver color, and sharp teeth",
         "Short, stout body, bright yellow, and striped pattern",
       ],
-      answer: "Oval-shaped body, smooth, brownish upper side with orange spots, and white underbelly",
-      explanation: "Petrale Sole is identified by its oval-shaped body, smooth brownish upper side with distinctive orange spots, and a white underbelly. These characteristics help it blend with the ocean floor, both as camouflage and as a means to ambush prey.",
+      answer:
+        "Oval-shaped body, smooth, brownish upper side with orange spots, and white underbelly",
+      explanation:
+        "Petrale Sole is identified by its oval-shaped body, smooth brownish upper side with distinctive orange spots, and a white underbelly. These characteristics help it blend with the ocean floor, both as camouflage and as a means to ambush prey.",
     },
     {
       question: "Where is Petrale Sole primarily found?",
@@ -890,7 +1736,8 @@ const questions = {
         "Tropical reefs in the Indian Ocean",
       ],
       answer: "Pacific Ocean, along the west coast of North America",
-      explanation: "Petrale Sole is primarily found in the Pacific Ocean, along the west coast of North America. This habitat provides the temperate waters and sandy or muddy bottoms that Petrale Sole prefer for feeding and spawning.",
+      explanation:
+        "Petrale Sole is primarily found in the Pacific Ocean, along the west coast of North America. This habitat provides the temperate waters and sandy or muddy bottoms that Petrale Sole prefer for feeding and spawning.",
     },
     {
       question: "What is the texture and flavor profile of Petrale Sole?",
@@ -901,7 +1748,8 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, delicate flavor with a fine, flaky texture",
-      explanation: "Petrale Sole has a mild, delicate flavor with a fine, flaky texture, making it a sought-after choice for its versatility in cooking and ability to complement a variety of dishes.",
+      explanation:
+        "Petrale Sole has a mild, delicate flavor with a fine, flaky texture, making it a sought-after choice for its versatility in cooking and ability to complement a variety of dishes.",
     },
     {
       question: "What does the term 'Witch Flounder' refer to?",
@@ -911,8 +1759,10 @@ const questions = {
         "A common name for all types of shellfish",
         "A tropical fish species known for its vibrant colors",
       ],
-      answer: "A species of flatfish with a dark, mottled appearance and small eyes",
-      explanation: "Witch Flounder, also known as grey sole, refers to a species of flatfish characterized by its dark, mottled appearance and small eyes. These features provide effective camouflage on the ocean floor, helping it avoid predators and ambush prey.",
+      answer:
+        "A species of flatfish with a dark, mottled appearance and small eyes",
+      explanation:
+        "Witch Flounder, also known as grey sole, refers to a species of flatfish characterized by its dark, mottled appearance and small eyes. These features provide effective camouflage on the ocean floor, helping it avoid predators and ambush prey.",
     },
     {
       question: "Where is Witch Flounder primarily found?",
@@ -922,11 +1772,14 @@ const questions = {
         "Freshwater lakes in Asia",
         "Tropical reefs in the Caribbean Sea",
       ],
-      answer: "North Atlantic Ocean, near the coastlines of Europe and North America",
-      explanation: "Witch Flounder is primarily found in the North Atlantic Ocean, near the coastlines of Europe and North America. These waters provide the cold, shallow environments where Witch Flounder thrive.",
+      answer:
+        "North Atlantic Ocean, near the coastlines of Europe and North America",
+      explanation:
+        "Witch Flounder is primarily found in the North Atlantic Ocean, near the coastlines of Europe and North America. These waters provide the cold, shallow environments where Witch Flounder thrive.",
     },
     {
-      question: "What fishing techniques are typically used for Witch Flounder?",
+      question:
+        "What fishing techniques are typically used for Witch Flounder?",
       choice: [
         "Bottom trawling and gillnets",
         "Surface nets and traps",
@@ -934,7 +1787,8 @@ const questions = {
         "Electrofishing and dredging",
       ],
       answer: "Bottom trawling and gillnets",
-      explanation: "Witch Flounder are typically caught using bottom trawling and gillnets. These methods are suitable for capturing flatfish that dwell near the sea floor, ensuring a high yield and efficiency.",
+      explanation:
+        "Witch Flounder are typically caught using bottom trawling and gillnets. These methods are suitable for capturing flatfish that dwell near the sea floor, ensuring a high yield and efficiency.",
     },
     {
       question: "What is the texture and flavor profile of Witch Flounder?",
@@ -945,10 +1799,12 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation: "Witch Flounder has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
+      explanation:
+        "Witch Flounder has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
-      question: "What are the identifying characteristics of Arrowtooth Flounder?",
+      question:
+        "What are the identifying characteristics of Arrowtooth Flounder?",
       choice: [
         "Large mouths, asymmetrical eyes, and a grayish-brown upper side",
         "Small mouths, symmetrical eyes, and a bright red upper side",
@@ -956,7 +1812,8 @@ const questions = {
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
       answer: "Large mouths, asymmetrical eyes, and a grayish-brown upper side",
-      explanation: "Arrowtooth Flounder have large mouths, asymmetrical eyes on the right side, and a grayish-brown upper side. These features are adapted for their predatory lifestyle, allowing them to effectively ambush prey on the ocean floor.",
+      explanation:
+        "Arrowtooth Flounder have large mouths, asymmetrical eyes on the right side, and a grayish-brown upper side. These features are adapted for their predatory lifestyle, allowing them to effectively ambush prey on the ocean floor.",
     },
     {
       question: "Where is Arrowtooth Flounder primarily found?",
@@ -967,10 +1824,12 @@ const questions = {
         "Tropical reefs in the Indian Ocean",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "Arrowtooth Flounder is primarily found in the North Pacific Ocean, ranging from Alaska to California. This range provides the cold, nutrient-rich waters that support their diet and growth.",
+      explanation:
+        "Arrowtooth Flounder is primarily found in the North Pacific Ocean, ranging from Alaska to California. This range provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
-      question: "What is the texture and flavor profile of Arrowtooth Flounder?",
+      question:
+        "What is the texture and flavor profile of Arrowtooth Flounder?",
       choice: [
         "Mild flavor with a firm, flaky texture",
         "Strong, fishy flavor with a coarse texture",
@@ -978,13 +1837,16 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild flavor with a firm, flaky texture",
-      explanation: "Arrowtooth Flounder has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
+      explanation:
+        "Arrowtooth Flounder has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
     },
     {
-      question: "What is the recommended cutting method for Arrowtooth Flounder?",
+      question:
+        "What is the recommended cutting method for Arrowtooth Flounder?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Arrowtooth Flounder is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
+      explanation:
+        "The recommended cutting method for Arrowtooth Flounder is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What does the term 'Starry Flounder' refer to?",
@@ -994,8 +1856,10 @@ const questions = {
         "A common name for all types of shellfish",
         "A tropical fish species known for its vibrant colors",
       ],
-      answer: "A species of flatfish with a distinctive star-shaped pattern on its upper side",
-      explanation: "Starry Flounder is a species of flatfish characterized by its distinctive star-shaped pattern on its upper side. This pattern provides effective camouflage and a unique identification marker for the species.",
+      answer:
+        "A species of flatfish with a distinctive star-shaped pattern on its upper side",
+      explanation:
+        "Starry Flounder is a species of flatfish characterized by its distinctive star-shaped pattern on its upper side. This pattern provides effective camouflage and a unique identification marker for the species.",
     },
     {
       question: "Where is Starry Flounder primarily found?",
@@ -1006,10 +1870,12 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "Starry Flounder is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that are essential for their survival and reproduction.",
+      explanation:
+        "Starry Flounder is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that are essential for their survival and reproduction.",
     },
     {
-      question: "What fishing techniques are typically used for Starry Flounder?",
+      question:
+        "What fishing techniques are typically used for Starry Flounder?",
       choice: [
         "Bottom trawling and gillnets",
         "Surface nets and traps",
@@ -1017,7 +1883,8 @@ const questions = {
         "Electrofishing and dredging",
       ],
       answer: "Bottom trawling and gillnets",
-      explanation: "Starry Flounder are typically caught using bottom trawling and gillnets. These methods are effective for targeting flatfish that dwell near the sea floor, ensuring high efficiency and yield.",
+      explanation:
+        "Starry Flounder are typically caught using bottom trawling and gillnets. These methods are effective for targeting flatfish that dwell near the sea floor, ensuring high efficiency and yield.",
     },
     {
       question: "What is the texture and flavor profile of Starry Flounder?",
@@ -1028,7 +1895,8 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation: "Starry Flounder has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
+      explanation:
+        "Starry Flounder has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What does the term 'Yellowfin Sole' refer to?",
@@ -1038,8 +1906,10 @@ const questions = {
         "A common name for all types of shellfish",
         "A tropical fish species known for its vibrant colors",
       ],
-      answer: "A species of flatfish with yellow fins and a light brown upper side",
-      explanation: "Yellowfin Sole is a species of flatfish characterized by its yellow fins and a light brown upper side. These features help it blend with the ocean floor and make it easily identifiable.",
+      answer:
+        "A species of flatfish with yellow fins and a light brown upper side",
+      explanation:
+        "Yellowfin Sole is a species of flatfish characterized by its yellow fins and a light brown upper side. These features help it blend with the ocean floor and make it easily identifiable.",
     },
     {
       question: "Where is Yellowfin Sole primarily found?",
@@ -1050,7 +1920,8 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "Yellowfin Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and lifecycle.",
+      explanation:
+        "Yellowfin Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and lifecycle.",
     },
     {
       question: "What is the texture and flavor profile of Yellowfin Sole?",
@@ -1061,13 +1932,15 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild flavor with a firm, flaky texture",
-      explanation: "Yellowfin Sole has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
+      explanation:
+        "Yellowfin Sole has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
     },
     {
       question: "What is the recommended cutting method for Yellowfin Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Yellowfin Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
+      explanation:
+        "The recommended cutting method for Yellowfin Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Flathead Sole?",
@@ -1077,8 +1950,10 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer: "Broad, flattened head, light brown upper side with dark spots, and white underbelly",
-      explanation: "Flathead Sole has a broad, flattened head, light brown upper side with dark spots, and a white underbelly. These features provide effective camouflage and aid in their predatory strategy.",
+      answer:
+        "Broad, flattened head, light brown upper side with dark spots, and white underbelly",
+      explanation:
+        "Flathead Sole has a broad, flattened head, light brown upper side with dark spots, and a white underbelly. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is Flathead Sole primarily found?",
@@ -1089,7 +1964,8 @@ const questions = {
         "Tropical reefs in the Indian Ocean",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "Flathead Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
+      explanation:
+        "Flathead Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of Flathead Sole?",
@@ -1100,13 +1976,15 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild flavor with a firm, flaky texture",
-      explanation: "Flathead Sole has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
+      explanation:
+        "Flathead Sole has a mild flavor with a firm, flaky texture, making it a versatile choice for various culinary applications where a light and subtly flavored fish is desired.",
     },
     {
       question: "What is the recommended cutting method for Flathead Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Flathead Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
+      explanation:
+        "The recommended cutting method for Flathead Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Butter Sole?",
@@ -1116,8 +1994,10 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with white underbelly",
-      explanation: "Butter Sole has small mouths, asymmetrical eyes, and a light brown upper side with a white underbelly. These features help it blend with the ocean floor and aid in its feeding strategy.",
+      answer:
+        "Small mouths, asymmetrical eyes, and a light brown upper side with white underbelly",
+      explanation:
+        "Butter Sole has small mouths, asymmetrical eyes, and a light brown upper side with a white underbelly. These features help it blend with the ocean floor and aid in its feeding strategy.",
     },
     {
       question: "Where is Butter Sole primarily found?",
@@ -1128,7 +2008,8 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "Butter Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and lifecycle.",
+      explanation:
+        "Butter Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and lifecycle.",
     },
     {
       question: "What is the texture and flavor profile of Butter Sole?",
@@ -1139,13 +2020,15 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, delicate flavor with a fine, flaky texture",
-      explanation: "Butter Sole has a mild, delicate flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
+      explanation:
+        "Butter Sole has a mild, delicate flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for Butter Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Butter Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
+      explanation:
+        "The recommended cutting method for Butter Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Rock Sole?",
@@ -1155,8 +2038,10 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
-      explanation: "Rock Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
+      answer:
+        "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
+      explanation:
+        "Rock Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is Rock Sole primarily found?",
@@ -1167,7 +2052,8 @@ const questions = {
         "Tropical reefs in the Indian Ocean",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "Rock Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
+      explanation:
+        "Rock Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of Rock Sole?",
@@ -1178,13 +2064,15 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation: "Rock Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
+      explanation:
+        "Rock Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for Rock Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Rock Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
+      explanation:
+        "The recommended cutting method for Rock Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Sand Sole?",
@@ -1194,8 +2082,10 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
-      explanation: "Sand Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
+      answer:
+        "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
+      explanation:
+        "Sand Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is Sand Sole primarily found?",
@@ -1206,7 +2096,8 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "Sand Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
+      explanation:
+        "Sand Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of Sand Sole?",
@@ -1217,13 +2108,15 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation: "Sand Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
+      explanation:
+        "Sand Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for Sand Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Sand Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
+      explanation:
+        "The recommended cutting method for Sand Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of English Sole?",
@@ -1233,8 +2126,10 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
-      explanation: "English Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
+      answer:
+        "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
+      explanation:
+        "English Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is English Sole primarily found?",
@@ -1245,7 +2140,8 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "English Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
+      explanation:
+        "English Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of English Sole?",
@@ -1256,13 +2152,15 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation: "English Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
+      explanation:
+        "English Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for English Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for English Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
+      explanation:
+        "The recommended cutting method for English Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
     {
       question: "What are the identifying characteristics of Curlfin Sole?",
@@ -1272,8 +2170,10 @@ const questions = {
         "Elongated body, symmetrical eyes, and a silver upper side",
         "Short body, asymmetrical eyes, and a bright blue upper side",
       ],
-      answer: "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
-      explanation: "Curlfin Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
+      answer:
+        "Small mouths, asymmetrical eyes, and a light brown upper side with dark spots",
+      explanation:
+        "Curlfin Sole has small mouths, asymmetrical eyes, and a light brown upper side with dark spots. These features provide effective camouflage and aid in their predatory strategy.",
     },
     {
       question: "Where is Curlfin Sole primarily found?",
@@ -1284,7 +2184,8 @@ const questions = {
         "Tropical reefs in the Caribbean Sea",
       ],
       answer: "North Pacific Ocean, from Alaska to California",
-      explanation: "Curlfin Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
+      explanation:
+        "Curlfin Sole is primarily found in the North Pacific Ocean, ranging from Alaska to California. This habitat provides the cold, nutrient-rich waters that support their diet and growth.",
     },
     {
       question: "What is the texture and flavor profile of Curlfin Sole?",
@@ -1295,13 +2196,15 @@ const questions = {
         "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild, sweet flavor with a fine, flaky texture",
-      explanation: "Curlfin Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
+      explanation:
+        "Curlfin Sole has a mild, sweet flavor with a fine, flaky texture, making it a popular choice for dishes that require a delicate and subtly flavored fish.",
     },
     {
       question: "What is the recommended cutting method for Curlfin Sole?",
       choice: ["Flat cut", "Straight cut", "Up and over cut", "Pavé cut"],
       answer: "Flat cut",
-      explanation: "The recommended cutting method for Curlfin Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
+      explanation:
+        "The recommended cutting method for Curlfin Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
   ],
   straightCut: [
@@ -1723,6 +2626,336 @@ const questions = {
     },
   ],
   upAndOver: [
+    {
+      question: "What type of fish is most commonly associated with ciguatera poisoning?",
+      choices: [
+        "Carnivorous predator reef fish",
+        "Freshwater fish",
+        "Deep-sea fish",
+        "Farmed fish"
+      ],
+      answer: "Carnivorous predator reef fish",
+      explanation: "Ciguatera poisoning is found in carnivorous predator reef fish living in tropical waters, typically in larger fish, which accumulate the ciguatoxin."
+    },
+    {
+      question: "What are the primary symptoms of ciguatera poisoning?",
+      choices: [
+        "Gastrointestinal and neurological effects",
+        "Cardiovascular issues",
+        "Respiratory problems",
+        "Skin rashes"
+      ],
+      answer: "Gastrointestinal and neurological effects",
+      explanation: "Ciguatera poisoning causes gastrointestinal symptoms such as nausea and diarrhea, followed by neurological symptoms including headaches, muscle aches, paresthesia, numbness, ataxia, and hallucinations."
+    },
+    {
+      question: "Which toxin is not destroyed by normal cooking methods?",
+      choices: [
+        "Ciguatoxin",
+        "Histamine",
+        "Saxitoxin",
+        "Domoic acid"
+      ],
+      answer: "Ciguatoxin",
+      explanation: "Ciguatoxin, responsible for ciguatera poisoning, is not destroyed by normal cooking methods, making it particularly dangerous."
+    },
+    {
+      question: "What fish species are commonly associated with scombroid poisoning?",
+      choices: [
+        "Tunas and mackerels",
+        "Salmon and trout",
+        "Cod and haddock",
+        "Catfish and tilapia"
+      ],
+      answer: "Tunas and mackerels",
+      explanation: "Scombroid poisoning is commonly associated with fish species in the scombridae family, such as tunas and mackerels, as well as some non-scombridae relatives like mahi-mahi and amberjack."
+    },
+    {
+      question: "What causes the elevated levels of histamine in fish that lead to scombroid poisoning?",
+      choices: [
+        "Bacterial breakdown of muscle protein",
+        "Viral infection",
+        "Parasitic infestation",
+        "Chemical contamination"
+      ],
+      answer: "Bacterial breakdown of muscle protein",
+      explanation: "The elevated levels of histamine in fish leading to scombroid poisoning are caused by bacterial breakdown of substances in the muscle protein when the fish is time/temperature abused."
+    },
+    {
+      question: "What are the initial symptoms of scombroid poisoning?",
+      choices: [
+        "Facial flushing and sweating",
+        "Skin rash",
+        "Joint pain",
+        "Coughing and sneezing"
+      ],
+      answer: "Facial flushing and sweating",
+      explanation: "Initial symptoms of scombroid poisoning include facial flushing and sweating, along with burning-peppery taste sensations about the mouth and throat, dizziness, nausea, and headache."
+    },
+    {
+      question: "What marine toxin is responsible for Paralytic Shellfish Poisoning (PSP)?",
+      choices: [
+        "Saxitoxin",
+        "Domoic acid",
+        "Histamine",
+        "Okadaic acid"
+      ],
+      answer: "Saxitoxin",
+      explanation: "Paralytic Shellfish Poisoning (PSP) is caused by saxitoxin, a toxin produced by algae (red tide) that contaminates molluscan shellfish."
+    },
+    {
+      question: "What are the early symptoms of Paralytic Shellfish Poisoning (PSP)?",
+      choices: [
+        "Tingling of the lips and tongue",
+        "Abdominal pain",
+        "Skin rashes",
+        "Muscle cramps"
+      ],
+      answer: "Tingling of the lips and tongue",
+      explanation: "Early symptoms of Paralytic Shellfish Poisoning (PSP) include tingling of the lips and tongue, which may begin within minutes to a few hours after eating contaminated shellfish."
+    },
+    {
+      question: "Which toxin is produced by marine algae and causes Diarrhetic Shellfish Poisoning (DSP)?",
+      choices: [
+        "Okadaic acid",
+        "Saxitoxin",
+        "Ciguatoxin",
+        "Histamine"
+      ],
+      answer: "Okadaic acid",
+      explanation: "Diarrhetic Shellfish Poisoning (DSP) is caused by toxins such as Okadaic acid, produced by marine algae (red tide), which contaminate shellfish."
+    },
+    {
+      question: "What are the symptoms of Diarrhetic Shellfish Poisoning (DSP)?",
+      choices: [
+        "Nausea, diarrhea, vomiting, and abdominal pain",
+        "Tingling of lips and tongue",
+        "Skin rashes and itching",
+        "Joint pain and stiffness"
+      ],
+      answer: "Nausea, diarrhea, vomiting, and abdominal pain",
+      explanation: "Symptoms of Diarrhetic Shellfish Poisoning (DSP) include nausea, diarrhea, vomiting, and abdominal pain, which can occur from 30 minutes to 12 hours after ingestion."
+    },
+    {
+      question: "What marine toxin is responsible for Amnesic Shellfish Poisoning (ASP)?",
+      choices: [
+        "Domoic acid",
+        "Saxitoxin",
+        "Ciguatoxin",
+        "Histamine"
+      ],
+      answer: "Domoic acid",
+      explanation: "Amnesic Shellfish Poisoning (ASP) is caused by domoic acid, a marine toxin that accumulates in filter-feeding bivalve mollusks from the microscopic diatom Pseudo-nitzschia."
+    },
+    {
+      question: "What are the symptoms of Amnesic Shellfish Poisoning (ASP)?",
+      choices: [
+        "Gastrointestinal problems and neurological symptoms",
+        "Skin rashes and itching",
+        "Muscle cramps and joint pain",
+        "Respiratory distress and coughing"
+      ],
+      answer: "Gastrointestinal problems and neurological symptoms",
+      explanation: "Symptoms of Amnesic Shellfish Poisoning (ASP) include gastrointestinal problems such as nausea and vomiting within 24 hours, followed by neurological symptoms like headache, dizziness, disorientation, and memory loss within 48 hours."
+    },
+    {
+      question: "What virus is associated with seafood and can cause gastroenteritis?",
+      choices: [
+        "Norwalk Virus",
+        "Hepatitis B",
+        "HIV",
+        "Influenza"
+      ],
+      answer: "Norwalk Virus",
+      explanation: "Norwalk Virus, also known as Norovirus, is associated with seafood, particularly shellfish, and can cause gastroenteritis with symptoms such as nausea, vomiting, diarrhea, and abdominal cramps."
+    },
+    {
+      question: "What are the typical symptoms of Norwalk Virus infection from seafood?",
+      choices: [
+        "Nausea, vomiting, diarrhea, and abdominal cramps",
+        "Skin rashes and itching",
+        "Muscle pain and stiffness",
+        "Respiratory issues and coughing"
+      ],
+      answer: "Nausea, vomiting, diarrhea, and abdominal cramps",
+      explanation: "Typical symptoms of Norwalk Virus infection from seafood include nausea, vomiting, diarrhea, and abdominal cramps, which usually begin within 12 to 72 hours of consuming contaminated food."
+    },
+    {
+      question: "What type of shellfish poisoning is caused by a toxin that affects the neurons in the brain, leading to memory loss and other neurological symptoms?",
+      choices: [
+        "Amnesic Shellfish Poisoning (ASP)",
+        "Paralytic Shellfish Poisoning (PSP)",
+        "Diarrhetic Shellfish Poisoning (DSP)",
+        "Ciguatera"
+      ],
+      answer: "Amnesic Shellfish Poisoning (ASP)",
+      explanation: "Amnesic Shellfish Poisoning (ASP) is caused by domoic acid, which affects neurons in the brain, leading to memory loss and other neurological symptoms such as dizziness, disorientation, and seizures."
+    },
+    {
+      question: "What is the main cause of scombroid poisoning?",
+      choices: [
+        "Elevated levels of histamine in fish",
+        "Bacterial contamination in shellfish",
+        "Toxin accumulation in reef fish",
+        "Viral infection in mollusks"
+      ],
+      answer: "Elevated levels of histamine in fish",
+      explanation: "Scombroid poisoning is primarily caused by elevated levels of histamine in fish, which results from bacterial breakdown of muscle protein due to improper storage and handling."
+    },
+    {
+      question: "Which seafood toxin can cause symptoms that last from weeks to years, sometimes up to 20 years?",
+      choices: [
+        "Ciguatoxin",
+        "Saxitoxin",
+        "Domoic acid",
+        "Okadaic acid"
+      ],
+      answer: "Ciguatoxin",
+      explanation: "Ciguatoxin, responsible for ciguatera poisoning, can cause symptoms that last from weeks to years, sometimes up to 20 years, leading to long-term disability in severe cases."
+    },
+    {
+      question: "Which shellfish poisoning is caused by a toxin that can lead to paralysis and potentially death within hours?",
+      choices: [
+        "Paralytic Shellfish Poisoning (PSP)",
+        "Diarrhetic Shellfish Poisoning (DSP)",
+        "Amnesic Shellfish Poisoning (ASP)",
+        "Scombroid Poisoning"
+      ],
+      answer: "Paralytic Shellfish Poisoning (PSP)",
+      explanation: "Paralytic Shellfish Poisoning (PSP) is caused by saxitoxin, which can lead to paralysis and potentially death within hours if enough toxin is ingested, as it affects the muscles used for breathing."
+    },
+    {
+      question: "What measures can be taken to prevent scombroid poisoning?",
+      choices: [
+        "Properly storing and handling fish to avoid time/temperature abuse",
+        "Cooking fish thoroughly",
+        "Avoiding consumption of large predatory fish",
+        "Washing fish with disinfectant"
+      ],
+      answer: "Properly storing and handling fish to avoid time/temperature abuse",
+      explanation: "Preventing scombroid poisoning involves properly storing and handling fish to avoid time/temperature abuse, which prevents the bacterial breakdown of muscle protein that produces histamine."
+    },
+    {
+      question: "What are the common symptoms of Hepatitis A infection from contaminated shellfish?",
+      choices: [
+        "Weakness, fever, malaise, and jaundice",
+        "Skin rashes and itching",
+        "Muscle pain and joint stiffness",
+        "Respiratory issues and coughing"
+      ],
+      answer: "Weakness, fever, malaise, and jaundice",
+      explanation: "Hepatitis A infection from contaminated shellfish typically presents symptoms such as weakness, fever, malaise, and jaundice. The severity can range from mild to severe, sometimes requiring hospitalization."
+    },
+    {
+      question: "Which virus associated with shellfish is known for being difficult to destroy by heat?",
+      choices: [
+        "Norwalk Virus",
+        "Hepatitis A",
+        "Influenza",
+        "HIV"
+      ],
+      answer: "Norwalk Virus",
+      explanation: "Norwalk Virus, or Norovirus, is associated with shellfish and is difficult to destroy by heat, making it a persistent cause of foodborne illness even after cooking."
+    },
+    {
+      question: "How soon after ingestion do symptoms of Diarrhetic Shellfish Poisoning (DSP) typically appear?",
+      choices: [
+        "30 minutes to 12 hours",
+        "1 to 2 days",
+        "12 to 72 hours",
+        "3 to 4 hours"
+      ],
+      answer: "30 minutes to 12 hours",
+      explanation: "Symptoms of Diarrhetic Shellfish Poisoning (DSP) typically appear within 30 minutes to 12 hours after ingestion, causing gastrointestinal issues like nausea, diarrhea, and abdominal pain."
+    },
+    {
+      question: "What percentage of shellfish poisoning cases are due to Diarrhetic Shellfish Poisoning (DSP)?",
+      choices: [
+        "90 - 95%",
+        "50 - 60%",
+        "30 - 40%",
+        "70 - 80%"
+      ],
+      answer: "90 - 95%",
+      explanation: "About 90 - 95% of shellfish poisoning cases are due to Diarrhetic Shellfish Poisoning (DSP), making it the most common type of shellfish poisoning."
+    },
+    {
+      question: "What is the typical duration of symptoms for scombroid poisoning?",
+      choices: [
+        "4 to 6 hours",
+        "12 to 24 hours",
+        "1 to 2 days",
+        "3 to 4 days"
+      ],
+      answer: "4 to 6 hours",
+      explanation: "Symptoms of scombroid poisoning usually last for approximately 4 to 6 hours and rarely exceed one to two days, making it a relatively short-lived illness compared to other seafood toxins."
+    },
+    {
+      question: "What marine toxin is responsible for the neurological symptoms seen in Amnesic Shellfish Poisoning (ASP)?",
+      choices: [
+        "Domoic acid",
+        "Saxitoxin",
+        "Okadaic acid",
+        "Histamine"
+      ],
+      answer: "Domoic acid",
+      explanation: "Domoic acid is the marine toxin responsible for the neurological symptoms seen in Amnesic Shellfish Poisoning (ASP), including headache, dizziness, disorientation, and loss of short-term memory."
+    },
+    {
+      question: "Which shellfish toxin can lead to cold allodynia, a burning sensation on contact with cold?",
+      choices: [
+        "Ciguatoxin",
+        "Saxitoxin",
+        "Domoic acid",
+        "Histamine"
+      ],
+      answer: "Ciguatoxin",
+      explanation: "Ciguatoxin, responsible for ciguatera poisoning, can lead to cold allodynia, a condition where a burning sensation is felt upon contact with cold, often misinterpreted as a reversal of hot/cold temperature sensation."
+    },
+    {
+      question: "What is the primary cause of Amnesic Shellfish Poisoning (ASP)?",
+      choices: [
+        "Consumption of shellfish containing domoic acid",
+        "Consumption of fish with high levels of histamine",
+        "Bacterial contamination in shellfish",
+        "Viral infection in mollusks"
+      ],
+      answer: "Consumption of shellfish containing domoic acid",
+      explanation: "Amnesic Shellfish Poisoning (ASP) is primarily caused by the consumption of shellfish containing domoic acid, which bio-accumulates in filter-feeding bivalve mollusks from the diatom Pseudo-nitzschia."
+    },
+    {
+      question: "How does domoic acid affect the brain in cases of Amnesic Shellfish Poisoning (ASP)?",
+      choices: [
+        "Activates receptors causing an influx of calcium",
+        "Reduces blood flow to the brain",
+        "Destroys neurons directly",
+        "Blocks neurotransmitter release"
+      ],
+      answer: "Activates receptors causing an influx of calcium",
+      explanation: "In Amnesic Shellfish Poisoning (ASP), domoic acid activates receptors in the brain, causing an influx of calcium. While calcium influx is a normal event, an uncontrolled increase leads to neuron degeneration and damage."
+    },
+    {
+      question: "What is the common name for shellfish poisoning caused by the Norwalk Virus?",
+      choices: [
+        "Gastroenteritis",
+        "Diarrhetic Shellfish Poisoning",
+        "Amnesic Shellfish Poisoning",
+        "Paralytic Shellfish Poisoning"
+      ],
+      answer: "Gastroenteritis",
+      explanation: "Gastroenteritis, commonly caused by the Norwalk Virus, results in symptoms like nausea, vomiting, diarrhea, and abdominal cramps, typically occurring within 12 to 72 hours of consuming contaminated shellfish."
+    },
+    {
+      question: "Which type of shellfish poisoning is caused by the algae-associated toxin, Okadaic acid?",
+      choices: [
+        "Diarrhetic Shellfish Poisoning (DSP)",
+        "Paralytic Shellfish Poisoning (PSP)",
+        "Amnesic Shellfish Poisoning (ASP)",
+        "Ciguatera Poisoning"
+      ],
+      answer: "Diarrhetic Shellfish Poisoning (DSP)",
+      explanation: "Diarrhetic Shellfish Poisoning (DSP) is caused by Okadaic acid, a toxin produced by algae (red tide), which contaminates shellfish and causes gastrointestinal symptoms."
+    },
     {
       question:
         "What is the primary characteristic that distinguishes cartilaginous fish from bony fish?",
@@ -2244,10 +3477,12 @@ const questions = {
         "A group of soft-bodied invertebrates, many of which are encased in hard shells",
         "A type of fish with scales",
         "A marine mammal with a blowhole",
-        "A bird with webbed feet"
+        "A bird with webbed feet",
       ],
-      answer: "A group of soft-bodied invertebrates, many of which are encased in hard shells",
-      explanation: "Mollusks are a diverse and widespread group of soft-bodied invertebrates, many of which are encased in hard shells for protection."
+      answer:
+        "A group of soft-bodied invertebrates, many of which are encased in hard shells",
+      explanation:
+        "Mollusks are a diverse and widespread group of soft-bodied invertebrates, many of which are encased in hard shells for protection.",
     },
     {
       question: "What is the purpose of shellfish tags?",
@@ -2255,10 +3490,12 @@ const questions = {
         "To provide information about the origin, date of harvest, type of shellfish, and other tracking details",
         "To label the size of the shellfish",
         "To identify the flavor profile",
-        "To indicate the cooking method"
+        "To indicate the cooking method",
       ],
-      answer: "To provide information about the origin, date of harvest, type of shellfish, and other tracking details",
-      explanation: "Shellfish tags provide information about the origin, date of harvest, type of shellfish, and other tracking details needed for regulation and safety purposes."
+      answer:
+        "To provide information about the origin, date of harvest, type of shellfish, and other tracking details",
+      explanation:
+        "Shellfish tags provide information about the origin, date of harvest, type of shellfish, and other tracking details needed for regulation and safety purposes.",
     },
     {
       question: "What is shellfish depuration?",
@@ -2266,21 +3503,24 @@ const questions = {
         "A process used to cleanse shellfish of contaminants",
         "A method of cooking shellfish",
         "A technique for catching shellfish",
-        "A way to transport live shellfish"
+        "A way to transport live shellfish",
       ],
       answer: "A process used to cleanse shellfish of contaminants",
-      explanation: "Shellfish depuration is a process used to cleanse shellfish like clams, oysters, and mussels of contaminants, including bacteria, viruses, and toxins."
+      explanation:
+        "Shellfish depuration is a process used to cleanse shellfish like clams, oysters, and mussels of contaminants, including bacteria, viruses, and toxins.",
     },
     {
-      question: "What is the recommended storage condition for live gastropods?",
+      question:
+        "What is the recommended storage condition for live gastropods?",
       choice: [
         "High moisture refrigerator in perforated pans",
         "Dry storage at room temperature",
         "Frozen in plastic bags",
-        "Hanging by the tail"
+        "Hanging by the tail",
       ],
       answer: "High moisture refrigerator in perforated pans",
-      explanation: "Live gastropods should be stored in a high moisture refrigerator in perforated pans to ensure they are safe for consumption."
+      explanation:
+        "Live gastropods should be stored in a high moisture refrigerator in perforated pans to ensure they are safe for consumption.",
     },
     {
       question: "Which species is known as Queen Conch?",
@@ -2288,10 +3528,11 @@ const questions = {
         "Aliger gigas",
         "Crassostrea virginica",
         "Mytilus edulis",
-        "Placopecten magellanicus"
+        "Placopecten magellanicus",
       ],
       answer: "Aliger gigas",
-      explanation: "The Queen Conch, Aliger gigas, is a large gastropod found in the Caribbean Sea, Florida Keys, and Gulf of Mexico."
+      explanation:
+        "The Queen Conch, Aliger gigas, is a large gastropod found in the Caribbean Sea, Florida Keys, and Gulf of Mexico.",
     },
     {
       question: "What is the texture and flavor profile of Queen Conch?",
@@ -2299,10 +3540,11 @@ const questions = {
         "Mild and slightly sweet with a firm, chewy texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Mild and slightly sweet with a firm, chewy texture",
-      explanation: "Queen Conch is often described as mild and slightly sweet, similar to clams or scallops, with a firm, chewy texture."
+      explanation:
+        "Queen Conch is often described as mild and slightly sweet, similar to clams or scallops, with a firm, chewy texture.",
     },
     {
       question: "Where are abalones typically found?",
@@ -2310,10 +3552,11 @@ const questions = {
         "Coastal waters along rocky shores",
         "Open ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Coastal waters along rocky shores",
-      explanation: "Abalones are found in coastal waters along rocky shores where cold currents prevail."
+      explanation:
+        "Abalones are found in coastal waters along rocky shores where cold currents prevail.",
     },
     {
       question: "What is the identifying characteristic of abalone?",
@@ -2321,10 +3564,12 @@ const questions = {
         "A flattened, ear-shaped shell with a row of pores along the outer edge",
         "A long, narrow body with bright red coloration",
         "A short, round body with green scales",
-        "A triangular body with spiny projections"
+        "A triangular body with spiny projections",
       ],
-      answer: "A flattened, ear-shaped shell with a row of pores along the outer edge",
-      explanation: "Abalone are marine gastropod mollusks with a flattened, ear-shaped shell that has a row of pores along the outer edge."
+      answer:
+        "A flattened, ear-shaped shell with a row of pores along the outer edge",
+      explanation:
+        "Abalone are marine gastropod mollusks with a flattened, ear-shaped shell that has a row of pores along the outer edge.",
     },
     {
       question: "What is the primary diet of Queen Conch?",
@@ -2332,10 +3577,11 @@ const questions = {
         "Algae and other plant matter",
         "Small fish",
         "Plankton",
-        "Coral"
+        "Coral",
       ],
       answer: "Algae and other plant matter",
-      explanation: "Queen Conch primarily feed on algae and other plant matter."
+      explanation:
+        "Queen Conch primarily feed on algae and other plant matter.",
     },
     {
       question: "What is the main harvesting restriction for abalone?",
@@ -2343,10 +3589,11 @@ const questions = {
         "Size, time of year, equipment, and daily/seasonal limits",
         "Only one per person",
         "No restrictions",
-        "Must be harvested at night"
+        "Must be harvested at night",
       ],
       answer: "Size, time of year, equipment, and daily/seasonal limits",
-      explanation: "The rules for harvesting abalone vary by region and often include restrictions on size, time of year, equipment, and daily/seasonal limits."
+      explanation:
+        "The rules for harvesting abalone vary by region and often include restrictions on size, time of year, equipment, and daily/seasonal limits.",
     },
     {
       question: "What are the primary hard shell clam varieties?",
@@ -2354,10 +3601,11 @@ const questions = {
         "Quahog, Little Neck, Top Neck, Cherrystone, Chowder",
         "Blue Mussel, Green-lipped Mussel, Mediterranean Mussel",
         "Bay Scallop, Sea Scallop, Calico Scallop",
-        "Eastern Oyster, Pacific Oyster, Kumamoto Oyster"
+        "Eastern Oyster, Pacific Oyster, Kumamoto Oyster",
       ],
       answer: "Quahog, Little Neck, Top Neck, Cherrystone, Chowder",
-      explanation: "Primary hard shell clam varieties include Quahog, Little Neck, Top Neck, Cherrystone, and Chowder."
+      explanation:
+        "Primary hard shell clam varieties include Quahog, Little Neck, Top Neck, Cherrystone, and Chowder.",
     },
     {
       question: "What is the primary habitat of Razor clams?",
@@ -2365,10 +3613,11 @@ const questions = {
         "Buried in sand or mud in marine environments",
         "Attached to rocks in the open ocean",
         "Floating freely in the water",
-        "In freshwater lakes"
+        "In freshwater lakes",
       ],
       answer: "Buried in sand or mud in marine environments",
-      explanation: "Razor clams are found buried in sand or mud in marine environments, often in intertidal or subtidal zones."
+      explanation:
+        "Razor clams are found buried in sand or mud in marine environments, often in intertidal or subtidal zones.",
     },
     {
       question: "What is the texture and flavor profile of Bay Scallops?",
@@ -2376,10 +3625,11 @@ const questions = {
         "Small and sweet with a tender texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Small and sweet with a tender texture",
-      explanation: "Bay Scallops are small and sweet with a tender texture, ideal for quick cooking methods like sautéing or stir-frying."
+      explanation:
+        "Bay Scallops are small and sweet with a tender texture, ideal for quick cooking methods like sautéing or stir-frying.",
     },
     {
       question: "What is the unique feature of Sea Scallops?",
@@ -2387,10 +3637,11 @@ const questions = {
         "Large adductor muscle, sweet and succulent",
         "Small size, bright red color",
         "Elongated body, dark green back",
-        "Short body, dark blue color"
+        "Short body, dark blue color",
       ],
       answer: "Large adductor muscle, sweet and succulent",
-      explanation: "Sea Scallops are highly prized for their large adductor muscle, which is sweet and succulent."
+      explanation:
+        "Sea Scallops are highly prized for their large adductor muscle, which is sweet and succulent.",
     },
     {
       question: "What are the primary species of mussels?",
@@ -2398,21 +3649,19 @@ const questions = {
         "Blue Mussel, Mediterranean Mussel, Green-lipped Mussel, California Mussel",
         "Eastern Oyster, Pacific Oyster, Kumamoto Oyster",
         "Bay Scallop, Sea Scallop, Calico Scallop",
-        "Quahog, Little Neck, Top Neck, Cherrystone, Chowder"
+        "Quahog, Little Neck, Top Neck, Cherrystone, Chowder",
       ],
-      answer: "Blue Mussel, Mediterranean Mussel, Green-lipped Mussel, California Mussel",
-      explanation: "Primary species of mussels include Blue Mussel, Mediterranean Mussel, Green-lipped Mussel, and California Mussel."
+      answer:
+        "Blue Mussel, Mediterranean Mussel, Green-lipped Mussel, California Mussel",
+      explanation:
+        "Primary species of mussels include Blue Mussel, Mediterranean Mussel, Green-lipped Mussel, and California Mussel.",
     },
     {
       question: "What is the primary method of cooking mussels?",
-      choice: [
-        "Steaming",
-        "Grilling",
-        "Baking",
-        "Frying"
-      ],
+      choice: ["Steaming", "Grilling", "Baking", "Frying"],
       answer: "Steaming",
-      explanation: "Mussels are commonly cooked by steaming, which helps to open their shells and cook the meat inside."
+      explanation:
+        "Mussels are commonly cooked by steaming, which helps to open their shells and cook the meat inside.",
     },
     {
       question: "What are the primary species of oysters?",
@@ -2420,10 +3669,11 @@ const questions = {
         "Eastern, Pacific, European Flat, Kumamoto, Sydney Rock",
         "Blue Mussel, Mediterranean Mussel, Green-lipped Mussel",
         "Bay Scallop, Sea Scallop, Calico Scallop",
-        "Quahog, Little Neck, Top Neck, Cherrystone, Chowder"
+        "Quahog, Little Neck, Top Neck, Cherrystone, Chowder",
       ],
       answer: "Eastern, Pacific, European Flat, Kumamoto, Sydney Rock",
-      explanation: "Primary species of oysters include Eastern, Pacific, European Flat, Kumamoto, and Sydney Rock."
+      explanation:
+        "Primary species of oysters include Eastern, Pacific, European Flat, Kumamoto, and Sydney Rock.",
     },
     {
       question: "What is the primary habitat of Eastern Oysters?",
@@ -2431,10 +3681,11 @@ const questions = {
         "Atlantic coast of North America",
         "Pacific coast of North America",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Atlantic coast of North America",
-      explanation: "Eastern Oysters are native to the Atlantic coast of North America."
+      explanation:
+        "Eastern Oysters are native to the Atlantic coast of North America.",
     },
     {
       question: "What is the texture and flavor profile of Eastern Oysters?",
@@ -2442,10 +3693,11 @@ const questions = {
         "Briny and translucent, with a smooth lipped shell",
         "Sweet and tender, with a rough lipped shell",
         "Strong fishy flavor, with a smooth lipped shell",
-        "Spicy flavor, with a rough lipped shell"
+        "Spicy flavor, with a rough lipped shell",
       ],
       answer: "Briny and translucent, with a smooth lipped shell",
-      explanation: "Eastern Oysters have a briny and translucent texture, with a smooth lipped shell."
+      explanation:
+        "Eastern Oysters have a briny and translucent texture, with a smooth lipped shell.",
     },
     {
       question: "What is the significance of the 'R month' fallacy in oysters?",
@@ -2453,10 +3705,12 @@ const questions = {
         "It is believed oysters are poisonous during the summer months without an 'R'",
         "It is a method of grading oyster quality",
         "It refers to the best time to harvest oysters",
-        "It indicates the oyster's size"
+        "It indicates the oyster's size",
       ],
-      answer: "It is believed oysters are poisonous during the summer months without an 'R'",
-      explanation: "The 'R month' fallacy is the belief that oysters are poisonous during the summer months without an 'R', which is erroneous."
+      answer:
+        "It is believed oysters are poisonous during the summer months without an 'R'",
+      explanation:
+        "The 'R month' fallacy is the belief that oysters are poisonous during the summer months without an 'R', which is erroneous.",
     },
     {
       question: "What is the primary diet of Blue Mussels?",
@@ -2464,10 +3718,11 @@ const questions = {
         "Plankton and small particles in the water",
         "Small fish",
         "Algae",
-        "Coral"
+        "Coral",
       ],
       answer: "Plankton and small particles in the water",
-      explanation: "Blue Mussels feed primarily on plankton and small particles in the water."
+      explanation:
+        "Blue Mussels feed primarily on plankton and small particles in the water.",
     },
     {
       question: "What is the primary habitat of Mediterranean Mussels?",
@@ -2475,10 +3730,11 @@ const questions = {
         "Mediterranean Sea and along the coasts of Southern Europe",
         "Pacific coast of North America",
         "Atlantic coast of North America",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Mediterranean Sea and along the coasts of Southern Europe",
-      explanation: "Mediterranean Mussels are found in the Mediterranean Sea and along the coasts of Southern Europe."
+      explanation:
+        "Mediterranean Mussels are found in the Mediterranean Sea and along the coasts of Southern Europe.",
     },
     {
       question: "What is the unique feature of Green-lipped Mussels?",
@@ -2486,10 +3742,11 @@ const questions = {
         "Distinctive green shell and health benefits",
         "Small size and bright red color",
         "Elongated body and dark green back",
-        "Short body and dark blue color"
+        "Short body and dark blue color",
       ],
       answer: "Distinctive green shell and health benefits",
-      explanation: "Green-lipped Mussels are known for their distinctive green shell and health benefits."
+      explanation:
+        "Green-lipped Mussels are known for their distinctive green shell and health benefits.",
     },
     {
       question: "What is the primary habitat of California Mussels?",
@@ -2497,21 +3754,18 @@ const questions = {
         "Pacific coast of North America",
         "Mediterranean Sea",
         "Atlantic coast of North America",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Pacific coast of North America",
-      explanation: "California Mussels are found on the Pacific coast of North America."
+      explanation:
+        "California Mussels are found on the Pacific coast of North America.",
     },
     {
       question: "What is the primary method of farming mussels?",
-      choice: [
-        "Rope culture",
-        "Trawling",
-        "Handpicking",
-        "Spearfishing"
-      ],
+      choice: ["Rope culture", "Trawling", "Handpicking", "Spearfishing"],
       answer: "Rope culture",
-      explanation: "Mussels are commonly farmed using rope culture, where ropes are suspended in the water for mussels to attach and grow."
+      explanation:
+        "Mussels are commonly farmed using rope culture, where ropes are suspended in the water for mussels to attach and grow.",
     },
     {
       question: "What is the identifying characteristic of Sea Scallops?",
@@ -2519,10 +3773,11 @@ const questions = {
         "Saucer-shaped shell with scalloped or fluted edges",
         "Elongated body with dark green back",
         "Small size with bright red color",
-        "Short body with dark blue color"
+        "Short body with dark blue color",
       ],
       answer: "Saucer-shaped shell with scalloped or fluted edges",
-      explanation: "Sea Scallops have a saucer-shaped shell with scalloped or fluted edges."
+      explanation:
+        "Sea Scallops have a saucer-shaped shell with scalloped or fluted edges.",
     },
     {
       question: "What is the primary habitat of Sea Scallops?",
@@ -2530,21 +3785,16 @@ const questions = {
         "Sandy, muddy, or gravelly sea floors",
         "Coral reefs",
         "Open ocean",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Sandy, muddy, or gravelly sea floors",
-      explanation: "Sea Scallops inhabit sandy, muddy, or gravelly sea floors."
+      explanation: "Sea Scallops inhabit sandy, muddy, or gravelly sea floors.",
     },
     {
       question: "What is the primary method of catching Sea Scallops?",
-      choice: [
-        "Dredging",
-        "Trawling",
-        "Handpicking",
-        "Spearfishing"
-      ],
+      choice: ["Dredging", "Trawling", "Handpicking", "Spearfishing"],
       answer: "Dredging",
-      explanation: "Sea Scallops are commonly caught using dredging."
+      explanation: "Sea Scallops are commonly caught using dredging.",
     },
     {
       question: "What is the primary habitat of Bay Scallops?",
@@ -2552,10 +3802,10 @@ const questions = {
         "In-shore in bays or inlets",
         "Open ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "In-shore in bays or inlets",
-      explanation: "Bay Scallops are found in-shore in bays or inlets."
+      explanation: "Bay Scallops are found in-shore in bays or inlets.",
     },
     {
       question: "What is the primary characteristic of Calico Scallops?",
@@ -2563,10 +3813,11 @@ const questions = {
         "Small size, milder flavor, often used in baked dishes",
         "Large size, sweet and succulent",
         "Strong fishy flavor, coarse texture",
-        "Spicy flavor, crunchy texture"
+        "Spicy flavor, crunchy texture",
       ],
       answer: "Small size, milder flavor, often used in baked dishes",
-      explanation: "Calico Scallops are small, with a milder flavor and are often used in baked dishes."
+      explanation:
+        "Calico Scallops are small, with a milder flavor and are often used in baked dishes.",
     },
     {
       question: "What is the primary habitat of Quahog clams?",
@@ -2574,21 +3825,17 @@ const questions = {
         "East coast of North America",
         "Pacific coast of North America",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "East coast of North America",
-      explanation: "Quahog clams are primarily found on the east coast of North America."
+      explanation:
+        "Quahog clams are primarily found on the east coast of North America.",
     },
     {
       question: "What is the primary method of catching Quahog clams?",
-      choice: [
-        "Raking or dredging",
-        "Handpicking",
-        "Spearfishing",
-        "Trawling"
-      ],
+      choice: ["Raking or dredging", "Handpicking", "Spearfishing", "Trawling"],
       answer: "Raking or dredging",
-      explanation: "Quahog clams are commonly caught using raking or dredging."
+      explanation: "Quahog clams are commonly caught using raking or dredging.",
     },
     {
       question: "What is the primary characteristic of Little Neck clams?",
@@ -2596,10 +3843,11 @@ const questions = {
         "Small size, sweet and tender",
         "Large size, sweet and succulent",
         "Strong fishy flavor, coarse texture",
-        "Spicy flavor, crunchy texture"
+        "Spicy flavor, crunchy texture",
       ],
       answer: "Small size, sweet and tender",
-      explanation: "Little Neck clams are small, sweet, and tender, ideal for serving on the half shell."
+      explanation:
+        "Little Neck clams are small, sweet, and tender, ideal for serving on the half shell.",
     },
     {
       question: "What is the primary characteristic of Cherrystone clams?",
@@ -2607,10 +3855,11 @@ const questions = {
         "Larger size, better for soups and sauces",
         "Small size, sweet and tender",
         "Strong fishy flavor, coarse texture",
-        "Spicy flavor, crunchy texture"
+        "Spicy flavor, crunchy texture",
       ],
       answer: "Larger size, better for soups and sauces",
-      explanation: "Cherrystone clams are larger and better suited for soups and sauces."
+      explanation:
+        "Cherrystone clams are larger and better suited for soups and sauces.",
     },
     {
       question: "What is the primary habitat of Geoduck clams?",
@@ -2618,10 +3867,10 @@ const questions = {
         "Pacific Northwest",
         "Atlantic coast of North America",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Pacific Northwest",
-      explanation: "Geoduck clams are found in the Pacific Northwest."
+      explanation: "Geoduck clams are found in the Pacific Northwest.",
     },
     {
       question: "What is the primary characteristic of Razor clams?",
@@ -2629,10 +3878,11 @@ const questions = {
         "Long, narrow, rectangular shell",
         "Small size, bright red color",
         "Elongated body, dark green back",
-        "Short body, dark blue color"
+        "Short body, dark blue color",
       ],
       answer: "Long, narrow, rectangular shell",
-      explanation: "Razor clams are known for their long, narrow, and somewhat rectangular shell."
+      explanation:
+        "Razor clams are known for their long, narrow, and somewhat rectangular shell.",
     },
     {
       question: "What is the primary habitat of Eastern Oysters?",
@@ -2640,10 +3890,11 @@ const questions = {
         "Atlantic coast of North America",
         "Pacific coast of North America",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Atlantic coast of North America",
-      explanation: "Eastern Oysters are native to the Atlantic coast of North America."
+      explanation:
+        "Eastern Oysters are native to the Atlantic coast of North America.",
     },
     {
       question: "What is the primary habitat of Pacific Oysters?",
@@ -2651,10 +3902,11 @@ const questions = {
         "Pacific coast of North America",
         "Atlantic coast of North America",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Pacific coast of North America",
-      explanation: "Pacific Oysters are native to the Pacific coast of North America."
+      explanation:
+        "Pacific Oysters are native to the Pacific coast of North America.",
     },
     {
       question: "What is the primary habitat of European Flat Oysters?",
@@ -2662,10 +3914,11 @@ const questions = {
         "Coasts of Europe and the Mediterranean Sea",
         "Pacific coast of North America",
         "Atlantic coast of North America",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Coasts of Europe and the Mediterranean Sea",
-      explanation: "European Flat Oysters are found along the coasts of Europe and the Mediterranean Sea."
+      explanation:
+        "European Flat Oysters are found along the coasts of Europe and the Mediterranean Sea.",
     },
     {
       question: "What is the primary characteristic of Kumamoto Oysters?",
@@ -2673,10 +3926,11 @@ const questions = {
         "Small, deep, jagged shell",
         "Large size, sweet and succulent",
         "Strong fishy flavor, coarse texture",
-        "Spicy flavor, crunchy texture"
+        "Spicy flavor, crunchy texture",
       ],
       answer: "Small, deep, jagged shell",
-      explanation: "Kumamoto Oysters are characterized by their small, deep, jagged shell."
+      explanation:
+        "Kumamoto Oysters are characterized by their small, deep, jagged shell.",
     },
     {
       question: "What is the primary habitat of Sydney Rock Oysters?",
@@ -2684,10 +3938,11 @@ const questions = {
         "Waters from southern Queensland to Victoria",
         "Pacific coast of North America",
         "Atlantic coast of North America",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Waters from southern Queensland to Victoria",
-      explanation: "Sydney Rock Oysters are found in the waters from southern Queensland to Victoria."
+      explanation:
+        "Sydney Rock Oysters are found in the waters from southern Queensland to Victoria.",
     },
     {
       question: "What is the texture and flavor profile of Blue Mussels?",
@@ -2695,10 +3950,11 @@ const questions = {
         "Sweet and tender with a mild flavor",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet and tender with a mild flavor",
-      explanation: "Blue Mussels have a sweet and tender texture with a mild flavor."
+      explanation:
+        "Blue Mussels have a sweet and tender texture with a mild flavor.",
     },
     {
       question: "What is the primary habitat of Blue Mussels?",
@@ -2706,10 +3962,10 @@ const questions = {
         "North Atlantic",
         "Pacific coast of North America",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "North Atlantic",
-      explanation: "Blue Mussels are found in the North Atlantic."
+      explanation: "Blue Mussels are found in the North Atlantic.",
     },
     {
       question: "What is the primary characteristic of Mediterranean Mussels?",
@@ -2717,21 +3973,24 @@ const questions = {
         "Slightly larger with a more robust flavor",
         "Small size, bright red color",
         "Elongated body, dark green back",
-        "Short body, dark blue color"
+        "Short body, dark blue color",
       ],
       answer: "Slightly larger with a more robust flavor",
-      explanation: "Mediterranean Mussels are slightly larger with a more robust flavor compared to Blue Mussels."
+      explanation:
+        "Mediterranean Mussels are slightly larger with a more robust flavor compared to Blue Mussels.",
     },
     {
-      question: "What is the primary characteristic of New Zealand Green-lipped Mussels?",
+      question:
+        "What is the primary characteristic of New Zealand Green-lipped Mussels?",
       choice: [
         "Larger size and distinctive green shell",
         "Small size, bright red color",
         "Elongated body, dark green back",
-        "Short body, dark blue color"
+        "Short body, dark blue color",
       ],
       answer: "Larger size and distinctive green shell",
-      explanation: "New Zealand Green-lipped Mussels are larger with a distinctive green shell."
+      explanation:
+        "New Zealand Green-lipped Mussels are larger with a distinctive green shell.",
     },
     {
       question: "What is the primary habitat of California Mussels?",
@@ -2739,32 +3998,23 @@ const questions = {
         "Pacific coast of North America",
         "Atlantic coast of North America",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Pacific coast of North America",
-      explanation: "California Mussels are found on the Pacific coast of North America."
+      explanation:
+        "California Mussels are found on the Pacific coast of North America.",
     },
     {
       question: "What is the primary method of farming Blue Mussels?",
-      choice: [
-        "Rope culture",
-        "Trawling",
-        "Handpicking",
-        "Spearfishing"
-      ],
+      choice: ["Rope culture", "Trawling", "Handpicking", "Spearfishing"],
       answer: "Rope culture",
-      explanation: "Blue Mussels are commonly farmed using rope culture."
+      explanation: "Blue Mussels are commonly farmed using rope culture.",
     },
     {
       question: "What is the primary method of catching Sea Scallops?",
-      choice: [
-        "Dredging",
-        "Trawling",
-        "Handpicking",
-        "Spearfishing"
-      ],
+      choice: ["Dredging", "Trawling", "Handpicking", "Spearfishing"],
       answer: "Dredging",
-      explanation: "Sea Scallops are commonly caught using dredging."
+      explanation: "Sea Scallops are commonly caught using dredging.",
     },
     {
       question: "What is the primary habitat of Bay Scallops?",
@@ -2772,10 +4022,10 @@ const questions = {
         "In-shore in bays or inlets",
         "Open ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "In-shore in bays or inlets",
-      explanation: "Bay Scallops are found in-shore in bays or inlets."
+      explanation: "Bay Scallops are found in-shore in bays or inlets.",
     },
     {
       question: "What is the primary characteristic of Calico Scallops?",
@@ -2783,10 +4033,11 @@ const questions = {
         "Small size, milder flavor, often used in baked dishes",
         "Large size, sweet and succulent",
         "Strong fishy flavor, coarse texture",
-        "Spicy flavor, crunchy texture"
+        "Spicy flavor, crunchy texture",
       ],
       answer: "Small size, milder flavor, often used in baked dishes",
-      explanation: "Calico Scallops are small, with a milder flavor and are often used in baked dishes."
+      explanation:
+        "Calico Scallops are small, with a milder flavor and are often used in baked dishes.",
     },
     {
       question: "What is the primary habitat of Quahog clams?",
@@ -2794,22 +4045,18 @@ const questions = {
         "East coast of North America",
         "Pacific coast of North America",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "East coast of North America",
-      explanation: "Quahog clams are primarily found on the east coast of North America."
+      explanation:
+        "Quahog clams are primarily found on the east coast of North America.",
     },
     {
       question: "What is the primary method of catching Quahog clams?",
-      choice: [
-        "Raking or dredging",
-        "Handpicking",
-        "Spearfishing",
-        "Trawling"
-      ],
+      choice: ["Raking or dredging", "Handpicking", "Spearfishing", "Trawling"],
       answer: "Raking or dredging",
-      explanation: "Quahog clams are commonly caught using raking or dredging."
-    }
+      explanation: "Quahog clams are commonly caught using raking or dredging.",
+    },
   ],
   crustaceans: [
     {
@@ -2818,10 +4065,12 @@ const questions = {
         "A group of arthropods with a hard exoskeleton, jointed limbs, and segmented bodies",
         "A type of fish with scales",
         "A marine mammal with a blowhole",
-        "A bird with webbed feet"
+        "A bird with webbed feet",
       ],
-      answer: "A group of arthropods with a hard exoskeleton, jointed limbs, and segmented bodies",
-      explanation: "Crustaceans are a diverse group of arthropods characterized by their hard exoskeleton, jointed limbs, and segmented bodies."
+      answer:
+        "A group of arthropods with a hard exoskeleton, jointed limbs, and segmented bodies",
+      explanation:
+        "Crustaceans are a diverse group of arthropods characterized by their hard exoskeleton, jointed limbs, and segmented bodies.",
     },
     {
       question: "What is molting in crustaceans?",
@@ -2829,10 +4078,11 @@ const questions = {
         "The process of shedding their exoskeleton to grow",
         "A method of cooking crustaceans",
         "A technique for catching crustaceans",
-        "A way to transport live crustaceans"
+        "A way to transport live crustaceans",
       ],
       answer: "The process of shedding their exoskeleton to grow",
-      explanation: "Molting is the process by which crustaceans shed their hard exoskeleton to grow."
+      explanation:
+        "Molting is the process by which crustaceans shed their hard exoskeleton to grow.",
     },
     {
       question: "What are the main groups of crustaceans?",
@@ -2840,21 +4090,24 @@ const questions = {
         "Shrimp, Crabs, Lobsters, and Crayfish",
         "Fish, Birds, Mammals, and Reptiles",
         "Amphibians, Insects, Mollusks, and Echinoderms",
-        "Bivalves, Gastropods, Cephalopods, and Arthropods"
+        "Bivalves, Gastropods, Cephalopods, and Arthropods",
       ],
       answer: "Shrimp, Crabs, Lobsters, and Crayfish",
-      explanation: "The main groups of crustaceans include Shrimp, Crabs, Lobsters, and Crayfish."
+      explanation:
+        "The main groups of crustaceans include Shrimp, Crabs, Lobsters, and Crayfish.",
     },
     {
-      question: "What is the primary habitat of White Shrimp (Litopenaeus setiferus)?",
+      question:
+        "What is the primary habitat of White Shrimp (Litopenaeus setiferus)?",
       choice: [
         "Western Atlantic Ocean, Gulf of Mexico",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Western Atlantic Ocean, Gulf of Mexico",
-      explanation: "White Shrimp are found in the western Atlantic Ocean and Gulf of Mexico."
+      explanation:
+        "White Shrimp are found in the western Atlantic Ocean and Gulf of Mexico.",
     },
     {
       question: "What are the identifying characteristics of White Shrimp?",
@@ -2862,10 +4115,12 @@ const questions = {
         "Large size, long slender rostrum with distinctive teeth distribution, translucent body",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Large size, long slender rostrum with distinctive teeth distribution, translucent body",
-      explanation: "White Shrimp are distinguished by their large size, long slender rostrum with distinctive teeth distribution, and translucent body."
+      answer:
+        "Large size, long slender rostrum with distinctive teeth distribution, translucent body",
+      explanation:
+        "White Shrimp are distinguished by their large size, long slender rostrum with distinctive teeth distribution, and translucent body.",
     },
     {
       question: "What is the texture and flavor profile of White Shrimp?",
@@ -2873,10 +4128,11 @@ const questions = {
         "Sweet, mild flavor with a firm, slightly crunchy texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, mild flavor with a firm, slightly crunchy texture",
-      explanation: "White Shrimp are prized for their sweet, mild flavor and firm, slightly crunchy texture."
+      explanation:
+        "White Shrimp are prized for their sweet, mild flavor and firm, slightly crunchy texture.",
     },
     {
       question: "What are the identifying characteristics of Brown Shrimp?",
@@ -2884,10 +4140,12 @@ const questions = {
         "Reddish-brown to olive-green coloration, grooved rostrum with teeth on both edges",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Reddish-brown to olive-green coloration, grooved rostrum with teeth on both edges",
-      explanation: "Brown Shrimp are characterized by their reddish-brown to olive-green coloration and a grooved rostrum with teeth on both edges."
+      answer:
+        "Reddish-brown to olive-green coloration, grooved rostrum with teeth on both edges",
+      explanation:
+        "Brown Shrimp are characterized by their reddish-brown to olive-green coloration and a grooved rostrum with teeth on both edges.",
     },
     {
       question: "What is the primary habitat of Brown Shrimp?",
@@ -2895,10 +4153,11 @@ const questions = {
         "Gulf of Mexico, muddy bottoms in coastal waters",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Gulf of Mexico, muddy bottoms in coastal waters",
-      explanation: "Brown Shrimp are found in the Gulf of Mexico, preferring muddy bottoms in coastal waters."
+      explanation:
+        "Brown Shrimp are found in the Gulf of Mexico, preferring muddy bottoms in coastal waters.",
     },
     {
       question: "What is the texture and flavor profile of Brown Shrimp?",
@@ -2906,10 +4165,11 @@ const questions = {
         "Slightly stronger flavor than White Shrimp",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Slightly stronger flavor than White Shrimp",
-      explanation: "Brown Shrimp have a slightly stronger flavor than White Shrimp."
+      explanation:
+        "Brown Shrimp have a slightly stronger flavor than White Shrimp.",
     },
     {
       question: "What are the identifying characteristics of Blue Crabs?",
@@ -2917,10 +4177,12 @@ const questions = {
         "Brilliant blue claws, olive-green shell, broadly oval carapace with lateral spines",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Brilliant blue claws, olive-green shell, broadly oval carapace with lateral spines",
-      explanation: "Blue Crabs are identified by their brilliant blue claws, olive-green shell, and broadly oval carapace with lateral spines."
+      answer:
+        "Brilliant blue claws, olive-green shell, broadly oval carapace with lateral spines",
+      explanation:
+        "Blue Crabs are identified by their brilliant blue claws, olive-green shell, and broadly oval carapace with lateral spines.",
     },
     {
       question: "What is the primary habitat of Blue Crabs?",
@@ -2928,10 +4190,11 @@ const questions = {
         "Western Atlantic Ocean and Gulf of Mexico",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Western Atlantic Ocean and Gulf of Mexico",
-      explanation: "Blue Crabs are found in the western Atlantic Ocean and Gulf of Mexico."
+      explanation:
+        "Blue Crabs are found in the western Atlantic Ocean and Gulf of Mexico.",
     },
     {
       question: "What is the texture and flavor profile of Blue Crabs?",
@@ -2939,10 +4202,11 @@ const questions = {
         "Sweet, rich flavor and tender, flaky texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, rich flavor and tender, flaky texture",
-      explanation: "Blue Crabs have a sweet, rich flavor and tender, flaky texture."
+      explanation:
+        "Blue Crabs have a sweet, rich flavor and tender, flaky texture.",
     },
     {
       question: "What are the identifying characteristics of Dungeness Crabs?",
@@ -2950,10 +4214,12 @@ const questions = {
         "Wide, long, hard shell and five pairs of legs, including one pair of large, strong claws",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Wide, long, hard shell and five pairs of legs, including one pair of large, strong claws",
-      explanation: "Dungeness Crabs have a wide, long, hard shell and five pairs of legs, including one pair of large, strong claws."
+      answer:
+        "Wide, long, hard shell and five pairs of legs, including one pair of large, strong claws",
+      explanation:
+        "Dungeness Crabs have a wide, long, hard shell and five pairs of legs, including one pair of large, strong claws.",
     },
     {
       question: "What is the primary habitat of Dungeness Crabs?",
@@ -2961,10 +4227,11 @@ const questions = {
         "Pacific coast of North America",
         "Atlantic Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Pacific coast of North America",
-      explanation: "Dungeness Crabs are primarily found on the Pacific coast of North America."
+      explanation:
+        "Dungeness Crabs are primarily found on the Pacific coast of North America.",
     },
     {
       question: "What is the texture and flavor profile of Dungeness Crabs?",
@@ -2972,10 +4239,10 @@ const questions = {
         "Sweet, tender meat",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, tender meat",
-      explanation: "Dungeness Crabs are known for their sweet, tender meat."
+      explanation: "Dungeness Crabs are known for their sweet, tender meat.",
     },
     {
       question: "What are the primary market forms of Blue Crab meat?",
@@ -2983,21 +4250,19 @@ const questions = {
         "Jumbo, Backfin, Special, Claw",
         "Whole, Fillet, Steak, Nugget",
         "Raw, Cooked, Dried, Smoked",
-        "Head, Tail, Legs, Wings"
+        "Head, Tail, Legs, Wings",
       ],
       answer: "Jumbo, Backfin, Special, Claw",
-      explanation: "Blue Crab meat is available in market forms including Jumbo, Backfin, Special, and Claw."
+      explanation:
+        "Blue Crab meat is available in market forms including Jumbo, Backfin, Special, and Claw.",
     },
     {
-      question: "What is the hepatopancreas in crabs often referred to as in culinary contexts?",
-      choice: [
-        "Crab fat or mustard",
-        "Crab meat",
-        "Crab shell",
-        "Crab legs"
-      ],
+      question:
+        "What is the hepatopancreas in crabs often referred to as in culinary contexts?",
+      choice: ["Crab fat or mustard", "Crab meat", "Crab shell", "Crab legs"],
       answer: "Crab fat or mustard",
-      explanation: "The hepatopancreas in crabs is often referred to as crab fat or mustard in culinary contexts."
+      explanation:
+        "The hepatopancreas in crabs is often referred to as crab fat or mustard in culinary contexts.",
     },
     {
       question: "What is the primary function of the hepatopancreas in crabs?",
@@ -3005,10 +4270,12 @@ const questions = {
         "Production of digestive enzymes and absorption of digested nutrients",
         "Movement",
         "Reproduction",
-        "Defense"
+        "Defense",
       ],
-      answer: "Production of digestive enzymes and absorption of digested nutrients",
-      explanation: "The hepatopancreas in crabs produces digestive enzymes and absorbs digested nutrients."
+      answer:
+        "Production of digestive enzymes and absorption of digested nutrients",
+      explanation:
+        "The hepatopancreas in crabs produces digestive enzymes and absorbs digested nutrients.",
     },
     {
       question: "What are the identifying characteristics of Red King Crabs?",
@@ -3016,10 +4283,12 @@ const questions = {
         "Large size, vibrant red or burgundy shell, hard, spiny exoskeleton",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Large size, vibrant red or burgundy shell, hard, spiny exoskeleton",
-      explanation: "Red King Crabs are identified by their large size, vibrant red or burgundy shell, and hard, spiny exoskeleton."
+      answer:
+        "Large size, vibrant red or burgundy shell, hard, spiny exoskeleton",
+      explanation:
+        "Red King Crabs are identified by their large size, vibrant red or burgundy shell, and hard, spiny exoskeleton.",
     },
     {
       question: "What is the primary habitat of Red King Crabs?",
@@ -3027,10 +4296,11 @@ const questions = {
         "Bering Sea and North Pacific Ocean",
         "Atlantic Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Bering Sea and North Pacific Ocean",
-      explanation: "Red King Crabs are primarily found in the Bering Sea and North Pacific Ocean."
+      explanation:
+        "Red King Crabs are primarily found in the Bering Sea and North Pacific Ocean.",
     },
     {
       question: "What is the texture and flavor profile of Red King Crabs?",
@@ -3038,10 +4308,11 @@ const questions = {
         "Dense, sweet flavor and tender texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Dense, sweet flavor and tender texture",
-      explanation: "Red King Crabs are prized for their dense, sweet flavor and tender texture."
+      explanation:
+        "Red King Crabs are prized for their dense, sweet flavor and tender texture.",
     },
     {
       question: "What are the primary species of Lobsters?",
@@ -3049,10 +4320,11 @@ const questions = {
         "American Lobster, European Lobster, Spiny Lobster",
         "Blue Crab, Dungeness Crab, Red King Crab",
         "White Shrimp, Brown Shrimp, Blue Shrimp",
-        "Scallop, Oyster, Clam"
+        "Scallop, Oyster, Clam",
       ],
       answer: "American Lobster, European Lobster, Spiny Lobster",
-      explanation: "The primary species of Lobsters include American Lobster, European Lobster, and Spiny Lobster."
+      explanation:
+        "The primary species of Lobsters include American Lobster, European Lobster, and Spiny Lobster.",
     },
     {
       question: "What is the primary habitat of American Lobsters?",
@@ -3060,21 +4332,24 @@ const questions = {
         "Atlantic coast of North America",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Atlantic coast of North America",
-      explanation: "American Lobsters are found along the Atlantic coast of North America."
+      explanation:
+        "American Lobsters are found along the Atlantic coast of North America.",
     },
     {
-      question: "What are the identifying characteristics of American Lobsters?",
+      question:
+        "What are the identifying characteristics of American Lobsters?",
       choice: [
         "Blue-green to brown shell, two distinctly unequal-sized claws",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
       answer: "Blue-green to brown shell, two distinctly unequal-sized claws",
-      explanation: "American Lobsters are identified by their blue-green to brown shell and two distinctly unequal-sized claws."
+      explanation:
+        "American Lobsters are identified by their blue-green to brown shell and two distinctly unequal-sized claws.",
     },
     {
       question: "What is the primary habitat of European Lobsters?",
@@ -3082,21 +4357,24 @@ const questions = {
         "Eastern Atlantic Ocean and parts of the Mediterranean Sea",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Eastern Atlantic Ocean and parts of the Mediterranean Sea",
-      explanation: "European Lobsters are found in the eastern Atlantic Ocean and parts of the Mediterranean Sea."
+      explanation:
+        "European Lobsters are found in the eastern Atlantic Ocean and parts of the Mediterranean Sea.",
     },
     {
-      question: "What are the identifying characteristics of European Lobsters?",
+      question:
+        "What are the identifying characteristics of European Lobsters?",
       choice: [
         "Dark blue shell, heavy body, substantial claws",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
       answer: "Dark blue shell, heavy body, substantial claws",
-      explanation: "European Lobsters are identified by their dark blue shell, heavy body, and substantial claws."
+      explanation:
+        "European Lobsters are identified by their dark blue shell, heavy body, and substantial claws.",
     },
     {
       question: "What is the primary habitat of Caribbean Spiny Lobsters?",
@@ -3104,32 +4382,38 @@ const questions = {
         "Tropical and subtropical waters of the Atlantic Ocean",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Tropical and subtropical waters of the Atlantic Ocean",
-      explanation: "Caribbean Spiny Lobsters inhabit tropical and subtropical waters of the Atlantic Ocean."
+      explanation:
+        "Caribbean Spiny Lobsters inhabit tropical and subtropical waters of the Atlantic Ocean.",
     },
     {
-      question: "What are the identifying characteristics of Caribbean Spiny Lobsters?",
+      question:
+        "What are the identifying characteristics of Caribbean Spiny Lobsters?",
       choice: [
         "Long, cylindrical body covered with forward-pointing spines, long, whip-like antennae",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Long, cylindrical body covered with forward-pointing spines, long, whip-like antennae",
-      explanation: "Caribbean Spiny Lobsters are identified by their long, cylindrical body covered with forward-pointing spines and long, whip-like antennae."
+      answer:
+        "Long, cylindrical body covered with forward-pointing spines, long, whip-like antennae",
+      explanation:
+        "Caribbean Spiny Lobsters are identified by their long, cylindrical body covered with forward-pointing spines and long, whip-like antennae.",
     },
     {
-      question: "What is the texture and flavor profile of Caribbean Spiny Lobsters?",
+      question:
+        "What is the texture and flavor profile of Caribbean Spiny Lobsters?",
       choice: [
         "Sweet, mild flavor and firm, dense texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, mild flavor and firm, dense texture",
-      explanation: "Caribbean Spiny Lobsters are prized for their sweet, mild flavor and firm, dense texture."
+      explanation:
+        "Caribbean Spiny Lobsters are prized for their sweet, mild flavor and firm, dense texture.",
     },
     {
       question: "What are the identifying characteristics of Langoustine?",
@@ -3137,10 +4421,12 @@ const questions = {
         "Large, prominent compound eyes on movable stalks, narrow, segmented tails",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Large, prominent compound eyes on movable stalks, narrow, segmented tails",
-      explanation: "Langoustine are identified by their large, prominent compound eyes on movable stalks and narrow, segmented tails."
+      answer:
+        "Large, prominent compound eyes on movable stalks, narrow, segmented tails",
+      explanation:
+        "Langoustine are identified by their large, prominent compound eyes on movable stalks and narrow, segmented tails.",
     },
     {
       question: "What is the primary habitat of Langoustine?",
@@ -3148,10 +4434,12 @@ const questions = {
         "North Atlantic Ocean, particularly around the coasts of Norway and the British Isles",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
-      answer: "North Atlantic Ocean, particularly around the coasts of Norway and the British Isles",
-      explanation: "Langoustine are primarily found in the North Atlantic Ocean, particularly around the coasts of Norway and the British Isles."
+      answer:
+        "North Atlantic Ocean, particularly around the coasts of Norway and the British Isles",
+      explanation:
+        "Langoustine are primarily found in the North Atlantic Ocean, particularly around the coasts of Norway and the British Isles.",
     },
     {
       question: "What is the texture and flavor profile of Langoustine?",
@@ -3159,21 +4447,25 @@ const questions = {
         "Sweet, delicate flavor and tender texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, delicate flavor and tender texture",
-      explanation: "Langoustine are prized for their sweet, delicate flavor and tender texture."
+      explanation:
+        "Langoustine are prized for their sweet, delicate flavor and tender texture.",
     },
     {
-      question: "What are the identifying characteristics of Pacific White Shrimp?",
+      question:
+        "What are the identifying characteristics of Pacific White Shrimp?",
       choice: [
         "Translucent whitish body with light blue tinges on the legs and tail",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Translucent whitish body with light blue tinges on the legs and tail",
-      explanation: "Pacific White Shrimp are identified by their translucent whitish body with light blue tinges on the legs and tail."
+      answer:
+        "Translucent whitish body with light blue tinges on the legs and tail",
+      explanation:
+        "Pacific White Shrimp are identified by their translucent whitish body with light blue tinges on the legs and tail.",
     },
     {
       question: "What is the primary habitat of Pacific White Shrimp?",
@@ -3181,21 +4473,24 @@ const questions = {
         "Eastern Pacific Ocean, from Sonora, Mexico, to northern Peru",
         "Atlantic Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Eastern Pacific Ocean, from Sonora, Mexico, to northern Peru",
-      explanation: "Pacific White Shrimp are primarily found in the eastern Pacific Ocean, from Sonora, Mexico, to northern Peru."
+      explanation:
+        "Pacific White Shrimp are primarily found in the eastern Pacific Ocean, from Sonora, Mexico, to northern Peru.",
     },
     {
-      question: "What is the texture and flavor profile of Pacific White Shrimp?",
+      question:
+        "What is the texture and flavor profile of Pacific White Shrimp?",
       choice: [
         "Delicate, sweet flavor and soft, tender texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Delicate, sweet flavor and soft, tender texture",
-      explanation: "Pacific White Shrimp are prized for their delicate, sweet flavor and soft, tender texture."
+      explanation:
+        "Pacific White Shrimp are prized for their delicate, sweet flavor and soft, tender texture.",
     },
     {
       question: "What are the identifying characteristics of Tiger Prawns?",
@@ -3203,10 +4498,12 @@ const questions = {
         "Large size, dark black-striped shell, robust body with a prominently serrated rostrum",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Large size, dark black-striped shell, robust body with a prominently serrated rostrum",
-      explanation: "Tiger Prawns are identified by their large size, dark black-striped shell, and robust body with a prominently serrated rostrum."
+      answer:
+        "Large size, dark black-striped shell, robust body with a prominently serrated rostrum",
+      explanation:
+        "Tiger Prawns are identified by their large size, dark black-striped shell, and robust body with a prominently serrated rostrum.",
     },
     {
       question: "What is the primary habitat of Tiger Prawns?",
@@ -3214,10 +4511,12 @@ const questions = {
         "Indo-Pacific region, from the eastern coast of Africa to northern Australia",
         "Atlantic Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
-      answer: "Indo-Pacific region, from the eastern coast of Africa to northern Australia",
-      explanation: "Tiger Prawns are primarily found in the Indo-Pacific region, from the eastern coast of Africa to northern Australia."
+      answer:
+        "Indo-Pacific region, from the eastern coast of Africa to northern Australia",
+      explanation:
+        "Tiger Prawns are primarily found in the Indo-Pacific region, from the eastern coast of Africa to northern Australia.",
     },
     {
       question: "What is the texture and flavor profile of Tiger Prawns?",
@@ -3225,10 +4524,11 @@ const questions = {
         "Firm, meaty texture and a robust, slightly sweet flavor",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Firm, meaty texture and a robust, slightly sweet flavor",
-      explanation: "Tiger Prawns are prized for their firm, meaty texture and robust, slightly sweet flavor."
+      explanation:
+        "Tiger Prawns are prized for their firm, meaty texture and robust, slightly sweet flavor.",
     },
     {
       question: "What are the market forms and terminology for shrimp?",
@@ -3236,10 +4536,11 @@ const questions = {
         "Green, PUD, P+D, PDQ, IQF",
         "Whole, Fillet, Steak, Nugget",
         "Raw, Cooked, Dried, Smoked",
-        "Head, Tail, Legs, Wings"
+        "Head, Tail, Legs, Wings",
       ],
       answer: "Green, PUD, P+D, PDQ, IQF",
-      explanation: "The market forms and terminology for shrimp include Green, PUD, P+D, PDQ, and IQF."
+      explanation:
+        "The market forms and terminology for shrimp include Green, PUD, P+D, PDQ, and IQF.",
     },
     {
       question: "What is the 'sand track' in shrimp?",
@@ -3247,21 +4548,25 @@ const questions = {
         "The back vein of shrimp, also known as the digestive tract",
         "The gills of the shrimp",
         "The tail of the shrimp",
-        "The antennae of the shrimp"
+        "The antennae of the shrimp",
       ],
       answer: "The back vein of shrimp, also known as the digestive tract",
-      explanation: "The 'sand track' in shrimp refers to the back vein, which is also the digestive tract."
+      explanation:
+        "The 'sand track' in shrimp refers to the back vein, which is also the digestive tract.",
     },
     {
-      question: "What is the significance of the size and count per pound in shrimp?",
+      question:
+        "What is the significance of the size and count per pound in shrimp?",
       choice: [
         "Shrimp are sold by count per pound, with terms like 'extra-large' used in retail trade",
         "Shrimp size determines their color",
         "Shrimp size affects their habitat",
-        "Shrimp count per pound indicates their freshness"
+        "Shrimp count per pound indicates their freshness",
       ],
-      answer: "Shrimp are sold by count per pound, with terms like 'extra-large' used in retail trade",
-      explanation: "Shrimp are sold by count per pound, and terms like 'extra-large' are used in retail trade to describe their size."
+      answer:
+        "Shrimp are sold by count per pound, with terms like 'extra-large' used in retail trade",
+      explanation:
+        "Shrimp are sold by count per pound, and terms like 'extra-large' are used in retail trade to describe their size.",
     },
     {
       question: "What is the primary habitat of Soft Shell Blue Crabs?",
@@ -3269,21 +4574,25 @@ const questions = {
         "Western Atlantic Ocean and Gulf of Mexico",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Western Atlantic Ocean and Gulf of Mexico",
-      explanation: "Soft Shell Blue Crabs are found in the western Atlantic Ocean and Gulf of Mexico."
+      explanation:
+        "Soft Shell Blue Crabs are found in the western Atlantic Ocean and Gulf of Mexico.",
     },
     {
-      question: "What are the identifying characteristics of Soft Shell Blue Crabs?",
+      question:
+        "What are the identifying characteristics of Soft Shell Blue Crabs?",
       choice: [
         "Brilliant blue claws, olive-green shell, broadly oval carapace with lateral spines",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Brilliant blue claws, olive-green shell, broadly oval carapace with lateral spines",
-      explanation: "Soft Shell Blue Crabs are identified by their brilliant blue claws, olive-green shell, and broadly oval carapace with lateral spines."
+      answer:
+        "Brilliant blue claws, olive-green shell, broadly oval carapace with lateral spines",
+      explanation:
+        "Soft Shell Blue Crabs are identified by their brilliant blue claws, olive-green shell, and broadly oval carapace with lateral spines.",
     },
     {
       question: "What is the primary habitat of Jonah Crabs?",
@@ -3291,10 +4600,11 @@ const questions = {
         "Atlantic coast of North America",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Atlantic coast of North America",
-      explanation: "Jonah Crabs are primarily found on the Atlantic coast of North America."
+      explanation:
+        "Jonah Crabs are primarily found on the Atlantic coast of North America.",
     },
     {
       question: "What is the texture and flavor profile of Jonah Crabs?",
@@ -3302,10 +4612,11 @@ const questions = {
         "Sweet, delicate flavor and tender texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, delicate flavor and tender texture",
-      explanation: "Jonah Crabs are known for their sweet, delicate flavor and tender texture."
+      explanation:
+        "Jonah Crabs are known for their sweet, delicate flavor and tender texture.",
     },
     {
       question: "What are the identifying characteristics of Stone Crabs?",
@@ -3313,10 +4624,11 @@ const questions = {
         "Large, strong claws, brownish shell with black spots",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
       answer: "Large, strong claws, brownish shell with black spots",
-      explanation: "Stone Crabs are identified by their large, strong claws and brownish shell with black spots."
+      explanation:
+        "Stone Crabs are identified by their large, strong claws and brownish shell with black spots.",
     },
     {
       question: "What is the primary habitat of Stone Crabs?",
@@ -3324,10 +4636,12 @@ const questions = {
         "Gulf of Mexico and along the southeastern coast of the United States",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
-      answer: "Gulf of Mexico and along the southeastern coast of the United States",
-      explanation: "Stone Crabs are found in the Gulf of Mexico and along the southeastern coast of the United States."
+      answer:
+        "Gulf of Mexico and along the southeastern coast of the United States",
+      explanation:
+        "Stone Crabs are found in the Gulf of Mexico and along the southeastern coast of the United States.",
     },
     {
       question: "What is the texture and flavor profile of Stone Crabs?",
@@ -3335,10 +4649,11 @@ const questions = {
         "Sweet, firm, and succulent meat",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, firm, and succulent meat",
-      explanation: "Stone Crabs are prized for their sweet, firm, and succulent meat."
+      explanation:
+        "Stone Crabs are prized for their sweet, firm, and succulent meat.",
     },
     {
       question: "What are the identifying characteristics of Rock Lobsters?",
@@ -3346,10 +4661,12 @@ const questions = {
         "Long, cylindrical body with forward-pointing spines and long, whip-like antennae",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Long, cylindrical body with forward-pointing spines and long, whip-like antennae",
-      explanation: "Rock Lobsters are identified by their long, cylindrical body with forward-pointing spines and long, whip-like antennae."
+      answer:
+        "Long, cylindrical body with forward-pointing spines and long, whip-like antennae",
+      explanation:
+        "Rock Lobsters are identified by their long, cylindrical body with forward-pointing spines and long, whip-like antennae.",
     },
     {
       question: "What is the primary habitat of Rock Lobsters?",
@@ -3357,10 +4674,11 @@ const questions = {
         "Tropical and subtropical waters of the Atlantic Ocean",
         "Pacific Ocean",
         "Freshwater lakes",
-        "Coral reefs"
+        "Coral reefs",
       ],
       answer: "Tropical and subtropical waters of the Atlantic Ocean",
-      explanation: "Rock Lobsters inhabit tropical and subtropical waters of the Atlantic Ocean."
+      explanation:
+        "Rock Lobsters inhabit tropical and subtropical waters of the Atlantic Ocean.",
     },
     {
       question: "What is the texture and flavor profile of Rock Lobsters?",
@@ -3368,10 +4686,11 @@ const questions = {
         "Sweet, mild flavor and firm, dense texture",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, mild flavor and firm, dense texture",
-      explanation: "Rock Lobsters are prized for their sweet, mild flavor and firm, dense texture."
+      explanation:
+        "Rock Lobsters are prized for their sweet, mild flavor and firm, dense texture.",
     },
     {
       question: "What are the identifying characteristics of Crayfish?",
@@ -3379,10 +4698,12 @@ const questions = {
         "Small, lobster-like appearance with a hard exoskeleton and large front claws",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
-        "Short body, dark blue color, and sharp teeth"
+        "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Small, lobster-like appearance with a hard exoskeleton and large front claws",
-      explanation: "Crayfish are identified by their small, lobster-like appearance with a hard exoskeleton and large front claws."
+      answer:
+        "Small, lobster-like appearance with a hard exoskeleton and large front claws",
+      explanation:
+        "Crayfish are identified by their small, lobster-like appearance with a hard exoskeleton and large front claws.",
     },
     {
       question: "What is the primary habitat of Crayfish?",
@@ -3390,10 +4711,11 @@ const questions = {
         "Freshwater rivers, lakes, and streams",
         "Pacific Ocean",
         "Coral reefs",
-        "Tropical rainforests"
+        "Tropical rainforests",
       ],
       answer: "Freshwater rivers, lakes, and streams",
-      explanation: "Crayfish primarily inhabit freshwater rivers, lakes, and streams."
+      explanation:
+        "Crayfish primarily inhabit freshwater rivers, lakes, and streams.",
     },
     {
       question: "What is the texture and flavor profile of Crayfish?",
@@ -3401,23 +4723,20 @@ const questions = {
         "Sweet, firm, and succulent meat",
         "Strong fishy flavor with a coarse texture",
         "Bland taste with a rubbery texture",
-        "Spicy flavor with a crunchy texture"
+        "Spicy flavor with a crunchy texture",
       ],
       answer: "Sweet, firm, and succulent meat",
-      explanation: "Crayfish are known for their sweet, firm, and succulent meat."
-    }
+      explanation:
+        "Crayfish are known for their sweet, firm, and succulent meat.",
+    },
   ],
   caviar: [
     {
       question: "What family do sturgeons belong to?",
-      choice: [
-        "Acipenseridae",
-        "Cyprinidae",
-        "Salmonidae",
-        "Scombridae"
-      ],
+      choice: ["Acipenseridae", "Cyprinidae", "Salmonidae", "Scombridae"],
       answer: "Acipenseridae",
-      explanation: "Sturgeons belong to the Acipenseridae family, known for their elongated bodies and bony scutes."
+      explanation:
+        "Sturgeons belong to the Acipenseridae family, known for their elongated bodies and bony scutes.",
     },
     {
       question: "What is the primary habitat of sturgeons?",
@@ -3425,10 +4744,11 @@ const questions = {
         "Rivers, lakes, and coastal areas in the Northern Hemisphere",
         "Open ocean",
         "Coral reefs",
-        "Freshwater lakes only"
+        "Freshwater lakes only",
       ],
       answer: "Rivers, lakes, and coastal areas in the Northern Hemisphere",
-      explanation: "Sturgeons are found in rivers, lakes, and coastal areas in the temperate waters of the Northern Hemisphere."
+      explanation:
+        "Sturgeons are found in rivers, lakes, and coastal areas in the temperate waters of the Northern Hemisphere.",
     },
     {
       question: "What is pasteurized caviar?",
@@ -3436,10 +4756,12 @@ const questions = {
         "Caviar that has been pasteurized and vacuum-sealed to extend shelf life",
         "Caviar with added spices",
         "Fresh caviar with high salt content",
-        "Caviar mixed with other fish roe"
+        "Caviar mixed with other fish roe",
       ],
-      answer: "Caviar that has been pasteurized and vacuum-sealed to extend shelf life",
-      explanation: "Pasteurized caviar is caviar that has been pasteurized and vacuum-sealed in glass jars to extend its shelf life."
+      answer:
+        "Caviar that has been pasteurized and vacuum-sealed to extend shelf life",
+      explanation:
+        "Pasteurized caviar is caviar that has been pasteurized and vacuum-sealed in glass jars to extend its shelf life.",
     },
     {
       question: "What is the effect of pasteurization on caviar?",
@@ -3447,10 +4769,11 @@ const questions = {
         "Slightly alters the texture and subtlety of flavors",
         "Makes it spicier",
         "Adds a metallic taste",
-        "Turns it into a paste"
+        "Turns it into a paste",
       ],
       answer: "Slightly alters the texture and subtlety of flavors",
-      explanation: "Pasteurization can slightly alter the texture and subtlety of caviar's flavors, although it effectively prolongs freshness."
+      explanation:
+        "Pasteurization can slightly alter the texture and subtlety of caviar's flavors, although it effectively prolongs freshness.",
     },
     {
       question: "What is Malossol caviar?",
@@ -3458,21 +4781,18 @@ const questions = {
         "Lightly salted caviar",
         "Heavily salted caviar",
         "Spiced caviar",
-        "Caviar mixed with other fish roe"
+        "Caviar mixed with other fish roe",
       ],
       answer: "Lightly salted caviar",
-      explanation: "Malossol caviar is lightly salted caviar, traditionally containing up to 5% salt but often less than 3% in modern standards."
+      explanation:
+        "Malossol caviar is lightly salted caviar, traditionally containing up to 5% salt but often less than 3% in modern standards.",
     },
     {
       question: "What is the salt content of semi-preserved caviar?",
-      choice: [
-        "About 8%",
-        "About 3%",
-        "About 10%",
-        "Less than 1%"
-      ],
+      choice: ["About 8%", "About 3%", "About 10%", "Less than 1%"],
       answer: "About 8%",
-      explanation: "Semi-preserved caviar has a salt content of about 8%, which provides a longer shelf life but a more pronounced salt flavor."
+      explanation:
+        "Semi-preserved caviar has a salt content of about 8%, which provides a longer shelf life but a more pronounced salt flavor.",
     },
     {
       question: "What is pressed caviar?",
@@ -3480,10 +4800,11 @@ const questions = {
         "Saltier caviar with a paste-like consistency",
         "Lightly salted caviar",
         "Fresh caviar with high salt content",
-        "Caviar mixed with other fish roe"
+        "Caviar mixed with other fish roe",
       ],
       answer: "Saltier caviar with a paste-like consistency",
-      explanation: "Pressed caviar is made from overly ripe or damaged roe, resulting in a saltier, paste-like consistency with a strong, concentrated flavor."
+      explanation:
+        "Pressed caviar is made from overly ripe or damaged roe, resulting in a saltier, paste-like consistency with a strong, concentrated flavor.",
     },
     {
       question: "What is the primary habitat of Beluga sturgeon?",
@@ -3491,10 +4812,10 @@ const questions = {
         "Caspian Sea",
         "Pacific Ocean",
         "Atlantic Ocean",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
       ],
       answer: "Caspian Sea",
-      explanation: "The primary habitat of Beluga sturgeon is the Caspian Sea."
+      explanation: "The primary habitat of Beluga sturgeon is the Caspian Sea.",
     },
     {
       question: "What are the identifying characteristics of Beluga sturgeon?",
@@ -3502,10 +4823,11 @@ const questions = {
         "Large size, fusiform body, broad head, short snout",
         "Small size, pointed snout, bright red color",
         "Elongated body, dark green back, white belly",
-        "Short body, dark blue color, sharp teeth"
+        "Short body, dark blue color, sharp teeth",
       ],
       answer: "Large size, fusiform body, broad head, short snout",
-      explanation: "Beluga sturgeon are characterized by their large size, fusiform body, broad head, and short snout."
+      explanation:
+        "Beluga sturgeon are characterized by their large size, fusiform body, broad head, and short snout.",
     },
     {
       question: "What is the primary characteristic of Ossetra caviar?",
@@ -3513,10 +4835,11 @@ const questions = {
         "Medium-sized eggs with a nutty taste",
         "Small eggs with a fishy taste",
         "Large eggs with a creamy texture",
-        "Paste-like consistency with a strong flavor"
+        "Paste-like consistency with a strong flavor",
       ],
       answer: "Medium-sized eggs with a nutty taste",
-      explanation: "Ossetra caviar is known for its medium-sized eggs with a nutty taste."
+      explanation:
+        "Ossetra caviar is known for its medium-sized eggs with a nutty taste.",
     },
     {
       question: "What is the primary habitat of Ossetra sturgeon?",
@@ -3524,10 +4847,11 @@ const questions = {
         "Caspian Sea and Black Sea",
         "Pacific Ocean",
         "Atlantic Ocean",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
       ],
       answer: "Caspian Sea and Black Sea",
-      explanation: "Ossetra sturgeon are primarily found in the Caspian Sea and Black Sea."
+      explanation:
+        "Ossetra sturgeon are primarily found in the Caspian Sea and Black Sea.",
     },
     {
       question: "What is the primary characteristic of Sevruga caviar?",
@@ -3535,10 +4859,11 @@ const questions = {
         "Small eggs with a briny, slightly nutty taste",
         "Large eggs with a creamy texture",
         "Medium-sized eggs with a nutty taste",
-        "Paste-like consistency with a strong flavor"
+        "Paste-like consistency with a strong flavor",
       ],
       answer: "Small eggs with a briny, slightly nutty taste",
-      explanation: "Sevruga caviar is characterized by its small eggs with a briny, slightly nutty taste."
+      explanation:
+        "Sevruga caviar is characterized by its small eggs with a briny, slightly nutty taste.",
     },
     {
       question: "What is the primary habitat of Sevruga sturgeon?",
@@ -3546,10 +4871,11 @@ const questions = {
         "Caspian Sea and Black Sea",
         "Pacific Ocean",
         "Atlantic Ocean",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
       ],
       answer: "Caspian Sea and Black Sea",
-      explanation: "Sevruga sturgeon are primarily found in the Caspian Sea and Black Sea."
+      explanation:
+        "Sevruga sturgeon are primarily found in the Caspian Sea and Black Sea.",
     },
     {
       question: "What is the identifying characteristic of Sterlet sturgeon?",
@@ -3557,10 +4883,11 @@ const questions = {
         "Smaller size, long pointed snout, greyish color",
         "Large size, broad head, dark green back",
         "Medium size, round body, dark blue color",
-        "Small size, short snout, bright red color"
+        "Small size, short snout, bright red color",
       ],
       answer: "Smaller size, long pointed snout, greyish color",
-      explanation: "Sterlet sturgeon are characterized by their smaller size, long pointed snout, and greyish color."
+      explanation:
+        "Sterlet sturgeon are characterized by their smaller size, long pointed snout, and greyish color.",
     },
     {
       question: "What is the primary habitat of Sterlet sturgeon?",
@@ -3568,10 +4895,11 @@ const questions = {
         "Caspian Sea, Black Sea, Azov Sea, Baltic Sea",
         "Pacific Ocean",
         "Atlantic Ocean",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
       ],
       answer: "Caspian Sea, Black Sea, Azov Sea, Baltic Sea",
-      explanation: "Sterlet sturgeon are primarily found in the Caspian Sea, Black Sea, Azov Sea, and Baltic Sea."
+      explanation:
+        "Sterlet sturgeon are primarily found in the Caspian Sea, Black Sea, Azov Sea, and Baltic Sea.",
     },
     {
       question: "What is the identifying characteristic of Salmon roe?",
@@ -3579,10 +4907,10 @@ const questions = {
         "Large, orange-red eggs",
         "Small, dark green eggs",
         "Medium-sized, brown eggs",
-        "Large, bright red eggs"
+        "Large, bright red eggs",
       ],
       answer: "Large, orange-red eggs",
-      explanation: "Salmon roe is characterized by its large, orange-red eggs."
+      explanation: "Salmon roe is characterized by its large, orange-red eggs.",
     },
     {
       question: "What is the primary habitat of Salmon roe?",
@@ -3590,21 +4918,23 @@ const questions = {
         "Pacific Ocean",
         "Atlantic Ocean",
         "Mediterranean Sea",
-        "Freshwater lakes"
+        "Freshwater lakes",
       ],
       answer: "Pacific Ocean",
-      explanation: "Salmon roe is primarily found in the Pacific Ocean."
+      explanation: "Salmon roe is primarily found in the Pacific Ocean.",
     },
     {
-      question: "What is the primary characteristic of Tobikko (Flying Fish Roe)?",
+      question:
+        "What is the primary characteristic of Tobikko (Flying Fish Roe)?",
       choice: [
         "Small eggs with a crunchy texture",
         "Large eggs with a creamy texture",
         "Medium-sized eggs with a nutty taste",
-        "Small eggs with a paste-like consistency"
+        "Small eggs with a paste-like consistency",
       ],
       answer: "Small eggs with a crunchy texture",
-      explanation: "Tobikko (Flying Fish Roe) is characterized by its small eggs with a crunchy texture."
+      explanation:
+        "Tobikko (Flying Fish Roe) is characterized by its small eggs with a crunchy texture.",
     },
     {
       question: "What is the primary habitat of Tobikko (Flying Fish Roe)?",
@@ -3612,10 +4942,11 @@ const questions = {
         "Tropical and subtropical oceans",
         "Pacific Ocean",
         "Atlantic Ocean",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
       ],
       answer: "Tropical and subtropical oceans",
-      explanation: "Tobikko (Flying Fish Roe) is primarily found in tropical and subtropical oceans."
+      explanation:
+        "Tobikko (Flying Fish Roe) is primarily found in tropical and subtropical oceans.",
     },
     {
       question: "What is the primary characteristic of Whitefish roe?",
@@ -3623,10 +4954,11 @@ const questions = {
         "Small eggs with a rich apricot flavor",
         "Large eggs with a creamy texture",
         "Medium-sized eggs with a nutty taste",
-        "Small eggs with a paste-like consistency"
+        "Small eggs with a paste-like consistency",
       ],
       answer: "Small eggs with a rich apricot flavor",
-      explanation: "Whitefish roe is characterized by its small eggs with a rich apricot flavor."
+      explanation:
+        "Whitefish roe is characterized by its small eggs with a rich apricot flavor.",
     },
     {
       question: "What is the primary habitat of Whitefish roe?",
@@ -3634,10 +4966,11 @@ const questions = {
         "Northwest Montana lakes",
         "Pacific Ocean",
         "Atlantic Ocean",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
       ],
       answer: "Northwest Montana lakes",
-      explanation: "Whitefish roe is primarily found in the lakes of Northwest Montana."
+      explanation:
+        "Whitefish roe is primarily found in the lakes of Northwest Montana.",
     },
     {
       question: "What is the primary characteristic of Trout roe?",
@@ -3645,10 +4978,10 @@ const questions = {
         "Small orange eggs",
         "Large red eggs",
         "Medium-sized brown eggs",
-        "Small green eggs"
+        "Small green eggs",
       ],
       answer: "Small orange eggs",
-      explanation: "Trout roe is characterized by its small orange eggs."
+      explanation: "Trout roe is characterized by its small orange eggs.",
     },
     {
       question: "What is the primary habitat of Trout roe?",
@@ -3656,10 +4989,10 @@ const questions = {
         "Farmed environments",
         "Pacific Ocean",
         "Atlantic Ocean",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
       ],
       answer: "Farmed environments",
-      explanation: "Trout roe is primarily found in farmed environments."
+      explanation: "Trout roe is primarily found in farmed environments.",
     },
     {
       question: "What is the primary characteristic of White Sturgeon caviar?",
@@ -3667,10 +5000,11 @@ const questions = {
         "Similar to Ossetra caviar in taste and texture",
         "Small, dark green eggs",
         "Large, bright red eggs",
-        "Medium-sized, brown eggs"
+        "Medium-sized, brown eggs",
       ],
       answer: "Similar to Ossetra caviar in taste and texture",
-      explanation: "White Sturgeon caviar is known for being similar to Ossetra caviar in taste and texture."
+      explanation:
+        "White Sturgeon caviar is known for being similar to Ossetra caviar in taste and texture.",
     },
     {
       question: "What is the primary habitat of White Sturgeon caviar?",
@@ -3678,10 +5012,11 @@ const questions = {
         "West coast of the United States",
         "Pacific Ocean",
         "Atlantic Ocean",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
       ],
       answer: "West coast of the United States",
-      explanation: "White Sturgeon caviar is primarily found on the west coast of the United States."
+      explanation:
+        "White Sturgeon caviar is primarily found on the west coast of the United States.",
     },
     {
       question: "How is caviar traditionally served Western style?",
@@ -3689,10 +5024,12 @@ const questions = {
         "Directly from the tin on a bed of ice with minimal accompaniments",
         "With blini and various garnishes",
         "In a salad",
-        "Cooked into dishes"
+        "Cooked into dishes",
       ],
-      answer: "Directly from the tin on a bed of ice with minimal accompaniments",
-      explanation: "Western style caviar is often served directly from the tin on a bed of ice with minimal accompaniments to highlight its flavors."
+      answer:
+        "Directly from the tin on a bed of ice with minimal accompaniments",
+      explanation:
+        "Western style caviar is often served directly from the tin on a bed of ice with minimal accompaniments to highlight its flavors.",
     },
     {
       question: "What is the ideal serving temperature for caviar?",
@@ -3700,10 +5037,11 @@ const questions = {
         "Between 28°F and 32°F",
         "Between 35°F and 40°F",
         "Between 39°F and 45°F",
-        "Room temperature"
+        "Room temperature",
       ],
       answer: "Between 28°F and 32°F",
-      explanation: "The ideal serving temperature for caviar is between 28°F and 32°F to maintain its freshness and flavor."
+      explanation:
+        "The ideal serving temperature for caviar is between 28°F and 32°F to maintain its freshness and flavor.",
     },
     {
       question: "What type of spoons should be used to serve caviar?",
@@ -3711,21 +5049,24 @@ const questions = {
         "Non-metallic spoons like mother of pearl or ivory",
         "Metal spoons",
         "Wooden spoons",
-        "Plastic spoons"
+        "Plastic spoons",
       ],
       answer: "Non-metallic spoons like mother of pearl or ivory",
-      explanation: "Non-metallic spoons like mother of pearl or ivory should be used to avoid altering the taste of caviar."
+      explanation:
+        "Non-metallic spoons like mother of pearl or ivory should be used to avoid altering the taste of caviar.",
     },
     {
-      question: "What is the primary characteristic of Russian style caviar serving?",
+      question:
+        "What is the primary characteristic of Russian style caviar serving?",
       choice: [
         "Served with blini and various garnishes",
         "Served directly from the tin",
         "Served in a salad",
-        "Cooked into dishes"
+        "Cooked into dishes",
       ],
       answer: "Served with blini and various garnishes",
-      explanation: "Russian style caviar is typically served with blini and various garnishes."
+      explanation:
+        "Russian style caviar is typically served with blini and various garnishes.",
     },
     {
       question: "What is the primary method for storing caviar?",
@@ -3733,10 +5074,11 @@ const questions = {
         "In an airtight container in the coldest part of the fridge",
         "At room temperature",
         "In a warm place",
-        "In a metal container"
+        "In a metal container",
       ],
       answer: "In an airtight container in the coldest part of the fridge",
-      explanation: "Caviar should be stored in an airtight container in the coldest part of the fridge to maintain its quality."
+      explanation:
+        "Caviar should be stored in an airtight container in the coldest part of the fridge to maintain its quality.",
     },
     {
       question: "What is the ideal temperature for storing caviar?",
@@ -3744,10 +5086,11 @@ const questions = {
         "Between 28°F and 32°F",
         "Between 35°F and 40°F",
         "Between 39°F and 45°F",
-        "Room temperature"
+        "Room temperature",
       ],
       answer: "Between 28°F and 32°F",
-      explanation: "The ideal temperature for storing caviar is between 28°F and 32°F."
+      explanation:
+        "The ideal temperature for storing caviar is between 28°F and 32°F.",
     },
     {
       question: "What is curing in fish preservation?",
@@ -3755,10 +5098,12 @@ const questions = {
         "A process that removes moisture and inhibits bacterial growth using salt, sugar, and sometimes nitrates or nitrites",
         "A cooking method",
         "A freezing technique",
-        "A way to transport fish"
+        "A way to transport fish",
       ],
-      answer: "A process that removes moisture and inhibits bacterial growth using salt, sugar, and sometimes nitrates or nitrites",
-      explanation: "Curing fish involves removing moisture and inhibiting bacterial growth using salt, sugar, and sometimes nitrates or nitrites."
+      answer:
+        "A process that removes moisture and inhibits bacterial growth using salt, sugar, and sometimes nitrates or nitrites",
+      explanation:
+        "Curing fish involves removing moisture and inhibiting bacterial growth using salt, sugar, and sometimes nitrates or nitrites.",
     },
     {
       question: "What is dry curing?",
@@ -3766,10 +5111,11 @@ const questions = {
         "Applying salt directly to the fish",
         "Soaking the fish in a solution of salt and water",
         "Freezing the fish",
-        "Cooking the fish"
+        "Cooking the fish",
       ],
       answer: "Applying salt directly to the fish",
-      explanation: "Dry curing involves applying salt directly to the fish to draw out moisture and preserve it."
+      explanation:
+        "Dry curing involves applying salt directly to the fish to draw out moisture and preserve it.",
     },
     {
       question: "What is wet curing (brining)?",
@@ -3777,10 +5123,11 @@ const questions = {
         "Soaking the fish in a solution of salt and water",
         "Applying salt directly to the fish",
         "Freezing the fish",
-        "Cooking the fish"
+        "Cooking the fish",
       ],
       answer: "Soaking the fish in a solution of salt and water",
-      explanation: "Wet curing, or brining, involves soaking the fish in a solution of salt and water."
+      explanation:
+        "Wet curing, or brining, involves soaking the fish in a solution of salt and water.",
     },
     {
       question: "What is pellicle formation?",
@@ -3788,10 +5135,12 @@ const questions = {
         "A thin, sticky, protein-rich layer that forms on the surface of cured fish before smoking",
         "A type of fish roe",
         "A cooking technique",
-        "A method of freezing fish"
+        "A method of freezing fish",
       ],
-      answer: "A thin, sticky, protein-rich layer that forms on the surface of cured fish before smoking",
-      explanation: "Pellicle formation is a thin, sticky, protein-rich layer that forms on the surface of cured fish before smoking."
+      answer:
+        "A thin, sticky, protein-rich layer that forms on the surface of cured fish before smoking",
+      explanation:
+        "Pellicle formation is a thin, sticky, protein-rich layer that forms on the surface of cured fish before smoking.",
     },
     {
       question: "What is the purpose of the pellicle in smoking fish?",
@@ -3799,10 +5148,11 @@ const questions = {
         "To retain moisture and capture smoke",
         "To dry out the fish",
         "To add saltiness",
-        "To cool the fish"
+        "To cool the fish",
       ],
       answer: "To retain moisture and capture smoke",
-      explanation: "The pellicle helps retain moisture and capture smoke during the smoking process, enhancing flavor."
+      explanation:
+        "The pellicle helps retain moisture and capture smoke during the smoking process, enhancing flavor.",
     },
     {
       question: "What is hot smoking?",
@@ -3810,10 +5160,11 @@ const questions = {
         "Smoking fish at temperatures between 120°F to 180°F",
         "Smoking fish at temperatures below 80°F",
         "Freezing fish",
-        "Cooking fish in a pan"
+        "Cooking fish in a pan",
       ],
       answer: "Smoking fish at temperatures between 120°F to 180°F",
-      explanation: "Hot smoking involves smoking fish at temperatures between 120°F to 180°F, which cooks the fish while imparting a smoky flavor."
+      explanation:
+        "Hot smoking involves smoking fish at temperatures between 120°F to 180°F, which cooks the fish while imparting a smoky flavor.",
     },
     {
       question: "What is cold smoking?",
@@ -3821,10 +5172,11 @@ const questions = {
         "Smoking fish at temperatures below 80°F",
         "Smoking fish at temperatures between 120°F to 180°F",
         "Freezing fish",
-        "Cooking fish in a pan"
+        "Cooking fish in a pan",
       ],
       answer: "Smoking fish at temperatures below 80°F",
-      explanation: "Cold smoking involves smoking fish at temperatures below 80°F, usually after it has been cured with salt."
+      explanation:
+        "Cold smoking involves smoking fish at temperatures below 80°F, usually after it has been cured with salt.",
     },
     {
       question: "What is the primary benefit of curing fish?",
@@ -3832,10 +5184,11 @@ const questions = {
         "Preservation and flavor enhancement",
         "Cooking the fish",
         "Making the fish spicier",
-        "Turning the fish into a paste"
+        "Turning the fish into a paste",
       ],
       answer: "Preservation and flavor enhancement",
-      explanation: "Curing fish helps preserve it and enhances its flavor by removing moisture and inhibiting bacterial growth."
+      explanation:
+        "Curing fish helps preserve it and enhances its flavor by removing moisture and inhibiting bacterial growth.",
     },
     {
       question: "What are the primary ingredients used in curing fish?",
@@ -3843,21 +5196,25 @@ const questions = {
         "Salt, sugar, and sometimes nitrates or nitrites",
         "Oil and vinegar",
         "Butter and cream",
-        "Garlic and onions"
+        "Garlic and onions",
       ],
       answer: "Salt, sugar, and sometimes nitrates or nitrites",
-      explanation: "Curing fish typically involves the use of salt, sugar, and sometimes nitrates or nitrites."
+      explanation:
+        "Curing fish typically involves the use of salt, sugar, and sometimes nitrates or nitrites.",
     },
     {
-      question: "What is the primary difference between dry curing and wet curing?",
+      question:
+        "What is the primary difference between dry curing and wet curing?",
       choice: [
         "Dry curing uses salt applied directly to the fish, while wet curing involves soaking the fish in a saltwater solution",
         "Dry curing uses heat, while wet curing uses cold temperatures",
         "Dry curing uses spices, while wet curing uses sugar",
-        "Dry curing uses smoke, while wet curing uses salt"
+        "Dry curing uses smoke, while wet curing uses salt",
       ],
-      answer: "Dry curing uses salt applied directly to the fish, while wet curing involves soaking the fish in a saltwater solution",
-      explanation: "Dry curing uses salt applied directly to the fish, while wet curing, or brining, involves soaking the fish in a saltwater solution."
+      answer:
+        "Dry curing uses salt applied directly to the fish, while wet curing involves soaking the fish in a saltwater solution",
+      explanation:
+        "Dry curing uses salt applied directly to the fish, while wet curing, or brining, involves soaking the fish in a saltwater solution.",
     },
     {
       question: "What is the purpose of nitrates or nitrites in curing?",
@@ -3865,10 +5222,11 @@ const questions = {
         "To inhibit bacterial growth and enhance preservation",
         "To add sweetness",
         "To dry out the fish",
-        "To make the fish spicy"
+        "To make the fish spicy",
       ],
       answer: "To inhibit bacterial growth and enhance preservation",
-      explanation: "Nitrates or nitrites are sometimes used in curing to inhibit bacterial growth and enhance preservation."
+      explanation:
+        "Nitrates or nitrites are sometimes used in curing to inhibit bacterial growth and enhance preservation.",
     },
     {
       question: "What is the primary benefit of smoking fish?",
@@ -3876,21 +5234,24 @@ const questions = {
         "Enhanced flavor and extended shelf life",
         "Making the fish spicier",
         "Cooking the fish",
-        "Turning the fish into a paste"
+        "Turning the fish into a paste",
       ],
       answer: "Enhanced flavor and extended shelf life",
-      explanation: "Smoking fish enhances its flavor and extends its shelf life through the use of smoke."
+      explanation:
+        "Smoking fish enhances its flavor and extends its shelf life through the use of smoke.",
     },
     {
-      question: "What is the primary difference between hot smoking and cold smoking?",
+      question:
+        "What is the primary difference between hot smoking and cold smoking?",
       choice: [
         "Hot smoking cooks the fish, while cold smoking does not",
         "Hot smoking uses spices, while cold smoking uses sugar",
         "Hot smoking uses salt, while cold smoking uses smoke",
-        "Hot smoking is faster than cold smoking"
+        "Hot smoking is faster than cold smoking",
       ],
       answer: "Hot smoking cooks the fish, while cold smoking does not",
-      explanation: "Hot smoking cooks the fish at temperatures between 120°F to 180°F, while cold smoking does not cook the fish, keeping it at temperatures below 80°F."
+      explanation:
+        "Hot smoking cooks the fish at temperatures between 120°F to 180°F, while cold smoking does not cook the fish, keeping it at temperatures below 80°F.",
     },
     {
       question: "What is the primary role of the pellicle in smoking?",
@@ -3898,10 +5259,11 @@ const questions = {
         "To help the fish retain moisture and capture smoke flavors",
         "To dry out the fish",
         "To add sweetness",
-        "To make the fish spicy"
+        "To make the fish spicy",
       ],
       answer: "To help the fish retain moisture and capture smoke flavors",
-      explanation: "The pellicle helps the fish retain moisture and capture smoke flavors during the smoking process."
+      explanation:
+        "The pellicle helps the fish retain moisture and capture smoke flavors during the smoking process.",
     },
     {
       question: "What is the primary method for forming a pellicle?",
@@ -3909,10 +5271,11 @@ const questions = {
         "Drying the fish in a cool, ventilated area",
         "Soaking the fish in water",
         "Cooking the fish in a pan",
-        "Freezing the fish"
+        "Freezing the fish",
       ],
       answer: "Drying the fish in a cool, ventilated area",
-      explanation: "The pellicle is formed by drying the fish in a cool, ventilated area after curing."
+      explanation:
+        "The pellicle is formed by drying the fish in a cool, ventilated area after curing.",
     },
     {
       question: "What is the primary purpose of curing fish before smoking?",
@@ -3920,10 +5283,11 @@ const questions = {
         "To remove moisture and inhibit bacterial growth",
         "To add sweetness",
         "To cook the fish",
-        "To turn the fish into a paste"
+        "To turn the fish into a paste",
       ],
       answer: "To remove moisture and inhibit bacterial growth",
-      explanation: "Curing fish before smoking removes moisture and inhibits bacterial growth, which helps preserve the fish and enhance its flavor."
+      explanation:
+        "Curing fish before smoking removes moisture and inhibits bacterial growth, which helps preserve the fish and enhance its flavor.",
     },
     {
       question: "What is the primary characteristic of cold-smoked fish?",
@@ -3931,10 +5295,11 @@ const questions = {
         "Firm texture and smoky flavor without being cooked",
         "Soft texture and sweet flavor",
         "Spicy flavor and dry texture",
-        "Paste-like consistency and strong flavor"
+        "Paste-like consistency and strong flavor",
       ],
       answer: "Firm texture and smoky flavor without being cooked",
-      explanation: "Cold-smoked fish has a firm texture and smoky flavor without being cooked."
+      explanation:
+        "Cold-smoked fish has a firm texture and smoky flavor without being cooked.",
     },
     {
       question: "What is the primary characteristic of hot-smoked fish?",
@@ -3942,10 +5307,11 @@ const questions = {
         "Moist, slightly flaky texture and smoky flavor",
         "Soft texture and sweet flavor",
         "Spicy flavor and dry texture",
-        "Paste-like consistency and strong flavor"
+        "Paste-like consistency and strong flavor",
       ],
       answer: "Moist, slightly flaky texture and smoky flavor",
-      explanation: "Hot-smoked fish has a moist, slightly flaky texture and smoky flavor."
+      explanation:
+        "Hot-smoked fish has a moist, slightly flaky texture and smoky flavor.",
     },
     {
       question: "What is the primary difference between smoking and curing?",
@@ -3953,21 +5319,554 @@ const questions = {
         "Smoking adds smoky flavors, while curing removes moisture and adds salt",
         "Smoking uses salt, while curing uses spices",
         "Smoking cooks the fish, while curing dries it out",
-        "Smoking makes the fish sweet, while curing makes it spicy"
+        "Smoking makes the fish sweet, while curing makes it spicy",
       ],
-      answer: "Smoking adds smoky flavors, while curing removes moisture and adds salt",
-      explanation: "Smoking adds smoky flavors to fish, while curing removes moisture and adds salt to preserve it."
+      answer:
+        "Smoking adds smoky flavors, while curing removes moisture and adds salt",
+      explanation:
+        "Smoking adds smoky flavors to fish, while curing removes moisture and adds salt to preserve it.",
     },
     {
-      question: "What is the primary purpose of using non-metallic spoons for serving caviar?",
+      question:
+        "What is the primary purpose of using non-metallic spoons for serving caviar?",
       choice: [
         "To avoid altering the caviar's taste",
         "To add sweetness",
         "To dry out the caviar",
-        "To make the caviar spicy"
+        "To make the caviar spicy",
       ],
       answer: "To avoid altering the caviar's taste",
-      explanation: "Non-metallic spoons, like mother of pearl or ivory, are used to avoid altering the taste of caviar."
+      explanation:
+        "Non-metallic spoons, like mother of pearl or ivory, are used to avoid altering the taste of caviar.",
+    },
+  ],
+  FishID: [
+    {
+      "question": "What type of fish is shown in this image?",
+      "image": "Images/Acadian Red Perch.png",
+      "choice": [
+        "Albacore Tuna",
+        "Acadian Red Perch",
+        "Atlantic Farm Raised Salmon",
+        "Black Sea Bass"
+      ],
+      "answer": "Acadian Red Perch",
+      "explanation": "The Acadian Red Perch is identifiable by its distinct red color and shape."
+    },
+    {
+      "question": "What type of fish is this?",
+      "image": "Images/Albacore Tuna.png",
+      "choice": [
+        "Arctic Char",
+        "Cusk",
+        "Albacore Tuna",
+        "Fluke"
+      ],
+      "answer": "Albacore Tuna",
+      "explanation": "Albacore Tuna is characterized by its streamlined body and dark blue upper side."
+    },
+    {
+      "question": "Identify the fish in this picture.",
+      "image": "Images/Arctic Char.png",
+      "choice": [
+        "Black Cod",
+        "Atlantic Farm Raised Salmon",
+        "Dover Sole",
+        "Arctic Char"
+      ],
+      "answer": "Arctic Char",
+      "explanation": "Arctic Char can be identified by its light-colored spots and streamlined body."
+    },
+    {
+      "question": "Which fish is shown here?",
+      "image": "Images/Atlantic Farm Raised Salmon.png",
+      "choice": [
+        "Black Sea Bass",
+        "Farm Raised Rainbow Trout",
+        "Atlantic Farm Raised Salmon",
+        "Fluke"
+      ],
+      "answer": "Atlantic Farm Raised Salmon",
+      "explanation": "Atlantic Farm Raised Salmon has a silver body with distinct spots and a streamlined shape."
+    },
+    {
+      "question": "What type of fish is depicted in this image?",
+      "image": "Images/Black Cod (Sablefish, Butterfish).png",
+      "choice": [
+        "Cusk",
+        "Black Cod (Sablefish, Butterfish)",
+        "Dover Sole",
+        "Acadian Red Perch"
+      ],
+      "answer": "Black Cod (Sablefish, Butterfish)",
+      "explanation": "Black Cod, also known as Sablefish or Butterfish, has a dark, sleek body."
+    },
+    {
+      "question": "Identify the fish in this picture.",
+      "image": "Images/Black Sea Bass.png",
+      "choice": [
+        "Black Sea Bass",
+        "Atlantic Farm Raised Salmon",
+        "Albacore Tuna",
+        "Fluke"
+      ],
+      "answer": "Black Sea Bass",
+      "explanation": "Black Sea Bass is known for its dark body and spiny dorsal fin."
+    },
+    {
+      "question": "What fish is shown here?",
+      "image": "Images/Cusk.png",
+      "choice": [
+        "Dover Sole",
+        "Arctic Char",
+        "Cusk",
+        "Black Cod"
+      ],
+      "answer": "Cusk",
+      "explanation": "Cusk can be identified by its elongated body and mottled coloring."
+    },
+    {
+      "question": "Which fish is depicted in this image?",
+      "image": "Images/Dover Sole.png",
+      "choice": [
+        "Farm Raised Rainbow Trout",
+        "Dover Sole",
+        "Fluke",
+        "Arctic Char"
+      ],
+      "answer": "Dover Sole",
+      "explanation": "Dover Sole is recognized by its flat body and small, curved mouth."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Images/Farm Raised Rainbow Trout.png",
+      "choice": [
+        "Black Sea Bass",
+        "Farm Raised Rainbow Trout",
+        "Albacore Tuna",
+        "Atlantic Farm Raised Salmon"
+      ],
+      "answer": "Farm Raised Rainbow Trout",
+      "explanation": "Farm Raised Rainbow Trout has a characteristic pink stripe along its sides."
+    },
+    {
+      "question": "What type of fish is this?",
+      "image": "Images/Fluke (Summer Flounder).png",
+      "choice": [
+        "Fluke (Summer Flounder)",
+        "Dover Sole",
+        "Acadian Red Perch",
+        "Cusk"
+      ],
+      "answer": "Fluke (Summer Flounder)",
+      "explanation": "Fluke, also known as Summer Flounder, is a flatfish with both eyes on one side of its body."
+    },
+    {
+      "question": "What type of fish is shown in this image?",
+      "image": "Images/Haddock.png",
+      "choice": [
+        "Hake",
+        "Haddock",
+        "Halibut",
+        "Hybrid Striped Bass"
+      ],
+      "answer": "Haddock",
+      "explanation": "Haddock can be identified by its distinct black lateral line running along its side and a black 'thumbprint' mark above the pectoral fin."
+    },
+    {
+      "question": "What type of fish is this?",
+      "image": "Images/Hake.png",
+      "choice": [
+        "Haddock",
+        "Halibut",
+        "Hake",
+        "Hybrid Striped Bass"
+      ],
+      "answer": "Hake",
+      "explanation": "Hake has a slender body, silvery sides, and a large head with a prominent lower jaw."
+    },
+    {
+      "question": "Identify the fish in this picture.",
+      "image": "Images/Halibut (Atlantic and Pacific).png",
+      "choice": [
+        "Halibut",
+        "Hake",
+        "Jonah Crab",
+        "Mahi Mahi"
+      ],
+      "answer": "Halibut",
+      "explanation": "Halibut is a large, flat fish with both eyes on one side of its body and a white underside."
+    },
+    {
+      "question": "Which fish is shown here?",
+      "image": "Images/Hybrid Striped Bass (HSB).png",
+      "choice": [
+        "Hake",
+        "Hybrid Striped Bass",
+        "Haddock",
+        "Lane Snapper"
+      ],
+      "answer": "Hybrid Striped Bass",
+      "explanation": "Hybrid Striped Bass has a distinctive pattern of broken stripes running along its sides."
+    },
+    {
+      "question": "What type of animal is depicted in this image?",
+      "image": "Images/Jonah Crab.png",
+      "choice": [
+        "Jonah Crab",
+        "Lane Snapper",
+        "Mahi Mahi",
+        "Mediterranean Sea Bass"
+      ],
+      "answer": "Jonah Crab",
+      "explanation": "Jonah Crab is recognizable by its robust body and large, powerful claws."
+    },
+    {
+      "question": "Identify the fish in this picture.",
+      "image": "Images/Lane Snapper.png",
+      "choice": [
+        "Lane Snapper",
+        "Mahi Mahi",
+        "Monk Fish",
+        "Pacific King Salmon"
+      ],
+      "answer": "Lane Snapper",
+      "explanation": "Lane Snapper has a reddish body with a series of yellow stripes running from head to tail."
+    },
+    {
+      "question": "What fish is shown here?",
+      "image": "Images/Mahi Mahi (Dorado, Dolphin fish).png",
+      "choice": [
+        "Mahi Mahi",
+        "Mediterranean Sea Bass",
+        "Lane Snapper",
+        "Monk Fish"
+      ],
+      "answer": "Mahi Mahi",
+      "explanation": "Mahi Mahi, also known as Dorado or Dolphin fish, has a vibrant blue and green body with a long dorsal fin."
+    },
+    {
+      "question": "Which fish is depicted in this image?",
+      "image": "Images/Mediterranean Sea Bass (Loup de Mer, Bronzino).png",
+      "choice": [
+        "Mahi Mahi",
+        "Mediterranean Sea Bass",
+        "Lane Snapper",
+        "Hake"
+      ],
+      "answer": "Mediterranean Sea Bass",
+      "explanation": "Mediterranean Sea Bass, also known as Loup de Mer or Bronzino, has a sleek, silver body and is popular in Mediterranean cuisine."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Images/Monk Fish.png",
+      "choice": [
+        "Monk Fish",
+        "Hake",
+        "Halibut",
+        "Jonah Crab"
+      ],
+      "answer": "Monk Fish",
+      "explanation": "Monk Fish, also known as Anglerfish, has a large, flat head and a wide mouth filled with sharp teeth."
+    },
+    {
+      "question": "What type of fish is this?",
+      "image": "Images/Pacific King Salmon.png",
+      "choice": [
+        "Lane Snapper",
+        "Halibut",
+        "Pacific King Salmon",
+        "Haddock"
+      ],
+      "answer": "Pacific King Salmon",
+      "explanation": "Pacific King Salmon, also known as Chinook, has a silver body with small black spots on its back and tail."
+    },
+    {
+      "question": "What type of fish is shown in this image?",
+      "image": "Images/Pollock.png",
+      "choice": [
+        "Pompano",
+        "Pollock",
+        "Porgy",
+        "Silk Snapper"
+      ],
+      "answer": "Pollock",
+      "explanation": "Pollock can be identified by its elongated body, a slightly forked tail, and a greenish-brown color with a silver underbelly."
+    },
+    {
+      "question": "What type of fish is this?",
+      "image": "Images/Pompano.png",
+      "choice": [
+        "Pollock",
+        "Pompano",
+        "Razor Clam",
+        "Red Grouper"
+      ],
+      "answer": "Pompano",
+      "explanation": "Pompano has a deep, laterally compressed body with a silver color and a slightly forked tail."
+    },
+    {
+      "question": "Identify the fish in this picture.",
+      "image": "Images/Porgy (Scup).png",
+      "choice": [
+        "Pompano",
+        "Porgy",
+        "Silk Snapper",
+        "Skate"
+      ],
+      "answer": "Porgy",
+      "explanation": "Porgy, also known as Scup, has a deep, laterally compressed body with a silver color and vertical stripes."
+    },
+    {
+      "question": "What type of shellfish is depicted in this image?",
+      "image": "Images/Razor Clams.png",
+      "choice": [
+        "Pompano",
+        "Razor Clam",
+        "Pollock",
+        "Red Grouper"
+      ],
+      "answer": "Razor Clam",
+      "explanation": "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores."
+    },
+    {
+      "question": "Identify the shellfish in this picture.",
+      "image": "Images/Razor Clams(2).png",
+      "choice": [
+        "Razor Clam",
+        "Silk Snapper",
+        "Porgy",
+        "Skate"
+      ],
+      "answer": "Razor Clam",
+      "explanation": "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores."
+    },
+    {
+      "question": "What type of fish is shown here?",
+      "image": "Images/Red Grouper.png",
+      "choice": [
+        "Porgy",
+        "Red Grouper",
+        "Pollock",
+        "Skate"
+      ],
+      "answer": "Red Grouper",
+      "explanation": "Red Grouper has a robust, elongated body with a reddish color and white spots."
+    },
+    {
+      "question": "Identify the fish in this picture.",
+      "image": "Images/Sardine.png",
+      "choice": [
+        "Sardine",
+        "Pollock",
+        "Red Grouper",
+        "Pompano"
+      ],
+      "answer": "Sardine",
+      "explanation": "Sardines are small, silvery fish with a single dorsal fin and are commonly found in large schools."
+    },
+    {
+      "question": "What type of fish is depicted in this image?",
+      "image": "Images/Sardine(2).png",
+      "choice": [
+        "Silk Snapper",
+        "Sardine",
+        "Skate",
+        "Pompano"
+      ],
+      "answer": "Sardine",
+      "explanation": "Sardines are small, silvery fish with a single dorsal fin and are commonly found in large schools."
+    },
+    {
+      "question": "What type of fish is this?",
+      "image": "Images/Silk Snapper.png",
+      "choice": [
+        "Sardine",
+        "Silk Snapper",
+        "Red Grouper",
+        "Skate"
+      ],
+      "answer": "Silk Snapper",
+      "explanation": "Silk Snapper has a bright red body with yellow hues and a distinct, elongated shape."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Images/Skate.png",
+      "choice": [
+        "Pollock",
+        "Skate",
+        "Silk Snapper",
+        "Porgy"
+      ],
+      "answer": "Skate",
+      "explanation": "Skate is a flat, cartilaginous fish with a diamond-shaped body and wing-like pectoral fins."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "SwordFish.png",
+      "choice": [
+        "SwordFish",
+        "Tile Fish (Golden Bass)",
+        "Turbot",
+        "Vermillion Caribbean or Beeliner Snapper"
+      ],
+      "answer": "SwordFish",
+      "explanation": "Swordfish is characterized by an elongated, flat bill and a streamlined body with a dark brown to black back and lighter sides and belly."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Tile Fish (Golden Bass).png",
+      "choice": [
+        "Tile Fish (Golden Bass)",
+        "Turbot",
+        "Wild Striped Bass",
+        "Spanish Mackerel"
+      ],
+      "answer": "Tile Fish (Golden Bass)",
+      "explanation": "Tile Fish, also known as Golden Bass, features a long, slender body with a bluish or greenish sheen and yellow or gold spots."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Turbot(2).png",
+      "choice": [
+        "Turbot",
+        "Vermillion Caribbean or Beeliner Snapper",
+        "Steel Head Trout",
+        "Wild Striped Bass"
+      ],
+      "answer": "Turbot",
+      "explanation": "Turbot is a flatfish known for its diamond-shaped body, sandy to dark brown coloration with irregular dark spots, and eyes on the left side."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Turbot.png",
+      "choice": [
+        "Turbot",
+        "SwordFish",
+        "Sturgeon",
+        "Spanish Mackerel"
+      ],
+      "answer": "Turbot",
+      "explanation": "Turbot is a flatfish known for its diamond-shaped body, sandy to dark brown coloration with irregular dark spots, and eyes on the left side."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Vermillion Caribbean or Beeliner Snapper.png",
+      "choice": [
+        "Vermillion Caribbean or Beeliner Snapper",
+        "Turbot",
+        "SwordFish",
+        "Wild Striped Bass"
+      ],
+      "answer": "Vermillion Caribbean or Beeliner Snapper",
+      "explanation": "Vermillion Caribbean or Beeliner Snapper has a vibrant red to pinkish body with a streamlined shape and a forked tail."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Wild Striped Bass (WSB).png",
+      "choice": [
+        "Wild Striped Bass",
+        "Tile Fish (Golden Bass)",
+        "Turbot",
+        "Spanish Mackerel"
+      ],
+      "answer": "Wild Striped Bass",
+      "explanation": "Wild Striped Bass has a sleek, silvery body with dark horizontal stripes running from the gills to the tail."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Spanish Mackerel.png",
+      "choice": [
+        "Spanish Mackerel",
+        "SwordFish",
+        "Steel Head Trout",
+        "Sturgeon"
+      ],
+      "answer": "Spanish Mackerel",
+      "explanation": "Spanish Mackerel is known for its streamlined body, blue-green back, silver sides, and rows of yellow spots."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Steel Head Trout.png",
+      "choice": [
+        "Steel Head Trout",
+        "SwordFish",
+        "Sturgeon",
+        "Spanish Mackerel"
+      ],
+      "answer": "Steel Head Trout",
+      "explanation": "Steel Head Trout has a sleek, streamlined body with a silver belly, a dark olive back, and a pinkish stripe running along its sides."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Sturgeon(2).png",
+      "choice": [
+        "Sturgeon",
+        "SwordFish",
+        "Steel Head Trout",
+        "Spanish Mackerel"
+      ],
+      "answer": "Sturgeon",
+      "explanation": "Sturgeon is recognized by its long, cylindrical body, bony plates along its back, and a shark-like tail fin."
+    },
+    {
+      "question": "Identify the fish in the picture.",
+      "image": "Sturgeon.png",
+      "choice": [
+        "Sturgeon",
+        "SwordFish",
+        "Steel Head Trout",
+        "Spanish Mackerel"
+      ],
+      "answer": "Sturgeon",
+      "explanation": "Sturgeon is recognized by its long, cylindrical body, bony plates along its back, and a shark-like tail fin."
+    },{
+        "question": "Identify the fish in the picture.",
+        "image": "Images/Winter Flounder.png",
+        "choice": [
+            "Winter Flounder",
+            "Witch Flounder (Grey Sole)",
+            "Yellow Tail Flounder",
+            "Yellowfin Tuna"
+        ],
+        "answer": "Winter Flounder",
+        "explanation": "Winter Flounder is a flatfish known for its dark brown color and small, pointed head."
+    },
+    {
+        "question": "Identify the fish in the picture.",
+        "image": "Images/Witch Flounder (Grey Sole).png",
+        "choice": [
+            "Winter Flounder",
+            "Witch Flounder (Grey Sole)",
+            "Yellow Tail Flounder",
+            "Yellowfin Tuna"
+        ],
+        "answer": "Witch Flounder (Grey Sole)",
+        "explanation": "Witch Flounder, also known as Grey Sole, is a flatfish with a darker, greyish-brown body and a more oval shape compared to other flounders."
+    },
+    {
+        "question": "Identify the fish in the picture.",
+        "image": "Images/Yellow Tail Flounder.png",
+        "choice": [
+            "Winter Flounder",
+            "Witch Flounder (Grey Sole)",
+            "Yellow Tail Flounder",
+            "Yellowfin Tuna"
+        ],
+        "answer": "Yellow Tail Flounder",
+        "explanation": "Yellow Tail Flounder is a flatfish distinguished by its yellowish tail and lighter brown body."
+    },
+    {
+        "question": "Identify the fish in the picture.",
+        "image": "Images/Yellowfin Tuna.png",
+        "choice": [
+            "Winter Flounder",
+            "Witch Flounder (Grey Sole)",
+            "Yellow Tail Flounder",
+            "Yellowfin Tuna"
+        ],
+        "answer": "Yellowfin Tuna",
+        "explanation": "Yellowfin Tuna is a large fish with a distinctively long, yellow dorsal fin and yellow stripe along its body."
     }
   ],
 };
