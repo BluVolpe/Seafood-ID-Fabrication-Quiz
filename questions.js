@@ -5379,10 +5379,10 @@ const questions = {
     },
     {
       image: "Images/Atlantic Farm Raised Salmon.png",
-      answer: "Atlantic Farm Raised Salmon",
+      answer: "Atlantic Salmon",
       explanation: "Atlantic Farm Raised Salmon has a silver body with distinct spots and a streamlined shape.",
       choice: [
-        "Atlantic Farm Raised Salmon",
+        "Atlantic Salmon",
         "Chinook Salmon",
         "Coho Salmon",
         "Sockeye Salmon",
@@ -5391,10 +5391,10 @@ const questions = {
     },
     {
       image: "Images/Black Cod (Sablefish, Butterfish).png",
-      answer: "Black Cod (Sablefish, Butterfish)",
+      answer: "Black Cod",
       explanation: "Black Cod, also known as Sablefish or Butterfish, has a dark, sleek body.",
       choice: [
-        "Black Cod (Sablefish, Butterfish)",
+        "Black Cod",
         "Pacific Cod",
         "Greenland Halibut",
         "Arrowtooth Flounder",
@@ -5439,10 +5439,10 @@ const questions = {
     },
     {
       image: "Images/Farm Raised Rainbow Trout.png",
-      answer: "Farm Raised Rainbow Trout",
+      answer: "Rainbow Trout",
       explanation: "Farm Raised Rainbow Trout has a characteristic pink stripe along its sides.",
       choice: [
-        "Farm Raised Rainbow Trout",
+        "Rainbow Trout",
         "Steelhead Trout",
         "Brook Trout",
         "Cutthroat Trout",
@@ -5451,10 +5451,10 @@ const questions = {
     },
     {
       image: "Images/Fluke (Summer Flounder).png",
-      answer: "Fluke (Summer Flounder)",
+      answer: "Fluke",
       explanation: "Fluke, also known as Summer Flounder, is a flatfish with both eyes on one side of its body.",
       choice: [
-        "Fluke (Summer Flounder)",
+        "Fluke",
         "Winter Flounder",
         "Yellowtail Flounder",
         "Pacific Sanddab",
@@ -5480,7 +5480,7 @@ const questions = {
       choice: [
         "Hake",
         "Pollock",
-        "Silver Hake",
+        "Silver pike",
         "Whiting",
         "Blue Whiting"
       ]
@@ -5564,7 +5564,7 @@ const questions = {
       choice: [
         "Monk Fish",
         "Goosefish",
-        "Anglerfish",
+        "Angelfish",
         "Sea Raven",
         "Wolf Fish"
       ]
@@ -5715,10 +5715,10 @@ const questions = {
     },
     {
       image: "Images/Tile Fish (Golden Bass).png",
-      answer: "Tile Fish (Golden Bass)",
+      answer: "Tile Fish",
       explanation: "Tile Fish, also known as Golden Bass, features a long, slender body with a bluish or greenish sheen and yellow or gold spots.",
       choice: [
-        "Tile Fish (Golden Bass)",
+        "Tile Fish",
         "Blueline Tilefish",
         "Goldblotch Grouper",
         "Gag Grouper",
@@ -5751,10 +5751,10 @@ const questions = {
     },
     {
       image: "Images/Vermillion Caribbean or Beeliner Snapper.png",
-      answer: "Vermillion Caribbean or Beeliner Snapper",
+      answer: "Vermillion Caribbean",
       explanation: "Vermillion Caribbean or Beeliner Snapper has a vibrant red to pinkish body with a streamlined shape and a forked tail.",
       choice: [
-        "Vermillion Caribbean or Beeliner Snapper",
+        "Vermillion Caribbean",
         "Red Snapper",
         "Lane Snapper",
         "Yellowtail Snapper",
@@ -5835,14 +5835,14 @@ const questions = {
     },
     {
       image: "Images/Witch Flounder (Grey Sole).png",
-      answer: "Witch Flounder (Grey Sole)",
+      answer: "Witch Flounder",
       explanation: "Witch Flounder, also known as Grey Sole, is a flatfish with a darker, greyish-brown body and a more oval shape compared to other flounders.",
       choice: [
-        "Witch Flounder (Grey Sole)",
+        "Witch Flounder",
         "Dover Sole",
-        "Lemon Sole",
+        "Lemon Flounder",
         "Rex Sole",
-        "Sand Sole"
+        "Sand Flounder"
       ]
     },
     {
