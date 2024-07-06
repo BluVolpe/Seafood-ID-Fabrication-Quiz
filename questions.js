@@ -6,10 +6,11 @@ const questions = {
         "A. Color, smell, texture, gills, eyes, scales, belly cavity, and overall appearance",
         "B. Taste, size, weight, fins, tail, bones, skin, and temperature",
         "C. Price, availability, origin, sustainability, packaging, brand, season, and certification",
-        "D. Cooking method, marinade, seasoning, side dishes, presentation, temperature, portion size, and recipe"
+        "D. Cooking method, marinade, seasoning, side dishes, presentation, temperature, portion size, and recipe",
       ],
-      correctAnswer: "A",
-      explanation: "Eight freshness checks for most finfish include examining the color, smell, texture, gills, eyes, scales, belly cavity, and overall appearance of the fish to ensure it is fresh and of high quality."
+      answer: "A",
+      explanation:
+        "Eight freshness checks for most finfish include examining the color, smell, texture, gills, eyes, scales, belly cavity, and overall appearance of the fish to ensure it is fresh and of high quality.",
     },
     {
       question: "List and define five market forms when purchasing fin fish.",
@@ -17,43 +18,50 @@ const questions = {
         "A. Whole, drawn, dressed, fillet, and steak",
         "B. Frozen, canned, smoked, dried, and pickled",
         "C. Fresh, frozen, canned, dried, and live",
-        "D. Raw, cooked, marinated, smoked, and pickled"
+        "D. Raw, cooked, marinated, smoked, and pickled",
       ],
-      correctAnswer: "A",
-      explanation: "The five market forms when purchasing fin fish are: Whole (entire fish as caught), Drawn (gutted with organs removed), Dressed (scaled and gutted with head, tail, and fins removed), Fillet (boneless sides of the fish), and Steak (cross-section slices of the fish including the bone)."
+      answer: "A",
+      explanation:
+        "The five market forms when purchasing fin fish are: Whole (entire fish as caught), Drawn (gutted with organs removed), Dressed (scaled and gutted with head, tail, and fins removed), Fillet (boneless sides of the fish), and Steak (cross-section slices of the fish including the bone).",
     },
     {
-      question: "What are the basic steps for fabricating a pave from a drawn fish?",
+      question:
+        "What are the basic steps for fabricating a pave from a drawn fish?",
       choice: [
         "A. Scaling, skinning, deboning, slicing, and shaping",
         "B. Cleaning, filleting, trimming, portioning, and plating",
         "C. Gutting, filleting, trimming, cutting, and arranging",
-        "D. Washing, deboning, cutting, forming, and cooking"
+        "D. Washing, deboning, cutting, forming, and cooking",
       ],
-      correctAnswer: "B",
-      explanation: "The basic steps for fabricating a pave from a drawn fish include cleaning the fish, filleting it to remove the bones, trimming the fillets, portioning them into the desired shapes, and plating them for service."
+      answer: "B",
+      explanation:
+        "The basic steps for fabricating a pave from a drawn fish include cleaning the fish, filleting it to remove the bones, trimming the fillets, portioning them into the desired shapes, and plating them for service.",
     },
     {
-      question: "What factors should be considered when analyzing labor costs in conjunction with the yield test?",
+      question:
+        "What factors should be considered when analyzing labor costs in conjunction with the yield test?",
       choice: [
         "A. Employee wages, working hours, skill level, training, and efficiency",
         "B. Equipment cost, facility size, utility bills, raw material cost, and waste",
         "C. Market demand, seasonality, supplier pricing, product popularity, and competition",
-        "D. Packaging, transportation, storage, marketing, and customer service"
+        "D. Packaging, transportation, storage, marketing, and customer service",
       ],
-      correctAnswer: "A",
-      explanation: "When analyzing labor costs in conjunction with the yield test, factors such as employee wages, working hours, skill level, training, and efficiency should be considered to ensure cost-effective production."
+      answer: "A",
+      explanation:
+        "When analyzing labor costs in conjunction with the yield test, factors such as employee wages, working hours, skill level, training, and efficiency should be considered to ensure cost-effective production.",
     },
     {
-      question: "Explain how fabrication may affect profitability in-house as opposed to purchasing pre-fabricated product.",
+      question:
+        "Explain how fabrication may affect profitability in-house as opposed to purchasing pre-fabricated product.",
       choice: [
         "A. Fabrication in-house may increase waste but reduce labor costs",
         "B. Fabrication in-house may reduce waste and increase labor costs",
         "C. Fabrication in-house may reduce overall costs but require skilled labor",
-        "D. Fabrication in-house may increase overall costs but reduce the need for skilled labor"
+        "D. Fabrication in-house may increase overall costs but reduce the need for skilled labor",
       ],
-      correctAnswer: "C",
-      explanation: "Fabrication in-house may affect profitability by reducing overall costs, as purchasing whole fish is typically cheaper than pre-fabricated products. However, it requires skilled labor to process the fish efficiently and minimize waste, which can impact labor costs."
+      answer: "C",
+      explanation:
+        "Fabrication in-house may affect profitability by reducing overall costs, as purchasing whole fish is typically cheaper than pre-fabricated products. However, it requires skilled labor to process the fish efficiently and minimize waste, which can impact labor costs.",
     },
     {
       question:
@@ -1308,17 +1316,24 @@ const questions = {
         "Blast freezing circulates extremely cold air over seafood to quickly freeze it, locking in freshness and quality.",
     },
   ],
+  //
+  //
+  //
+  //
+  //
   flatCut: [
     {
-      question: "Describe the correct storage procedure for flat and round fish.",
+      question:
+        "Describe the correct storage procedure for flat and round fish.",
       choice: [
         "A. Store at room temperature.",
         "B. Store on ice and cover with plastic wrap.",
         "C. Store in a sealed container without ice.",
-        "D. Store in a refrigerator without any covering."
+        "D. Store in a refrigerator without any covering.",
       ],
-      correctAnswer: "B",
-      explanation: "The correct storage procedure for flat and round fish is to store them on ice and cover them with plastic wrap. This helps maintain the fish's freshness by keeping it cold and preventing exposure to air."
+      answer: "B",
+      explanation:
+        "The correct storage procedure for flat and round fish is to store them on ice and cover them with plastic wrap. This helps maintain the fish's freshness by keeping it cold and preventing exposure to air.",
     },
     {
       question: "What are four main characteristics of flatfish?",
@@ -1326,21 +1341,24 @@ const questions = {
         "A. Round body, single dorsal fin, both eyes on one side, lives on the sea floor",
         "B. Oval body, two dorsal fins, eyes on opposite sides, swims in the water column",
         "C. Flat body, both eyes on one side, asymmetrical, lives on the sea floor",
-        "D. Flat body, single dorsal fin, symmetrical, swims near the surface"
+        "D. Flat body, single dorsal fin, symmetrical, swims near the surface",
       ],
-      correctAnswer: "C",
-      explanation: "Flatfish are characterized by a flat body, both eyes on one side, asymmetrical shape, and they typically live on the sea floor."
+      answer: "C",
+      explanation:
+        "Flatfish are characterized by a flat body, both eyes on one side, asymmetrical shape, and they typically live on the sea floor.",
     },
     {
-      question: "How do you determine if a flatfish is left-eyed or right-eyed?",
+      question:
+        "How do you determine if a flatfish is left-eyed or right-eyed?",
       choice: [
         "A. By the color of its scales",
         "B. By the position of its mouth",
         "C. By the side on which its eyes are located",
-        "D. By the shape of its fins"
+        "D. By the shape of its fins",
       ],
-      correctAnswer: "C",
-      explanation: "A flatfish is determined to be left-eyed or right-eyed based on the side of its body on which its eyes are located."
+      answer: "C",
+      explanation:
+        "A flatfish is determined to be left-eyed or right-eyed based on the side of its body on which its eyes are located.",
     },
     {
       question: "Why is Dover Sole so highly acclaimed?",
@@ -1348,10 +1366,11 @@ const questions = {
         "A. Because of its high fat content",
         "B. Because of its mild flavor and firm texture",
         "C. Because of its bright colors",
-        "D. Because it is easy to catch"
+        "D. Because it is easy to catch",
       ],
-      correctAnswer: "B",
-      explanation: "Dover Sole is highly acclaimed for its mild flavor and firm texture, making it a favorite among chefs and seafood lovers."
+      answer: "B",
+      explanation:
+        "Dover Sole is highly acclaimed for its mild flavor and firm texture, making it a favorite among chefs and seafood lovers.",
     },
     {
       question: "Why are flatfish bones good for fish stock or fumet?",
@@ -1359,10 +1378,11 @@ const questions = {
         "A. They dissolve easily in water",
         "B. They contain high amounts of fat",
         "C. They add a rich, gelatinous quality to the stock",
-        "D. They are easy to break"
+        "D. They are easy to break",
       ],
-      correctAnswer: "C",
-      explanation: "Flatfish bones are good for fish stock or fumet because they add a rich, gelatinous quality to the stock, enhancing its flavor and texture."
+      answer: "C",
+      explanation:
+        "Flatfish bones are good for fish stock or fumet because they add a rich, gelatinous quality to the stock, enhancing its flavor and texture.",
     },
     {
       question: "List and describe appropriate cooking methods for flat fish.",
@@ -1370,32 +1390,37 @@ const questions = {
         "A. Frying, steaming, poaching, and baking",
         "B. Grilling, boiling, sautéing, and roasting",
         "C. Boiling, frying, grilling, and baking",
-        "D. Steaming, boiling, grilling, and poaching"
+        "D. Steaming, boiling, grilling, and poaching",
       ],
-      correctAnswer: "A",
-      explanation: "Appropriate cooking methods for flat fish include frying, steaming, poaching, and baking. These methods help preserve the delicate texture and flavor of the fish."
+      answer: "A",
+      explanation:
+        "Appropriate cooking methods for flat fish include frying, steaming, poaching, and baking. These methods help preserve the delicate texture and flavor of the fish.",
     },
     {
-      question: "What is meant by high or low activity as it pertains to fin fish?",
+      question:
+        "What is meant by high or low activity as it pertains to fin fish?",
       choice: [
         "A. It refers to the speed at which the fish swims",
         "B. It refers to the level of activity in the fish's natural habitat",
         "C. It refers to the amount of exercise the fish gets",
-        "D. It refers to the fat content and muscle structure of the fish"
+        "D. It refers to the fat content and muscle structure of the fish",
       ],
-      correctAnswer: "D",
-      explanation: "High or low activity as it pertains to fin fish refers to the fat content and muscle structure of the fish. High activity fish tend to have leaner, more muscular flesh, while low activity fish are often fattier."
+      answer: "D",
+      explanation:
+        "High or low activity as it pertains to fin fish refers to the fat content and muscle structure of the fish. High activity fish tend to have leaner, more muscular flesh, while low activity fish are often fattier.",
     },
     {
-      question: "Which fish would not be considered for Kosher and Halal and why?",
+      question:
+        "Which fish would not be considered for Kosher and Halal and why?",
       choice: [
         "A. Catfish, because it lacks scales",
         "B. Salmon, because it is a carnivorous fish",
         "C. Trout, because it lives in freshwater",
-        "D. Tuna, because it is a predatory fish"
+        "D. Tuna, because it is a predatory fish",
       ],
-      correctAnswer: "A",
-      explanation: "Catfish would not be considered for Kosher and Halal because it lacks scales, which is a requirement for fish to be considered Kosher and Halal."
+      answer: "A",
+      explanation:
+        "Catfish would not be considered for Kosher and Halal because it lacks scales, which is a requirement for fish to be considered Kosher and Halal.",
     },
     {
       question: "What are the common names for Dover Sole?",
@@ -2352,126 +2377,151 @@ const questions = {
         "The recommended cutting method for Curlfin Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
   ],
+  //
+  //
+  //
+  //
+  //
   straightCut: [
     {
       question: "Define Anadromous and Catadromous.",
       choice: [
-        "A. Anadromous fish live in freshwater and migrate to the sea to spawn; Catadromous fish live in the sea and migrate to freshwater to spawn.",
-        "B. Anadromous fish migrate from the sea to freshwater to spawn; Catadromous fish migrate from freshwater to the sea to spawn.",
-        "C. Anadromous fish migrate between different freshwater bodies; Catadromous fish migrate between different sea areas.",
-        "D. Anadromous fish do not migrate; Catadromous fish migrate from freshwater to brackish water."
+        "Anadromous fish live in freshwater and migrate to the sea to spawn; Catadromous fish live in the sea and migrate to freshwater to spawn.",
+        "Anadromous fish migrate from the sea to freshwater to spawn; Catadromous fish migrate from freshwater to the sea to spawn.",
+        "Anadromous fish migrate between different freshwater bodies; Catadromous fish migrate between different sea areas.",
+        "Anadromous fish do not migrate; Catadromous fish migrate from freshwater to brackish water.",
       ],
-      correctAnswer: "B",
-      explanation: "Anadromous fish, such as salmon, are born in freshwater, migrate to the ocean to grow, and return to freshwater to spawn. Catadromous fish, such as eels, are born in the ocean, migrate to freshwater to grow, and return to the ocean to spawn."
+      answer: "Anadromous fish migrate from the sea to freshwater to spawn; Catadromous fish migrate from freshwater to the sea to spawn.",
+      explanation:
+        "Anadromous fish, such as salmon, are born in freshwater, migrate to the ocean to grow, and return to freshwater to spawn. Catadromous fish, such as eels, are born in the ocean, migrate to freshwater to grow, and return to the ocean to spawn.",
     },
     {
       question: "Differentiate between Atlantic Farm-raised Salmon and Pacific King Salmon.",
       choice: [
-        "A. Atlantic Farm-raised Salmon are wild-caught; Pacific King Salmon are farm-raised.",
-        "B. Atlantic Farm-raised Salmon have a richer flavor; Pacific King Salmon have a milder flavor.",
-        "C. Atlantic Farm-raised Salmon are typically higher in fat and have a milder flavor; Pacific King Salmon have a richer, more robust flavor.",
-        "D. Atlantic Farm-raised Salmon are found in the Pacific Ocean; Pacific King Salmon are found in the Atlantic Ocean."
+        "Atlantic Farm-raised Salmon are wild-caught; Pacific King Salmon are farm-raised.",
+        "Atlantic Farm-raised Salmon have a richer flavor; Pacific King Salmon have a milder flavor.",
+        "Atlantic Farm-raised Salmon are typically higher in fat and have a milder flavor; Pacific King Salmon have a richer, more robust flavor.",
+        "Atlantic Farm-raised Salmon are found in the Pacific Ocean; Pacific King Salmon are found in the Atlantic Ocean.",
       ],
-      correctAnswer: "C",
-      explanation: "Atlantic Farm-raised Salmon are generally fattier and have a milder taste due to their farming conditions, while Pacific King Salmon are known for their higher oil content and more intense flavor, attributed to their natural ocean habitat."
+      answer: "Atlantic Farm-raised Salmon are typically higher in fat and have a milder flavor; Pacific King Salmon have a richer, more robust flavor.",
+      explanation:
+        "Atlantic Farm-raised Salmon are generally fattier and have a milder taste due to their farming conditions, while Pacific King Salmon are known for their higher oil content and more intense flavor, attributed to their natural ocean habitat.",
     },
     {
       question: "Differentiate between Rainbow and Brook Trout.",
       choice: [
-        "A. Rainbow Trout have a distinct pinkish stripe along their sides; Brook Trout have a more speckled appearance.",
-        "B. Rainbow Trout are found in saltwater; Brook Trout are found in freshwater.",
-        "C. Rainbow Trout are larger than Brook Trout.",
-        "D. Rainbow Trout are only found in the Atlantic Ocean; Brook Trout are found worldwide."
+        "Rainbow Trout have a distinct pinkish stripe along their sides; Brook Trout have a more speckled appearance.",
+        "Rainbow Trout are found in saltwater; Brook Trout are found in freshwater.",
+        "Rainbow Trout are larger than Brook Trout.",
+        "Rainbow Trout are only found in the Atlantic Ocean; Brook Trout are found worldwide.",
       ],
-      correctAnswer: "A",
-      explanation: "Rainbow Trout have a distinct pinkish stripe along their sides and are usually found in faster-moving waters, while Brook Trout have a more speckled appearance and are typically found in cooler, slower-moving streams."
+      answer: "Rainbow Trout have a distinct pinkish stripe along their sides; Brook Trout have a more speckled appearance.",
+      explanation:
+        "Rainbow Trout have a distinct pinkish stripe along their sides and are usually found in faster-moving waters, while Brook Trout have a more speckled appearance and are typically found in cooler, slower-moving streams.",
     },
     {
       question: "What cutting technique is used when filleting Salmon or Trout family members?",
       choice: [
-        "A. Butterfly filleting",
-        "B. Steaking",
-        "C. Up-and-over method",
-        "D. Gilling and gutting"
+        "Butterfly filleting",
+        "Steaking",
+        "Up-and-over method",
+        "Gilling and gutting",
       ],
-      correctAnswer: "C",
-      explanation: "The up-and-over method is commonly used when filleting Salmon or Trout family members to ensure clean and even fillets."
+      answer: "Up-and-over method",
+      explanation:
+        "The up-and-over method is commonly used when filleting Salmon or Trout family members to ensure clean and even fillets.",
     },
     {
       question: "What is the name of the sixth fin associated with Salmon or Trout?",
       choice: [
-        "A. Pectoral fin",
-        "B. Pelvic fin",
-        "C. Anal fin",
-        "D. Adipose fin"
+        "Pectoral fin",
+        "Pelvic fin",
+        "Anal fin",
+        "Adipose fin",
       ],
-      correctAnswer: "D",
-      explanation: "The adipose fin is the small, fleshy fin located between the dorsal fin and the caudal fin, which is characteristic of Salmon and Trout species."
+      answer: "Adipose fin",
+      explanation:
+        "The adipose fin is the small, fleshy fin located between the dorsal fin and the caudal fin, which is characteristic of Salmon and Trout species.",
     },
     {
       question: "What round fish bones are good for stock? Why?",
       choice: [
-        "A. Tuna bones, because they are large and fatty",
-        "B. Cod bones, because they add a rich, gelatinous quality to the stock",
-        "C. Salmon bones, because they are high in oil",
-        "D. Bass bones, because they are easy to break down"
+        "Tuna bones, because they are large and fatty",
+        "Cod bones, because they add a rich, gelatinous quality to the stock",
+        "Salmon bones, because they are high in oil",
+        "Bass bones, because they are easy to break down",
       ],
-      correctAnswer: "B",
-      explanation: "Cod bones are good for stock because they add a rich, gelatinous quality, which enhances the flavor and texture of the stock."
+      answer: "Cod bones, because they add a rich, gelatinous quality to the stock",
+      explanation:
+        "Cod bones are good for stock because they add a rich, gelatinous quality, which enhances the flavor and texture of the stock.",
     },
     {
       question: "What are the names of the members of the Cod family?",
       choice: [
-        "A. Haddock, Pollock, Hake, and Whiting",
-        "B. Salmon, Trout, and Char",
-        "C. Bass, Grouper, and Snapper",
-        "D. Mahi Mahi, Tuna, and Swordfish"
+        "Haddock, Pollock, Hake, and Whiting",
+        "Salmon, Trout, and Char",
+        "Bass, Grouper, and Snapper",
+        "Mahi Mahi, Tuna, and Swordfish",
       ],
-      correctAnswer: "A",
-      explanation: "Members of the Cod family include Haddock, Pollock, Hake, and Whiting, which are all similar in structure and taste."
+      answer: "Haddock, Pollock, Hake, and Whiting",
+      explanation:
+        "Members of the Cod family include Haddock, Pollock, Hake, and Whiting, which are all similar in structure and taste.",
     },
     {
       question: "What are five identifiable characteristics of Atlantic Cod?",
       choice: [
-        "A. Blue-green color, smooth scales, small fins, freshwater habitat, large size",
-        "B. Brownish color, large head, white lateral line, three dorsal fins, large size",
-        "C. Silver color, small head, two dorsal fins, deep body, freshwater habitat",
-        "D. Red color, small size, thin body, one dorsal fin, saltwater habitat"
+        "Blue-green color, smooth scales, small fins, freshwater habitat, large size",
+        "Brownish color, large head, white lateral line, three dorsal fins, large size",
+        "Silver color, small head, two dorsal fins, deep body, freshwater habitat",
+        "Red color, small size, thin body, one dorsal fin, saltwater habitat",
       ],
-      correctAnswer: "B",
-      explanation: "Atlantic Cod are identified by their brownish color, large head, white lateral line, three dorsal fins, and large size."
+      answer: "Brownish color, large head, white lateral line, three dorsal fins, large size",
+      explanation:
+        "Atlantic Cod are identified by their brownish color, large head, white lateral line, three dorsal fins, and large size.",
     },
     {
       question: "What cutting technique is used when filleting Cod family members?",
       choice: [
-        "A. Butterfly filleting",
-        "B. Steaking",
-        "C. Up-and-over method",
-        "D. J-cut"
+        "Butterfly filleting",
+        "Steaking",
+        "Up-and-over method",
+        "J-cut",
       ],
-      correctAnswer: "D",
-      explanation: "The J-cut is a technique used when filleting Cod family members to remove the pin bones and ensure a clean fillet."
+      answer: "J-cut",
+      explanation:
+        "The J-cut is a technique used when filleting Cod family members to remove the pin bones and ensure a clean fillet.",
     },
     {
       question: "What round fish bones are good for stock? Why?",
       choice: [
-        "A. Tuna bones, because they are large and fatty",
-        "B. Cod bones, because they add a rich, gelatinous quality to the stock",
-        "C. Salmon bones, because they are high in oil",
-        "D. Bass bones, because they are easy to break down"
+        "Tuna bones, because they are large and fatty",
+        "Cod bones, because they add a rich, gelatinous quality to the stock",
+        "Salmon bones, because they are high in oil",
+        "Bass bones, because they are easy to break down",
       ],
-      correctAnswer: "B",
-      explanation: "Cod bones are good for stock because they add a rich, gelatinous quality, which enhances the flavor and texture of the stock."
+      answer: "Cod bones, because they add a rich, gelatinous quality to the stock",
+      explanation:
+        "Cod bones are good for stock because they add a rich, gelatinous quality, which enhances the flavor and texture of the stock.",
     },
     {
       question: "What is the market size range for cod?",
-      choice: ["0-1.5 pounds", "2.5-10 pounds", "10-25 pounds", "25+ pounds"],
+      choice: [
+        "0-1.5 pounds",
+        "2.5-10 pounds",
+        "10-25 pounds",
+        "25+ pounds",
+      ],
       answer: "2.5-10 pounds",
       explanation: "Market Size for cod ranges from 2.5-10 pounds.",
     },
     {
       question: "What is the term used for salted cod?",
-      choice: ["Bacalao", "Lutefisk", "Gravlax", "Smoked Cod"],
+      choice: [
+        "Bacalao",
+        "Lutefisk",
+        "Gravlax",
+        "Smoked Cod",
+      ],
       answer: "Bacalao",
       explanation: "Salted cod is also known as Bacalao.",
     },
@@ -2483,8 +2533,7 @@ const questions = {
         "A rare disease affecting cod",
         "A part of cod anatomy",
       ],
-      answer:
-        "A parasitic nematode that infects cod and other marine fish species",
+      answer: "A parasitic nematode that infects cod and other marine fish species",
       explanation:
         "Cod worm is a parasitic nematode that infects cod and other marine fish species.",
     },
@@ -2502,7 +2551,12 @@ const questions = {
     },
     {
       question: "What is the recommended cutting method for Atlantic Cod?",
-      choice: ["Up and Over", "Straight Cut", "Butterfly Cut", "Pavé Cut"],
+      choice: [
+        "Up and Over",
+        "Straight Cut",
+        "Butterfly Cut",
+        "Pavé Cut",
+      ],
       answer: "Up and Over",
       explanation:
         "The recommended cutting method for Atlantic Cod is Up and Over.",
@@ -2527,8 +2581,7 @@ const questions = {
         "Small body, silver color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer:
-        "Slender body, distinctive black lateral line, dark blotch above the pectoral fin",
+      answer: "Slender body, distinctive black lateral line, dark blotch above the pectoral fin",
       explanation:
         "Haddock fish are identified by their slender body, distinctive black lateral line, dark blotch above the pectoral fin, and silvery-grey color.",
     },
@@ -2540,8 +2593,7 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer:
-        "Moderately active, preferring habitats of gravel, pebbles, clay, and smooth hard sand",
+      answer: "Moderately active, preferring habitats of gravel, pebbles, clay, and smooth hard sand",
       explanation:
         "Haddock are moderately active, preferring habitats of gravel, pebbles, clay, and smooth hard sand.",
     },
@@ -2570,16 +2622,19 @@ const questions = {
         "Atlantic cod are marketed in forms such as in the round, fillet, and headed and gutted.",
     },
     {
-      question:
-        "What is the term for a juvenile Atlantic Salmon in its early freshwater stage?",
-      choice: ["Alevin", "Fry", "Parr", "Smolt"],
+      question: "What is the term for a juvenile Atlantic Salmon in its early freshwater stage?",
+      choice: [
+        "Alevin",
+        "Fry",
+        "Parr",
+        "Smolt",
+      ],
       answer: "Alevin",
       explanation:
         "A juvenile Atlantic Salmon in its early freshwater stage is called an Alevin.",
     },
     {
-      question:
-        "What does the term 'Grilse' refer to in the life cycle of Atlantic Salmon?",
+      question: "What does the term 'Grilse' refer to in the life cycle of Atlantic Salmon?",
       choice: [
         "A fish that returns to breed after one sea-winter",
         "A fish that remains in freshwater for its entire life",
@@ -2591,8 +2646,7 @@ const questions = {
         "Grilse refers to a fish that returns to breed after one sea-winter.",
     },
     {
-      question:
-        "What is the texture and flavor profile of farm-raised Atlantic Salmon?",
+      question: "What is the texture and flavor profile of farm-raised Atlantic Salmon?",
       choice: [
         "Mild, slightly sweet flavor with a tender, buttery texture",
         "Strong, fishy flavor with a coarse texture",
@@ -2604,16 +2658,14 @@ const questions = {
         "Farm-raised Atlantic Salmon typically have a mild, slightly sweet flavor with a tender, buttery texture.",
     },
     {
-      question:
-        "What are the identifying characteristics of Pacific King Salmon (Chinook)?",
+      question: "What are the identifying characteristics of Pacific King Salmon (Chinook)?",
       choice: [
         "Large size, distinct black gum line, silvery to white belly with a greenish-blue top and black spotting",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
         "Short body, dark blue color, and sharp teeth",
       ],
-      answer:
-        "Large size, distinct black gum line, silvery to white belly with a greenish-blue top and black spotting",
+      answer: "Large size, distinct black gum line, silvery to white belly with a greenish-blue top and black spotting",
       explanation:
         "Pacific King Salmon (Chinook) are identifiable by their large size, distinct black gum line, and silvery to white belly with a greenish-blue top and black spotting.",
     },
@@ -2625,14 +2677,12 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer:
-        "Highly active, anadromous fish known for extensive oceanic feeding migrations",
+      answer: "Highly active, anadromous fish known for extensive oceanic feeding migrations",
       explanation:
         "Pacific King Salmon (Chinook) are highly active, anadromous fish known for extensive oceanic feeding migrations.",
     },
     {
-      question:
-        "What is the texture and flavor profile of Pacific King Salmon (Chinook)?",
+      question: "What is the texture and flavor profile of Pacific King Salmon (Chinook)?",
       choice: [
         "Pronounced buttery and rich taste, with a high fat content",
         "Strong fishy flavor with a coarse texture",
@@ -2645,7 +2695,12 @@ const questions = {
     },
     {
       question: "What is the term used for Coho Salmon?",
-      choice: ["Silver Salmon", "Red Salmon", "Dog Salmon", "Pink Salmon"],
+      choice: [
+        "Silver Salmon",
+        "Red Salmon",
+        "Dog Salmon",
+        "Pink Salmon",
+      ],
       answer: "Silver Salmon",
       explanation: "Coho Salmon is also known as Silver Salmon.",
     },
@@ -2657,8 +2712,7 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer:
-        "Silver sides, dark blue backs, small black spots on the back and upper lobe of the tail, and a distinctive white gum line",
+      answer: "Silver sides, dark blue backs, small black spots on the back and upper lobe of the tail, and a distinctive white gum line",
       explanation:
         "Coho Salmon are distinguished by their silver sides, dark blue backs, small black spots on the back and upper lobe of the tail, and a distinctive white gum line.",
     },
@@ -2670,8 +2724,7 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer:
-        "Energetic and aggressive behavior, especially during their spawning migration",
+      answer: "Energetic and aggressive behavior, especially during their spawning migration",
       explanation:
         "Coho Salmon are known for their energetic and aggressive behavior, especially during their spawning migration.",
     },
@@ -2689,7 +2742,12 @@ const questions = {
     },
     {
       question: "What is the term used for Sockeye Salmon?",
-      choice: ["Red Salmon", "Silver Salmon", "Dog Salmon", "Pink Salmon"],
+      choice: [
+        "Red Salmon",
+        "Silver Salmon",
+        "Dog Salmon",
+        "Pink Salmon",
+      ],
       answer: "Red Salmon",
       explanation: "Sockeye Salmon is also known as Red Salmon.",
     },
@@ -2701,8 +2759,7 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer:
-        "Bright red body, green head, and slender, streamlined shape during spawning",
+      answer: "Bright red body, green head, and slender, streamlined shape during spawning",
       explanation:
         "Sockeye Salmon are recognized by their bright red body, green head, and slender, streamlined shape during spawning.",
     },
@@ -2714,8 +2771,7 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer:
-        "Highly active, known for their extensive migrations from ocean habitats to freshwater rivers and lakes to spawn",
+      answer: "Highly active, known for their extensive migrations from ocean habitats to freshwater rivers and lakes to spawn",
       explanation:
         "Sockeye Salmon are highly active, known for their extensive migrations from ocean habitats to freshwater rivers and lakes to spawn.",
     },
@@ -2727,14 +2783,18 @@ const questions = {
         "Bland taste with a rubbery texture",
         "Spicy flavor with a crunchy texture",
       ],
-      answer:
-        "Rich, full flavor and deep, vibrant red flesh with a firmer texture",
+      answer: "Rich, full flavor and deep, vibrant red flesh with a firmer texture",
       explanation:
         "Sockeye Salmon is known for its rich, full flavor and deep, vibrant red flesh with a firmer texture.",
     },
     {
       question: "What is the term used for Pink Salmon?",
-      choice: ["Humpback Salmon", "Silver Salmon", "Dog Salmon", "Red Salmon"],
+      choice: [
+        "Humpback Salmon",
+        "Silver Salmon",
+        "Dog Salmon",
+        "Red Salmon",
+      ],
       answer: "Humpback Salmon",
       explanation: "Pink Salmon is also known as Humpback Salmon.",
     },
@@ -2746,8 +2806,7 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer:
-        "Small size, light silver color with large, oval black spots on the back and tail, and a pronounced humpback during spawning",
+      answer: "Small size, light silver color with large, oval black spots on the back and tail, and a pronounced humpback during spawning",
       explanation:
         "Pink Salmon are characterized by their small size, light silver color with large, oval black spots on the back and tail, and a pronounced humpback during spawning.",
     },
@@ -2759,8 +2818,7 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer:
-        "Moderately active, undertaking extensive migrations from ocean habitats to freshwater rivers and streams for spawning",
+      answer: "Moderately active, undertaking extensive migrations from ocean habitats to freshwater rivers and streams for spawning",
       explanation:
         "Pink Salmon are moderately active, undertaking extensive migrations from ocean habitats to freshwater rivers and streams for spawning.",
     },
@@ -2778,7 +2836,12 @@ const questions = {
     },
     {
       question: "What is the term used for Chum Salmon?",
-      choice: ["Dog Salmon", "Silver Salmon", "Red Salmon", "Pink Salmon"],
+      choice: [
+        "Dog Salmon",
+        "Silver Salmon",
+        "Red Salmon",
+        "Pink Salmon",
+      ],
       answer: "Dog Salmon",
       explanation: "Chum Salmon is also known as Dog Salmon.",
     },
@@ -2790,8 +2853,7 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer:
-        "Silvery-blue coloration in the ocean, distinctive purple vertical bars when spawning, characteristic hooked nose, and large size",
+      answer: "Silvery-blue coloration in the ocean, distinctive purple vertical bars when spawning, characteristic hooked nose, and large size",
       explanation:
         "Chum Salmon are identified by their silvery-blue coloration in the ocean, distinctive purple vertical bars when spawning, characteristic hooked nose, and large size.",
     },
@@ -2803,8 +2865,7 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer:
-        "Moderately active, engaging in extensive migrations from ocean habitats to freshwater rivers",
+      answer: "Moderately active, engaging in extensive migrations from ocean habitats to freshwater rivers",
       explanation:
         "Chum Salmon are moderately active, engaging in extensive migrations from ocean habitats to freshwater rivers.",
     },
@@ -2816,8 +2877,7 @@ const questions = {
         "Bland taste with a rubbery texture",
         "Spicy flavor with a crunchy texture",
       ],
-      answer:
-        "Milder flavor compared to other Pacific salmon species, with a firm texture and light pink to white flesh",
+      answer: "Milder flavor compared to other Pacific salmon species, with a firm texture and light pink to white flesh",
       explanation:
         "Chum Salmon typically have a milder flavor compared to other Pacific salmon species, with a firm texture and light pink to white flesh.",
     },
@@ -2829,8 +2889,7 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer:
-        "Elongated body, silvery to olive-green coloration with pale spots, bright orange-red belly, and light-colored fins with white leading edges",
+      answer: "Elongated body, silvery to olive-green coloration with pale spots, bright orange-red belly, and light-colored fins with white leading edges",
       explanation:
         "Arctic Char are identified by their elongated body, silvery to olive-green coloration with pale spots, bright orange-red belly, and light-colored fins with white leading edges.",
     },
@@ -2842,8 +2901,7 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer:
-        "Moderate activity level, engaging in feeding and swimming behaviors throughout the day",
+      answer: "Moderate activity level, engaging in feeding and swimming behaviors throughout the day",
       explanation:
         "Arctic Char typically exhibit a moderate activity level, engaging in feeding and swimming behaviors throughout the day.",
     },
@@ -2855,14 +2913,18 @@ const questions = {
         "Bland taste with a rubbery texture",
         "Spicy flavor with a crunchy texture",
       ],
-      answer:
-        "Delicate flavor similar to trout, with tender, moderately fatty, and pink to orange-red flesh",
+      answer: "Delicate flavor similar to trout, with tender, moderately fatty, and pink to orange-red flesh",
       explanation:
         "Arctic Char has a delicate flavor similar to trout, with tender, moderately fatty, and pink to orange-red flesh.",
     },
     {
       question: "What is the recommended cutting method for Arctic Char?",
-      choice: ["Straight Cut", "Up and Over", "Butterfly Cut", "Pavé Cut"],
+      choice: [
+        "Straight Cut",
+        "Up and Over",
+        "Butterfly Cut",
+        "Pavé Cut",
+      ],
       answer: "Straight Cut",
       explanation:
         "The recommended cutting method for Arctic Char is the Straight Cut.",
@@ -2880,6 +2942,11 @@ const questions = {
         "Common fishing techniques for Arctic Char include fly fishing, spinning, bait casting, and trolling.",
     },
   ],
+  //
+  //
+  //
+  //
+  //
   upAndOver: [
     {
       question:
@@ -5865,8 +5932,8 @@ const questions = {
         "Surf Clam",
         "Cockle",
       ],
-},
-{
+    },
+    {
       image: "Images/Razor Clams(2).png",
       answer: "Razor Clam",
       explanation:
@@ -5878,7 +5945,7 @@ const questions = {
         "Surf Clam",
         "Cockle",
       ],
-},
+    },
     {
       image: "Images/Red Grouper.png",
       answer: "Red Grouper",
