@@ -2391,19 +2391,22 @@ const questions = {
         "Anadromous fish migrate between different freshwater bodies; Catadromous fish migrate between different sea areas.",
         "Anadromous fish do not migrate; Catadromous fish migrate from freshwater to brackish water.",
       ],
-      answer: "Anadromous fish migrate from the sea to freshwater to spawn; Catadromous fish migrate from freshwater to the sea to spawn.",
+      answer:
+        "Anadromous fish migrate from the sea to freshwater to spawn; Catadromous fish migrate from freshwater to the sea to spawn.",
       explanation:
         "Anadromous fish, such as salmon, are born in freshwater, migrate to the ocean to grow, and return to freshwater to spawn. Catadromous fish, such as eels, are born in the ocean, migrate to freshwater to grow, and return to the ocean to spawn.",
     },
     {
-      question: "Differentiate between Atlantic Farm-raised Salmon and Pacific King Salmon.",
+      question:
+        "Differentiate between Atlantic Farm-raised Salmon and Pacific King Salmon.",
       choice: [
         "Atlantic Farm-raised Salmon are wild-caught; Pacific King Salmon are farm-raised.",
         "Atlantic Farm-raised Salmon have a richer flavor; Pacific King Salmon have a milder flavor.",
         "Atlantic Farm-raised Salmon are typically higher in fat and have a milder flavor; Pacific King Salmon have a richer, more robust flavor.",
         "Atlantic Farm-raised Salmon are found in the Pacific Ocean; Pacific King Salmon are found in the Atlantic Ocean.",
       ],
-      answer: "Atlantic Farm-raised Salmon are typically higher in fat and have a milder flavor; Pacific King Salmon have a richer, more robust flavor.",
+      answer:
+        "Atlantic Farm-raised Salmon are typically higher in fat and have a milder flavor; Pacific King Salmon have a richer, more robust flavor.",
       explanation:
         "Atlantic Farm-raised Salmon are generally fattier and have a milder taste due to their farming conditions, while Pacific King Salmon are known for their higher oil content and more intense flavor, attributed to their natural ocean habitat.",
     },
@@ -2415,12 +2418,14 @@ const questions = {
         "Rainbow Trout are larger than Brook Trout.",
         "Rainbow Trout are only found in the Atlantic Ocean; Brook Trout are found worldwide.",
       ],
-      answer: "Rainbow Trout have a distinct pinkish stripe along their sides; Brook Trout have a more speckled appearance.",
+      answer:
+        "Rainbow Trout have a distinct pinkish stripe along their sides; Brook Trout have a more speckled appearance.",
       explanation:
         "Rainbow Trout have a distinct pinkish stripe along their sides and are usually found in faster-moving waters, while Brook Trout have a more speckled appearance and are typically found in cooler, slower-moving streams.",
     },
     {
-      question: "What cutting technique is used when filleting Salmon or Trout family members?",
+      question:
+        "What cutting technique is used when filleting Salmon or Trout family members?",
       choice: [
         "Butterfly filleting",
         "Steaking",
@@ -2432,13 +2437,9 @@ const questions = {
         "The up-and-over method is commonly used when filleting Salmon or Trout family members to ensure clean and even fillets.",
     },
     {
-      question: "What is the name of the sixth fin associated with Salmon or Trout?",
-      choice: [
-        "Pectoral fin",
-        "Pelvic fin",
-        "Anal fin",
-        "Adipose fin",
-      ],
+      question:
+        "What is the name of the sixth fin associated with Salmon or Trout?",
+      choice: ["Pectoral fin", "Pelvic fin", "Anal fin", "Adipose fin"],
       answer: "Adipose fin",
       explanation:
         "The adipose fin is the small, fleshy fin located between the dorsal fin and the caudal fin, which is characteristic of Salmon and Trout species.",
@@ -2451,7 +2452,8 @@ const questions = {
         "Salmon bones, because they are high in oil",
         "Bass bones, because they are easy to break down",
       ],
-      answer: "Cod bones, because they add a rich, gelatinous quality to the stock",
+      answer:
+        "Cod bones, because they add a rich, gelatinous quality to the stock",
       explanation:
         "Cod bones are good for stock because they add a rich, gelatinous quality, which enhances the flavor and texture of the stock.",
     },
@@ -2475,12 +2477,14 @@ const questions = {
         "Silver color, small head, two dorsal fins, deep body, freshwater habitat",
         "Red color, small size, thin body, one dorsal fin, saltwater habitat",
       ],
-      answer: "Brownish color, large head, white lateral line, three dorsal fins, large size",
+      answer:
+        "Brownish color, large head, white lateral line, three dorsal fins, large size",
       explanation:
         "Atlantic Cod are identified by their brownish color, large head, white lateral line, three dorsal fins, and large size.",
     },
     {
-      question: "What cutting technique is used when filleting Cod family members?",
+      question:
+        "What cutting technique is used when filleting Cod family members?",
       choice: [
         "Butterfly filleting",
         "Steaking",
@@ -2499,29 +2503,20 @@ const questions = {
         "Salmon bones, because they are high in oil",
         "Bass bones, because they are easy to break down",
       ],
-      answer: "Cod bones, because they add a rich, gelatinous quality to the stock",
+      answer:
+        "Cod bones, because they add a rich, gelatinous quality to the stock",
       explanation:
         "Cod bones are good for stock because they add a rich, gelatinous quality, which enhances the flavor and texture of the stock.",
     },
     {
       question: "What is the market size range for cod?",
-      choice: [
-        "0-1.5 pounds",
-        "2.5-10 pounds",
-        "10-25 pounds",
-        "25+ pounds",
-      ],
+      choice: ["0-1.5 pounds", "2.5-10 pounds", "10-25 pounds", "25+ pounds"],
       answer: "2.5-10 pounds",
       explanation: "Market Size for cod ranges from 2.5-10 pounds.",
     },
     {
       question: "What is the term used for salted cod?",
-      choice: [
-        "Bacalao",
-        "Lutefisk",
-        "Gravlax",
-        "Smoked Cod",
-      ],
+      choice: ["Bacalao", "Lutefisk", "Gravlax", "Smoked Cod"],
       answer: "Bacalao",
       explanation: "Salted cod is also known as Bacalao.",
     },
@@ -2533,7 +2528,8 @@ const questions = {
         "A rare disease affecting cod",
         "A part of cod anatomy",
       ],
-      answer: "A parasitic nematode that infects cod and other marine fish species",
+      answer:
+        "A parasitic nematode that infects cod and other marine fish species",
       explanation:
         "Cod worm is a parasitic nematode that infects cod and other marine fish species.",
     },
@@ -2551,12 +2547,7 @@ const questions = {
     },
     {
       question: "What is the recommended cutting method for Atlantic Cod?",
-      choice: [
-        "Up and Over",
-        "Straight Cut",
-        "Butterfly Cut",
-        "Pavé Cut",
-      ],
+      choice: ["Up and Over", "Straight Cut", "Butterfly Cut", "Pavé Cut"],
       answer: "Up and Over",
       explanation:
         "The recommended cutting method for Atlantic Cod is Up and Over.",
@@ -2581,7 +2572,8 @@ const questions = {
         "Small body, silver color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer: "Slender body, distinctive black lateral line, dark blotch above the pectoral fin",
+      answer:
+        "Slender body, distinctive black lateral line, dark blotch above the pectoral fin",
       explanation:
         "Haddock fish are identified by their slender body, distinctive black lateral line, dark blotch above the pectoral fin, and silvery-grey color.",
     },
@@ -2593,7 +2585,8 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer: "Moderately active, preferring habitats of gravel, pebbles, clay, and smooth hard sand",
+      answer:
+        "Moderately active, preferring habitats of gravel, pebbles, clay, and smooth hard sand",
       explanation:
         "Haddock are moderately active, preferring habitats of gravel, pebbles, clay, and smooth hard sand.",
     },
@@ -2622,19 +2615,16 @@ const questions = {
         "Atlantic cod are marketed in forms such as in the round, fillet, and headed and gutted.",
     },
     {
-      question: "What is the term for a juvenile Atlantic Salmon in its early freshwater stage?",
-      choice: [
-        "Alevin",
-        "Fry",
-        "Parr",
-        "Smolt",
-      ],
+      question:
+        "What is the term for a juvenile Atlantic Salmon in its early freshwater stage?",
+      choice: ["Alevin", "Fry", "Parr", "Smolt"],
       answer: "Alevin",
       explanation:
         "A juvenile Atlantic Salmon in its early freshwater stage is called an Alevin.",
     },
     {
-      question: "What does the term 'Grilse' refer to in the life cycle of Atlantic Salmon?",
+      question:
+        "What does the term 'Grilse' refer to in the life cycle of Atlantic Salmon?",
       choice: [
         "A fish that returns to breed after one sea-winter",
         "A fish that remains in freshwater for its entire life",
@@ -2646,7 +2636,8 @@ const questions = {
         "Grilse refers to a fish that returns to breed after one sea-winter.",
     },
     {
-      question: "What is the texture and flavor profile of farm-raised Atlantic Salmon?",
+      question:
+        "What is the texture and flavor profile of farm-raised Atlantic Salmon?",
       choice: [
         "Mild, slightly sweet flavor with a tender, buttery texture",
         "Strong, fishy flavor with a coarse texture",
@@ -2658,14 +2649,16 @@ const questions = {
         "Farm-raised Atlantic Salmon typically have a mild, slightly sweet flavor with a tender, buttery texture.",
     },
     {
-      question: "What are the identifying characteristics of Pacific King Salmon (Chinook)?",
+      question:
+        "What are the identifying characteristics of Pacific King Salmon (Chinook)?",
       choice: [
         "Large size, distinct black gum line, silvery to white belly with a greenish-blue top and black spotting",
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
         "Short body, dark blue color, and sharp teeth",
       ],
-      answer: "Large size, distinct black gum line, silvery to white belly with a greenish-blue top and black spotting",
+      answer:
+        "Large size, distinct black gum line, silvery to white belly with a greenish-blue top and black spotting",
       explanation:
         "Pacific King Salmon (Chinook) are identifiable by their large size, distinct black gum line, and silvery to white belly with a greenish-blue top and black spotting.",
     },
@@ -2677,12 +2670,14 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer: "Highly active, anadromous fish known for extensive oceanic feeding migrations",
+      answer:
+        "Highly active, anadromous fish known for extensive oceanic feeding migrations",
       explanation:
         "Pacific King Salmon (Chinook) are highly active, anadromous fish known for extensive oceanic feeding migrations.",
     },
     {
-      question: "What is the texture and flavor profile of Pacific King Salmon (Chinook)?",
+      question:
+        "What is the texture and flavor profile of Pacific King Salmon (Chinook)?",
       choice: [
         "Pronounced buttery and rich taste, with a high fat content",
         "Strong fishy flavor with a coarse texture",
@@ -2695,12 +2690,7 @@ const questions = {
     },
     {
       question: "What is the term used for Coho Salmon?",
-      choice: [
-        "Silver Salmon",
-        "Red Salmon",
-        "Dog Salmon",
-        "Pink Salmon",
-      ],
+      choice: ["Silver Salmon", "Red Salmon", "Dog Salmon", "Pink Salmon"],
       answer: "Silver Salmon",
       explanation: "Coho Salmon is also known as Silver Salmon.",
     },
@@ -2712,7 +2702,8 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer: "Silver sides, dark blue backs, small black spots on the back and upper lobe of the tail, and a distinctive white gum line",
+      answer:
+        "Silver sides, dark blue backs, small black spots on the back and upper lobe of the tail, and a distinctive white gum line",
       explanation:
         "Coho Salmon are distinguished by their silver sides, dark blue backs, small black spots on the back and upper lobe of the tail, and a distinctive white gum line.",
     },
@@ -2724,7 +2715,8 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer: "Energetic and aggressive behavior, especially during their spawning migration",
+      answer:
+        "Energetic and aggressive behavior, especially during their spawning migration",
       explanation:
         "Coho Salmon are known for their energetic and aggressive behavior, especially during their spawning migration.",
     },
@@ -2742,12 +2734,7 @@ const questions = {
     },
     {
       question: "What is the term used for Sockeye Salmon?",
-      choice: [
-        "Red Salmon",
-        "Silver Salmon",
-        "Dog Salmon",
-        "Pink Salmon",
-      ],
+      choice: ["Red Salmon", "Silver Salmon", "Dog Salmon", "Pink Salmon"],
       answer: "Red Salmon",
       explanation: "Sockeye Salmon is also known as Red Salmon.",
     },
@@ -2759,7 +2746,8 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer: "Bright red body, green head, and slender, streamlined shape during spawning",
+      answer:
+        "Bright red body, green head, and slender, streamlined shape during spawning",
       explanation:
         "Sockeye Salmon are recognized by their bright red body, green head, and slender, streamlined shape during spawning.",
     },
@@ -2771,7 +2759,8 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer: "Highly active, known for their extensive migrations from ocean habitats to freshwater rivers and lakes to spawn",
+      answer:
+        "Highly active, known for their extensive migrations from ocean habitats to freshwater rivers and lakes to spawn",
       explanation:
         "Sockeye Salmon are highly active, known for their extensive migrations from ocean habitats to freshwater rivers and lakes to spawn.",
     },
@@ -2783,18 +2772,14 @@ const questions = {
         "Bland taste with a rubbery texture",
         "Spicy flavor with a crunchy texture",
       ],
-      answer: "Rich, full flavor and deep, vibrant red flesh with a firmer texture",
+      answer:
+        "Rich, full flavor and deep, vibrant red flesh with a firmer texture",
       explanation:
         "Sockeye Salmon is known for its rich, full flavor and deep, vibrant red flesh with a firmer texture.",
     },
     {
       question: "What is the term used for Pink Salmon?",
-      choice: [
-        "Humpback Salmon",
-        "Silver Salmon",
-        "Dog Salmon",
-        "Red Salmon",
-      ],
+      choice: ["Humpback Salmon", "Silver Salmon", "Dog Salmon", "Red Salmon"],
       answer: "Humpback Salmon",
       explanation: "Pink Salmon is also known as Humpback Salmon.",
     },
@@ -2806,7 +2791,8 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer: "Small size, light silver color with large, oval black spots on the back and tail, and a pronounced humpback during spawning",
+      answer:
+        "Small size, light silver color with large, oval black spots on the back and tail, and a pronounced humpback during spawning",
       explanation:
         "Pink Salmon are characterized by their small size, light silver color with large, oval black spots on the back and tail, and a pronounced humpback during spawning.",
     },
@@ -2818,7 +2804,8 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer: "Moderately active, undertaking extensive migrations from ocean habitats to freshwater rivers and streams for spawning",
+      answer:
+        "Moderately active, undertaking extensive migrations from ocean habitats to freshwater rivers and streams for spawning",
       explanation:
         "Pink Salmon are moderately active, undertaking extensive migrations from ocean habitats to freshwater rivers and streams for spawning.",
     },
@@ -2836,12 +2823,7 @@ const questions = {
     },
     {
       question: "What is the term used for Chum Salmon?",
-      choice: [
-        "Dog Salmon",
-        "Silver Salmon",
-        "Red Salmon",
-        "Pink Salmon",
-      ],
+      choice: ["Dog Salmon", "Silver Salmon", "Red Salmon", "Pink Salmon"],
       answer: "Dog Salmon",
       explanation: "Chum Salmon is also known as Dog Salmon.",
     },
@@ -2853,7 +2835,8 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer: "Silvery-blue coloration in the ocean, distinctive purple vertical bars when spawning, characteristic hooked nose, and large size",
+      answer:
+        "Silvery-blue coloration in the ocean, distinctive purple vertical bars when spawning, characteristic hooked nose, and large size",
       explanation:
         "Chum Salmon are identified by their silvery-blue coloration in the ocean, distinctive purple vertical bars when spawning, characteristic hooked nose, and large size.",
     },
@@ -2865,7 +2848,8 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer: "Moderately active, engaging in extensive migrations from ocean habitats to freshwater rivers",
+      answer:
+        "Moderately active, engaging in extensive migrations from ocean habitats to freshwater rivers",
       explanation:
         "Chum Salmon are moderately active, engaging in extensive migrations from ocean habitats to freshwater rivers.",
     },
@@ -2877,7 +2861,8 @@ const questions = {
         "Bland taste with a rubbery texture",
         "Spicy flavor with a crunchy texture",
       ],
-      answer: "Milder flavor compared to other Pacific salmon species, with a firm texture and light pink to white flesh",
+      answer:
+        "Milder flavor compared to other Pacific salmon species, with a firm texture and light pink to white flesh",
       explanation:
         "Chum Salmon typically have a milder flavor compared to other Pacific salmon species, with a firm texture and light pink to white flesh.",
     },
@@ -2889,7 +2874,8 @@ const questions = {
         "Small size, bright red color, and smooth skin",
         "Elongated body, dark green back, and white belly",
       ],
-      answer: "Elongated body, silvery to olive-green coloration with pale spots, bright orange-red belly, and light-colored fins with white leading edges",
+      answer:
+        "Elongated body, silvery to olive-green coloration with pale spots, bright orange-red belly, and light-colored fins with white leading edges",
       explanation:
         "Arctic Char are identified by their elongated body, silvery to olive-green coloration with pale spots, bright orange-red belly, and light-colored fins with white leading edges.",
     },
@@ -2901,7 +2887,8 @@ const questions = {
         "Low activity, staying close to the seabed",
         "Inactive, resting in coral reefs",
       ],
-      answer: "Moderate activity level, engaging in feeding and swimming behaviors throughout the day",
+      answer:
+        "Moderate activity level, engaging in feeding and swimming behaviors throughout the day",
       explanation:
         "Arctic Char typically exhibit a moderate activity level, engaging in feeding and swimming behaviors throughout the day.",
     },
@@ -2913,18 +2900,14 @@ const questions = {
         "Bland taste with a rubbery texture",
         "Spicy flavor with a crunchy texture",
       ],
-      answer: "Delicate flavor similar to trout, with tender, moderately fatty, and pink to orange-red flesh",
+      answer:
+        "Delicate flavor similar to trout, with tender, moderately fatty, and pink to orange-red flesh",
       explanation:
         "Arctic Char has a delicate flavor similar to trout, with tender, moderately fatty, and pink to orange-red flesh.",
     },
     {
       question: "What is the recommended cutting method for Arctic Char?",
-      choice: [
-        "Straight Cut",
-        "Up and Over",
-        "Butterfly Cut",
-        "Pavé Cut",
-      ],
+      choice: ["Straight Cut", "Up and Over", "Butterfly Cut", "Pavé Cut"],
       answer: "Straight Cut",
       explanation:
         "The recommended cutting method for Arctic Char is the Straight Cut.",
@@ -5662,499 +5645,258 @@ const questions = {
         "Non-metallic spoons, like mother of pearl or ivory, are used to avoid altering the taste of caviar.",
     },
   ],
+  //
+  //
+  //
+  //
+  //
   FishID: [
     {
-      image: "Images/Acadian Red Perch.png",
-      answer: "Acadian Red Perch",
-      explanation:
-        "The Acadian Red Perch is identifiable by its distinct red color and shape.",
-      choice: [
-        "Acadian Red Perch",
-        "Atlantic Redfish",
-        "Rosefish",
-        "Ocean Perch",
-        "Vermillion Snapper",
-      ],
-    },
-    {
-      image: "Images/Albacore Tuna.png",
-      answer: "Albacore Tuna",
-      explanation:
-        "Albacore Tuna is characterized by its streamlined body and dark blue upper side.",
-      choice: [
-        "Albacore Tuna",
-        "Yellowfin Tuna",
-        "Bigeye Tuna",
-        "Bluefin Tuna",
-        "Skipjack Tuna",
-      ],
-    },
-    {
       image: "Images/Arctic Char.png",
+      question: "",
       answer: "Arctic Char",
       explanation:
-        "Arctic Char can be identified by its light-colored spots and streamlined body.",
+        "The Arctic Char is identifiable by its unique coloration and the presence of light spots.",
       choice: [
         "Arctic Char",
+        "Atlantic Salmon",
         "Brook Trout",
-        "Lake Trout",
         "Rainbow Trout",
-        "Dolly Varden",
+        "Brown Trout",
       ],
     },
     {
-      image: "Images/Atlantic Salmon.png",
-      answer: "Atlantic Salmon",
+      image: "Images/Atlantic Cod.png",
+      question: "",
+      answer: "Atlantic Cod",
       explanation:
-        "Atlantic Farm Raised Salmon has a silver body with distinct spots and a streamlined shape.",
+        "The Atlantic Cod is identifiable by its distinct three dorsal fins and a prominent chin barbel.",
+      choice: ["Atlantic Cod", "Haddock", "Pollock", "Pacific Cod", "Cusk"],
+    },
+    {
+      image: "Images/Atlantic Farm Raised Salmon.png",
+      question: "",
+      answer: "Atlantic Farm Raised Salmon",
+      explanation:
+        "Atlantic Farm Raised Salmon is known for its silver-blue body with small black spots.",
       choice: [
-        "Atlantic Salmon",
-        "Chinook Salmon",
+        "Atlantic Farm Raised Salmon",
+        "Pacific King Salmon",
         "Coho Salmon",
+        "Chum Salmon",
+        "Sockeye Salmon",
+      ],
+    },
+    {
+      image: "Images/Atlantic Pollock.png",
+      question: "",
+      answer: "Atlantic Pollock",
+      explanation:
+        "Atlantic Pollock can be recognized by its elongated body and a lateral line that is pale and straight.",
+      choice: [
+        "Atlantic Pollock",
+        "Pacific Pollock",
+        "Atlantic Cod",
+        "Haddock",
+        "Whiting",
+      ],
+    },
+    {
+      image: "Images/Brook Trout.png",
+      question: "",
+      answer: "Brook Trout",
+      explanation:
+        "Brook Trout is easily identifiable by its vibrant color pattern with spots and worm-like markings.",
+      choice: [
+        "Brook Trout",
+        "Rainbow Trout",
+        "Brown Trout",
+        "Arctic Char",
+        "Lake Trout",
+      ],
+    },
+    {
+      image: "Images/Chum Salmon.png",
+      question: "",
+      answer: "Chum Salmon",
+      explanation:
+        "Chum Salmon is characterized by its distinct coloration with vertical stripes during spawning.",
+      choice: [
+        "Chum Salmon",
+        "Sockeye Salmon",
+        "Coho Salmon",
+        "Pink Salmon",
+        "Atlantic Salmon",
+      ],
+    },
+    {
+      image: "Images/Coho Salmon.png",
+      question: "",
+      answer: "Coho Salmon",
+      explanation:
+        "Coho Salmon has a silver body and small black spots on the back and upper lobe of the caudal fin.",
+      choice: [
+        "Coho Salmon",
+        "Chinook Salmon",
         "Sockeye Salmon",
         "Pink Salmon",
-      ],
-    },
-    {
-      image: "Images/Black Cod.png",
-      answer: "Black Cod",
-      explanation:
-        "Black Cod, also known as Sablefish or Butterfish, has a dark, sleek body.",
-      choice: [
-        "Black Cod",
-        "Pacific Cod",
-        "Greenland Halibut",
-        "Arrowtooth Flounder",
-        "Atlantic Cod",
-      ],
-    },
-    {
-      image: "Images/Black Sea Bass.png",
-      answer: "Black Sea Bass",
-      explanation:
-        "Black Sea Bass is known for its dark body and spiny dorsal fin.",
-      choice: [
-        "Black Sea Bass",
-        "Striped Bass",
-        "White Sea Bass",
-        "Bluefish",
-        "Tautog",
+        "Atlantic Salmon",
       ],
     },
     {
       image: "Images/Cusk.png",
+      question: "",
       answer: "Cusk",
       explanation:
-        "Cusk can be identified by its elongated body and mottled coloring.",
-      choice: ["Cusk", "Lingcod", "Burbot", "Hake", "Pollock"],
+        "Cusk is identifiable by its elongated body and continuous dorsal and anal fins.",
+      choice: ["Cusk", "Atlantic Cod", "Pollock", "Haddock", "Lingcod"],
     },
     {
-      image: "Images/Dover Sole.png",
-      answer: "Dover Sole",
+      image: "Images/Haddock.png",
+      question: "",
+      answer: "Haddock",
       explanation:
-        "Dover Sole is recognized by its flat body and small, curved mouth.",
+        "Haddock can be recognized by the black 'thumbprint' mark on each side of its body above the pectoral fin.",
+      choice: ["Haddock", "Atlantic Cod", "Pollock", "Whiting", "Hake"],
+    },
+    {
+      image: "Images/Pacific King Salmon.png",
+      question: "",
+      answer: "Pacific King Salmon",
+      explanation:
+        "Pacific King Salmon is known for its large size and black spots on its back and both lobes of the tail.",
       choice: [
-        "Dover Sole",
-        "Lemon Sole",
-        "Petrale Sole",
-        "Rex Sole",
-        "Sand Sole",
+        "Pacific King Salmon",
+        "Atlantic Salmon",
+        "Coho Salmon",
+        "Sockeye Salmon",
+        "Chum Salmon",
+      ],
+    },
+    {
+      image: "Images/Pacific Pollock.png",
+      question: "",
+      answer: "Pacific Pollock",
+      explanation:
+        "Pacific Pollock is known for its mottled color pattern and three dorsal fins.",
+      choice: [
+        "Pacific Pollock",
+        "Atlantic Pollock",
+        "Haddock",
+        "Whiting",
+        "Silver Hake",
+      ],
+    },
+    {
+      image: "Images/Pink Salmon(2).png",
+      question: "",
+      answer: "Pink Salmon",
+      explanation:
+        "Pink Salmon, also known as humpback salmon, is identifiable by its pinkish hue and small size.",
+      choice: [
+        "Pink Salmon",
+        "Chum Salmon",
+        "Sockeye Salmon",
+        "Coho Salmon",
+        "Atlantic Salmon",
+      ],
+    },
+    {
+      image: "Images/Pink Salmon.png",
+      question: "",
+      answer: "Pink Salmon",
+      explanation:
+        "Pink Salmon, also known as humpback salmon, is identifiable by its pinkish hue and small size.",
+      choice: [
+        "Pink Salmon",
+        "Chum Salmon",
+        "Sockeye Salmon",
+        "Coho Salmon",
+        "Atlantic Salmon",
       ],
     },
     {
       image: "Images/Rainbow Trout.png",
+      question: "",
       answer: "Rainbow Trout",
       explanation:
-        "Farm Raised Rainbow Trout has a characteristic pink stripe along its sides.",
+        "Rainbow Trout is recognizable by its colorful, iridescent body and pink streak along its side.",
       choice: [
         "Rainbow Trout",
+        "Brook Trout",
+        "Brown Trout",
         "Steelhead Trout",
-        "Brook Trout",
-        "Cutthroat Trout",
-        "Golden Trout",
+        "Arctic Char",
       ],
     },
     {
-      image: "Images/Fluke.png",
-      answer: "Fluke",
+      image: "Images/Silver Hake.png",
+      question: "",
+      answer: "Silver Hake",
       explanation:
-        "Fluke, also known as Summer Flounder, is a flatfish with both eyes on one side of its body.",
+        "Silver Hake is known for its slender body and silvery color with dark spots.",
       choice: [
-        "Fluke",
-        "Winter Flounder",
-        "Yellowtail Flounder",
-        "Pacific Sanddab",
-        "Starry Flounder",
+        "Silver Hake",
+        "Pacific Hake",
+        "Whiting",
+        "Pollock",
+        "Atlantic Cod",
       ],
     },
     {
-      image: "Images/Haddock.png",
-      answer: "Haddock",
+      image: "Images/Sockeye Salmon.png",
+      question: "",
+      answer: "Sockeye Salmon",
       explanation:
-        "Haddock can be identified by its distinct black lateral line running along its side and a black 'thumbprint' mark above the pectoral fin.",
-      choice: ["Haddock", "Atlantic Cod", "Pollock", "Whiting", "Saithe"],
-    },
-    {
-      image: "Images/Hake.png",
-      answer: "Hake",
-      explanation:
-        "Hake has a slender body, silvery sides, and a large head with a prominent lower jaw.",
-      choice: ["Hake", "Pollock", "Silver pike", "Whiting", "Blue Whiting"],
-    },
-    {
-      image: "Images/Halibut.png",
-      answer: "Halibut",
-      explanation:
-        "Halibut is a large, flat fish with both eyes on one side of its body and a white underside.",
+        "Sockeye Salmon is known for its bright red color during spawning season.",
       choice: [
-        "Halibut",
-        "Turbot",
-        "Greenland Halibut",
-        "Arrowtooth Flounder",
-        "Starry Flounder",
-      ],
-    },
-    {
-      image: "Images/Hybrid Striped Bass.png",
-      answer: "Hybrid Striped Bass",
-      explanation:
-        "Hybrid Striped Bass has a distinctive pattern of broken stripes running along its sides.",
-      choice: [
-        "Hybrid Striped Bass",
-        "Striped Bass",
-        "White Bass",
-        "Black Sea Bass",
-        "Bluefish",
-      ],
-    },
-    {
-      image: "Images/Jonah Crab.png",
-      answer: "Jonah Crab",
-      explanation:
-        "Jonah Crab is recognizable by its robust body and large, powerful claws.",
-      choice: [
-        "Jonah Crab",
-        "Dungeness Crab",
-        "Blue Crab",
-        "Stone Crab",
-        "Snow Crab",
-      ],
-    },
-    {
-      image: "Images/Lane Snapper.png",
-      answer: "Lane Snapper",
-      explanation:
-        "Lane Snapper has a reddish body with a series of yellow stripes running from head to tail.",
-      choice: [
-        "Lane Snapper",
-        "Red Snapper",
-        "Yellowtail Snapper",
-        "Mangrove Snapper",
-        "Mutton Snapper",
-      ],
-    },
-    {
-      image: "Images/Mahi Mahi.png",
-      answer: "Mahi Mahi",
-      explanation:
-        "Mahi Mahi, also known as Dorado or Dolphin fish, has a vibrant blue and green body with a long dorsal fin.",
-      choice: [
-        "Mahi Mahi",
-        "Wahoo",
-        "King Mackerel",
-        "Spanish Mackerel",
-        "Cobia",
-      ],
-    },
-    {
-      image: "Images/Mediterranean Sea Bass.png",
-      answer: "Mediterranean Sea Bass",
-      explanation:
-        "Mediterranean Sea Bass, also known as Loup de Mer or Bronzino, has a sleek, silver body and is popular in Mediterranean cuisine.",
-      choice: [
-        "Mediterranean Sea Bass",
-        "European Sea Bass",
-        "White Sea Bass",
-        "Striped Bass",
-        "Black Sea Bass",
-      ],
-    },
-    {
-      image: "Images/Monk Fish.png",
-      answer: "Monk Fish",
-      explanation:
-        "Monk Fish, also known as Anglerfish, has a large, flat head and a wide mouth filled with sharp teeth.",
-      choice: ["Monk Fish", "Goosefish", "Angelfish", "Sea Raven", "Wolf Fish"],
-    },
-    {
-      image: "Images/Pacific King Salmon.png",
-      answer: "Pacific King Salmon",
-      explanation:
-        "Pacific King Salmon, also known as Chinook, has a silver body with small black spots on its back and tail.",
-      choice: [
-        "Pacific King Salmon",
         "Sockeye Salmon",
-        "Coho Salmon",
         "Chum Salmon",
+        "Coho Salmon",
         "Pink Salmon",
+        "Atlantic Salmon",
       ],
     },
     {
-      image: "Images/Pollock.png",
-      answer: "Pollock",
+      image: "Images/Steelhead Trout.png",
+      question: "",
+      answer: "Steelhead Trout",
       explanation:
-        "Pollock can be identified by its elongated body, a slightly forked tail, and a greenish-brown color with a silver underbelly.",
-      choice: ["Pollock", "Haddock", "Pacific Cod", "Whiting", "Saithe"],
-    },
-    {
-      image: "Images/Pompano.png",
-      answer: "Pompano",
-      explanation:
-        "Pompano has a deep, laterally compressed body with a silver color and a slightly forked tail.",
-      choice: ["Pompano", "Jack Crevalle", "Permit", "Lookdown", "Blue Runner"],
-    },
-    {
-      image: "Images/Porgy.png",
-      answer: "Porgy",
-      explanation:
-        "Porgy, also known as Scup, has a deep, laterally compressed body with a silver color and vertical stripes.",
-      choice: ["Porgy", "Sheepshead", "Black Sea Bass", "Grunt", "Snapper"],
-    },
-    {
-      image: "Images/Razor Clams.png",
-      answer: "Razor Clam",
-      explanation:
-        "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores.",
+        "Steelhead Trout is distinguishable by its streamlined body and silver color, similar to rainbow trout but larger.",
       choice: [
-        "Razor Clam",
-        "Geoduck",
-        "Soft-shell Clam",
-        "Surf Clam",
-        "Cockle",
-      ],
-    },
-    {
-      image: "Images/Razor Clams(2).png",
-      answer: "Razor Clam",
-      explanation:
-        "Razor Clams have elongated, smooth shells and are known for their burrowing ability in sandy shores.",
-      choice: [
-        "Razor Clam",
-        "Geoduck",
-        "Soft-shell Clam",
-        "Surf Clam",
-        "Cockle",
-      ],
-    },
-    {
-      image: "Images/Red Grouper.png",
-      answer: "Red Grouper",
-      explanation:
-        "Red Grouper has a robust, elongated body with a reddish color and white spots.",
-      choice: [
-        "Red Grouper",
-        "Gag Grouper",
-        "Black Grouper",
-        "Scamp Grouper",
-        "Nassau Grouper",
-      ],
-    },
-    {
-      image: "Images/Sardine.png",
-      answer: "Sardine",
-      explanation:
-        "Sardines are small, silvery fish with a single dorsal fin and are commonly found in large schools.",
-      choice: ["Sardine", "Anchovy", "Herring", "Pilchard", "Sprat"],
-    },
-    {
-      image: "Images/Sardine(2).png",
-      answer: "Sardine",
-      explanation:
-        "Sardines are small, silvery fish with a single dorsal fin and are commonly found in large schools.",
-      choice: ["Sardine", "Anchovy", "Herring", "Pilchard", "Sprat"],
-    },
-    {
-      image: "Images/Silk Snapper.png",
-      answer: "Silk Snapper",
-      explanation:
-        "Silk Snapper has a bright red body with yellow hues and a distinct, elongated shape.",
-      choice: [
-        "Silk Snapper",
-        "Red Snapper",
-        "Lane Snapper",
-        "Mutton Snapper",
-        "Yellowtail Snapper",
-      ],
-    },
-    {
-      image: "Images/Skate.png",
-      answer: "Skate",
-      explanation:
-        "Skate is a flat, cartilaginous fish with a diamond-shaped body and wing-like pectoral fins.",
-      choice: ["Skate", "Ray", "Sawfish", "Shark", "Stingray"],
-    },
-    {
-      image: "Images/SwordFish.png",
-      answer: "SwordFish",
-      explanation:
-        "Swordfish is characterized by an elongated, flat bill and a streamlined body with a dark brown to black back and lighter sides and belly.",
-      choice: ["SwordFish", "Marlin", "Sailfish", "Spearfish", "Wahoo"],
-    },
-    {
-      image: "Images/Tile Fish.png",
-      answer: "Tile Fish",
-      explanation:
-        "Tile Fish, also known as Golden Bass, features a long, slender body with a bluish or greenish sheen and yellow or gold spots.",
-      choice: [
-        "Tile Fish",
-        "Blueline Tilefish",
-        "Goldblotch Grouper",
-        "Gag Grouper",
-        "Snowy Grouper",
-      ],
-    },
-    {
-      image: "Images/Turbot(2).png",
-      answer: "Turbot",
-      explanation:
-        "Turbot is a flatfish known for its diamond-shaped body, sandy to dark brown coloration with irregular dark spots, and eyes on the left side.",
-      choice: ["Turbot", "Halibut", "Brill", "Sole", "Flounder"],
-    },
-    {
-      image: "Images/Turbot.png",
-      answer: "Turbot",
-      explanation:
-        "Turbot is a flatfish known for its diamond-shaped body, sandy to dark brown coloration with irregular dark spots, and eyes on the left side.",
-      choice: ["Turbot", "Halibut", "Brill", "Sole", "Flounder"],
-    },
-    {
-      image: "Images/Vermillion Caribbean.png",
-      answer: "Vermillion Caribbean",
-      explanation:
-        "Vermillion Caribbean or Beeliner Snapper has a vibrant red to pinkish body with a streamlined shape and a forked tail.",
-      choice: [
-        "Vermillion Caribbean",
-        "Red Snapper",
-        "Lane Snapper",
-        "Yellowtail Snapper",
-        "Silk Snapper",
-      ],
-    },
-    {
-      image: "Images/Wild Striped Bass.png",
-      answer: "Wild Striped Bass",
-      explanation:
-        "Wild Striped Bass has a sleek, silvery body with dark horizontal stripes running from the gills to the tail.",
-      choice: [
-        "Wild Striped Bass",
-        "Hybrid Striped Bass",
-        "White Bass",
-        "Bluefish",
-        "Black Sea Bass",
-      ],
-    },
-    {
-      image: "Images/Spanish Mackerel.png",
-      answer: "Spanish Mackerel",
-      explanation:
-        "Spanish Mackerel is known for its streamlined body, blue-green back, silver sides, and rows of yellow spots.",
-      choice: [
-        "Spanish Mackerel",
-        "King Mackerel",
-        "Cero Mackerel",
-        "Atlantic Mackerel",
-        "Bluefish",
-      ],
-    },
-    {
-      image: "Images/Steel Head Trout.png",
-      answer: "Steel Head Trout",
-      explanation:
-        "Steel Head Trout has a sleek, streamlined body with a silver belly, a dark olive back, and a pinkish stripe running along its sides.",
-      choice: [
-        "Steel Head Trout",
+        "Steelhead Trout",
         "Rainbow Trout",
-        "Cutthroat Trout",
         "Brook Trout",
-        "Dolly Varden",
+        "Brown Trout",
+        "Cutthroat Trout",
       ],
     },
     {
-      image: "Images/Sturgeon(2).png",
-      answer: "Sturgeon",
+      image: "Images/White Hake.png",
+      question: "",
+      answer: "White Hake",
       explanation:
-        "Sturgeon is recognized by its long, cylindrical body, bony plates along its back, and a shark-like tail fin.",
+        "White Hake is known for its long, slender body and pale coloration with a continuous dorsal fin.",
       choice: [
-        "Sturgeon",
-        "Paddlefish",
-        "Sturddlefish",
-        "Sterlet",
-        "Cuttlefish",
+        "White Hake",
+        "Silver Hake",
+        "Pacific Hake",
+        "Whiting",
+        "Pollock",
       ],
     },
     {
-      image: "Images/Sturgeon.png",
-      answer: "Sturgeon",
+      image: "Images/Whitefish.png",
+      question: "",
+      answer: "Whitefish",
       explanation:
-        "Sturgeon is recognized by its long, cylindrical body, bony plates along its back, and a shark-like tail fin.",
+        "Whitefish is identifiable by its light, silver color and rounded body with a small head.",
       choice: [
-        "Sturgeon",
-        "Paddlefish",
-        "Sturddlefish",
-        "Sterlet",
-        "Cuttlefish",
-      ],
-    },
-    {
-      image: "Images/Winter Flounder.png",
-      answer: "Winter Flounder",
-      explanation:
-        "Winter Flounder is a flatfish known for its dark brown color and small, pointed head.",
-      choice: [
-        "Winter Flounder",
-        "Summer Flounder",
-        "Yellowtail Flounder",
-        "Fourspot Flounder",
-        "Gulf Flounder",
-      ],
-    },
-    {
-      image: "Images/Witch Flounder.png",
-      answer: "Witch Flounder",
-      explanation:
-        "Witch Flounder, also known as Grey Sole, is a flatfish with a darker, greyish-brown body and a more oval shape compared to other flounders.",
-      choice: [
-        "Witch Flounder",
-        "Dover Sole",
-        "Lemon Flounder",
-        "Rex Sole",
-        "Sand Flounder",
-      ],
-    },
-    {
-      image: "Images/Yellow Tail Flounder.png",
-      answer: "Yellow Tail Flounder",
-      explanation:
-        "Yellow Tail Flounder is a flatfish distinguished by its yellowish tail and lighter brown body.",
-      choice: [
-        "Yellow Tail Flounder",
-        "Winter Flounder",
-        "Summer Flounder",
-        "Fourspot Flounder",
-        "Gulf Flounder",
-      ],
-    },
-    {
-      image: "Images/Yellowfin Tuna.png",
-      answer: "Yellowfin Tuna",
-      explanation:
-        "Yellowfin Tuna is a large fish with a distinctively long, yellow dorsal fin and yellow stripe along its body.",
-      choice: [
-        "Yellowfin Tuna",
-        "Bluefin Tuna",
-        "Bigeye Tuna",
-        "Albacore Tuna",
-        "Skipjack Tuna",
+        "Whitefish",
+        "Lake Whitefish",
+        "Cisco",
+        "Rainbow Trout",
+        "Brook Trout",
       ],
     },
   ],
