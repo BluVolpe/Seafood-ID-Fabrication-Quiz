@@ -34,14 +34,16 @@ function shuffleArray(array) {
 function displayQuestion() {
   resetState();
   let currentQuestion;
-  
+
   do {
-    currentQuestionIndex = Math.floor(Math.random() * questions[selectedQuiz].length);
+    currentQuestionIndex = Math.floor(
+      Math.random() * questions[selectedQuiz].length
+    );
   } while (usedQuestions.includes(currentQuestionIndex));
-  
+
   currentQuestion = questions[selectedQuiz][currentQuestionIndex];
   usedQuestions.push(currentQuestionIndex);
-  
+
   questionElement.textContent = currentQuestion.question;
   if (currentQuestion.image) {
     const img = document.createElement("img");
@@ -124,7 +126,8 @@ function endQuiz() {
 
 // Function to display explanations for missed questions
 function displayExplanations() {
-  explanationsContainer.innerHTML = "<h3>Explanations for Missed Questions:</h3>";
+  explanationsContainer.innerHTML =
+    "<h3>Explanations for Missed Questions:</h3>";
   missedQuestions.forEach((question) => {
     const explanationDiv = document.createElement("div");
     explanationDiv.classList.add("explanation");

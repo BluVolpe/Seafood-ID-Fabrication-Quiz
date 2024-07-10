@@ -1316,11 +1316,7 @@ const questions = {
         "Blast freezing circulates extremely cold air over seafood to quickly freeze it, locking in freshness and quality.",
     },
   ],
-  //
-  //
-  //
-  //
-  //
+
   flatCut: [
     {
       question:
@@ -2377,11 +2373,7 @@ const questions = {
         "The recommended cutting method for Curlfin Sole is a flat cut, which is effective for filleting flatfish and ensuring an even and high-quality yield.",
     },
   ],
-  //
-  //
-  //
-  //
-  //
+
   straightCut: [
     {
       question: "Define Anadromous and Catadromous.",
@@ -2925,11 +2917,7 @@ const questions = {
         "Common fishing techniques for Arctic Char include fly fishing, spinning, bait casting, and trolling.",
     },
   ],
-  //
-  //
-  //
-  //
-  //
+
   upAndOver: [
     {
       question:
@@ -5645,11 +5633,7 @@ const questions = {
         "Non-metallic spoons, like mother of pearl or ivory, are used to avoid altering the taste of caviar.",
     },
   ],
-  //
-  //
-  //
-  //
-  //
+
   FishID: [
     {
       image: "Images/Arctic Char.png",
@@ -5897,6 +5881,401 @@ const questions = {
         "Cisco",
         "Rainbow Trout",
         "Brook Trout",
+      ],
+    },
+    {
+      image: "Images/Black Bass.png",
+      question: "",
+      answer: "Black Bass",
+      explanation:
+        "Black Bass is identifiable by its dark color and stout body shape.",
+      choice: [
+        "Black Bass",
+        "Striped Bass",
+        "Largemouth Bass",
+        "Smallmouth Bass",
+        "White Bass",
+      ],
+    },
+    {
+      image: "Images/Blackfin Snapper.png",
+      question: "",
+      answer: "Blackfin Snapper",
+      explanation:
+        "Blackfin Snapper is known for its distinctive black fins and red body.",
+      choice: [
+        "Blackfin Snapper",
+        "Red Snapper",
+        "Yellowtail Snapper",
+        "Lane Snapper",
+        "Mutton Snapper",
+      ],
+    },
+    {
+      image: "Images/Bonito.png",
+      question: "",
+      answer: "Bonito",
+      explanation:
+        "Bonito is identifiable by its streamlined body and unique color pattern on its back.",
+      choice: [
+        "Bonito",
+        "Yellowfin Tuna",
+        "Skipjack Tuna",
+        "Albacore Tuna",
+        "Bluefin Tuna",
+      ],
+    },
+    {
+      image: "Images/Golden Tilefish.png",
+      question: "",
+      answer: "Golden Tilefish",
+      explanation:
+        "Golden Tilefish is known for its vibrant golden color and elongated body.",
+      choice: [
+        "Golden Tilefish",
+        "Blue Tilefish",
+        "Blueline Tilefish",
+        "Sand Tilefish",
+        "Speckled Tilefish",
+      ],
+    },
+    {
+      image: "Images/Greater Amberjack.png",
+      question: "",
+      answer: "Greater Amberjack",
+      explanation:
+        "Greater Amberjack can be recognized by its large size and dark stripe extending from nose to dorsal fin.",
+      choice: [
+        "Greater Amberjack",
+        "Lesser Amberjack",
+        "Almaco Jack",
+        "Yellowtail Amberjack",
+        "Banded Rudderfish",
+      ],
+    },
+    {
+      image: "Images/Hybrid Striped Bass.png",
+      question: "",
+      answer: "Hybrid Striped Bass",
+      explanation:
+        "Hybrid Striped Bass is identifiable by its striped pattern and robust body.",
+      choice: [
+        "Hybrid Striped Bass",
+        "Striped Bass",
+        "White Bass",
+        "Black Bass",
+        "Largemouth Bass",
+      ],
+    },
+    {
+      image: "Images/King Mackerel.png",
+      question: "",
+      answer: "King Mackerel",
+      explanation:
+        "King Mackerel is known for its elongated body and sharp teeth.",
+      choice: [
+        "King Mackerel",
+        "Spanish Mackerel",
+        "Cero Mackerel",
+        "Wahoo",
+        "Bonito",
+      ],
+    },
+    {
+      image: "Images/Almaco Jack.png",
+      question: "",
+      answer: "Almaco Jack",
+      explanation:
+        "Almaco Jack can be identified by its robust body and darker coloration compared to other jacks.",
+      choice: [
+        "Almaco Jack",
+        "Greater Amberjack",
+        "Lesser Amberjack",
+        "Yellowtail Jack",
+        "Banded Rudderfish",
+      ],
+    },
+    {
+      image: "Images/Atlantic Sturgeon.png",
+      question: "",
+      answer: "Atlantic Sturgeon",
+      explanation:
+        "Atlantic Sturgeon is recognizable by its bony plates and elongated body.",
+      choice: [
+        "Atlantic Sturgeon",
+        "White Sturgeon",
+        "Shortnose Sturgeon",
+        "Beluga Sturgeon",
+        "Sterlet Sturgeon",
+      ],
+    },
+    {
+      image: "Images/Banded Rudderfish.png",
+      question: "",
+      answer: "Banded Rudderfish",
+      explanation:
+        "Banded Rudderfish is known for its distinct banded pattern along its body.",
+      choice: [
+        "Banded Rudderfish",
+        "Greater Amberjack",
+        "Almaco Jack",
+        "Lesser Amberjack",
+        "Yellowtail Jack",
+      ],
+    },
+    {
+      image: "Images/Monkfish.png",
+      question: "",
+      answer: "Monkfish",
+      explanation:
+        "Monkfish is identifiable by its large, flattened head and wide mouth.",
+      choice: ["Monkfish", "Anglerfish", "Goosefish", "Frogfish", "Lizardfish"],
+    },
+    {
+      image: "Images/Pacific Albacore Tuna.png",
+      question: "",
+      answer: "Pacific Albacore Tuna",
+      explanation:
+        "Pacific Albacore Tuna is known for its elongated body and long pectoral fins.",
+      choice: [
+        "Pacific Albacore Tuna",
+        "Yellowfin Tuna",
+        "Bluefin Tuna",
+        "Bigeye Tuna",
+        "Skipjack Tuna",
+      ],
+    },
+    {
+      image: "Images/Pacific Bluefin Tuna.png",
+      question: "",
+      answer: "Pacific Bluefin Tuna",
+      explanation:
+        "Pacific Bluefin Tuna is identifiable by its robust body and dark blue color.",
+      choice: [
+        "Pacific Bluefin Tuna",
+        "Yellowfin Tuna",
+        "Bigeye Tuna",
+        "Albacore Tuna",
+        "Skipjack Tuna",
+      ],
+    },
+    {
+      image: "Images/Pacific Mackerel.png",
+      question: "",
+      answer: "Pacific Mackerel",
+      explanation:
+        "Pacific Mackerel is known for its sleek body and distinct coloration.",
+      choice: [
+        "Pacific Mackerel",
+        "Spanish Mackerel",
+        "King Mackerel",
+        "Cero Mackerel",
+        "Bonito",
+      ],
+    },
+    {
+      image: "Images/Pacific Swordfish.png",
+      question: "",
+      answer: "Pacific Swordfish",
+      explanation:
+        "Pacific Swordfish is recognizable by its long, flat bill and streamlined body.",
+      choice: [
+        "Pacific Swordfish",
+        "Marlin",
+        "Sailfish",
+        "Spearfish",
+        "Barracuda",
+      ],
+    },
+    {
+      image: "Images/Permit.png",
+      question: "",
+      answer: "Permit",
+      explanation:
+        "Permit is identifiable by its deep body and large, forked tail.",
+      choice: ["Permit", "Pompano", "Jack Crevalle", "Lookdown", "Trevally"],
+    },
+    {
+      image: "Images/Pompano.png",
+      question: "",
+      answer: "Pompano",
+      explanation: "Pompano is known for its flattened body and silver color.",
+      choice: ["Pompano", "Permit", "Jack Crevalle", "Lookdown", "Trevally"],
+    },
+    {
+      image: "Images/Lane Snapper.png",
+      question: "",
+      answer: "Lane Snapper",
+      explanation:
+        "Lane Snapper is identifiable by its pinkish-red color and yellow horizontal stripes.",
+      choice: [
+        "Lane Snapper",
+        "Red Snapper",
+        "Yellowtail Snapper",
+        "Mutton Snapper",
+        "Mangrove Snapper",
+      ],
+    },
+    {
+      image: "Images/Lesser Amberjack.png",
+      question: "",
+      answer: "Lesser Amberjack",
+      explanation:
+        "Lesser Amberjack can be recognized by its elongated body and dark band running from the eye to the dorsal fin.",
+      choice: [
+        "Lesser Amberjack",
+        "Greater Amberjack",
+        "Almaco Jack",
+        "Yellowtail Jack",
+        "Banded Rudderfish",
+      ],
+    },
+    {
+      image: "Images/Mahi-Mahi.png",
+      question: "",
+      answer: "Mahi-Mahi",
+      explanation:
+        "Mahi-Mahi is known for its vibrant colors and distinctive shape with a steep forehead.",
+      choice: [
+        "Mahi-Mahi",
+        "Yellowtail",
+        "Wahoo",
+        "Barracuda",
+        "King Mackerel",
+      ],
+    },
+    {
+      image: "Images/Skate.png",
+      question: "",
+      answer: "Skate",
+      explanation:
+        "Skate is identifiable by its flattened body and wing-like pectoral fins.",
+      choice: ["Skate", "Ray", "Flounder", "Sole", "Torpedo"],
+    },
+    {
+      image: "Images/Spanish Mackerel.png",
+      question: "",
+      answer: "Spanish Mackerel",
+      explanation:
+        "Spanish Mackerel is known for its elongated body and distinctive yellow spots.",
+      choice: [
+        "Spanish Mackerel",
+        "King Mackerel",
+        "Cero Mackerel",
+        "Atlantic Mackerel",
+        "Pacific Mackerel",
+      ],
+    },
+    {
+      image: "Images/Vermillion Snapper.png",
+      question: "",
+      answer: "Vermillion Snapper",
+      explanation:
+        "Vermillion Snapper is identifiable by its red color and sloped forehead.",
+      choice: [
+        "Vermillion Snapper",
+        "Red Snapper",
+        "Lane Snapper",
+        "Yellowtail Snapper",
+        "Mutton Snapper",
+      ],
+    },
+    {
+      image: "Images/White Bass.png",
+      question: "",
+      answer: "White Bass",
+      explanation:
+        "White Bass is known for its silvery body with dark horizontal stripes.",
+      choice: [
+        "White Bass",
+        "Striped Bass",
+        "Hybrid Striped Bass",
+        "Largemouth Bass",
+        "Smallmouth Bass",
+      ],
+    },
+    {
+      image: "Images/Wild Striped Bass.png",
+      question: "",
+      answer: "Wild Striped Bass",
+      explanation:
+        "Wild Striped Bass can be recognized by its black stripes running along its silver body.",
+      choice: [
+        "Wild Striped Bass",
+        "White Bass",
+        "Hybrid Striped Bass",
+        "Largemouth Bass",
+        "Smallmouth Bass",
+      ],
+    },
+    {
+      image: "Images/Yellowfin Tuna.png",
+      question: "",
+      answer: "Yellowfin Tuna",
+      explanation:
+        "Yellowfin Tuna is identifiable by its bright yellow finlets and streamlined body.",
+      choice: [
+        "Yellowfin Tuna",
+        "Bluefin Tuna",
+        "Bigeye Tuna",
+        "Albacore Tuna",
+        "Skipjack Tuna",
+      ],
+    },
+    {
+      image: "Images/Queen Snapper.png",
+      question: "",
+      answer: "Queen Snapper",
+      explanation:
+        "Queen Snapper is known for its red color and long, slender body.",
+      choice: [
+        "Queen Snapper",
+        "Red Snapper",
+        "Vermillion Snapper",
+        "Yellowtail Snapper",
+        "Mutton Snapper",
+      ],
+    },
+    {
+      image: "Images/Red Grouper.png",
+      question: "",
+      answer: "Red Grouper",
+      explanation:
+        "Red Grouper is identifiable by its reddish-brown color and large mouth.",
+      choice: [
+        "Red Grouper",
+        "Black Grouper",
+        "Gag Grouper",
+        "Yellowfin Grouper",
+        "Scamp Grouper",
+      ],
+    },
+    {
+      image: "Images/Red Snapper.png",
+      question: "",
+      answer: "Red Snapper",
+      explanation:
+        "Red Snapper is known for its pinkish-red color and sharp dorsal fin.",
+      choice: [
+        "Red Snapper",
+        "Queen Snapper",
+        "Vermillion Snapper",
+        "Lane Snapper",
+        "Mutton Snapper",
+      ],
+    },
+    {
+      image: "Images/Silk Snapper.png",
+      question: "",
+      answer: "Silk Snapper",
+      explanation:
+        "Silk Snapper is identifiable by its red color and yellowish tail.",
+      choice: [
+        "Silk Snapper",
+        "Red Snapper",
+        "Vermillion Snapper",
+        "Queen Snapper",
+        "Yellowtail Snapper",
       ],
     },
   ],
